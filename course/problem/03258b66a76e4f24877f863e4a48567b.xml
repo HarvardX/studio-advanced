@@ -1,0 +1,17 @@
+<problem display_name="Or &quot;colour&quot;, if you prefer." markdown="&gt;&gt;When using color to convey information about function or content... &lt;&lt;&#10;&#10;(!) Color alone is a sufficient indicator.&#10;(x) Color must be combined with other design elements.&#10;( ) Color should never be used to convey information.&#10;&#10;[explanation]&#10;One should never use color alone to convey information. Instead, combine an object's color with its shape, placement, outline, size, or other facets of its design. North American ski trails do an excellent job with this: green circles mean an easy trail, blue squares are intermediate, black diamonds are the most difficult.&#10;&#10;Color-blindness is fairly common: over 5% of men and 1% of women have some amount of difficulty distinguishing colors. &#10;[explanation]&#10;" max_attempts="1" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>When using color to convey information about function or content... </label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Color alone is a sufficient indicator.</choice>
+      <choice correct="true">Color must be combined with other design elements.</choice>
+      <choice correct="false">Color should never be used to convey information.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>One should never use color alone to convey information. Instead, combine an object's color with its shape, placement, outline, size, or other facets of its design. North American ski trails do an excellent job with this: green circles mean an easy trail, blue squares are intermediate, black diamonds are the most difficult.</p>
+        <p>Color-blindness is fairly common: over 5% of men and 1% of women have some amount of difficulty distinguishing colors. </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

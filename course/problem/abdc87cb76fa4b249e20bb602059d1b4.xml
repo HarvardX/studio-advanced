@@ -1,0 +1,27 @@
+<problem display_name="Static Shock? (Ungraded)" markdown="null" max_attempts="1" showanswer="finished" weight="0.0">
+  <multiplechoiceresponse>
+    <p>So maybe you tried to copy-paste the code from the map example above (perhaps with a fix) and it didn't work for you, and you just can't get it to work, and you're not sure why.</p>
+    <p>Check your image's src attribute. You might see this:</p>
+    <pre>
+      <code class="lang-html">&lt;img src="/ static/haggis_floor_small.jpg" /&gt;</code>
+    </pre>
+    <br/>
+    <p><strong>Why in the world is there an extra space in there?</strong> Well, it turns out that problem components in edX <em>aggressively</em> replace quote-slash-static-slash-quote with things like <code class="lang-html">"/static/"</code>. Like, <em>really</em> aggressively. You can't even use <code class="lang-html">&amp;#47;</code> instead of a slash to avoid it (though you can in HTML components, see below). So what we did was...</p>
+    <pre>
+      <code class="lang-html">&lt;img src="/ &lt;span style="margin-left:-0.6em"&gt;static/haggis_floor_small.jpg" &lt;/span&gt; /&gt;</code>
+    </pre>
+    <br/>
+    <p>Yup. We shifted the text back into place so that it at least looked correct. It's a lousy hack, and it won't copy-paste correctly, but it seemed like the best option at the time. Hopefully at some point we'll be able to fix this, but we're not counting on it.</p>
+    <label>You ok with all that?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Yes</choice>
+      <choice correct="true">Not really</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>We had to write this note as a problem, since the behavior of HTML components is different.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

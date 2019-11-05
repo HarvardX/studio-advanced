@@ -1,0 +1,25 @@
+<problem display_name="Making lines" markdown="null" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>If you wanted to reduce the length of the underline by half (50%) in the CSS example below:</p>
+<pre><code class="lang-css">.hx-underline {
+    border-bottom: 1px solid #378;
+    width: 600px;
+}</code></pre>
+    <p/>
+    <p>Which attribute would you need to change and what would you change it to?</p>
+    <p/>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false"><b>border-bottom</b>: 1px solid #189</choice>
+      <choice correct="false"><b>border-bottom</b>: 0.5px solid #378</choice>
+      <choice correct="true"><b>width</b>: 300px</choice>
+      <choice correct="false"><b>width</b>: 1200px</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The underline on the headers on this page are created as a <em>bottom border</em>. The width of that bottom border is the length of the underline. </p>
+        <p>This is a great example of a common css solution that might seem strange at first. The CSS <a href="https://www.w3schools.com/cssref/pr_text_text-decoration.asp" target="_blank">text-decoration</a> property is what one might use to set an underline on a single word, but it stops at the edge of the word. A bottom border can go partway across the page, or can stop before the end of the text... but it isn't aware of the size of the text. CSS often involves tradeoffs.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

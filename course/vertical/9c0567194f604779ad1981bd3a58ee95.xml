@@ -1,0 +1,128 @@
+<vertical display_name="Demo">
+  <html url_name="26308b68cbfa4ee0bdae965f307973f8"/>
+  <openassessment url_name="20e6ef6337864d7b8135ba3e35f9fbeb" submission_start="2001-01-01T00:00:00" submission_due="3000-01-01T00:00:00" text_response="required" allow_latex="False" prompts_type="html">
+    <title>The ORA about ORAs</title>
+    <assessments>
+      <assessment name="self-assessment" start="2001-01-01T00:00:00" due="9999-01-01T00:00:00"/>
+      <assessment name="peer-assessment" must_grade="3" must_be_graded_by="2" start="2001-01-01T00:00:00" due="9999-01-01T00:00:00"/>
+    </assessments>
+    <prompts>
+      <prompt>
+        <description>&lt;p&gt;&lt;span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"&gt;Please describe what you know about the functionality of the Open Response Assessment tool (the one you are currently using to write this essay). Be as complete as you can in 300 words or less.&lt;/span&gt;&lt;span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"&gt;&lt;/span&gt;&lt;/p&gt;</description>
+      </prompt>
+      <prompt>
+        <description>&lt;p&gt;&lt;span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;"&gt;You can use up to 150 additional words to describe interesting uses you've seen for Open Response Assessments. &lt;/span&gt;&lt;/p&gt;</description>
+      </prompt>
+    </prompts>
+    <rubric>
+      <criterion>
+        <name>Ideas</name>
+        <label>Functionality</label>
+        <prompt>Which of the following tasks were described?</prompt>
+        <option points="2">
+          <name>Poor</name>
+          <label>Peer-, self-, and staff-grading</label>
+          <explanation>All three options were covered, and maybe even the Training step that most people skip because it's a bit of a pain for the learners.</explanation>
+        </option>
+        <option points="2">
+          <name>Fair</name>
+          <label>Just one or two of the above</label>
+          <explanation>Peer grading, self-grading, OR staff-grading, but not all three.</explanation>
+        </option>
+        <option points="0">
+          <name>Good</name>
+          <label>None of the above</label>
+          <explanation>No mention of any of these at all, strangely.</explanation>
+        </option>
+      </criterion>
+      <criterion>
+        <name>Content</name>
+        <label>Grading</label>
+        <prompt>Was the rubric mentioned?</prompt>
+        <option points="3">
+          <name>Poor</name>
+          <label>Yes with...</label>
+          <explanation>...with comments on awarding different numbers of points for different categories</explanation>
+        </option>
+        <option points="3">
+          <name>Fair</name>
+          <label>Yes</label>
+          <explanation>Just yes.</explanation>
+        </option>
+        <option points="0">
+          <name>Good</name>
+          <label>No</label>
+          <explanation></explanation>
+        </option>
+      </criterion>
+      <criterion>
+        <name>0</name>
+        <label>Interaction</label>
+        <prompt>How about the way learners can see and comment on each others' work in a way that's more than just a numerical grade but more structured than freeform responses?</prompt>
+        <option points="1">
+          <name>0</name>
+          <label>Yes, I mean, obviously.</label>
+          <explanation>Who wouldn't, really.</explanation>
+        </option>
+        <option points="1">
+          <name>1</name>
+          <label>Didn't think of that...</label>
+          <explanation>...but I'd like to make sure this person gets points anyway.</explanation>
+        </option>
+      </criterion>
+      <criterion>
+        <name>1</name>
+        <label>Grade disputes</label>
+        <prompt>Did they address what happens if someone's grade is wrong?</prompt>
+        <option points="2">
+          <name>0</name>
+          <label>Yes, they talked about grade overrides</label>
+          <explanation></explanation>
+        </option>
+        <option points="2">
+          <name>1</name>
+          <label>No, can't see that here.</label>
+          <explanation></explanation>
+        </option>
+        <option points="2">
+          <name>2</name>
+          <label>Come on, trust your learners.</label>
+          <explanation>People generally do take these things seriously, you know.</explanation>
+        </option>
+      </criterion>
+      <criterion>
+        <name>2</name>
+        <label>Multiple Grading Stages</label>
+        <prompt>Did the writer perhaps discuss how awkward it can be to write rubrics that work for both self-grading and peer grading at the same time without sounding sort of odd?</prompt>
+        <option points="1">
+          <name>0</name>
+          <label>Yes, I rather noticed that just now.</label>
+          <explanation></explanation>
+        </option>
+        <option points="1">
+          <name>1</name>
+          <label>You just do your best and move on, I suppose.</label>
+          <explanation>Or you could just do one grading stage.</explanation>
+        </option>
+      </criterion>
+      <criterion feedback="required">
+        <name>3</name>
+        <label>Other activities</label>
+        <prompt>Did the person mention any other uses for Open Response Assessments? What about using a very simple self-grading rubric for journaling activities that allow learners to return and see what they've written later on?</prompt>
+        <option points="1">
+          <name>0</name>
+          <label>That's not a bad idea.</label>
+          <explanation></explanation>
+        </option>
+        <option points="1">
+          <name>1</name>
+          <label>I think I'm getting tired of grading at this point.</label>
+          <explanation>Maybe we could wrap this up.</explanation>
+        </option>
+      </criterion>
+      <feedbackprompt>(Optional) What misconceptions or serious oversights did you see in this person's response? Is there anything that you want to point out to make sure they understand it?
+</feedbackprompt>
+      <feedback_default_text>Dear wonderful colleague, did you know...</feedback_default_text>
+    </rubric>
+  </openassessment>
+</vertical>

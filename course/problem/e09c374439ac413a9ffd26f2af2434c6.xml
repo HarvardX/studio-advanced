@@ -1,0 +1,18 @@
+<problem display_name="Setup requirements" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Where can the <code class="lang-markup">&lt;link rel="stylesheet"&gt;</code> code be added in edX Studio to indicate you wish to use a different style sheet on a particular page?</label>
+    <description>Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="true">In an otherwise empty raw html component</choice>
+      <choice correct="false">In a text component</choice>
+      <choice correct="false">In universal course-site settings</choice>
+      <choice correct="true">In a raw html component, which can contain other content</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>You <em>must</em> use a raw HTML component. It doesn't matter what else is in that component; your css will apply to the entire page.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

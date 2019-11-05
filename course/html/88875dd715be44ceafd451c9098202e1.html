@@ -1,0 +1,46 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<h3 class="hx-underline">Which ingredients killed the cake</h3>
+<p>Let&rsquo;s go into each of those previous examples and the components impacted a little further. Rather than drilling down into the troubleshooting detail of each style, including how to rectify for a particular use case, we will highlight key lessons learned and general good practice.</p>
+<p></p>
+<table><caption>An overview of the damage</caption>
+<tbody>
+<tr><th>Summary</th><th>Style reference</th><th>Style implemented</th><th>Impacted&nbsp;HTML element</th></tr>
+<tr>
+<td>Indent all lists</td>
+<td>shiftlist</td>
+<td>.shiftlist{ margin-left: 2em; }</td>
+<td>'li'</td>
+</tr>
+<tr>
+<td>Turn all divs black with white text</td>
+<td>blackdiv</td>
+<td>.blackdiv{ background-color: black; color: white; }</td>
+<td>'div'</td>
+</tr>
+<tr>
+<td>Turn all divs within xblocks black with white text</td>
+<td>blackxblockdiv</td>
+<td>.blackxblockdiv{ background-color: black; color: white; }</td>
+<td>'.xblock div'</td>
+</tr>
+<tr>
+<td>Turn the 'body' element black with white text</td>
+<td>blackbody</td>
+<td>.blackbody{ background-color: black; color: white; }</td>
+<td>'body'</td>
+</tr>
+<tr>
+<td>Switch paragraphs to Times font</td>
+<td>timesfont</td>
+<td>.timesfont{ font-family: "Times New Roman", Times, serif; }</td>
+<td>'p'</td>
+</tr>
+<tr>
+<td>Switch body to Times font</td>
+<td>timesfontbody</td>
+<td>.timesfontbody{ font-family: "Times New Roman", Times, serif; }</td>
+<td>'body'</td>
+</tr>
+</tbody>
+</table>

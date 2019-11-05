@@ -1,0 +1,16 @@
+<problem display_name="Single Exposure?" markdown="&gt;&gt;True or False: People generally learn thing on their first exposure.&lt;&lt;&#10;&#10;( ) True&#10;(x) False&#10;( ) Well, actually...&#10;&#10;[explanation]&#10;Learning a thing is not the act of being told that thing. Teaching is not just telling someone once. &#10;[explanation]&#10;" max_attempts="1" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>True or False: People generally learn thing on their first exposure.</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+      <choice correct="false">Well, actually...</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Learning a thing is not the act of being told that thing. Teaching is not just telling someone once. </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,57 @@
+<problem display_name="Many Options" markdown="null" max_attempts="5" rerandomize="onreset" show_reset_button="true" showanswer="finished">
+  <script type="loncapa/python">
+
+def hinty_hint(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  choices = student_answers[aid]
+  msg = '&lt;ul&gt;'
+
+  if 'choice_0' in choices:
+    # Text box that just grades people correct
+    msg += '&lt;li&gt;For an anything\'s-right sort of problem, you might want to try a &lt;a href="https://github.com/Stanford-Online/js-input-samples/tree/master/text_logger" target="_blank"&gt;Text Logger problem&lt;/a&gt;. If it\'s just one line, you could also create a text input problem that uses &lt;a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/text_input.html#allowing-regular-expressions-as-answers-for-text-input-problems" target="_blank"&gt;regular expression matching&lt;/a&gt; to match any character as correct.&lt;/li&gt;'
+    
+  if 'choice_1' in choices:
+    # Have my learners draw graphs
+    msg += '&lt;li&gt;For graph drawing, you might want the &lt;a href="https://sketchresponse.github.io/edx_quickstart.html" target="_blank"&gt;Sketch Response problem&lt;/a&gt;, as created by Jen French at MIT.&lt;/li&gt;'  
+
+  if 'choice_2' in choices:
+    # Give more complex hints
+    msg += '&lt;li&gt;To give complex hints, you probably want to write a &lt;a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_python.html" target="_blank"&gt;Write-Your-Own-Grader Problem&lt;/a&gt;, which lets you pass back messages to your learners. Then again, you might need to use the Hint Function, like this problem does. It\'s undocumented, but you can find a quick intro to it at the &lt;a href="https://github.com/Colin-Fredericks/edx-undocumented/wiki/Hint-Function" target="_blank"&gt;edX Undocumented wiki&lt;/a&gt;.&lt;/li&gt;'  
+
+  if 'choice_3' in choices:
+    # Add images
+    msg += '&lt;li&gt;You can add images to the existing problem types! Just write it as you normally would, and switch to the Advanced Editor, where you can add the HTML for your images without causing any issues.&lt;/li&gt;'  
+
+  if 'choice_4' in choices:
+    # Put things in order
+    msg += '&lt;li&gt;If you need ordering/ranking/etc. there\'s an &lt;a href="https://github.com/Stanford-Online/js-input-samples/tree/master/ordering" target="_blank"&gt;Ordering problem&lt;/a&gt; that works almost exactly like the Matching Problem.&lt;/li&gt;'  
+
+  if 'choice_5' in choices:
+    # Give a complex graded survey
+    msg += '&lt;li&gt;For branching survey logic, if you\'re using Qualtrics or something else that can fire Javascript events when a page loads, you can use the &lt;a href="https://github.com/Stanford-Online/js-input-samples/tree/master/qualtrics_grader" target="_blank"&gt;Qualtrics Grading problem&lt;/a&gt;. If you don\'t have branching logic, you might want to build this in Studio by setting the &lt;a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/developing_course/course_subsections.html#problem-results-visibility" target="_blank"&gt;Problem Results Visibility&lt;/a&gt; settings.&lt;/li&gt;'
+
+  if 'choice_6' in choices:
+    # Give each other feedback
+    msg += '&lt;li&gt;For learner feedback, check out the part of this course about Open Response Assessments. There\'s a lot of cool stuff you can do with those.&lt;/li&gt;'
+  
+  msg += '&lt;/ul&gt;'
+  new_cmap.set_property(aid,'npoints', 1) 
+  new_cmap.set_property(aid, 'msg', msg)
+  new_cmap.set_property(aid, 'correctness', 'correct')
+
+</script>
+  <choiceresponse>
+    <label>What kinds of unusual questions might you need to grade?</label>
+    <description>Do you need multiple things? Select multiple boxes!</description>
+    <checkboxgroup>
+      <choice correct="true">I need a text box that just grades people correct no matter what they put in.</choice>
+      <choice correct="true">I need to have my learners draw graphs.</choice>
+      <choice correct="true">I need to give more complex hints than an edX problem normally allows.</choice>
+      <choice correct="true">I want to put images into my problems.</choice>
+      <choice correct="true">I want my learners to put things in order.</choice>
+      <choice correct="true">I want to give a complex graded survey.</choice>
+      <choice correct="true">I want learners to give each other feedback.</choice>
+    </checkboxgroup>
+    <hintgroup hintfn="hinty_hint"/>
+  </choiceresponse>
+</problem>

@@ -1,0 +1,17 @@
+<problem display_name="Setup" markdown="&gt;&gt;Where will you find the ‘enable cohorts’ feature?&lt;&lt;&#10;&#10;(!) In Studio &gt; Advanced settings&#10;( ) In Studio &gt; Group settings&#10;( ) Through the Instructor Dashboard &gt; Student Admin&#10;(x) Through the Instructor Dashboard &gt; Cohorts&#10;&#10;[explanation]&#10;Not much to explain here, I suppose.&#10;[explanation]&#10;&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>Where will you find the ‘enable cohorts’ feature?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">In Studio &gt; Advanced settings</choice>
+      <choice correct="false">In Studio &gt; Group settings</choice>
+      <choice correct="false">Through the Instructor Dashboard &gt; Student Admin</choice>
+      <choice correct="true">Through the Instructor Dashboard &gt; Cohorts</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Not much to explain here, I suppose.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

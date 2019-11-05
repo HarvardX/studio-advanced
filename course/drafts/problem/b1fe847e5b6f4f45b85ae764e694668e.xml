@@ -1,0 +1,27 @@
+<problem display_name="Test Problem" markdown="null" max_attempts="1" showanswer="finished">
+  <script src="/static/hx.js" type="text/javascript"/>
+  <link href="/static/hx.css" rel="stylesheet" type="text/css"/>
+  <p>You're trying to get the answer code below to work on an answer set but the feedback keeps showing</p>
+  <pre>
+    <code class="lang-markup">&lt;choiceresponse&gt;
+&lt;checkboxgroup&gt;
+    &lt;choice correct="false"&gt;Turtles {{ Have a think about why this could be the odd one out... }}&lt;/choice&gt;
+    &lt;choice correct="true"&gt;Cats&lt;/choice&gt;
+    &lt;choice correct="true"&gt;Dogs&lt;/choice&gt;
+    &lt;choice correct="true"&gt;Hamsters&lt;/choice&gt;
+  &lt;/checkboxgroup&gt;
+&lt;/choiceresponse&gt;
+</code>
+  </pre>
+  <br/>
+  <label>
+    <strong>Why does the feedback on 'Turtles' keep showing despite pressing save? </strong>
+  </label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Cats are actually the odd one out and the edX system knows this</choice>
+      <choice correct="true">You've not explicitly listed if the feedback is for 'selected' or 'not selected' on the checkbox question</choice>
+      <choice correct="false">If it's an odd-one-out question, you should use a multiple choice question and invert the answers</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

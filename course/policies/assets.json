@@ -1,0 +1,5358 @@
+{
+    "108423main_shuttle_cutaway.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "108423main_shuttle_cutaway.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "108423main_shuttle_cutaway.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@108423main_shuttle_cutaway.jpg", 
+        "import_path": "108423main_shuttle_cutaway.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "108423main_shuttle_cutaway.jpg", 
+            null
+        ]
+    }, 
+    "15337485476_558b1f6585_o.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "15337485476_558b1f6585_o.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "15337485476_558b1f6585_o.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@15337485476_558b1f6585_o.jpg", 
+        "import_path": "15337485476_558b1f6585_o.jpg", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "8300044344_bb591ce387_o.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "8300044344_bb591ce387_o.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "8300044344_bb591ce387_o.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@8300044344_bb591ce387_o.jpg", 
+        "import_path": "8300044344_bb591ce387_o.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "8300044344_bb591ce387_o.jpg", 
+            null
+        ]
+    }, 
+    "Adaptation-Mitigation.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Adaptation-Mitigation.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Adaptation-Mitigation.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Adaptation-Mitigation.png", 
+        "import_path": "Adaptation-Mitigation.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Adaptation-Mitigation-png.jpg", 
+            null
+        ]
+    }, 
+    "Add_Content_Library.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Add_Content_Library.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Add Content Library.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Add_Content_Library.png", 
+        "import_path": "Add Content Library.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Add_Content_Library-png.jpg", 
+            null
+        ]
+    }, 
+    "Baduhenna_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Baduhenna_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Baduhenna_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Baduhenna_small.jpg", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Baduhenna_small.jpg", 
+            null
+        ]
+    }, 
+    "Buildings-Cities.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Buildings-Cities.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Buildings-Cities.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Buildings-Cities.png", 
+        "import_path": "Buildings-Cities.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Buildings-Cities-png.jpg", 
+            null
+        ]
+    }, 
+    "CL_setup1.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "CL_setup1.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "CL setup1.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@CL_setup1.png", 
+        "import_path": "CL setup1.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "CL_setup1-png.jpg", 
+            null
+        ]
+    }, 
+    "CL_setup_2.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "CL_setup_2.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "CL setup 2.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@CL_setup_2.png", 
+        "import_path": "CL setup 2.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "CL_setup_2-png.jpg", 
+            null
+        ]
+    }, 
+    "CL_setup_3.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "CL_setup_3.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "CL setup 3.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@CL_setup_3.png", 
+        "import_path": "CL setup 3.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "CL_setup_3-png.jpg", 
+            null
+        ]
+    }, 
+    "CSS_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "CSS_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "CSS_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@CSS_icon.png", 
+        "import_path": "CSS_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "CSS_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Cardiovascular-Diseases.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Cardiovascular-Diseases.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Cardiovascular-Diseases.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Cardiovascular-Diseases.png", 
+        "import_path": "Cardiovascular-Diseases.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Cardiovascular-Diseases-png.jpg", 
+            null
+        ]
+    }, 
+    "Children.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Children.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Children.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Children.png", 
+        "import_path": "Children.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Children-png.jpg", 
+            null
+        ]
+    }, 
+    "Climate-Science.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Climate-Science.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Climate-Science.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Climate-Science.png", 
+        "import_path": "Climate-Science.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Climate-Science-png.jpg", 
+            null
+        ]
+    }, 
+    "ClimateImpactExplorer.csv": {
+        "contentType": "text/csv", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "ClimateImpactExplorer.csv", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "ClimateImpactExplorer.csv", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@ClimateImpactExplorer.csv", 
+        "import_path": "ClimateImpactExplorer.csv", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Coastal-Populations.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Coastal-Populations.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Coastal-Populations.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Coastal-Populations.png", 
+        "import_path": "Coastal-Populations.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Coastal-Populations-png.jpg", 
+            null
+        ]
+    }, 
+    "Cohort_flow.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Cohort_flow.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Cohort flow.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Cohort_flow.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Cohort_flow-png.jpg", 
+            null
+        ]
+    }, 
+    "Cohort_flow__1_.pdf": {
+        "contentType": "application/pdf", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Cohort_flow__1_.pdf", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Cohort flow (1).pdf", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Cohort_flow__1_.pdf", 
+        "import_path": "Cohort flow (1).pdf", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Cohort_flow_reduced.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Cohort_flow_reduced.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Cohort flow reduced.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Cohort_flow_reduced.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Cohort_flow_reduced-png.jpg", 
+            null
+        ]
+    }, 
+    "ContentExperimentDropdown.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "ContentExperimentDropdown.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "ContentExperimentDropdown.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@ContentExperimentDropdown.png", 
+        "import_path": "ContentExperimentDropdown.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "ContentExperimentDropdown-png.jpg", 
+            null
+        ]
+    }, 
+    "ContentExperimentScreenshot_full.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "ContentExperimentScreenshot_full.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "ContentExperimentScreenshot_full.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@ContentExperimentScreenshot_full.png", 
+        "import_path": "ContentExperimentScreenshot_full.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "ContentExperimentScreenshot_full-png.jpg", 
+            null
+        ]
+    }, 
+    "ContentExperimentScreenshot_small.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "ContentExperimentScreenshot_small.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "ContentExperimentScreenshot_small.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@ContentExperimentScreenshot_small.png", 
+        "import_path": "ContentExperimentScreenshot_small.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "ContentExperimentScreenshot_small-png.jpg", 
+            null
+        ]
+    }, 
+    "Content_Library_studio_display.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Content_Library_studio_display.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Content Library studio display.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Content_Library_studio_display.png", 
+        "import_path": "Content Library studio display.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Content_Library_studio_display-png.jpg", 
+            null
+        ]
+    }, 
+    "CourseTree_large.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "CourseTree_large.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "CourseTree_large.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@CourseTree_large.png", 
+        "import_path": "CourseTree_large.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "CourseTree_large-png.jpg", 
+            null
+        ]
+    }, 
+    "CourseTree_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "CourseTree_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "CourseTree_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@CourseTree_small.jpg", 
+        "import_path": "CourseTree_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "CourseTree_small.jpg", 
+            null
+        ]
+    }, 
+    "Course_update.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Course_update.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Course update.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Course_update.png", 
+        "import_path": "Course update.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Course_update-png.jpg", 
+            null
+        ]
+    }, 
+    "DanDavis_screenshot1.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "DanDavis_screenshot1.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "DanDavis_screenshot1.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@DanDavis_screenshot1.png", 
+        "import_path": "DanDavis_screenshot1.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "DanDavis_screenshot1-png.jpg", 
+            null
+        ]
+    }, 
+    "DanDavis_screenshot2.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "DanDavis_screenshot2.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "DanDavis_screenshot2.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@DanDavis_screenshot2.png", 
+        "import_path": "DanDavis_screenshot2.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "DanDavis_screenshot2-png.jpg", 
+            null
+        ]
+    }, 
+    "Default_-_current.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Default_-_current.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Default - current.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Default_-_current.png", 
+        "import_path": "Default - current.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Default_-_current-png.jpg", 
+            null
+        ]
+    }, 
+    "Design_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Design_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Design_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Design_icon.png", 
+        "import_path": "Design_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Design_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Detailed_Adaptive_Bridge_Diagram.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Detailed_Adaptive_Bridge_Diagram.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Detailed_Adaptive_Bridge_Diagram.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Detailed_Adaptive_Bridge_Diagram.png", 
+        "import_path": "Detailed_Adaptive_Bridge_Diagram.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Detailed_Adaptive_Bridge_Diagram-png.jpg", 
+            null
+        ]
+    }, 
+    "Detailed_Adaptive_Bridge_Diagram_small.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Detailed_Adaptive_Bridge_Diagram_small.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Detailed_Adaptive_Bridge_Diagram_small.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Detailed_Adaptive_Bridge_Diagram_small.png", 
+        "import_path": "Detailed_Adaptive_Bridge_Diagram_small.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Detailed_Adaptive_Bridge_Diagram_small-png.jpg", 
+            null
+        ]
+    }, 
+    "Diabetes.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Diabetes.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Diabetes.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Diabetes.png", 
+        "import_path": "Diabetes.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Diabetes-png.jpg", 
+            null
+        ]
+    }, 
+    "Easy_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Easy_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Easy_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Easy_icon.png", 
+        "import_path": "Easy_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Easy_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Environmental-Allergies.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Environmental-Allergies.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Environmental-Allergies.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Environmental-Allergies.png", 
+        "import_path": "Environmental-Allergies.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Environmental-Allergies-png.jpg", 
+            null
+        ]
+    }, 
+    "Example_1_update.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Example_1_update.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Example 1 update.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Example_1_update.png", 
+        "import_path": "Example 1 update.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Example_1_update-png.jpg", 
+            null
+        ]
+    }, 
+    "Example_2_update.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Example_2_update.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Example 2 update.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Example_2_update.png", 
+        "import_path": "Example 2 update.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Example_2_update-png.jpg", 
+            null
+        ]
+    }, 
+    "Exisiting-Lung-Disease.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Exisiting-Lung-Disease.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Exisiting-Lung-Disease.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Exisiting-Lung-Disease.png", 
+        "import_path": "Exisiting-Lung-Disease.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Exisiting-Lung-Disease-png.jpg", 
+            null
+        ]
+    }, 
+    "Existing-Anxiety-Disorder.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Existing-Anxiety-Disorder.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Existing-Anxiety-Disorder.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Existing-Anxiety-Disorder.png", 
+        "import_path": "Existing-Anxiety-Disorder.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Existing-Anxiety-Disorder-png.jpg", 
+            null
+        ]
+    }, 
+    "Existing-Cardiovascular-Disease.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Existing-Cardiovascular-Disease.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Existing-Cardiovascular-Disease.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Existing-Cardiovascular-Disease.png", 
+        "import_path": "Existing-Cardiovascular-Disease.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Existing-Cardiovascular-Disease-png.jpg", 
+            null
+        ]
+    }, 
+    "Existing-Environmental-Allergies.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Existing-Environmental-Allergies.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Existing-Environmental-Allergies.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Existing-Environmental-Allergies.png", 
+        "import_path": "Existing-Environmental-Allergies.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Existing-Environmental-Allergies-png.jpg", 
+            null
+        ]
+    }, 
+    "Floods-_-Droughts.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Floods-_-Droughts.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Floods-_-Droughts.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Floods-_-Droughts.png", 
+        "import_path": "Floods-_-Droughts.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Floods-_-Droughts-png.jpg", 
+            null
+        ]
+    }, 
+    "HTML_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "HTML_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "HTML_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@HTML_icon.png", 
+        "import_path": "HTML_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "HTML_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "HXPopUpProblems.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "HXPopUpProblems.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "HXPopUpProblems.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@HXPopUpProblems.js", 
+        "import_path": "HXPopUpProblems.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "HXVideoChime.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "HXVideoChime.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "HXVideoChime.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@HXVideoChime.js", 
+        "import_path": "HXVideoChime.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "HXVideoLinks.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "HXVideoLinks.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "HXVideoLinks.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@HXVideoLinks.js", 
+        "import_path": "HXVideoLinks.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Hard_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Hard_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Hard_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Hard_icon.png", 
+        "import_path": "Hard_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Hard_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Heart-Failure.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Heart-Failure.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Heart-Failure.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Heart-Failure.png", 
+        "import_path": "Heart-Failure.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Heart-Failure-png.jpg", 
+            null
+        ]
+    }, 
+    "Heat-Related-Diseases.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Heat-Related-Diseases.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Heat-Related-Diseases.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Heat-Related-Diseases.png", 
+        "import_path": "Heat-Related-Diseases.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Heat-Related-Diseases-png.jpg", 
+            null
+        ]
+    }, 
+    "Higher-Atmospheric-CO2.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Higher-Atmospheric-CO2.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Higher-Atmospheric-CO2.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Higher-Atmospheric-CO2.png", 
+        "import_path": "Higher-Atmospheric-CO2.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Higher-Atmospheric-CO2-png.jpg", 
+            null
+        ]
+    }, 
+    "Higher-Temperatures.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Higher-Temperatures.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Higher-Temperatures.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Higher-Temperatures.png", 
+        "import_path": "Higher-Temperatures.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Higher-Temperatures-png.jpg", 
+            null
+        ]
+    }, 
+    "IMG_20190914_171453.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "IMG_20190914_171453.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "IMG_20190914_171453.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@IMG_20190914_171453.jpg", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "IMG_20190914_171453.jpg", 
+            null
+        ]
+    }, 
+    "Image__text_and_embedded_video.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Image__text_and_embedded_video.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Image, text and embedded video.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Image__text_and_embedded_video.png", 
+        "import_path": "Image, text and embedded video.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Image__text_and_embedded_video-png.jpg", 
+            null
+        ]
+    }, 
+    "Immunocompromised.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Immunocompromised.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Immunocompromised.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Immunocompromised.png", 
+        "import_path": "Immunocompromised.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Immunocompromised-png.jpg", 
+            null
+        ]
+    }, 
+    "ImpactExplorerCards.csv": {
+        "contentType": "text/csv", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "ImpactExplorerCards.csv", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "ImpactExplorerCards.csv", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@ImpactExplorerCards.csv", 
+        "import_path": "ImpactExplorerCards.csv", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Infographic_with_links.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Infographic_with_links.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Infographic with links.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Infographic_with_links.png", 
+        "import_path": "Infographic with links.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Infographic_with_links-png.jpg", 
+            null
+        ]
+    }, 
+    "Institutional-Change.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Institutional-Change.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Institutional-Change.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Institutional-Change.png", 
+        "import_path": "Institutional-Change.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Institutional-Change-png.jpg", 
+            null
+        ]
+    }, 
+    "Interactive.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Interactive.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Interactive.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Interactive.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Interactive-png.jpg", 
+            null
+        ]
+    }, 
+    "Interactives.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Interactives.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Interactives.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Interactives.png", 
+        "import_path": "Interactives.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Interactives-png.jpg", 
+            null
+        ]
+    }, 
+    "JSInput_Function_Diagram_large.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "JSInput_Function_Diagram_large.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "JSInput_Function_Diagram_large.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@JSInput_Function_Diagram_large.png", 
+        "import_path": "JSInput_Function_Diagram_large.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "JSInput_Function_Diagram_large-png.jpg", 
+            null
+        ]
+    }, 
+    "JSInput_Function_Diagram_small.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "JSInput_Function_Diagram_small.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "JSInput_Function_Diagram_small.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@JSInput_Function_Diagram_small.png", 
+        "import_path": "JSInput_Function_Diagram_small.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "JSInput_Function_Diagram_small-png.jpg", 
+            null
+        ]
+    }, 
+    "Java_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Java_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Java_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Java_icon.png", 
+        "import_path": "Java_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Java_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Javascript_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Javascript_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Javascript_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Javascript_icon.png", 
+        "import_path": "Javascript_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Javascript_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Jessie_Tarbox_Beals_with_camera_Schlesinger_Library.jpg", 
+        "import_path": "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library.jpg", 
+            null
+        ]
+    }, 
+    "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Jessie_Tarbox_Beals_with_camera_Schlesinger_Library_small.jpg", 
+        "import_path": "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Jessie_Tarbox_Beals_with_camera_Schlesinger_Library_small.jpg", 
+            null
+        ]
+    }, 
+    "Link_to_pdf_newsletter_with_key_messages.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Link_to_pdf_newsletter_with_key_messages.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Link to pdf newsletter with key messages.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Link_to_pdf_newsletter_with_key_messages.png", 
+        "import_path": "Link to pdf newsletter with key messages.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Link_to_pdf_newsletter_with_key_messages-png.jpg", 
+            null
+        ]
+    }, 
+    "Long_project_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Long_project_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Long_project_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Long_project_icon.png", 
+        "import_path": "Long_project_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Long_project_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Long_slice.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Long_slice.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Long_slice.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Long_slice.png", 
+        "import_path": "Long_slice.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Long_slice-png.jpg", 
+            null
+        ]
+    }, 
+    "Longer_mixed_media.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Longer_mixed_media.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Longer mixed media.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Longer_mixed_media.png", 
+        "import_path": "Longer mixed media.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Longer_mixed_media-png.jpg", 
+            null
+        ]
+    }, 
+    "Lower-Crop-Yields.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Lower-Crop-Yields.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Lower-Crop-Yields.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Lower-Crop-Yields.png", 
+        "import_path": "Lower-Crop-Yields.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Lower-Crop-Yields-png.jpg", 
+            null
+        ]
+    }, 
+    "MatchingA.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "MatchingA.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "MatchingA.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@MatchingA.css", 
+        "import_path": "MatchingA.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "MatchingA.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "MatchingA.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "MatchingA.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@MatchingA.js", 
+        "import_path": "MatchingA.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "MatchingA_meta.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "MatchingA_meta.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "MatchingA_meta.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@MatchingA_meta.html", 
+        "import_path": "MatchingA_meta.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "MatchingA_meta_Elements.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "MatchingA_meta_Elements.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "MatchingA_meta_Elements.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@MatchingA_meta_Elements.js", 
+        "import_path": "MatchingA_meta_Elements.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "MatchingA_short.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "MatchingA_short.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "MatchingA_short.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@MatchingA_short.css", 
+        "import_path": "MatchingA_short.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Maternal-_-Newborn-Outcomes.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Maternal-_-Newborn-Outcomes.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Maternal-_-Newborn-Outcomes.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Maternal-_-Newborn-Outcomes.png", 
+        "import_path": "Maternal-_-Newborn-Outcomes.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Maternal-_-Newborn-Outcomes-png.jpg", 
+            null
+        ]
+    }, 
+    "Mental-Health-Disorders.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Mental-Health-Disorders.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Mental-Health-Disorders.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Mental-Health-Disorders.png", 
+        "import_path": "Mental-Health-Disorders.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Mental-Health-Disorders-png.jpg", 
+            null
+        ]
+    }, 
+    "New_Course_Tree_large.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "New_Course_Tree_large.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "New_Course_Tree_large.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@New_Course_Tree_large.png", 
+        "import_path": "New_Course_Tree_large.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "New_Course_Tree_large-png.jpg", 
+            null
+        ]
+    }, 
+    "New_Course_Tree_small.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "New_Course_Tree_small.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "New_Course_Tree_small.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@New_Course_Tree_small.png", 
+        "import_path": "New_Course_Tree_small.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "New_Course_Tree_small-png.jpg", 
+            null
+        ]
+    }, 
+    "New_Flowchart_midsize.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "New_Flowchart_midsize.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "New Flowchart midsize.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@New_Flowchart_midsize.png", 
+        "import_path": "New Flowchart midsize.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "New_Flowchart_midsize-png.jpg", 
+            null
+        ]
+    }, 
+    "Nutritional-Diseases.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Nutritional-Diseases.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Nutritional-Diseases.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Nutritional-Diseases.png", 
+        "import_path": "Nutritional-Diseases.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Nutritional-Diseases-png.jpg", 
+            null
+        ]
+    }, 
+    "Obesity.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Obesity.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Obesity.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Obesity.png", 
+        "import_path": "Obesity.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Obesity-png.jpg", 
+            null
+        ]
+    }, 
+    "Older-People.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Older-People.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Older-People.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Older-People.png", 
+        "import_path": "Older-People.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Older-People-png.jpg", 
+            null
+        ]
+    }, 
+    "Ops_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Ops_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Ops_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Ops_icon.png", 
+        "import_path": "Ops_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Ops_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Ops_slice.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Ops_slice.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Ops_slice.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Ops_slice.png", 
+        "import_path": "Ops_slice.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Ops_slice-png.jpg", 
+            null
+        ]
+    }, 
+    "Outdoor-Workers.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Outdoor-Workers.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Outdoor-Workers.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Outdoor-Workers.png", 
+        "import_path": "Outdoor-Workers.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Outdoor-Workers-png.jpg", 
+            null
+        ]
+    }, 
+    "Ozone.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Ozone.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Ozone.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Ozone.png", 
+        "import_path": "Ozone.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Ozone-png.jpg", 
+            null
+        ]
+    }, 
+    "Particulate-Matter-Air-Pollution.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Particulate-Matter-Air-Pollution.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Particulate-Matter-Air-Pollution.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Particulate-Matter-Air-Pollution.png", 
+        "import_path": "Particulate-Matter-Air-Pollution.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Particulate-Matter-Air-Pollution-png.jpg", 
+            null
+        ]
+    }, 
+    "Partnerships.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Partnerships.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Partnerships.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Partnerships.png", 
+        "import_path": "Partnerships.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Partnerships-png.jpg", 
+            null
+        ]
+    }, 
+    "People-Living-in-Hot-Climates.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "People-Living-in-Hot-Climates.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "People-Living-in-Hot-Climates.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@People-Living-in-Hot-Climates.png", 
+        "import_path": "People-Living-in-Hot-Climates.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "People-Living-in-Hot-Climates-png.jpg", 
+            null
+        ]
+    }, 
+    "People-Near-Endemic-Disease.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "People-Near-Endemic-Disease.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "People-Near-Endemic-Disease.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@People-Near-Endemic-Disease.png", 
+        "import_path": "People-Near-Endemic-Disease.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "People-Near-Endemic-Disease-png.jpg", 
+            null
+        ]
+    }, 
+    "Plan_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Plan_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Plan_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Plan_icon.png", 
+        "import_path": "Plan_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Plan_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Plan_slice.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Plan_slice.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Plan_slice.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Plan_slice.png", 
+        "import_path": "Plan_slice.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Plan_slice-png.jpg", 
+            null
+        ]
+    }, 
+    "Planning_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Planning_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Planning_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Planning_icon.png", 
+        "import_path": "Planning_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Planning_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Population-Migration.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Population-Migration.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Population-Migration.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Population-Migration.png", 
+        "import_path": "Population-Migration.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Population-Migration-png.jpg", 
+            null
+        ]
+    }, 
+    "Python_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Python_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Python_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Python_icon.png", 
+        "import_path": "Python_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Python_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Research_flow_cutdown.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Research_flow_cutdown.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Research flow cutdown.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Research_flow_cutdown.png", 
+        "import_path": "Research flow cutdown.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Research_flow_cutdown-png.jpg", 
+            null
+        ]
+    }, 
+    "Research_flow_full.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Research_flow_full.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Research flow full.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Research_flow_full.png", 
+        "import_path": "Research flow full.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Research_flow_full-png.jpg", 
+            null
+        ]
+    }, 
+    "Respiratory-Diseases.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Respiratory-Diseases.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Respiratory-Diseases.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Respiratory-Diseases.png", 
+        "import_path": "Respiratory-Diseases.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Respiratory-Diseases-png.jpg", 
+            null
+        ]
+    }, 
+    "Salinization-of-Fresh-Water.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Salinization-of-Fresh-Water.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Salinization-of-Fresh-Water.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Salinization-of-Fresh-Water.png", 
+        "import_path": "Salinization-of-Fresh-Water.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Salinization-of-Fresh-Water-png.jpg", 
+            null
+        ]
+    }, 
+    "Screenshot_2019-07-01_14.23.17.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Screenshot_2019-07-01_14.23.17.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Screenshot 2019-07-01 14.23.17.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Screenshot_2019-07-01_14.23.17.png", 
+        "import_path": "Screenshot 2019-07-01 14.23.17.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Screenshot_2019-07-01_14.23.17-png.jpg", 
+            null
+        ]
+    }, 
+    "Sea-Level-Rise.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Sea-Level-Rise.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Sea-Level-Rise.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Sea-Level-Rise.png", 
+        "import_path": "Sea-Level-Rise.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Sea-Level-Rise-png.jpg", 
+            null
+        ]
+    }, 
+    "Setup_in_edX.pdf": {
+        "contentType": "application/pdf", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Setup_in_edX.pdf", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Setup in edX.pdf", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Setup_in_edX.pdf", 
+        "import_path": "Setup in edX.pdf", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Setup_in_edX.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Setup_in_edX.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Setup in edX.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Setup_in_edX.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Setup_in_edX-png.jpg", 
+            null
+        ]
+    }, 
+    "Short_project_alt_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Short_project_alt_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Short_project_alt_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Short_project_alt_icon.png", 
+        "import_path": "Short_project_alt_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Short_project_alt_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Short_project_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Short_project_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Short_project_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Short_project_icon.png", 
+        "import_path": "Short_project_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Short_project_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Short_project_icon_alt.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Short_project_icon_alt.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Short_project_icon_alt.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Short_project_icon_alt.png", 
+        "import_path": "Short_project_icon_alt.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Short_project_icon_alt-png.jpg", 
+            null
+        ]
+    }, 
+    "Short_slice.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Short_slice.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Short_slice.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Short_slice.png", 
+        "import_path": "Short_slice.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Short_slice-png.jpg", 
+            null
+        ]
+    }, 
+    "StuAdvCustomProblems.zip": {
+        "contentType": "application/zip", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "StuAdvCustomProblems.zip", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "StuAdvCustomProblems.zip", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@StuAdvCustomProblems.zip", 
+        "import_path": "StuAdvCustomProblems.zip", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "StudioAdv_Course_Image.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "StudioAdv_Course_Image.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "StudioAdv_Course_Image.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@StudioAdv_Course_Image.png", 
+        "import_path": "StudioAdv_Course_Image.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "StudioAdv_Course_Image-png.jpg", 
+            null
+        ]
+    }, 
+    "StudioAdv_Course_Image_antenna.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "StudioAdv_Course_Image_antenna.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "StudioAdv_Course_Image_antenna.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@StudioAdv_Course_Image_antenna.png", 
+        "import_path": "StudioAdv_Course_Image_antenna.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "StudioAdv_Course_Image_antenna-png.jpg", 
+            null
+        ]
+    }, 
+    "StudioAdv_Course_Image_block.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "StudioAdv_Course_Image_block.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "StudioAdv_Course_Image_block.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@StudioAdv_Course_Image_block.png", 
+        "import_path": "StudioAdv_Course_Image_block.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "StudioAdv_Course_Image_block-png.jpg", 
+            null
+        ]
+    }, 
+    "StudioAdv_Course_Image_whiteclouds.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "StudioAdv_Course_Image_whiteclouds.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "StudioAdv_Course_Image_whiteclouds.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@StudioAdv_Course_Image_whiteclouds.png", 
+        "import_path": "StudioAdv_Course_Image_whiteclouds.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "StudioAdv_Course_Image_whiteclouds-png.jpg", 
+            null
+        ]
+    }, 
+    "Survey_setup.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Survey_setup.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Survey setup.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Survey_setup.png", 
+        "import_path": "Survey setup.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Survey_setup-png.jpg", 
+            null
+        ]
+    }, 
+    "Survey_setup__2_.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Survey_setup__2_.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Survey setup (2).png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Survey_setup__2_.png", 
+        "import_path": "Survey setup (2).png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Survey_setup__2_-png.jpg", 
+            null
+        ]
+    }, 
+    "Survey_why_.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Survey_why_.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Survey why_.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Survey_why_.png", 
+        "import_path": "Survey why_.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Survey_why_-png.jpg", 
+            null
+        ]
+    }, 
+    "Time_long_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Time_long_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Time_long_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Time_long_icon.png", 
+        "import_path": "Time_long_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Time_long_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Time_medium_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Time_medium_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Time_medium_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Time_medium_icon.png", 
+        "import_path": "Time_medium_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Time_medium_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Time_short_icon.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Time_short_icon.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Time_short_icon.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Time_short_icon.png", 
+        "import_path": "Time_short_icon.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Time_short_icon-png.jpg", 
+            null
+        ]
+    }, 
+    "Trauma.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Trauma.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Trauma.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Trauma.png", 
+        "import_path": "Trauma.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Trauma-png.jpg", 
+            null
+        ]
+    }, 
+    "Vectorborne-Diseases.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Vectorborne-Diseases.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Vectorborne-Diseases.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Vectorborne-Diseases.png", 
+        "import_path": "Vectorborne-Diseases.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Vectorborne-Diseases-png.jpg", 
+            null
+        ]
+    }, 
+    "VideoLinks.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "VideoLinks.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VideoLinks.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@VideoLinks.css", 
+        "import_path": "VideoLinks.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Video_plus_images_and_text.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Video_plus_images_and_text.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Video plus images and text.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Video_plus_images_and_text.png", 
+        "import_path": "Video plus images and text.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Video_plus_images_and_text-png.jpg", 
+            null
+        ]
+    }, 
+    "Water-Insecure.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Water-Insecure.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Water-Insecure.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Water-Insecure.png", 
+        "import_path": "Water-Insecure.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Water-Insecure-png.jpg", 
+            null
+        ]
+    }, 
+    "Water-Shortages.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Water-Shortages.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Water-Shortages.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Water-Shortages.png", 
+        "import_path": "Water-Shortages.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Water-Shortages-png.jpg", 
+            null
+        ]
+    }, 
+    "Waterborne-Diseases.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Waterborne-Diseases.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Waterborne-Diseases.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Waterborne-Diseases.png", 
+        "import_path": "Waterborne-Diseases.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Waterborne-Diseases-png.jpg", 
+            null
+        ]
+    }, 
+    "Why_use_CSS.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Why_use_CSS.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Why use CSS.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Why_use_CSS.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Why_use_CSS-png.jpg", 
+            null
+        ]
+    }, 
+    "Wildfires.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Wildfires.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Wildfires.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Wildfires.png", 
+        "import_path": "Wildfires.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Wildfires-png.jpg", 
+            null
+        ]
+    }, 
+    "Women-of-Childbearing-Age.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "Women-of-Childbearing-Age.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Women-of-Childbearing-Age.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@Women-of-Childbearing-Age.png", 
+        "import_path": "Women-of-Childbearing-Age.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "Women-of-Childbearing-Age-png.jpg", 
+            null
+        ]
+    }, 
+    "World_Data_Map.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "World_Data_Map.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "World_Data_Map.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@World_Data_Map.html", 
+        "import_path": "World_Data_Map.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "World_Map_Blank_for_data.svg": {
+        "contentType": "image/svg+xml", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "World_Map_Blank_for_data.svg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "World_Map_Blank_for_data.svg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@World_Map_Blank_for_data.svg", 
+        "import_path": "World_Map_Blank_for_data.svg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "World_Map_Blank_for_data.svg", 
+            null
+        ]
+    }, 
+    "ajax-loader.gif": {
+        "contentType": "image/gif", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "ajax-loader.gif", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "ajax-loader.gif", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@ajax-loader.gif", 
+        "import_path": "ajax-loader.gif", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "ajax-loader-gif.jpg", 
+            null
+        ]
+    }, 
+    "autotree_nav.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "autotree_nav.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "autotree_nav.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@autotree_nav.html", 
+        "import_path": "autotree_nav.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "beals_1904_worlds_fair.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "beals_1904_worlds_fair.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "beals_1904_worlds_fair.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@beals_1904_worlds_fair.jpg", 
+        "import_path": "beals_1904_worlds_fair.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "beals_1904_worlds_fair.jpg", 
+            null
+        ]
+    }, 
+    "beals_1904_worlds_fair_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "beals_1904_worlds_fair_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "beals_1904_worlds_fair_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@beals_1904_worlds_fair_small.jpg", 
+        "import_path": "beals_1904_worlds_fair_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "beals_1904_worlds_fair_small.jpg", 
+            null
+        ]
+    }, 
+    "beals_white_cat_photo.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "beals_white_cat_photo.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "beals_white_cat_photo.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@beals_white_cat_photo.jpg", 
+        "import_path": "beals_white_cat_photo.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "beals_white_cat_photo.jpg", 
+            null
+        ]
+    }, 
+    "beals_white_cat_photo_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "beals_white_cat_photo_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "beals_white_cat_photo_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@beals_white_cat_photo_small.jpg", 
+        "import_path": "beals_white_cat_photo_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "beals_white_cat_photo_small.jpg", 
+            null
+        ]
+    }, 
+    "bookshelf_interactive.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "bookshelf_interactive.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "bookshelf_interactive.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@bookshelf_interactive.html", 
+        "import_path": "bookshelf_interactive.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "bookshelf_main.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "bookshelf_main.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "bookshelf_main.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@bookshelf_main.css", 
+        "import_path": "bookshelf_main.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "bookshelf_main.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "bookshelf_main.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "bookshelf_main.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@bookshelf_main.js", 
+        "import_path": "bookshelf_main.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "bubbling-flask.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "bubbling-flask.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "bubbling-flask.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@bubbling-flask.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "bubbling-flask-png.jpg", 
+            null
+        ]
+    }, 
+    "course_layout.json": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "course_layout.json", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "course_layout.json", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@course_layout.json", 
+        "import_path": "course_layout.json", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "css.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "css.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "css.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@css.png", 
+        "import_path": "css.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "css-png.jpg", 
+            null
+        ]
+    }, 
+    "css_marker.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "css_marker.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "css_marker.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@css_marker.jpg", 
+        "import_path": "css_marker.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "css_marker.jpg", 
+            null
+        ]
+    }, 
+    "d3.v3.min.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "d3.v3.min.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "d3.v3.min.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@d3.v3.min.js", 
+        "import_path": "d3.v3.min.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "day.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "day.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "day.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@day.png", 
+        "import_path": "day.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "day-png.jpg", 
+            null
+        ]
+    }, 
+    "difficult.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "difficult.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "difficult.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@difficult.png", 
+        "import_path": "difficult.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "difficult-png.jpg", 
+            null
+        ]
+    }, 
+    "dndTree.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "dndTree.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "dndTree.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@dndTree.js", 
+        "import_path": "dndTree.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "drink-me.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "drink-me.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "drink-me.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@drink-me.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "drink-me-png.jpg", 
+            null
+        ]
+    }, 
+    "easy.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "easy.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "easy.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@easy.png", 
+        "import_path": "easy.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "easy-png.jpg", 
+            null
+        ]
+    }, 
+    "edx_demo_course.tar.gz": {
+        "contentType": "application/x-tar", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "edx_demo_course.tar.gz", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "edx_demo_course.tar.gz", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@edx_demo_course.tar.gz", 
+        "import_path": "edx_demo_course.tar.gz", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "example.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "example.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "example.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@example.css", 
+        "import_path": "example.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "example2.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "example2.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "example2.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@example2.css", 
+        "import_path": "example2.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "figure.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "figure.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "figure.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@figure.css", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "fire-bottle.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "fire-bottle.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "fire-bottle.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@fire-bottle.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "fire-bottle-png.jpg", 
+            null
+        ]
+    }, 
+    "fizzing-flask.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "fizzing-flask.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "fizzing-flask.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@fizzing-flask.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "fizzing-flask-png.jpg", 
+            null
+        ]
+    }, 
+    "formtable_csv.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "formtable_csv.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "formtable_csv.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@formtable_csv.js", 
+        "import_path": "formtable_csv.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "greer_closeup_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "greer_closeup_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "greer_closeup_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@greer_closeup_small.jpg", 
+        "import_path": "greer_closeup_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "greer_closeup_small.jpg", 
+            null
+        ]
+    }, 
+    "greer_comfy_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "greer_comfy_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "greer_comfy_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@greer_comfy_small.jpg", 
+        "import_path": "greer_comfy_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "greer_comfy_small.jpg", 
+            null
+        ]
+    }, 
+    "guesser.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "guesser.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "guesser.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@guesser.css", 
+        "import_path": "guesser.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "guesser.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "guesser.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "guesser.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@guesser.html", 
+        "import_path": "guesser.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "guesser.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "guesser.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "guesser.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@guesser.js", 
+        "import_path": "guesser.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "haggis_floor_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "haggis_floor_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "haggis_floor_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@haggis_floor_small.jpg", 
+        "import_path": "haggis_floor_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "haggis_floor_small.jpg", 
+            null
+        ]
+    }, 
+    "heart-bottle.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "heart-bottle.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "heart-bottle.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@heart-bottle.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "heart-bottle-png.jpg", 
+            null
+        ]
+    }, 
+    "heimdall_bed_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "heimdall_bed_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "heimdall_bed_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@heimdall_bed_small.jpg", 
+        "import_path": "heimdall_bed_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "heimdall_bed_small.jpg", 
+            null
+        ]
+    }, 
+    "hour.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hour.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hour.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hour.png", 
+        "import_path": "hour.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "hour-png.jpg", 
+            null
+        ]
+    }, 
+    "html.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "html.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "html.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@html.png", 
+        "import_path": "html.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "html-png.jpg", 
+            null
+        ]
+    }, 
+    "hx-text-slider.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hx-text-slider.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hx-text-slider.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hx-text-slider.css", 
+        "import_path": "hx-text-slider.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "hx-text-slider.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hx-text-slider.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hx-text-slider.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hx-text-slider.js", 
+        "import_path": "hx-text-slider.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "hx.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hx.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hx.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hx.css", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "hx.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hx.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hx.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hx.js", 
+        "import_path": "hx.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "hxGlobalOptions.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hxGlobalOptions.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hxGlobalOptions.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hxGlobalOptions.js", 
+        "import_path": "hxGlobalOptions.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "hx_alt.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hx_alt.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hx_alt.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hx_alt.css", 
+        "import_path": "hx_alt.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "hx_boilerplate_course.tar.gz": {
+        "contentType": "application/x-tar", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hx_boilerplate_course.tar.gz", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hx_boilerplate_course.tar.gz", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hx_boilerplate_course.tar.gz", 
+        "import_path": "hx_boilerplate_course.tar.gz", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "hx_tiny_white.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "hx_tiny_white.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "hx_tiny_white.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@hx_tiny_white.png", 
+        "import_path": "hx_tiny_white.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "hx_tiny_white-png.jpg", 
+            null
+        ]
+    }, 
+    "imageMapResizer.min.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "imageMapResizer.min.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "imageMapResizer.min.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@imageMapResizer.min.js", 
+        "import_path": "imageMapResizer.min.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "intro_accessible.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "intro_accessible.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "intro_accessible.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@intro_accessible.js", 
+        "import_path": "intro_accessible.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "introjs.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "introjs.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "introjs.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@introjs.css", 
+        "import_path": "introjs.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "javascript.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "javascript.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "javascript.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@javascript.png", 
+        "import_path": "javascript.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "javascript-png.jpg", 
+            null
+        ]
+    }, 
+    "jquery-1.10.2.min.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "jquery-1.10.2.min.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "jquery-1.10.2.min.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@jquery-1.10.2.min.js", 
+        "import_path": "jquery-1.10.2.min.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "jquery-3.3.1.min.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "jquery-3.3.1.min.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "jquery-3.3.1.min.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@jquery-3.3.1.min.js", 
+        "import_path": "jquery-3.3.1.min.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "jquery-ui.min.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "jquery-ui.min.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "jquery-ui.min.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@jquery-ui.min.css", 
+        "import_path": "jquery-ui.min.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "jquery-ui.min.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "jquery-ui.min.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "jquery-ui.min.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@jquery-ui.min.js", 
+        "import_path": "jquery-ui.min.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "jquery.svgdom.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "jquery.svgdom.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "jquery.svgdom.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@jquery.svgdom.js", 
+        "import_path": "jquery.svgdom.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "jquery.ui.touch-punch.min.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "jquery.ui.touch-punch.min.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "jquery.ui.touch-punch.min.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@jquery.ui.touch-punch.min.js", 
+        "import_path": "jquery.ui.touch-punch.min.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "jschannel.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "jschannel.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "jschannel.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@jschannel.js", 
+        "import_path": "jschannel.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "kymco_notplaying_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "kymco_notplaying_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "kymco_notplaying_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@kymco_notplaying_small.jpg", 
+        "import_path": "kymco_notplaying_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "kymco_notplaying_small.jpg", 
+            null
+        ]
+    }, 
+    "leads-to.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "leads-to.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "leads-to.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@leads-to.jpg", 
+        "import_path": "leads-to.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "leads-to.jpg", 
+            null
+        ]
+    }, 
+    "longer.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "longer.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "longer.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@longer.png", 
+        "import_path": "longer.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "longer-png.jpg", 
+            null
+        ]
+    }, 
+    "map_data.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "map_data.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "map_data.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@map_data.js", 
+        "import_path": "map_data.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "nebula_couch_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "nebula_couch_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "nebula_couch_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@nebula_couch_small.jpg", 
+        "import_path": "nebula_couch_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "nebula_couch_small.jpg", 
+            null
+        ]
+    }, 
+    "papaparse.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "papaparse.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "papaparse.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@papaparse.js", 
+        "import_path": "papaparse.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "papaparse.min.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "papaparse.min.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "papaparse.min.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@papaparse.min.js", 
+        "import_path": "papaparse.min.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "pathway_problem.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "pathway_problem.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "pathway_problem.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@pathway_problem.html", 
+        "import_path": "pathway_problem.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "pathway_problem.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "pathway_problem.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "pathway_problem.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@pathway_problem.js", 
+        "import_path": "pathway_problem.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "perfume-bottle.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "perfume-bottle.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "perfume-bottle.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@perfume-bottle.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "perfume-bottle-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_1.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_1.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_1.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_1.png", 
+        "import_path": "placeholder_1.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_1-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_10.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_10.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_10.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_10.png", 
+        "import_path": "placeholder_10.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_10-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_11.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_11.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_11.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_11.png", 
+        "import_path": "placeholder_11.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_11-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_12.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_12.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_12.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_12.png", 
+        "import_path": "placeholder_12.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_12-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_13.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_13.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_13.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_13.png", 
+        "import_path": "placeholder_13.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_13-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_14.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_14.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_14.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_14.png", 
+        "import_path": "placeholder_14.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_14-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_15.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_15.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_15.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_15.png", 
+        "import_path": "placeholder_15.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_15-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_16.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_16.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_16.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_16.png", 
+        "import_path": "placeholder_16.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_16-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_2.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_2.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_2.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_2.png", 
+        "import_path": "placeholder_2.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_2-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_3.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_3.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_3.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_3.png", 
+        "import_path": "placeholder_3.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_3-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_4.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_4.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_4.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_4.png", 
+        "import_path": "placeholder_4.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_4-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_5.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_5.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_5.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_5.png", 
+        "import_path": "placeholder_5.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_5-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_6.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_6.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_6.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_6.png", 
+        "import_path": "placeholder_6.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_6-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_7.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_7.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_7.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_7.png", 
+        "import_path": "placeholder_7.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_7-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_8.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_8.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_8.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_8.png", 
+        "import_path": "placeholder_8.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_8-png.jpg", 
+            null
+        ]
+    }, 
+    "placeholder_9.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "placeholder_9.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "placeholder_9.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@placeholder_9.png", 
+        "import_path": "placeholder_9.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "placeholder_9-png.jpg", 
+            null
+        ]
+    }, 
+    "polar-bears-1665367_1920.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "polar-bears-1665367_1920.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "polar-bears-1665367_1920.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@polar-bears-1665367_1920.jpg", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "polar-bears-1665367_1920.jpg", 
+            null
+        ]
+    }, 
+    "polar-bears-1665367_600.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "polar-bears-1665367_600.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "polar-bears-1665367_600.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@polar-bears-1665367_600.jpg", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "polar-bears-1665367_600.jpg", 
+            null
+        ]
+    }, 
+    "potion-ball.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "potion-ball.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "potion-ball.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@potion-ball.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "potion-ball-png.jpg", 
+            null
+        ]
+    }, 
+    "prism.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "prism.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "prism.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@prism.css", 
+        "import_path": "prism.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "prism.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "prism.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "prism.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@prism.js", 
+        "import_path": "prism.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "purplebullet.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "purplebullet.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "purplebullet.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@purplebullet.png", 
+        "import_path": "purplebullet.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "purplebullet-png.jpg", 
+            null
+        ]
+    }, 
+    "python.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "python.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "python.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@python.png", 
+        "import_path": "python.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "python-png.jpg", 
+            null
+        ]
+    }, 
+    "python_lib.zip": {
+        "contentType": "application/zip", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "python_lib.zip", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "python_lib.zip", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@python_lib.zip", 
+        "import_path": "python_lib.zip", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "quote-left.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "quote-left.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "quote-left.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@quote-left.png", 
+        "import_path": "quote-left.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "quote-left-png.jpg", 
+            null
+        ]
+    }, 
+    "quote-right.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "quote-right.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "quote-right.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@quote-right.png", 
+        "import_path": "quote-right.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "quote-right-png.jpg", 
+            null
+        ]
+    }, 
+    "rocket_tiny_small.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "rocket_tiny_small.jpg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "rocket_tiny_small.jpg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@rocket_tiny_small.jpg", 
+        "import_path": "rocket_tiny_small.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "rocket_tiny_small.jpg", 
+            null
+        ]
+    }, 
+    "round-bottom-flask.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "round-bottom-flask.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "round-bottom-flask.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@round-bottom-flask.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "round-bottom-flask-png.jpg", 
+            null
+        ]
+    }, 
+    "shortnav_screenshot.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "shortnav_screenshot.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "shortnav_screenshot.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@shortnav_screenshot.png", 
+        "import_path": "shortnav_screenshot.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "shortnav_screenshot-png.jpg", 
+            null
+        ]
+    }, 
+    "skull-in-jar.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "skull-in-jar.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "skull-in-jar.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@skull-in-jar.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "skull-in-jar-png.jpg", 
+            null
+        ]
+    }, 
+    "slick-theme.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "slick-theme.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "slick-theme.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@slick-theme.css", 
+        "import_path": "slick-theme.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "slick.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "slick.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "slick.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@slick.css", 
+        "import_path": "slick.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "slick.eot": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "slick.eot", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "slick.eot", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@slick.eot", 
+        "import_path": "slick.eot", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "slick.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "slick.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "slick.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@slick.js", 
+        "import_path": "slick.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "slick.svg": {
+        "contentType": "image/svg+xml", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "slick.svg", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "slick.svg", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@slick.svg", 
+        "import_path": "slick.svg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "slick.svg", 
+            null
+        ]
+    }, 
+    "slick.ttf": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "slick.ttf", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "slick.ttf", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@slick.ttf", 
+        "import_path": "slick.ttf", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "slick.woff": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "slick.woff", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "slick.woff", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@slick.woff", 
+        "import_path": "slick.woff", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "snow-bottle.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "snow-bottle.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "snow-bottle.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@snow-bottle.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "snow-bottle-png.jpg", 
+            null
+        ]
+    }, 
+    "square-bottle.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "square-bottle.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "square-bottle.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@square-bottle.png", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "square-bottle-png.jpg", 
+            null
+        ]
+    }, 
+    "test_style.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "test_style.css", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "test_style.css", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@test_style.css", 
+        "import_path": "test_style.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "textlog.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "textlog.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "textlog.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@textlog.html", 
+        "import_path": "textlog.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "textlog.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "textlog.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "textlog.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@textlog.js", 
+        "import_path": "textlog.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "underscore.js": {
+        "contentType": "application/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "underscore.js", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "underscore.js", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@underscore.js", 
+        "import_path": "underscore.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "verified_access_banner_full.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "verified_access_banner_full.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "verified_access_banner_full.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@verified_access_banner_full.png", 
+        "import_path": "verified_access_banner_full.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "verified_access_banner_full-png.jpg", 
+            null
+        ]
+    }, 
+    "verified_lock_icon_example.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "verified_lock_icon_example.png", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "verified_lock_icon_example.png", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@verified_lock_icon_example.png", 
+        "import_path": "verified_lock_icon_example.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "HarvardX", 
+            "StudioAdv1", 
+            "thumbnail", 
+            "verified_lock_icon_example-png.jpg", 
+            null
+        ]
+    }, 
+    "walkthrough_image_indicator.html.zip": {
+        "contentType": "application/zip", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "walkthrough_image_indicator.html.zip", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "walkthrough_image_indicator.html.zip", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@walkthrough_image_indicator.html.zip", 
+        "import_path": "walkthrough_image_indicator.html.zip", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "walkthrough_snippet.html": {
+        "contentType": "text/html", 
+        "content_son": {
+            "category": "asset", 
+            "course": "StudioAdv1", 
+            "name": "walkthrough_snippet.html", 
+            "org": "HarvardX", 
+            "revision": null, 
+            "run": "2T2019", 
+            "tag": "c4x"
+        }, 
+        "displayname": "walkthrough_snippet.html", 
+        "filename": "asset-v1:HarvardX+StudioAdv1+2T2019+type@asset+block@walkthrough_snippet.html", 
+        "import_path": "walkthrough_snippet.html", 
+        "locked": false, 
+        "thumbnail_location": null
+    }
+}

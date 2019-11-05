@@ -1,0 +1,14 @@
+<problem display_name="Feature selection" markdown="&gt;&gt;What is the main feature of a content library?&lt;&lt;&#10;&#10;(x) To display a subset of specified content, typically questions, in a randomised order&#10;( ) To act as a repository for mixed media and course assets {{Whilst it does have a repository aspect, it is not the main place to hold course content as it sits above the course level}}&#10;( ) To display a subset of specified content based on what you have previously answered {{Unfortunately, a content library can not be used for adaptive learning methods as it can not support dependency relationships between content}}&#10;( ) To be all things to all people and more {{I like the way you think! But sadly, no.}}&#10;&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>What is the main feature of a content library?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">To display a subset of specified content, typically questions, in a randomised order</choice>
+      <choice correct="false">To act as a repository for mixed media and course assets <choicehint>Whilst it does have a repository aspect, it is not the main place to hold course content as it sits above the course level</choicehint>
+</choice>
+      <choice correct="false">To display a subset of specified content based on what you have previously answered <choicehint>Unfortunately, a content library can not be used for adaptive learning methods as it can not support dependency relationships between content</choicehint>
+</choice>
+      <choice correct="false">To be all things to all people and more <choicehint>I like the way you think! But sadly, no.</choicehint>
+</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

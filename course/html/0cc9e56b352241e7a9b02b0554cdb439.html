@@ -1,0 +1,38 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<style>
+  figure img { width: 80%; }
+  figcaption{ font-size: small; font-style: italic; width: 80%; }
+</style>
+
+<h3 class="hx-underline">Part 1: Listening for certain learner events</h3>
+
+<p>Let's say you want to know every time a learner submits a response to a multiple choice quiz question in your course. In order to do this, two key actions need to be taken:</p>
+<ol>
+  <li>Define the event that you want to trigger once they submit a response, and </li>
+  <li>Listen for response submissions</li>
+</ol>
+
+<p>We will start with a simple example. In this case, our goal is to make a pop-up alert appear that says "You just submitted a response!" appear every time a quiz question is submitted. </p>
+
+<p>For this exercise, we will work in the <a href="https://webmasters.stackexchange.com/questions/8525/how-do-i-open-the-javascript-console-in-different-browsers" target="_blank">JavaScript console</a> in your web browser - I'm using Chrome. Navigate to any edX course page with an assessment event (let's do multiple choice questions, if possible for now), and then right click anywhere on that page and select "Inspect." Next, navigate to the "Console" tab (in between Elements and Resources). This is where we will work for now. Bear in mind, this is instead of working directly in a Raw HTML component in edX Studio. Everything we do here in the console works there as well. Working in the console just gives us a nice sandbox environment for testing.</p>
+
+<p>Okay, time for some code.</p>
+
+<p>First, we need to create a function that gets initiated every time our event of interest (question submissions, in this case) is carried out by the learner. In line with the goal of this exercise, that function will create a popup. Here's what that function (let's name it <code class="lang-js">funcPC</code> for Problem Check) will look like:</p>
+
+<pre><code class="lang-js">function funcPC() {alert("You just submitted a response!")}</code></pre>
+
+<p>Now that we have defined out function that we want to eventually fire, we need to enact a listener for assessment submission events. For that, we will use edX's built-in <code class="lang-js">Logger.listen()</code> function in which we specify the event that we are listening for and what we want to happen once we detect that event:</p>
+
+<pre><code class="lang-js">Logger.listen("problem_check", null, funcPC)</code></pre>
+
+<p>Now we have completed both steps 1 and 2 above in two simple lines of code. Test it out yourself - open an edX course page with an assessment event, run both of those commands, in order, in your console, and then submit a response to the question. Once you clicked the submit button, a popup window should have appeared that looked something like this:</p>
+
+<figure>
+  <img src="/static/DanDavis_screenshot1.png" alt="" />
+  <figcaption>An alert that says "You just submitted a response!"</figcaption>
+</figure>
+<br/>
+
+<p>This method applied to any of the many many events that edX is always tracking. You can find an <a href="https://edx.readthedocs.io/projects/devdata/en/stable/internal_data_formats/tracking_logs.html" target="_blank">exhaustive list of events</a> at that link. That is to say: for this example, you can reliably replace "problem_check" with any of the event types found on that linked page.</p>

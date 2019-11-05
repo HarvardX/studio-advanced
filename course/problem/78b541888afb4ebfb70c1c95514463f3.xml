@@ -1,0 +1,12 @@
+<problem display_name="What did I do wrong?" markdown="null" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse partial_credit="points">
+    <label>I downloaded the <code>python_lib.zip</code> file, unzipped it, and put all the files into Files &amp; Uploads, and I set up a matching problem with <code class="lang-python">from python_lib import HXGraders</code>. Now my problem doesn't work! What did I do wrong?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="partial">It could be a lot of things. <choicehint>Ok, fair point, but stick to the context of this section.</choicehint>
+</choice>
+      <choice correct="true">I unzipped it. Keep the file zipped.</choice>
+      <choice correct="false">I put it in Files &amp; Uploads. It needs to be in an external repo.</choice>
+      <choice correct="false">I imported <code>python_lib</code>. It should be <code>python_lib.zip</code>.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,20 @@
+<problem display_name="Text Boxes" markdown="&gt;&gt;What are those boxes on the table? &lt;&lt;&#10;&#10;(!) That's the data, silly. {{ Not the table cells. We mean the text input boxes at the top. }}&#10;(x) Those are filters - like search boxes for each column.&#10;( ) Those are just spacers, for visual appearances. {{ Try typing some letters into them. }}&#10;( ) Those are for entering new data. {{ That gets done via the form. }}&#10;&#10;[explanation]&#10;The boxes are filters, so that your learners can find things quickly when the table gets large.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>What are those boxes on the table? </label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">That's the data, silly. <choicehint>Not the table cells. We mean the text input boxes at the top.</choicehint>
+</choice>
+      <choice correct="true">Those are filters - like search boxes for each column.</choice>
+      <choice correct="false">Those are just spacers, for visual appearances. <choicehint>Try typing some letters into them.</choicehint>
+</choice>
+      <choice correct="false">Those are for entering new data. <choicehint>That gets done via the form.</choicehint>
+</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The boxes are filters, so that your learners can find things quickly when the table gets large.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

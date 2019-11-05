@@ -1,0 +1,22 @@
+<problem display_name="EdX Log Events" markdown="&gt;&gt;Which of the following is not a real edX log &lt;code&gt;event_type&lt;/code&gt;?&lt;&lt;&#10;&#10;(!) load_video &#10;( ) edx.video.loaded&#10;( ) edx.course.student_notes.added&#10;( ) reset-all-attempts&#10;(x) edx.problem.incorrect&#10;&#10;||Don't have them all memorized? We don't blame you. You might want to go hunting for a list...||&#10;&#10;[explanation]&#10;The equivalent event is &lt;code&gt;problem_check_fail&lt;/code&gt;. Here's a link to the &lt;a href=&quot;https://edx.readthedocs.io/projects/devdata/en/stable/internal_data_formats/event_list.html#event-list&quot; target=&quot;_blank&quot;&gt;full list of event types&lt;/a&gt;.&#10;&#10;You can see that the naming conventions are not entirely consistent.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>Which of the following is not a real edX log <code>event_type</code>?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">load_video</choice>
+      <choice correct="false">edx.video.loaded</choice>
+      <choice correct="false">edx.course.student_notes.added</choice>
+      <choice correct="false">reset-all-attempts</choice>
+      <choice correct="true">edx.problem.incorrect</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The equivalent event is <code>problem_check_fail</code>. Here's a link to the <a href="https://edx.readthedocs.io/projects/devdata/en/stable/internal_data_formats/event_list.html#event-list" target="_blank">full list of event types</a>.</p>
+        <p>You can see that the naming conventions are not entirely consistent.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+  <demandhint>
+    <hint>Don't have them all memorized? We don't blame you. You might want to go hunting for a list...</hint>
+  </demandhint>
+</problem>

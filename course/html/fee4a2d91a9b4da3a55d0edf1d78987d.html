@@ -1,0 +1,108 @@
+<h3 class="hx-underline" id="toolsettings">Tool Settings</h3>
+
+<p>This group covers components or modules that you can add to your edX course that aren't assignments.</p>
+
+<h4 id="advmod"><button class="hx-togglebutton1">Add Unsupported Problems and Tools</button></h4>
+<div class="hx-toggletarget1" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p>Just like it says on the tin, this adds the ability to insert problems or tools that edX no longer supports. Depending on which version of edX you're using, this might include the older Poll module, the old LTI (rather than LTI Consumer) module, zooming image tools, the original drag-and-drop problem type, and more.</p>
+  <p>The advantage is that you have a few more options at your fingertips. The disadvantage is that anything you add might - no, probably <em>will</em> - be disabled by an update at some point in the future. In addition, as the page says, accessibility and internationalization are not always great for the older components. We can't recommend changing this setting.</p>
+</div>
+
+<h4><button class="hx-togglebutton2">
+  Advanced Module List <span class="fa-stack"><span class="fa fa-star fa-stack-1x"></span><span class="fa fa-star-o fa-stack-1x"><span class="sr">star</span></span></span>
+  </button></h4>
+<div class="hx-toggletarget2" style="display:none;">
+  <p><strong>Default:</strong> []</p>
+  <p><strong>Other settings:</strong> A list of modules, in the format ["mod1", "mod2", "mod3"]</p>
+  <p><i>Enter the names of the advanced modules to use in your course.</i></p>
+  <p>This is one of our <em>very favorite settings</em>. Here you can activate things that are supported but, for reasons known only by the mystical edX developers themselves, hidden away from course creators in most courses.</p>
+  <p>Here's the list of what we <strong>recommend</strong> that you include in your course. Once you put a list of these into the Advanced Module List, you will see them appear under the "Advanced" button in Studio, just to the left of "Discussion" and "HTML".</p>
+  <ul>
+    <li>"word_cloud": Creates a word cloud from a limited number of learner responses. Instruct your learners to enter <em>just a word or two</em> for maximum effectiveness. Great for seeing how learner attitudes change over time.</li>
+    <li>"lti_consumer": Allows you to insert tools based on the <a href="http://www.imsglobal.org/specs/ltiv1p1p1/implementation-guide" target="_blank">LTI version 1.1.1 specifications</a>. For full detail, see the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/lti_component.html" target="_blank">edX LTI component documentation</a>. You <em>cannot</em> enable edX as an LTI <em>provider</em> from here, but your Open edX administrator might be willing to do that under certain circumstances.</li>
+    <li>"split_test": For randomized A/B testing. Check out the part of our course about <a href="/jump_to_id/3f686540e80b450db4d5a57652fa5dea" target="_blank">designing content experiments</a>.</li>
+    <li>"library_content": For randomized problem delivery.Check out the part of our course about <a href="/jump_to_id/36e997744b06459fab8f26fcfe6b8579" target="_blank">building a content library</a>.</li>
+    <li>"poll" and "survey": These create simple one-response or grid-response polls where learners can see the course totals. They're indispensible tools.</li>
+    <li>"drag-and-drop-v2": The updated, more accessible drag-and-drop exercise. You can get the full details on this at the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/drag_and_drop.html" target="_blank">edX Drag-and-Drop docs</a>, but the short version is that your learners will drag an image (or bit of text) onto another image. It's a very flexible tool.</li>
+    <li>"ubcpi": An asynchronous <a href="https://en.wikipedia.org/wiki/Peer_instruction" target="_blank">peer instruction</a> tool, built by the University of British Columbia. Learners answer a multiple-choice question, state their rationale, and then respond to the rationales of others. This is fully documented at the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/peer_instruction_tool.html" target="_blank">edX Peer Instruction tool docs</a>.</li>
+  </ul>
+  <p>Here it is in copy-paste-friendly format:</p>
+  <pre><code class="lang-python">[
+    "word_cloud",
+    "lti_consumer",
+    "split_test",
+    "library_content",
+    "poll",
+    "survey",
+    "drag-and-drop-v2",
+    "ubcpi"
+]
+</code></pre>
+  <p>If you're using Open edX, you may have a different set of these, especially if your team has done a lot of customization or if you're running with an older distribution. You should check with your site administrator.</p>
+</div>
+
+<h4><button class="hx-togglebutton35">
+Enable Student Notes
+</button></h4>
+<div class="hx-toggletarget35" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If true, students can use the Student Notes feature.</i></p>
+  <p>Why in the world does this default to false? <strong>We recommend setting this to true.</strong> If you have a strong pedagogical need to prevent learners from taking typed notes in your course - for instance, if you want them to take notes in one specific other manner - then I <em>suppose</em> you could leave this as false. Or if all your content is dynamically generated and the notes won't show up over them properly. But honestly, turn it to true.</p>
+  <p>Note (sorry) that notes only work in HTML components right now, not in problems or on video transcripts or anywhere else that text appears on the screen. Just in HTML.</p>
+</div>
+
+<h4><button class="hx-togglebutton40">
+HTML Textbooks
+</button></h4>
+<div class="hx-toggletarget40" style="display:none;">
+  <p><strong>Default:</strong> []</p>
+  <p><strong>Other settings:</strong> other things</p>
+  <p><i>For HTML textbooks that appear as separate tabs in the course, enter the name of the tab (usually the title of the book) as well as the URLs and titles of each chapter in the book.</i></p>
+  <p>This is <em>separate</em> from the <a href="https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/course_assets/textbooks.html" target="_blank">Textbooks</a> feature in edX, which adds PDF-format books. This adds HTML pages as chapters in your textbook, which shows up as a tab at the top of the page. Here's the format:</p>
+<pre><code class="lang-js">[
+  {"tab_title": "Textbook 1",
+   "url": "https://www.example.com/thiscourse/book1/book1.html" },
+  {"tab_title": "Textbook 2",
+   "chapters": [
+       { "title": "Chapter 1", "url": "https://www.example.com/thiscourse/book2/Chapter1.html" },
+       { "title": "Chapter 2", "url": "https://www.example.com/thiscourse/book2/Chapter2.html" },
+       { "title": "Chapter 3", "url": "https://www.example.com/thiscourse/book2/Chapter3.html" },
+       { "title": "Chapter 4", "url": "https://www.example.com/thiscourse/book2/Chapter4.html" },
+       { "title": "Chapter 5", "url": "https://www.example.com/thiscourse/book2/Chapter5.html" },
+       { "title": "Chapter 6", "url": "https://www.example.com/thiscourse/book2/Chapter6.html" },
+       { "title": "Chapter 7", "url": "https://www.example.com/thiscourse/book2/Chapter7.html" }
+       ]
+  }
+]
+</code></pre>
+  <p>Our sources inform us that "It is not a good idea to include a top-level URL and chapter-level URLs in the same textbook configuration." So, er, don't.</p>
+</div>
+
+<h4><button class="hx-togglebutton42">
+LTI Passports
+</button></h4>
+<div class="hx-toggletarget42" style="display:none;">
+  <p><strong>Default:</strong> [] (a blank list)</p>
+  <p><strong>Other settings:</strong> A list in the form shown below.</p>
+  <p><i>Enter the passports for course LTI tools in the following format: "id:client_key:client_secret".</i></p>
+  <p>This is how you pass LTI security info to edX. Here's a sample, where the "ID" matches what you put into the LTI component itself:</p>
+<pre><code class="lang-python">[
+  "id1:client_key1:client_secret1", 
+  "id2:client_key2:client_secret2", 
+  "id3:client_key3:client_secret3"
+]
+</code></pre>
+</div>
+
+<h4><button class="hx-togglebutton49">
+Show Calculator
+</button></h4>
+<div class="hx-toggletarget49" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>Enter true or false. When true, students can see the calculator in the course.</i></p>
+  <p><strong>If you're running a maths course, turn this on.</strong> It's not as if your learners don't have access to all the calculation they could possibly desire anyway; your course is on the internet right next to Google and Wolfram Alpha. Let them use the edX calculator.</p>
+</div>

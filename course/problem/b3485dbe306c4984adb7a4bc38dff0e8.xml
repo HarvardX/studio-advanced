@@ -1,0 +1,17 @@
+<problem display_name="Advantages of Interactivity" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Examine the items below, and select <strong>all</strong> the items that are potential <strong>advantages</strong> of an interactive, javascript-based navigation system.</label>
+    <checkboxgroup>
+      <choice correct="false">Faster initial design</choice>
+      <choice correct="false">More beautiful</choice>
+      <choice correct="true">Easy to add new materials</choice>
+      <choice correct="true">Faster to revise existing designs</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Building your navigation as an interactive makes it easier to create expandable designs, and also to make changes to a design that's already been created. However, it's not necessarily going to be more beautiful or have a shorter development time than another type of navigation.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

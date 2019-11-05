@@ -1,0 +1,37 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<style>
+  dt { margin: 1em;}
+  dd { margin-left: 2em; }
+</style>
+<p></p>
+<h3 class="hx-underline">So you want to build a content library...</h3>
+<p>If you do decide to take this method forward, it is really important to plan out your assessment structure prior to build. </p>
+
+<p>As mentioned before:<p>
+<blockquote>Fixing mistakes can be time consuming - <strong>you can not edit in the course, it must be within the library directly</strong>, even though you can see all the questions in course edit view. Once edits have been made, you must also update the library reference in the course to ensure the most up-to-date version of components are being displayed.</blockquote>
+
+<p>This means that if you want to make any changes to a content library bank of questions, you have to go back to the bank to make the change even though it appears tantalisingly easy to simply edit within the course - essentially, your changes will all be lost the minute you refresh the content library feed, as the content library is the golden copy and will override your in-course changes.</p>
+
+
+<h4 class="hx-underline">Assessment structure</h4>
+
+<p>Let’s say you have a course with 4 modules (sections) and 4 main topics within each module (sub-sections). You want to create an end-of-module quiz for each module, drawing questions from all main topics. You have 5 questions created for each topic but only want to ask 12 questions in total per quiz.</p>
+
+<p>1 module = 4 topics x 5 questions = 20 questions to select 12 from for the quiz</p>
+
+<dl>
+  <dt><strong>Option A:</strong> Manual selection</dt>
+  <dd>Choose 3 questions per topic and use these for all learners (no randomisation).</dd>
+
+  <dt><strong>Option B:</strong> Content Library (easy)</dt>
+  <dd>Create a content library per module of all 20 questions and set selection of 12 random questions to be displayed to learners.</dd>
+
+  <dt><strong>Option C:</strong> Content Library (multi)</dt>
+  <dd>Create 4 separate content libraries for each module, each containing questions related to one topic. Reference each content library separately in the final quiz and set each selection to 3 random questions displayed.</dd>
+</dl>
+
+<p>The reason option A is mentioned here is this is the only way you can guarantee reuse of questions on a different assessment does not lead to exposure to the same question multiple times, i.e. an end of course quiz that asks questions on all 16 topics, which itself could be set up as a content library. Option B is the most typical set up, as it is the most straightforward.</p>
+
+<p>The next consideration is whether any of these 20 questions are using non-basic elements, e.g. drag and drop, math expressions or custom display. Any non-basic questions can not be put into the final content library and so must be treated like normal assessment questions with component creation directly within edX studio.</p>
+

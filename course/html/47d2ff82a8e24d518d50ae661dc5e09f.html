@@ -1,0 +1,24 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<p></p>
+<h3 class="hx-underline">Take pride in your HTML</h3>
+<p></p>
+<p><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif; color: #000000;">Imagine: I am writing something directly into the text editor.</span></p>
+<p><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif; color: #000000;">I<span style="caret-color: #000000;">&rsquo;ve copied something across from another source,&nbsp;</span><span style="font-size: normal;">and then something else from somewhere else.&nbsp;</span>The fonts are all a little different, so I select all and change the fonts for consistency back to the default Font Family. I also notice the colours look a bit different, so select the 'automatic black' font colour choice. Everything looks great.</span></p>
+<p><span style="font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif; color: #000000;">... and then you look at the HTML editor view...</span></p>
+<pre><code class="lang-markup">
+&lt;p&gt;&lt;span style=&quot;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif; color: #000000;&quot;&gt;I am writing something directly into the text editor.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif; color: #000000;&quot;&gt;I&lt;span style=&quot;caret-color: #000000;&quot;&gt;&rsquo;ve copied something across from another source,&nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: normal;&quot;&gt;and then something else from somewhere else.&nbsp;&lt;/span&gt;The fonts are all a little different, so I select all and change the fonts for consistency back to the default Font Family. I also notice the colours look a bit different, so select the 'automatic black' font colour choice. Everything looks great.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif; color: #000000;&quot;&gt;... and then you look at the HTML editor view...&lt;/span&gt;&lt;/p&gt;
+</code></pre>
+<p>Now that is certainly NOT what you were expecting to see! Where did all these attributes come from? I thought I restored all the default settings?!</p>
+<p>The somewhat annoying thing about the Rich Text editor is that it is all about formatting. It will often try too hard to make sure all the formatting from whence content came is retained, even if you don't need it to. Plus, if you try to restore default settings, this will simply add the new formatting requirements on top, as a completely new set of format attributes, rather than stripping out unwanted formatting as desired.</p>
+<p>There are a number of reasons why this is bad:</p>
+<ul>
+  <li>In-line styles cause longer rendering time for a page to load</li>
+  <li>The code looks really messy - others will judge you and your code</li>
+  <li>It's really bad practice for accessibility reasons</li>
+  <li>If edX were to create site-wide style changes, you would be left with a load of manual overwrite lines that you'd need to clean up</li>
+  <li>Clean up will take FOREVER</li>
+</ul>
+<p>Taking pride in your HTML appearance is not just about in-line styles; it's about creating content in the most useful and sustainable way first time round. Whilst it might seem like an overhead initially, trust us when we say it will certainly speed things up a lot in the future if you get into good habits now.</p>

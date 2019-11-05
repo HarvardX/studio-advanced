@@ -1,0 +1,21 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">Using Grading Libraries</h3>
+
+<div class="hx-hangright stux-infobox">
+<div class="stux-infoicon"><img src="/static/Easy_icon.png" alt="" /><br /> Easy</div>
+<div class="stux-infoicon"><img src="/static/Time_short_icon.png" alt="" /><br /> Hours</div>
+<div class="stux-infoicon"><img src="/static/Python_icon.png" alt="" /><br /> Python</div>
+
+</div>
+
+<p>Typically when you write a problem in edX, grading is handled for you. This is for those times when it isn't, or when you wish you had some more control over it.</p>
+
+<p>This section is primarily for people who write or use Custom-Graded problems and Javascript Input problems. EdX allows its users to create grading code for these kinds of problems in Python. (Really you can do it in any problem; you just <em>have</em> to do it in the custom ones.) Normally that code is kept inside each problem, but this shows you a way to centralize it so that you can fix problems in one place instead of having to fix them in multiple places.</p>
+
+<p>
+  <strong>The goal:</strong> Keep your custom grading code in one place instead of in every individual problem.<br/>
+  <strong>Prerequisites:</strong> If you want to make your own, you need to know more than a bit of python - but if you just want to use someone else's, that reduces the skill barrier substantially. <br />
+  <strong>Project length:</strong> Set aside a few hours to put it together and test it the first time, plus whatever time you need to actually write the grading code.
+</p>

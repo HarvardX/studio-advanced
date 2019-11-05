@@ -1,0 +1,167 @@
+<h4 class="hx-underline">Code for Example #1</h4>
+
+<p><button class="hx-togglebutton1">Show me the code</button></p>
+
+<div  class="hx-toggletarget1" style="display:none;">
+<p>Here's the code. We're not going through everything line-by-line, but you can click the buttons below to highlight a few interesting items.</p>
+<ul>
+  <li><button class="hx-highlighter1">The jump_to_id links</button></li>
+  <li><button class="hx-highlighter2">How does this look like a table?</button> It's all in the CSS.</li>
+  <li><button class="hx-highlighter3">What about the spacing for the icons?</button> You know, those blank spots in the bottom right-hand side of the definitely not a table?</li>
+</ul>
+
+<pre><code class="lang-markup">&lt;script src=&quot;/static/hx.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/static/hx.css&quot;&gt; 
+&lt;style&gt;
+  .stux-navscheme-list li:not(:last-child){
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+  }
+  .stux-navscheme-list img{
+    <span class="hx-highlight2">width: 60px;</span>
+  }
+  .stux-navscheme-list li .bold{
+    font-weight: bold;
+  }
+  .stux-navscheme-list li .indent{
+    margin-left: 6px;
+    display: inline-block;
+  }
+  .stux-navscheme-buttons{
+    <span class="hx-highlight2">display:flex;</span>
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .stux-navscheme-buttons button{
+    padding: 8px 20px 8px 20px;
+    margin: 4px;
+  }
+  .stux-navscheme-buttons img{
+    max-height: 125px;
+  }
+&lt;/style&gt;
+
+&lt;h3 class=&quot;hx-underline&quot;&gt;Example #1: Our own navigation&lt;/h3&gt;
+
+&lt;p&gt;Here's our first example: one of our own navigation pages! We added a black border around it to set it apart from the rest of the page. Take a look, then check out the code below. We've got another example too.&lt;/p&gt;
+
+&lt;div style=&quot;border: 2px solid black; padding: 4px;&quot;&gt;
+&lt;h3 class=&quot;hx-underline&quot; style=&quot;margin-left: 110px; position: relative; top: 40px; font-size: 1.8em;&quot;&gt;Section 3: Short Projects&lt;/h3&gt;
+&lt;img src=&quot;/static/Short_project_icon.png&quot; alt=&quot;&quot; style=&quot;float:left; height: 100px; position: relative; top: -50px; margin-bottom: -50px;&quot;/&gt;
+&lt;br clear=&quot;all&quot;/&gt;
+
+&lt;ul style=&quot;list-style: none;&quot; class=&quot;stux-navscheme-list&quot;&gt;
+  &lt;li&gt;
+    &lt;div style=&quot;float:left;&quot;&gt;
+      &lt;span class=&quot;bold&quot;&gt;<span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/a71cb6a7b9544421ab6669881bffb183&quot; target=&quot;_blank&quot;&gt;</span>
+        3.1 - Interactive walkthroughs
+        &lt;/a&gt;&lt;/span&gt;&lt;br/&gt;
+        &lt;span class=&quot;indent&quot;&gt;
+          Indicate features on a page or image with a simple interactive
+      &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float:right;&quot;&gt;
+      &lt;img src=&quot;/static/Easy_icon.png&quot; alt=&quot;Easy&quot; /&gt;
+      &lt;img src=&quot;/static/Time_short_icon.png&quot; alt=&quot;Hour&quot; /&gt;
+      &lt;img src=&quot;/static/HTML_icon.png&quot; alt=&quot;HTML&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;    
+  &lt;/li&gt;
+
+  &lt;li&gt;
+     &lt;div style=&quot;float:left;&quot;&gt;
+      &lt;span class=&quot;bold&quot;&gt;<span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/12232ff2248e43e9b9bdca6414aa8c5d&quot; target=&quot;_blank&quot;&gt;</span>
+        3.2 - Beautify your landing pages
+        &lt;/a&gt;&lt;/span&gt;&lt;br/&gt;
+        &lt;span class=&quot;indent&quot;&gt;
+          Get people into your course right away
+       &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float:right;&quot;&gt;
+      &lt;img src=&quot;/static/Easy_icon.png&quot; alt=&quot;Easy&quot; /&gt;
+      &lt;img src=&quot;/static/Time_short_icon.png&quot; alt=&quot;Hour&quot; /&gt;
+      &lt;img src=&quot;/static/CSS_icon.png&quot; alt=&quot;CSS&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+  &lt;/li&gt;
+  
+  &lt;li&gt;
+     &lt;div style=&quot;float:left;&quot;&gt;
+      &lt;span class=&quot;bold&quot;&gt;<span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/51be770bfa47405f9dc92e67eb30ce34&quot; target=&quot;_blank&quot;&gt;</span>
+        3.3 - Clickable image maps
+        &lt;/a&gt;&lt;/span&gt;&lt;br/&gt;
+        &lt;span class=&quot;indent&quot;&gt;
+          Pop up text or close-ups when someone clicks an image
+       &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float:right;&quot;&gt;
+      &lt;img src=&quot;/static/Easy_icon.png&quot; alt=&quot;Easy&quot; /&gt;
+      &lt;img src=&quot;/static/Time_short_icon.png&quot; alt=&quot;Hour&quot; /&gt;
+      &lt;img src=&quot;/static/HTML_icon.png&quot; alt=&quot;HTML&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+     &lt;div style=&quot;float:left;&quot;&gt;
+      &lt;span class=&quot;bold&quot;&gt;<span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/9a8299914e364827bef20023b7bf2583&quot; target=&quot;_blank&quot;&gt;</span>
+        3.4 - Image carousels
+        &lt;/a&gt;&lt;/span&gt;&lt;br/&gt;
+        &lt;span class=&quot;indent&quot;&gt;
+          Show a set of related items without using a lot of screen real estate
+       &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float:right;&quot;&gt;
+      &lt;img src=&quot;/static/Easy_icon.png&quot; alt=&quot;Easy&quot; /&gt;
+      &lt;img src=&quot;/static/Time_medium_icon.png&quot; alt=&quot;Day&quot; /&gt;
+      &lt;img src=&quot;/static/HTML_icon.png&quot; alt=&quot;HTML&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+     &lt;div style=&quot;float:left;&quot;&gt;
+      &lt;span class=&quot;bold&quot;&gt;<span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/510e3a15f1ab409a8871c71cf2bc9408&quot; target=&quot;_blank&quot;&gt;</span>
+        3.5 - EdX advanced settings
+        &lt;/a&gt;&lt;/span&gt;&lt;br/&gt;
+        &lt;span class=&quot;indent&quot;&gt;
+          Adjust course-wide settings and enable hidden features
+       &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float:left;&quot;&gt;&lt;/div&gt;
+    &lt;div style=&quot;float:right;&quot;&gt;
+      &lt;img src=&quot;/static/Easy_icon.png&quot; alt=&quot;Easy&quot; /&gt;
+      &lt;img src=&quot;/static/Time_short_icon.png&quot; alt=&quot;Short&quot; /&gt;
+      <span class="hx-highlight3">&lt;img src=&quot;data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII= &quot; alt=&quot;&quot;&gt; &lt;!-- One transparent pixel to use as spacer. --&gt;  </span>
+    &lt;/div&gt;
+    &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+     &lt;div style=&quot;float:left;&quot;&gt;
+      &lt;span class=&quot;bold&quot;&gt;<span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/510e3a15f1ab409a8871c71cf2bc9408&quot; target=&quot;_blank&quot;&gt;</span>
+        3.6 - Open Response Problems
+        &lt;/a&gt;&lt;/span&gt;&lt;br/&gt;
+        &lt;span class=&quot;indent&quot;&gt;
+          Explore the potential of peer-graded assignments
+       &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float:left;&quot;&gt;&lt;/div&gt;
+    &lt;div style=&quot;float:right;&quot;&gt;
+      &lt;img src=&quot;/static/Easy_icon.png&quot; alt=&quot;Easy&quot; /&gt; 
+      &lt;img src=&quot;/static/Time_medium_icon.png&quot; alt=&quot;Day&quot; /&gt;
+      <span class="hx-highlight3">&lt;img src=&quot;data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII= &quot; alt=&quot;&quot;&gt; &lt;!-- One transparent pixel to use as spacer. --&gt; </span>
+    &lt;/div&gt;
+    &lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;stux-navscheme-buttons&quot;&gt;
+  <span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/65a877d0e7d243b39e43317727255c2f&quot; target=&quot;_blank&quot;&gt;</span>&lt;button&gt;&lt;img src=&quot;/static/Planning_icon.png&quot; alt=&quot;Go to Planning&quot; /&gt;&lt;/button&gt;&lt;/a&gt;
+  <span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/0f2d46fae5cb4deeb385bf6adb57c865&quot; target=&quot;_blank&quot;&gt;</span>&lt;button&gt;&lt;img src=&quot;/static/Ops_icon.png&quot; alt=&quot;Go to Operations&quot; /&gt;&lt;/button&gt;&lt;/a&gt;
+  &lt;button disabled&gt;&lt;img src=&quot;/static/Short_project_icon.png&quot; style=&quot;opacity: 0.4; filter: grayscale(50%);&quot; alt=&quot;You are at Short Projects&quot; /&gt;&lt;/button&gt;
+  <span class="hx-highlight1">&lt;a href=&quot;/jump_to_id/7c35cbae1ea449f8a54f6b39d6f18dcc&quot; target=&quot;_blank&quot;&gt;</span>&lt;button&gt;&lt;img src=&quot;/static/Long_project_icon.png&quot; alt=&quot;Go to Long Projects&quot; /&gt;&lt;/button&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</code></pre>
+</div>

@@ -1,0 +1,20 @@
+<h3 class="hx-underline">But That's Not All!</h3>
+
+<p>Now you've got the code to drop into edX, but you also need the actual form and CSV.</p>
+
+<ul>
+  <li>For the form, we used a bog-standard Google Form. Sharing that form gave us the iframe src attribute.</li>
+  <li>For the CSV file, we had the form store its results in a spreadsheet, then we had that spreadsheet publish its data to the web as a comma-separated value (CSV) file. The URL we got from there became our sourceDataFile variable.</li>
+</ul>
+
+<p>We <em>didn't</em> download the data as a separate file, because we'd have to keep doing that again and again by hand. This CSV will automatically update, typically less than a minute after someone submits the form. Also note that we're not publishing the spreadhseet "as a web page" - that would let people view it, but we want to control how the data is shown afterward.</p>
+
+<p>I want to stress that these are the resources that <em>we</em> used. You don't need to use Google as a provider if you'd rather use another one. All you need is a form that can be embedded, and which can publish its data as a CSV file. If you're willing to throw down some Javascript, you can even rip out the papaparse CSV parser and replace it with another data format.</p>
+
+<h4 class="hx-underline">Responsible Moderation</h4>
+
+<p>Want to delete someone's naughty submission? Just delete the row in the spreadsheet.</p>
+
+<p>Want to approve all submissions individually (or in bulk) before they appear in the table? Make a second sheet in your spreadsheet, and manually copy new entries over to the second sheet. Then publish the <em>second</em> sheet instead of the first one.</p>
+
+<p>This form does not capture usernames by default, so you won't be able to link submissions back to specific learners. Different survey providers may have some way to accomplish this, like the way that Qualtrics takes advantage of edX's <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/qualtrics.html#create-the-html-component-in-studio" target="_blank">&percnt;&percnt;USER_ID&percnt;&percnt; trick for surfacing anonymous User IDs</a>.</p>

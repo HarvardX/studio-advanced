@@ -1,0 +1,33 @@
+<h4 class="hx-underline">Image with border and caption</h4>
+<p>Display:</p>
+<figure>
+  <a href="/static/IMG_20190914_171453.jpg" target="_blank"><img src="/static/Baduhenna_small.jpg" alt="Kitten on lap with tongue juuuust a little out" /></a>
+  <figcaption><em>Baduhenna</em>, a very good and fiesty kitten.</figcaption>
+</figure>
+
+<p>HTML in edX Studio:</p>
+<pre><code class="lang-html">&#x3C;figure&#x3E;
+  &#x3C;img src=&#x22;/static/8300044344_bb591ce387_o.jpg&#x22; alt=&#x22;Tabby kitten picture&#x22;/&#x3E;
+  &lt;figcaption&gt;&lt;em&gt;Tigger&lt;/em&gt; -&amp;nbsp;Marcus Horstbrink (2012) [&lt;a href=&quot;https://flic.kr/p/dDrU1Q&quot; target=&quot;_blank&quot;&gt;Flickr&lt;/a&gt;], licensed &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/2.0/&quot; target=&quot;_blank&quot;&gt;CC-BY-SA&lt;/a&gt;&lt;/figcaption&gt;
+&#x3C;/figure&#x3E;
+</code></pre>
+
+<p></p>
+<p>CSS document code:</p>
+<pre><code class="lang-css">figure {
+    width: 80%;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+}
+
+figure img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    padding: 0.5rem
+}
+</code></pre>

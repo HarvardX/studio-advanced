@@ -1,0 +1,49 @@
+<problem display_name="What's Wrong with the Map?" markdown="null" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>Here is the code for a quick image map. It's a simplified version of our example from earlier in this section, with less compact formatting.</p>
+    <pre>
+      <code class="lang-html">&lt;p&gt;&lt;img 
+  id="haggisfloor" 
+  src="/ <span style="margin-left:-0.6em">static/haggis_floor_small.jpg" </span>
+  border="0" 
+  orgWidth="1080" 
+  orgHeight="810" 
+  usemap="ImageMapsCom-image-maps-2019-02-05-164038" 
+  alt="A highly fluffy haggis lying on mats on the floor." /&gt;
+&lt;/p&gt;
+
+&lt;map name="haggisfloormap" id="ImageMapsCom-image-maps-2019-02-05-164038"&gt;
+&lt;area 
+  class="starezone hx-popup-opener" 
+  id="starezone" 
+  alt="Stare Zone" 
+  title="Stare Zone" 
+  shape="rect" 
+  coords="429,142,575,181" 
+  style="outline:none;" /&gt;
+&lt;/map&gt;
+
+&lt;div class="starezone hx-popup-content"&gt;
+  &lt;p&gt;The Stare Zone allows deep contemplation of the world. 
+    It is also used to indicate emotions such as hunger, comfort, 
+    and total insanity. Located in the middle of the head.&lt;/p&gt;
+&lt;/div&gt;
+</code>
+    </pre>
+    <br/>
+    <label>This code won't work. What's wrong with it?</label>
+    <description>You can add an optional tip or note related to the prompt like this. </description>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">The classes for the area and the div don't match.</choice>
+      <choice correct="true">The image's usemap attribute points at the wrong thing.</choice>
+      <choice correct="false">The map's ID contains invalid characters.</choice>
+      <choice correct="false" fixed="true">There's nothing wrong with it. Should work fine.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Everything lines up except for the image's <code>usemap</code> attribute. It should contain the <em>name</em> of the map, and instead it contains the <em>id</em> in this case.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

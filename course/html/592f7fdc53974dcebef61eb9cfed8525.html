@@ -1,0 +1,174 @@
+<script src="/static/hx.js"></script>
+<script src="/static/intro_accessible.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<link rel="stylesheet" type="text/css" href="/static/introjs.css" />
+
+<script>
+  $(document).ready(function(){
+
+    /*****************************************************
+    * This section enables the intro.js text blocks.
+    * They're set in the addNavData() function below.
+    *****************************************************/
+
+    addNavData();
+
+    $('#codewalker').on('click tap', function(event){
+        event.preventDefault();
+        introJs().start();
+    });
+
+    // End of intro.js code.
+
+  });
+
+  /**************************************************************
+  * This function adds the data needed for the intro.js text blocks.
+  * You can change the text if you want.
+  **************************************************************/
+  function addNavData(){
+    console.log('adding intro.js data');
+
+    let python_comment = $('#python_comment');
+    python_comment.attr("data-step", "1");
+    python_comment.attr("data-intro", "All our scripts include instructions that explain how to use them. You can see them by running the script with a -h or --help argument. <br/><br/> You can use the arrow keys or the mouse to advance this walkthrough.");
+    python_comment.attr("data-position", "top");
+
+    let problem_folder = $('#problem_folder');
+    problem_folder.attr("data-step", "2");
+    problem_folder.attr("data-intro", "Note that you're pointing this script at the <em>problem folder</em>, not the course folder.");
+    problem_folder.attr("data-position", "top");
+
+    let show_answer_options = $('#show_answer_options');
+    show_answer_options.attr("data-step", "3");
+    show_answer_options.attr("data-intro", "The options for the showanswer attribute can be found in the <a href='https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_problem.html#show-answer' target='_blank'>edX problem docs</a>.");
+    show_answer_options.attr("data-position", "top");
+
+    let arguments = $('#arguments');
+    arguments.attr("data-step", "4");
+    arguments.attr("data-intro", "This block parses the command line arguments using python's argparse package.");
+    arguments.attr("data-position", "top");
+
+    let dirwalker = $('#dirwalker');
+    dirwalker.attr("data-step", "4");
+    dirwalker.attr("data-intro", "This block opens each file in the problems directory and parses it as XML.");
+    dirwalker.attr("data-position", "top");
+
+    let set_showanswer = $('#set_showanswer');
+    set_showanswer.attr("data-step", "5");
+    set_showanswer.attr("data-intro", "This block is what actually sets (or removes) the showanswer attribute for the problem.");
+    set_showanswer.attr("data-position", "top");
+
+    let write_and_increment = $('#write_and_increment');
+    write_and_increment.attr("data-step", "6");
+    write_and_increment.attr("data-intro", "Here we write the file and increment the counter.");
+    write_and_increment.attr("data-position", "top");
+
+    let print_message = $('#print_message');
+    print_message.attr("data-step", "7");
+    print_message.attr("data-intro", "In this final step we print a message that says how many problems we've changed. <br/><br/> Press 'escape' or click outside this box to stop the walkthrough.");
+    print_message.attr("data-position", "top");
+
+  }
+</script>
+
+<h3 class="hx-underline">Script Code</h3>
+
+<p>Code for these python scripts can be found at the <a href="https://github.com/Colin-Fredericks/hx-xml" target="_blank">HX-XML repository on GitHub</a>. Here we'll do a close examination for just one of them. If you want to write your own script, or modify ours, hopefully this will give you a better understanding of it.</p>
+
+<h4 class="hx-underline">Example: SetShowAnswer.py</h4>
+
+<p><button id="codewalker" style="color: white; padding: 6px; font-size: 16px; background-color: #009b00; text-shadow: none; background-image: none;">Show me how to use the code.</button></p>
+
+
+<pre><code class="lang-python"># import XML libraries
+import xml.etree.ElementTree as ET
+import sys
+import os
+import argparse
+
+<span id="python_comment">instructions = &quot;&quot;&quot;
+To use:</span>
+python3 SetShowAnswer.py show_answer_value <span id="problem_folder">path/to/problem/folder</span>
+
+show_answer_value can be one of the usual edX set:
+  Always
+  Answered
+  Attempted
+  Closed
+  Finished
+  CorrectOrPastDue
+  PastDue
+  Never
+
+It can also be delete or default, in which case all
+show_answer values are removed and the course-wide
+default takes over.
+
+Options:
+  -h  Print help message and exit.
+
+Last update: March 15th 2018
+&quot;&quot;&quot;
+
+# Here are all the options for show_answer values:
+<span id="show_answer_options">allAnswerValues = [
+    'always',
+    'answered',
+    'attempted',
+    'closed',
+    'finished',
+    'correctorpastdue',
+    'pastdue',
+    'never'
+]</span>
+
+
+<span id="arguments">parser = argparse.ArgumentParser(usage=instructions, add_help=False)
+parser.add_argument('-h', '--help', action='store_true')
+parser.add_argument('answerSetting', default='finished')
+parser.add_argument('directory', default='.')</span>
+
+args = parser.parse_args()
+if args.help:
+    sys.exit(instructions)
+answerSetting = args.answerSetting.lower()
+
+if not os.path.exists(args.directory):
+    sys.exit('Directory not found: ' + args.directory)
+
+numfiles = 0
+
+<span id="dirwalker"># Walk through the problems folder
+for dirpath, dirnames, filenames in os.walk(args.directory):
+    for eachfile in filenames:
+
+        # Get the XML for each file
+        tree = ET.parse(os.path.join(dirpath, eachfile))
+        root = tree.getroot()</span>
+
+        # If this isn't a problem file, skip it.
+        if root.tag != 'problem':
+            continue
+
+<span id="set_showanswer">        # Set the showanswer value
+        if answerSetting in allAnswerValues:
+            root.set('showanswer', answerSetting)
+        elif answerSetting == 'default' or answerSetting == 'delete':
+            try:
+                del root.attrib['showanswer']</span>
+            except:
+                pass
+        else:
+            sys.exit('Invalid showanswer setting.')
+
+<span id="write_and_increment">         # Save the file
+        tree.write(os.path.join(dirpath, eachfile), encoding='UTF-8', xml_declaration=False)
+        numfiles += 1</span>
+
+
+<span id="print_message">if numfiles == 0:
+    print('No files found - wrong or empty directory?')
+else:
+    print('Show Answer options set for ' + str(numfiles) + ' files.')</span>
+</code></pre>

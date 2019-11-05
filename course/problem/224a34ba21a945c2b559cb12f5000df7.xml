@@ -1,0 +1,19 @@
+<problem display_name="Audit Visibility" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Which of the following will ensure that audit learners can see a problem in your course?</label>
+    <description>Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="true">Setting the problem's weight to 0 points.</choice>
+      <choice correct="false">Adjusting the Settings tab for the problem.</choice>
+      <choice correct="true">Placing the problem in an ungraded subsection.</choice>
+      <choice correct="false">Placing the problem in a subsection with a grading type that is worth 0%.</choice>
+      <choice correct="true">Placing the problem in a subsection with a grading type that is worth 0% AND setting the problem's weight to 0 points.</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Audit learners can see any problems that do not contribute to their grade, <em>with the exception of</em> problems in a grading type worth 0%. When criteria overlap, the problem's own settings take precedence.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

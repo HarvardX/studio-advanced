@@ -1,0 +1,49 @@
+<h3 class="hx-underline">Assignment Settings (Individual)</h3>
+
+<p>These settings will change how individual problems are treated. To enable some other types of problems (including LTI), see "Add Unsupported Problems and Tools", "Advanced Module List", and "LTI Passports" in the <a href="#toolsettings">Tool Settings</a> section.</p>
+
+<h4><button class="hx-togglebutton44">
+Maximum Attempts
+</button></h4>
+<div class="hx-toggletarget44" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> an integer</p>
+  <p><i>Enter the maximum number of times a student can try to answer problems. By default, Maximum Attempts is set to null, meaning that students have an unlimited number of attempts for problems. You can override this course-wide setting for individual problems. However, if the course-wide setting is a specific number, you cannot set the Maximum Attempts for individual problems to unlimited.</i></p>
+  <p>If you know that you need learners to have a certain number of attempts on all problems in your course, this setting will make that quick and easy for you. However, it's rarely the case that every assessment in a course is of the exact same type and difficulty. We typically do not recommend chanigng this setting.</p>
+  <p>If you'd like to set problems' attempts automatically in a way that's a bit more sophisticated, check out the <a href="/jump_to_id/497d63f8d1b341299a295aefa5e7e576" target="_blank">Batch Processing in Python</a> section of this course.</p>
+  <p>The settings in individual problems will override this setting.</p>
+</div>
+
+<h4><button class="hx-togglebutton46">Randomization</button></h4>
+<div class="hx-toggletarget46" style="display:none;">
+  <p><strong>Default:</strong> "never"</p>
+  <p><strong>Other settings:</strong> "always", "onreset", or "per_student"</p>
+  <p><i>Specify the default for how often variable values in a problem are randomized. This setting should be set to "never" unless you plan to provide a Python script to identify and randomize values in most of the problems in your course.</i></p>
+  <p>The options here are identical to the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_problem.html#randomization" target="_blank">randomization options for individual problems</a>. As it mentions on that page, "data collected for problems that cannot include randomly generated values [can be] extremely difficult to interpret" and your Insights dashboard may give you some difficulty. You should <strong>leave this set to never</strong> unless you use a large number of python-randomized problems in your course.</p>
+  <p>Regardless of how many problems you have, we recommend "onreset" or "per_student" much more highly than "always". Problems that are "always" randomized will <em>change every time they are submitted</em>, which many learners find <em>extremely aggravating</em>, especially if they don't notice it happening at first.</p>
+  <p>The settings in individual problems will override this setting.</p>
+</div>
+
+<h4><button class="hx-togglebutton48">
+Show Answer
+</button></h4>
+<div class="hx-toggletarget48" style="display:none;">
+  <p><strong>Default:</strong> "finished"</p>
+  <p><strong>Other settings:</strong> "always", "answered", "attempted", "closed", "finished", "past_due", "correct_or_past_due", and "never".</p>
+  <p><i>Specify when the Show Answer button appears for each problem.</i></p>
+  <p>The options here are identical to the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_problem.html#show-answer" target="_blank">Show Answer options for individual problems</a>. Typically, for self-paced courses, "finished" is where you'll want to leave this. "Finished" means that either a learner has run out of attempts, or they got the problem right, or the due date has passed. For instructor-paced courses where you don't want learners to give away answers in the forums before the due date, "correct_or_past_due" may be a better option.</p>
+  <p>The settings in individual problems will override this setting.</p>
+</div>
+
+<h4><button class="hx-togglebutton50">
+Show Reset Button for Problems
+</button></h4>
+<div class="hx-toggletarget50" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If true, problems in the course default to always displaying a 'Reset' button. All existing problems are affected when this course-wide setting is changed.</i></p>
+  <p>The "Reset" button is similar in function to clearing the learner's state. It wipes out their previous input completely, but still counts their attempt. Setting this to "true" when your course is in the build phase can help you test out course materials more easily, but generally you can leave this at "false" and change it on a problem-by-problem basis. For example, when you've inserted a particularly complex assignment, learners might want a way to say "Start over from the beginning", and the "Reset" button does that for them.</p>
+  <p>Some problems will need to have Randomization set to "on_reset" before the reset button appears for them.</p>
+  <p>The settings in individual problems will override this setting.</p>
+</div>
+

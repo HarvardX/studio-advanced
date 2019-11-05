@@ -1,0 +1,20 @@
+<problem display_name="Hidden Functionality" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Which of the following are available in edX but not turned on by default?</label>
+    <description> Select all that apply. </description>
+    <checkboxgroup>
+      <choice correct="true">Polls</choice>
+      <choice correct="true">Word clouds</choice>
+      <choice correct="true">Drag-and-drop problems</choice>
+      <choice correct="true">Peer instruction exercises</choice>
+      <choice correct="true">A calculator on every page</choice>
+      <choice correct="true">Note-taking functionality for learners</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Every one of these is available in edX, but all are turned off by default in one way or another. See the Advanced Module List for most of them. The Calculator and Notes features have their own advanced settings.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

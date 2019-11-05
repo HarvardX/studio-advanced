@@ -1,0 +1,13 @@
+<video url_name="b91fe9817a6844cab22d18b7735f6cb8" sub="" transcripts="{&quot;en&quot;: &quot;16d4b022-9e8c-40fc-95b9-c6867c2bcd8d-en.srt&quot;}" display_name="Survey Design Tips" download_track="true" download_video="true" edx_video_id="16d4b022-9e8c-40fc-95b9-c6867c2bcd8d" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001400_DTH.mp4&quot;]" youtube_id_0_75="" youtube_id_1_0="" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001400_DTH.mp4"/>
+  <video_asset client_video_id="studx_v1_003072019_Dustin_RC_v1FA_branded-_edxmstr_v1.mp4" duration="216.8" image="video-images/b8cb5e181ecd42d799d0efc7bfe7fc8a.png">
+    <encoded_video bitrate="0" file_size="0" profile="hls" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001400/HarvardXStudioAdv1-V001400.m3u8"/>
+    <encoded_video bitrate="383" file_size="10392345" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001400_DTH.mp4"/>
+    <encoded_video bitrate="192" file_size="5204916" profile="audio_mp3" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001400_AUD.mp3"/>
+    <encoded_video bitrate="215" file_size="5828563" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001400_MB2.mp4"/>
+    <transcripts>
+      <transcript file_format="srt" language_code="en" provider="3PlayMedia"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="16d4b022-9e8c-40fc-95b9-c6867c2bcd8d-en.srt"/>
+</video>

@@ -1,0 +1,12 @@
+<video url_name="e42d83abb76845d6a580f1502d5b9033" sub="" transcripts="{&quot;en&quot;: &quot;f1c16582-03bc-4ba0-b0bc-946094efa068-en.srt&quot;}" display_name="Pros and cons of adaptivity" download_track="true" download_video="true" edx_video_id="f1c16582-03bc-4ba0-b0bc-946094efa068" html5_sources="[]" youtube_id_0_75="" youtube_id_1_0="" youtube_id_1_25="" youtube_id_1_5="">
+  <video_asset client_video_id="studx_v1_003072019_Andrew_RC_v1FA_branded-_edxmstr_v1.mp4" duration="169.79" image="video-images/2f713ebc40514c0cab7c5f756154f1f7.png">
+    <encoded_video bitrate="323" file_size="6858789" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001100_DTH.mp4"/>
+    <encoded_video bitrate="192" file_size="4075956" profile="audio_mp3" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001100_AUD.mp3"/>
+    <encoded_video bitrate="191" file_size="4070527" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001100_MB2.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="hls" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001100/HarvardXStudioAdv1-V001100.m3u8"/>
+    <transcripts>
+      <transcript file_format="srt" language_code="en" provider="3PlayMedia"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="f1c16582-03bc-4ba0-b0bc-946094efa068-en.srt"/>
+</video>

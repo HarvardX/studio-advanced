@@ -1,0 +1,77 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+<style>
+.skillbox div:not(:last-child){
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+}
+.skillbox ul {
+  display: flex;
+  list-style-type: none !important;
+  margin: 0px !important;
+}
+.skillbox li {
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+  text-align: center;
+  flex-basis: 100px;
+}
+.skillbox img {
+  max-width: 75px !important;
+}
+ul[title]::before {
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  padding: 4px;
+  width: 5em;
+  text-align: right;
+  font-size: 20px;
+}
+</style>
+
+<h3 class="hx-underline">Key to the Course</h3>
+
+<p>We use icons and text boxes to add a bit of extra information to the projects in this course. Here's a quick guide in case you're not sure what they mean at first glance.</p>
+
+<div class="skillbox">
+  <div>
+      <ul title="Difficulty">
+        <li><img src="/static/Easy_icon.png" alt="" /><br/>Easy</li>
+        <li><img src="/static/Hard_icon.png" alt="" /><br/>Hard</li>
+      </ul>
+    </div>
+    <div>
+      <ul title="Time">
+        <li><img src="/static/Time_short_icon.png" alt="" /><br/>Hour</li>
+        <li><img src="/static/Time_medium_icon.png" alt="" /><br/>Day</li>
+        <li><img src="/static/Time_long_icon.png" alt="" /><br/>Days</li>
+      </ul>
+    </div>
+  <div>
+    <ul title="Skills">
+      <li><img src="/static/HTML_icon.png" alt="" /><br/>HTML</li>
+      <li><img src="/static/CSS_icon.png" alt="" /><br/>CSS</li>
+      <li><img src="/static/Javascript_icon.png" alt="" /><br/>Javascript</li>
+      <li><img src="/static/Python_icon.png" alt="" /><br/>Python</li>
+      <li><img src="/static/Design_icon.png" alt="" /><br/>Design</li>
+    </ul>
+  </div>
+</div>
+
+<div class="hx-bluebox">
+  <h4><span class="fa fa-search"></span> Blue Boxes</h4>
+  <p>Supplemental text and additional information. Probably important to read.</p>
+</div>
+
+<div class="hx-purplebox">
+  <h4><span class="fa fa-question-circle"></span> Purple Boxes</h4>
+  <p>Questions and examples. Probably OK to skip, at least the first time through.</p>
+</div>
+
+<div class="hx-redbox">
+  <h4><span class="fa fa-warning"></span> Red Boxes</h4>
+  <p>Warnings! Pay close attention!</p>
+</div>
+
+<p>If you see a small icon that's not on this list, it's probably just an emoji &#128515; or <a href="https://fontawesome.com/v4.7.0/icons/" target="_blank">FontAwesome</a> <span class="fa fa-smile-o"><span class="sr">smiley icon</span></span>, and it's there to brighten your day. </p>

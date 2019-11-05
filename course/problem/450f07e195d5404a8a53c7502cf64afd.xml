@@ -1,0 +1,18 @@
+<problem display_name="Where is the library?" markdown="&gt;&gt;How does edX typically connect with adaptive content libraries?&lt;&lt;&#10;&#10;(x!) Via the LTI protocol&#10;( ) They are built into the edX platform {{ EdX does have a feature for content libraries, but they are non-adaptive - they serve only random assignments. }}&#10;( ) They are an optional install for the edX platform&#10;( ) Via API calls&#10;&#10;[explanation]&#10;EdX has no built-in facility for adaptive content. It is most often provided via LTI tools.&#10;[explanation]&#10;&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>How does edX typically connect with adaptive content libraries?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="true">Via the LTI protocol</choice>
+      <choice correct="false">They are built into the edX platform <choicehint>EdX does have a feature for content libraries, but they are non-adaptive - they serve only random assignments.</choicehint>
+</choice>
+      <choice correct="false">They are an optional install for the edX platform</choice>
+      <choice correct="false">Via API calls</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>EdX has no built-in facility for adaptive content. It is most often provided via LTI tools.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

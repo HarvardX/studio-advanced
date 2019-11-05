@@ -1,0 +1,177 @@
+<script>
+  var hxLocalOptions = {
+    slickNavOptions: {
+      infinite: false,
+      centerMode: true,
+    },
+    slickBigOptions: {
+      draggable: false,
+      swipeToSlide: false,
+      swipe: false,
+    }
+  };
+</script>
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+<style>
+  .hx-navslider p {
+    font-size: 36px !important;
+    padding: 4px !important;
+    margin: 4px !important;
+  }
+  .hx-navslider .slick-current {
+    border-bottom: 4px solid steelblue;
+    margin-bottom: 4px;
+  }
+</style>
+
+<h3 class="hx-underline">Demo</h3>
+
+<p>Updates can be setup in lots of different ways but here are just two examples to give you a flavour of the excitement that lies ahead!</p>
+
+<div class="hx-sliderbox">
+<div class="hx-navslider">
+  <div><p><span role="img" aria-label="Example One icon">⓵</span></p></div>
+  <div><p><span role="img" aria-label="Example Two icon">⓶</span></p></div>
+  <div><p><span class="fa fa-code"> <span class="sr">How it Works</span></span></p></div>
+</div>
+
+<div class="hx-bigslider" style="-webkit-user-select: auto; -moz-user-select: auto; -ms-user-select: auto; user-select: auto;">
+  <div>
+    <h4 class="hx-underline">Example One</h4>
+    <p>Here's a screenshot image of an example landing page update, including alternative navigation links and information.</p>
+	<p><a href="/static/Example_1_update.png" target="[object Object]"><img width="600" src="/static/Example_1_update.png" alt="Update with text introduction, including CSS header, followed by four linked images to different course sections" /></a></p>
+  </div>
+  <div>
+    <h4 class="hx-underline">Example Two</h4>
+    <p>Here's another screenshot image of an example landing page update, but this one has polls embedded. What's interesting here is they don't just stand alone, they are mirror components of items on course content pages</p>
+	<p><a href="/static/Example_2_update.png" target="[object Object]"><img width="600" src="/static/Example_2_update.png" alt="Update with text introduction, including CSS header, followed by embedded polls" /></a></p>
+    
+  </div>
+  <div>
+    <h4 class="hx-underline">How it Works</h4>
+    <p>Now, we're not going to bore you with all the code but here are some fun features...</p>
+
+    <p><strong>Embedding polls and questions</strong> - just use iframes</p>
+    <pre><code class="lang-js">&#x3C;iframe title="Course usage question" scrolling="no" style="border: none; width: 100%; height: 400px; overflow: scroll;" src="https://courses.edx.org/xblock/block-v1:HarvardX+StudioAdv1+2T2019+type@poll+block@99cf2cb3e7d34ad2a1dc95291d6f1071?wmode=transparent"&#x3E;&#x3C;/iframe&#x3E;
+    </code></pre>
+    
+    <iframe title="Course usage question" scrolling="no" style="border: none; width: 100%; height: 400px; overflow: scroll;" src="https://courses.edx.org/xblock/block-v1:HarvardX+StudioAdv1+2T2019+type@poll+block@99cf2cb3e7d34ad2a1dc95291d6f1071?wmode=transparent"></iframe>
+   
+
+    <p><strong>Embedding videos</strong> - iframes again</p>
+    <p>It is possible to add videos to course updates, but unfortunately you can not use the edX player. Videos can only be added via iframe embeds but it is definitely possible to pop them on the page.</p>
+    
+    <p><strong>Fun icons on images</strong> - pop this in your CSS or add it as a component-only style reference</p>
+    <pre><code class="lang-js">
+    &#x3C;style&#x3E;
+  #navboard {
+    font-size: 0px; 
+    width: 70%;
+  }
+  #navboard div {
+    font-size: 18pt;
+    display: inline-block;
+    width:50%;
+    position: relative;
+  }
+  #navboard img { width:100%; }
+  #navboard .counters {
+    color: #333;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    z-index: 50;
+    padding-right: 4%;
+  }
+  @media only screen and (max-width: 800px) {
+    #navboard div {
+      font-size: 14pt;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #navboard div {
+      font-size: 12pt;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    #navboard div {
+      font-size: 10pt;
+    }
+  }
+  
+  .hard {
+    color: crimson;
+  }
+
+&#x3C;/style&#x3E;
+        </code></pre>
+
+<style>
+  #navboard {
+    font-size: 0px; 
+    width: 70%;
+  }
+  #navboard div {
+    font-size: 18pt;
+    display: inline-block;
+    width:50%;
+    position: relative;
+  }
+  #navboard img { width:100%; }
+  #navboard .counters {
+    color: #333;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    z-index: 50;
+    padding-right: 4%;
+  }
+  @media only screen and (max-width: 800px) {
+    #navboard div {
+      font-size: 14pt;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #navboard div {
+      font-size: 12pt;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    #navboard div {
+      font-size: 10pt;
+    }
+  }
+  
+  .hard {
+    color: crimson;
+  }
+
+</style>
+<div id="navboard">
+  <div id="planningbox">
+    <a href="/jump_to_id/65a877d0e7d243b39e43317727255c2f">
+      <img src="/static/Plan_slice.png" alt="Planning" />
+    </a>
+    <span class="counters">
+      <span class="sr">Nine projects</span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+    </span>
+  </div>
+  </div>
+    <p></p>    
+    <h4 class="hx-underline">Things to remember</h4>
+    <p><strong>Remember the first rule of jump_ids.</strong> If you use an iframe embed of a webpage link that is acting like a jump_id remember every time you relaunch the course you will need to manually update these links as they will not automatically populate with new course references. iFrames remain constant across courses.</p>
+    <p><strong>Test, test, test.</strong> When you want to set up a new update with glitter and whizzy stuff, you will need to test this more than an average course content page, predominately due to the different page width. Having a few test accounts to enroll when you wish to view the new update will get around the 3-week review window (as it is highly likely you will have been enrolled on your course longer than a 3-week period by this point!)</p>
+
+  
+</div>
+</div>

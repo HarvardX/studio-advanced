@@ -1,0 +1,21 @@
+<problem display_name="How much?" markdown="&gt;&gt;How much additional content will you need to write in order to make a typical MOOC into an adaptive MOOC? || There are multiple correct answers.&lt;&lt;&#10;&#10;( ) No additional content&#10;( ) An extra 50%&#10;( ) Twice as much&#10;(x) Three times as much&#10;(x) Five times as much&#10;(x) Ten times as much&#10;(x) Twenty times as much&#10;&#10;[explanation]&#10;Ideally you'll have about ten times as much material as for a non-adaptive course but three times as much is a minimum expectation. &#10;[explanation]&#10;" max_attempts="3" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>How much additional content will you need to write in order to make a typical MOOC into an adaptive MOOC? </label>
+    <description> There are multiple correct answers.</description>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">No additional content</choice>
+      <choice correct="false">An extra 50%</choice>
+      <choice correct="false">Twice as much</choice>
+      <choice correct="true">Three times as much</choice>
+      <choice correct="true">Five times as much</choice>
+      <choice correct="true">Ten times as much</choice>
+      <choice correct="true">Twenty times as much</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Ideally you'll have about ten times as much material as for a non-adaptive course but three times as much is a minimum expectation. </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

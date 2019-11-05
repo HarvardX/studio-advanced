@@ -1,0 +1,54 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<p></p>
+<h3 class="hx-underline">Simple Question Markup</h3>
+
+<p>Here is a cribsheet for reference when improving your basic question types in edX. Remember the spaces before and after text in feedback brackets.</p>
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Markup required</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Adding an extra instruction line to a question</td>
+          <td><strong>&gt;&gt; question || instruction &lt;&lt;</strong><br/> (after the question text)</td>
+        </tr>
+        <tr>
+            <td>Adding a 'hint' button</td>
+          <td><strong>|| text ||</strong> (at the bottom of the MCQ section)</td>
+        </tr>
+              <tr>
+            <td>Feedback based on a specific submitted answer</td>
+          <td><strong>{{ text }}</strong> (after the answer)</td>
+        </tr>
+              <tr>
+                <td>Feedback based on selected or unselected checkboxes (multiple answers)</td>
+          <td><strong>{{ selected: text }{ unselected: text }}</strong> (after the answer)</td>
+        </tr>
+      <tr>
+                <td>Randomising questions on a page</td>
+        <td>See section <a href="/jump_to_id/36e997744b06459fab8f26fcfe6b8579" target="_blank">4.4 Content Libraries</a></td>
+        </tr>
+      <tr>
+                <td>Randomising answer order display for a given question</td>
+        <td><strong>(!)</strong> Exclamation mark in your first answer's parens. <br/>See also Settings → Randomisation</td>
+        </tr>
+      <tr>
+                <td>Fixing an answer in place while others are randomised</td>
+        <td><strong>(@)</strong> At-sign in that answer's parens. <br/>Often used to pin "all of the above" at the bottom.</td>
+        </tr>
+            <tr>
+                <td>Deciding whether to show the answer upon submission</td>
+          <td>Settings → Show Answer</td>
+        </tr>
+      <tr>
+                <td>Tolerances on numerical submission</td>
+          <td>= number <strong>+- tolerance</strong> (after the answer)</td>
+        </tr>
+    </tbody>
+</table>
+
+

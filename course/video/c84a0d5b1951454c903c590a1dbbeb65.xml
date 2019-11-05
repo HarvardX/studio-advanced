@@ -1,0 +1,13 @@
+<video url_name="c84a0d5b1951454c903c590a1dbbeb65" sub="" transcripts="{&quot;en&quot;: &quot;a240b043-80e5-4d8e-8909-5d0f782e1606-en.srt&quot;}" display_name="Adaptive Assignment Demo" download_track="true" download_video="true" edx_video_id="a240b043-80e5-4d8e-8909-5d0f782e1606" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001500/HarvardXStudioAdv1-V001500.m3u8&quot;]" youtube_id_1_0="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001500/HarvardXStudioAdv1-V001500.m3u8"/>
+  <video_asset client_video_id="studx_v1_20190801 _Colin_Adaptive_Demo_RC_v1FA-_edxmstr_v1.mp4" duration="90.63" image="video-images/729cd8a7743742839937adc1694ae209.png">
+    <encoded_video bitrate="0" file_size="0" profile="hls" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001500/HarvardXStudioAdv1-V001500.m3u8"/>
+    <encoded_video bitrate="192" file_size="2176884" profile="audio_mp3" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001500_AUD.mp3"/>
+    <encoded_video bitrate="145" file_size="1651349" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001500_MB2.mp4"/>
+    <encoded_video bitrate="188" file_size="2130835" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001500_DTH.mp4"/>
+    <transcripts>
+      <transcript file_format="srt" language_code="en" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="a240b043-80e5-4d8e-8909-5d0f782e1606-en.srt"/>
+</video>

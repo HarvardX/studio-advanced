@@ -1,0 +1,47 @@
+<script>
+var hxLocalOptions =  {
+  slickOptions: {
+    arrows: false,
+    dots: false,
+    infinite: false,
+    draggable: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    swipe: false,
+    touchMove: false
+  },
+  textSliderOptions: {
+    slidesFile: '/static/ImpactExplorerCards.csv',
+    startingSlide: 'HeatDisease',
+    // Add slide IDs to this list to include them, or remove the whole thing to include everything.
+    slideScope: ['HeatDisease', 'HighTemp', 'Children', 'Elderly', 'HasChronic', 'OutdoorWorker', 'Tropical', 'Diabetes', 'Obese', 'HeartFail'],
+   categoryTitles: {
+      cyan: 'Causes',
+      yellow: 'Mechanisms',
+      red: 'Diseases',
+      blue: 'Populations'
+    }
+  }
+};
+
+</script>
+
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<h3 class="hx-underline">Impact Explorer: The Effects of Heat</h3>
+
+<p>Please start by using the interactive tool below to read a little bit about the direct effects of heat. You are also welcome to explore some of the connections to other topics, which we will be diving into soon, or you can move on to the next page. Your goal here is just to get an overview.</p>
+
+<p>If you haven't used the Climate Imapct Explorer before, here are a few useful tips:</p>
+<ul>
+  <li>Grey circles indicate causes, mechanisms, effects, or populations that are outside the scope of the current chapter. If you want to see the entire Explorer with the full data set, click on (link removed for demo).</li>
+  <li>Use the Show Overview button to see which items are connected to this one, either as causes or as effects.</li>
+  <li>If you get lost, you can use the "home" button to return to the beginning.</li>
+</ul>
+
+<div class="hx-sliderbox hx-dynamic-sliderbox">
+  <div class="hx-slider">
+    <div>Initializing...</div>
+  </div>
+</div>

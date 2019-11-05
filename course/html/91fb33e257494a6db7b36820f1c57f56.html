@@ -1,0 +1,37 @@
+<h3 class="hx-underline"><span aria-label="shuffle emoji">&#128256;</span> Randomizing problems</h3>
+
+<p>Now let's get into some technological solutions. The fastest, easiest, and most reliable cheating methods all rely on having every problem be the same every time. Let's look at a few ways to avoid that.</p>
+
+<h4 class="hx-underline">Multiple choice</h4>
+
+<p>This is easy. Really, really easy. You should do it literally every time you write an MCQ. Here's how you do it:</p>
+
+<pre><code class="lang-markdown">&gt;&gt;I am the question prompt! Answer me!&lt;&lt;
+
+(!) A wrong answer
+(x) A right answer
+( ) Another wrong answer
+( ) More than four answers in an MCQ?? Surely it cannot be!?
+(@) None of the above
+
+[explanation]
+Every problem should have an explanation.
+[explanation]
+</code></pre>
+
+<p>Those three symbols, !, x, and @, have special functions:</p>
+<ul>
+  <li><strong>!</strong> randomizes the problem. Put ! in the parens for the first answer and students will see the results shuffled.</li>
+  <li><strong>x</strong> says which answer is right, as per usual.</li>
+  <li><strong>@</strong> locks an answer in place. It stays "at" the location you select.</li>
+  <li>You can combine these just fine. (x!) works, as does (@x), and probably even (!@x) as long as it's the first choice.</li>
+</ul>
+
+<p>Really, genuinely: unless you <em>need</em> your choices to be in order, you should randomize every time. It takes practically no time to throw an <strong>!</strong> into your problems. Check the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html#advanced-options-for-multiple-choice-problems" target="_blank">edX documentation</a> for more detail on each of these, including the XML code and hwo to set up answer pools.</p>
+
+<p>You can only shuffle Multiple-Choice, not Checkbox or Dropdown.</p>
+
+<h4 class="hx-underline">Numbers, text, and images</h4>
+
+<p>Check out the problem below. Try it out, hit "reset", try it a few more times. Then we'll get into the code.</p>
+

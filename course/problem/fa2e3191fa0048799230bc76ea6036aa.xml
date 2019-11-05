@@ -1,0 +1,17 @@
+<problem display_name="Logging code" markdown="null" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>What logging code does edX use?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="true">Logger</choice>
+      <choice correct="false">console.log</choice>
+      <choice correct="false">Log4js</choice>
+      <choice correct="false">Winston</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>To listen for events, use <code>Logger.listen(event_type, [null], [function])</code>. To send items to the edX logs, use <code>Logger.log([string], [object])</code>.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

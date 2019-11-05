@@ -1,0 +1,45 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">The ORA Toolbox</h3>
+
+<p>Hopefully that was a helpful exercise for you. There are a few other fun toys that we wanted to point out - but some of them come with caveats.</p>
+
+<h4 class="hx-underline">It's not Peer Instruction</h4>
+
+<p>That's a different thing - see the <a href="https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/peer_instruction_tool.html" target="_blank">UBC Peer Instruction tool</a> docs instead.</p>
+
+<h4 class="hx-underline">What to Expect from your Learners</h4>
+
+<p>Research on peer assessments has consistently indicated that:</p>
+<ol>
+  <li>Learners do take them seriously, and most will try to grade each other appropriately.</li>
+  <li>People learn as much from performing their own self-assessment as they do from seeing their peers' assessment of them, perhaps more.</li>
+</ol>
+
+<p>What we're trying to say here is that ORA is just as valid an assessment tool as any other! However, there are few <strong>things to watch out for:</strong></p>
+
+<ul>
+  <li><strong>Don't Rush the Rubric.</strong> The quality and specificity of the rubric is far more important than any supposed skill level of the learners. A good rubric asks as little from the learners as possible, and gives them ways to be <em>certain</em> that they are grading the other person correctly. Take the extra time to write it carefully and <em>test test test</em> before you release it into the wild.</li>
+  <li><strong>Don't Rely on Open Feedback.</strong> The amount of free-response feedback is typically less than one tweet's worth. Once again, count on the rubric, not on human expertise.</li>
+</ul>
+
+<div class="hx-bluebox hx-hangright" style="max-width: 35%">
+<h4>The Date Trick</h4>
+<p>Do you have a self-paced course and want to use ORA, but don't want it to show a date? Set your due dates to <code>9999-01-01</code>, and the system will stop saying things like "due in 980 years".</p>
+</div>
+
+<h4 class="hx-underline">Uploading Files</h4>
+
+<p>You can enable <a href="https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#asking-learners-to-upload-files-in-responses" target="_blank">file uploads</a> for Open Response Assessments. Perhaps you've got a course where you're teaching a specific software tool and you want people to be able to see each others' files. Maybe it's a drawing course, and they're sharing photos of their work.</p>
+
+<p><strong>Watch out for:</strong></p>
+<ul>
+  <li><strong>Accessibility issues</strong> can crop up easily with certain file types. If you're teaching a drawing course then visual media is obviously a must, but do try to take into account the needs of <em>all</em> your learners.</li>
+  <li><strong>Not everyone has Word.</strong> Strange but true - there are only a few really "universal" file types out there. Remember also that more people can <em>read</em> certain files than <em>write</em> them, so if you require submissions in PDF format you might end up excluding certain people. We recommend suggesting that your students upload .txt or .rtf files for text, and .png or .jpg for images.</li>
+  <li><strong>Code?</strong> If you let your learners upload code in a computer science course, someone else might run that code, even if you tell them to evaluate it "by eye". That's a serious security risk that you're putting on your students. We recommend against using ORA this way.</li>
+</ul>
+
+<h4 class="hx-underline">edX Resources</h4>
+
+<p>Finally, check out edX's own <a href="https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#best-practices-for-open-response-assessments" target="_blank">Best Practices for ORA</a>, which has some great advice for first-time and long-time ORA writers.</p>

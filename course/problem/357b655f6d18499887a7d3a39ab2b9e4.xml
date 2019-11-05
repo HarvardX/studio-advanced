@@ -1,0 +1,18 @@
+<problem display_name="Why can't I see it?" group_access="{}" markdown="You've created a new update on your course and made it look really pretty with lovely consistent HTML. However, to your horror, it's not appearing on the front page of your course when you view in live. You can definitely see it in the updates section but strangely not where it should be on the landing page. Even when you preview in 'student view' it still isn't there.&#10;&#10;&gt;&gt; What is the most likely explaination? &lt;&lt;&#10;&#10;( ) edX has crashed and the server is down&#10;(x) You've been enrolled on the course for longer than 3 weeks, visibility of updates on the front page has expired&#10;( ) Your account is enrolled as an admin, rather than a student, so you wouldn't see these&#10;( ) Definitely the cat&#10;&#10;[explanation]&#10;Updates aren't visible forever; they eventually go away so that learners can see the outline without scrolling. &#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>You've created a new update on your course and made it look really pretty with lovely consistent HTML. However, to your horror, it's not appearing on the front page of your course when you view in live. You can definitely see it in the updates section but strangely not where it should be on the landing page. Even when you preview in 'student view' it still isn't there.</p>
+    <label> What is the most likely explaination? </label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">edX has crashed and the server is down</choice>
+      <choice correct="true">You've been enrolled on the course for longer than 3 weeks, visibility of updates on the front page has expired</choice>
+      <choice correct="false">Your account is enrolled as an admin, rather than a student, so you wouldn't see these</choice>
+      <choice correct="false">Definitely the cat</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Updates aren't visible forever; they eventually go away so that learners can see the outline without scrolling. </p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

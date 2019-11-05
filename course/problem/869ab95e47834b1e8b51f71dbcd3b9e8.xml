@@ -1,0 +1,77 @@
+<problem display_name="Is this one?" markdown="null" max_attempts="1" rerandomize="onreset" show_reset_button="true" showanswer="finished">
+  <script type="application/javascript">
+    $(document).ready(function(){
+      let labels = $('.targetme').parent().parent().parent().find('label');
+      labels.css('border', 'none');
+      labels.css('font-size', 'larger');
+      let divs = $('.targetme').parent().parent().parent().find('div.field');
+      divs.css('display','inline-block');
+    });
+  </script>
+  <multiplechoiceresponse>
+    <label>Is this a custom javascript problem?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">
+        <span class="fa fa-check targetme">
+          <span class="sr">Correct</span>
+        </span>
+      </choice>
+      <choice correct="true">
+        <span class="fa fa-times">
+          <span class="sr">Incorrect</span>
+        </span>
+      </choice>
+      <choice correct="false"><span class="sr">Confused</span></choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>This is just a multiple-choice problem with some custom formatting!</p>
+        <p>Telltale signs:</p>
+        <ul>
+          <li>There's no iframe.</li>
+          <li>It exactly duplicates an existing edX problem's functionality.</li>
+        </ul>
+        <p>Here's this problem's code:</p>
+        <pre>
+          <code class="lang-markup">&lt;problem&gt;
+  &lt;script type="application/javascript"&gt;
+    $(document).ready(function(){
+      let labels = $('.targetme').parent().parent().parent().find('label');
+      labels.css('border', 'none');
+      labels.css('font-size', 'larger');
+      let divs = $('.targetme').parent().parent().parent().find('div.field');
+      divs.css('display','inline-block');
+    });
+  &lt;/script&gt;
+&lt;multiplechoiceresponse&gt;
+  &lt;label&gt;Is this a custom javascript problem?&lt;/label&gt;
+&lt;choicegroup type="MultipleChoice"&gt;
+    &lt;choice correct="false"&gt;&lt;span class="fa fa-check targetme"&gt;&lt;span class="sr"&gt;Correct&lt;/span&gt;
+&lt;/span&gt;&lt;/choice&gt;
+    &lt;choice correct="true"&gt;&lt;span class="fa fa-times"&gt;&lt;span class="sr"&gt;Incorrect&lt;/span&gt;
+&lt;/span&gt;&lt;/choice&gt;
+    &lt;choice correct="false"&gt;&lt;span class="sr"&gt;Confused&lt;/span&gt;&amp;#128533;&lt;/choice&gt;
+  &lt;/choicegroup&gt;
+&lt;solution&gt;
+&lt;div class="detailed-solution"&gt;
+&lt;p&gt;Explanation&lt;/p&gt;
+
+&lt;p&gt;This is just a multiple-choice problem with some custom formatting!&lt;/p&gt;
+  
+  &lt;p&gt;Telltale signs:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;There's no iframe.&lt;/li&gt;
+    &lt;li&gt;It exactly duplicates an existing edX problem's functionality.&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;/solution&gt;
+&lt;/multiplechoiceresponse&gt;
+&lt;/problem&gt;
+</code>
+        </pre>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

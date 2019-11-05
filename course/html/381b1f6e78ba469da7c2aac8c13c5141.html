@@ -1,0 +1,138 @@
+<script>
+  var hxLocalOptions = {
+    slickNavOptions: {
+      infinite: false,
+      centerMode: true,
+    },
+    slickBigOptions: {
+      draggable: false,
+    },
+  };
+</script>
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+<style>
+  .hx-navslider p {
+    font-size: 36px !important;
+    padding: 4px !important;
+    margin: 4px !important;
+  }
+  .hx-navslider .slick-current {
+    border-bottom: 4px solid steelblue;
+    margin-bottom: 4px;
+  }
+</style>
+
+<h3 class="hx-underline">Code</h3>
+
+<p>The slider tool is useful for more than just image carousels. Let's use it to do a deep dive into itself.</p>
+
+<div class="hx-sliderbox">
+<div class="hx-navslider">
+  <div><p><span role="img" aria-label="One-slider icon">⓵</span></p></div>
+  <div><p><span role="img" aria-label="Two-slider icon">⓶</span></p></div>
+  <div><p><span class="fa fa-code"> <span class="sr">How it Works</span></span></p></div>
+  <div><p><span class="fa fa-code-fork"> <span class="sr">Options</span></span></p></div>
+  <div><p><span role="img" aria-label="Caveats icon">&#9888;</span></p></div>
+  <div><p><span role="img" aria-label="Troubleshooting icon">&#128736;</span></p></div>
+</div>
+
+<div class="hx-bigslider" style="-webkit-user-select: auto; -moz-user-select: auto; -ms-user-select: auto; user-select: auto;">
+  <div>
+    <h4 class="hx-underline">Single Slider</h4>
+    <p>Here's the HTML for our single image slider.</p>
+<pre><code class="lang-markup">&lt;div class=&quot;hx-sliderbox&quot;&gt;
+&lt;div class=&quot;hx-slider&quot;&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/heimdall_bed_small.jpg&quot; alt=&quot;Fluffy white-and-black cat in bed near radiator&quot;/&gt;&lt;p&gt;This is Heimdall the cat. He can be seen in his comfy bed near the radiator, soaking up warmth.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/kymco_notplaying_small.jpg&quot; alt=&quot;Tabby who is definitely not playing&quot;/&gt;&lt;p&gt;Kymco the cat is certain that you did not catch her playing, because she is very serious and does not do that.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/rocket_tiny_small.jpg&quot; alt=&quot;Very small black cat on floor&quot;/&gt;&lt;p&gt;Rocket, a black kitten, is here pictured &lt;em&gt;not&lt;/em&gt; playing, which is kind of strange for her.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/nebula_couch_small.jpg&quot; alt=&quot;Small black cat napping on couch&quot;/&gt;&lt;p&gt;This might look like it's Rocket, but it's actually her sister Nebula, fast asleep on a comfortable couch arm.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/greer_comfy_small.jpg&quot; alt=&quot;Small dog on blankets&quot;/&gt;&lt;p&gt;Greer the chihuahua is shown here in one of her favorite spots, on top of a blanket. It could be better if she were on a lap too.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/haggis_floor_small.jpg&quot; alt=&quot;Extra-fluffy brown cat on mats on the floor&quot;/&gt;&lt;p&gt;This is Pippa, also known as the Haggis. She holds the record for greatest concentration of fluff in the state of Massachusetts.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/greer_closeup_small.jpg&quot; alt=&quot;Close-up of small dog under blanket&quot;/&gt;&lt;p&gt;Lady Greer is ready for her close-up now. Being under a blanket is almost as good as being both under &lt;em&gt;and&lt;/em&gt; on top of it.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre> 
+  
+  </div>
+  <div>
+    <h4 class="hx-underline">Double Slider</h4>
+    <p>Here's the code for the double slider:</p>
+<pre><code class="lang-markup">&lt;div class=&quot;hx-sliderbox&quot;&gt;
+&lt;div class=&quot;hx-navslider&quot;&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/heimdall_bed_small.jpg&quot; alt=&quot;Image 1&quot; height=&quot;120&quot; /&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/kymco_notplaying_small.jpg&quot; alt=&quot;Image 2&quot; height=&quot;120&quot; /&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/rocket_tiny_small.jpg&quot; alt=&quot;Image 3&quot; height=&quot;120&quot; /&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/nebula_couch_small.jpg&quot; alt=&quot;Image 4&quot; height=&quot;120&quot; /&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/greer_comfy_small.jpg&quot; alt=&quot;Image 5&quot; height=&quot;120&quot; /&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/haggis_floor_small.jpg&quot; alt=&quot;Image 6&quot; height=&quot;120&quot; /&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/greer_closeup_small.jpg&quot; alt=&quot;Image 7&quot; height=&quot;120&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;hx-bigslider&quot; style=&quot;-webkit-user-select: auto; -moz-user-select: auto; -ms-user-select: auto; user-select: auto;&quot;&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/heimdall_bed_small.jpg&quot; alt=&quot;Fluffy white-and-black cat in bed near radiator&quot;/&gt;&lt;p&gt;This is Heimdall the cat. He can be seen in his comfy bed near the radiator, soaking up warmth.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/kymco_notplaying_small.jpg&quot; alt=&quot;Tabby who is definitely not playing&quot;/&gt;&lt;p&gt;Kymco the cat is certain that you did not catch her playing, because she is very serious and does not do that.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/rocket_tiny_small.jpg&quot; alt=&quot;Very small black cat on floor&quot;/&gt;&lt;p&gt;Rocket, a black kitten, is here pictured &lt;em&gt;not&lt;/em&gt; playing, which is kind of strange for her.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/nebula_couch_small.jpg&quot; alt=&quot;Small black cat napping on couch&quot;/&gt;&lt;p&gt;This might look like it's Rocket, but it's actually her sister Nebula, fast asleep on a comfortable couch arm.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/greer_comfy_small.jpg&quot; alt=&quot;Small dog on blankets&quot;/&gt;&lt;p&gt;Greer the chihuahua is shown here in one of her favorite spots, on top of a blanket. It could be better if she were on a lap too.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/haggis_floor_small.jpg&quot; alt=&quot;Extra-fluffy brown cat on mats on the floor&quot;/&gt;&lt;p&gt;This is Pippa, also known as the Haggis. She holds the record for greatest concentration of fluff in the state of Massachusetts.&lt;/p&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;img src=&quot;/static/greer_closeup_small.jpg&quot; alt=&quot;Close-up of small dog under blanket&quot;/&gt;&lt;p&gt;Lady Greer is ready for her close-up now. Being under a blanket is almost as good as being both under &lt;em&gt;and&lt;/em&gt; on top of it.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    
+  </div>
+  <div>
+    <h4 class="hx-underline">How it Works</h4>
+    <p>HX-JS seeks out the classes <code class="lang-markup">hx-sliderbox</code>, <code class="lang-markup">hx-slider</code>, <code class="lang-markup">hx-navslider</code>, and <code class="lang-markup">hx-bigslider</code>. The first is used as a container on all sliders. The second one is used for single sliders. The last two are for paired sliders.</p>
+    <p>Every <em>first-level child</em> within those divs gets turned into a slide. It doesn't matter whether you're making a slider of images, a slider of paragraphs, or a slider of divs, it all works the same way. Slick will wrap whatever the child is in a div tag, so that it displays as a block element.</p>
+    
+    <p>You might have noticed the odd style element <code>style="-webkit-user-select: auto; -moz-user-select: auto; -ms-user-select: auto; user-select: auto;"</code>. This allows the user to select within the slider, which is particularly useful when you're showing code, like in this one.
+  </div>
+  <div>
+    <h4 class="hx-underline">Options</h4>
+    <p>You can set the options for your slider by declaring <code>hxLocalOptions</code> at the top of your raw HTML component:</p>
+    <pre><code class="lang-js">var hxLocalOptions =  {
+  // Default options for the Slick image slider
+  slickOptions: {
+    arrows: true,
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  },
+  // Default options for image slider navigation
+  slickNavOptions: {
+    asNavFor: '.hx-bigslider',
+    variableWidth: true,
+    focusOnSelect: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  },
+  // Default options for single big image slider paired to nav.
+  slickBigOptions: {
+    asNavFor: '.hx-navslider',
+    arrows: false,
+    dots: true,
+    draggable: false,
+    fade: true,
+    adaptiveHeight: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }</code></pre>
+  <p>Need more options? Slick has a lot of them. Check out the <a href="https://kenwheeler.github.io/slick/#settings" target="_blank">settings for the Slick slider</a>, all of which you can use here.</p>
+  </div>
+  <div>
+    <h4 class="hx-underline">Caveats</h4>
+    <p><strong>One of each.</strong> You only get to have one slider and one paired slider per page. This is a limitation of HX-JS rather than a limitation of Slick, so you could get around this with your own implementation if you wanted to.</p>
+    <p><strong>Download burden.</strong> Be kind to people in the world who are paying for bandwidth by the megabyte! Make small images for small sliders. In our examples we've sometimes used the same image for the top and bottom, which also helps to cut down on bandwidth. You can also use the "lazyLoad" option to keep large images from eating up bandwidth until a slide is actually requested by the user.</p>
+  </div>
+  <div>
+    <h4 class="hx-underline">Troubleshooting</h4>
+    <p><strong>Height variations?</strong> Images of different sizes sometimes look awkward in the carousel (as you might have seen on the previous page). You might want to rescale, crop, or change the "adaptiveHeight" setting.</p>
+    <p><strong>Unpaired sliders?</strong> Odds are you forgot to use the hx-bigslider and hx-navslider classes.</p>
+    <p><strong>Weird formatting or effects, but not on slide #1.</strong> You're probably using the lazyLoad functionality. If your images aren't loaded when the page loads, then the javascript on your page won't be able to find them. If you're doing some sort of processing with those slides, Slick fires events when a slide loads, changes, is destroyed, etc. You can use those events to call your javascript on them.</p>
+    <p><strong>Just not working?</strong> If you have custom settings, something broken there can keep other parts of the code from working. You might see only one part of a paired slider, or your entire slider might just spill out onto the page vertically. Double-check your formatting and look in the <a href="https://webmasters.stackexchange.com/questions/8525/how-do-i-open-the-javascript-console-in-different-browsers#77337" target="_blank">javascript console</a> to see if there's an error you can find there.</p>
+    <p>
+  </div>
+</div>
+</div>

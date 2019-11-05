@@ -1,0 +1,32 @@
+<h4 class="hx-underline">A Collapsible Tree</h4>
+
+<p>This is an interactive outline generated with d3. Drag to move through the navigation scheme below. Click to collapse or expand nodes. In real use, clicking on the rightmost node would take you that part of the course.</p>
+
+<iframe src="/static/autotree_nav.html" style="width: 100%; height: 500px; overflow:hidden;" scrolling="no" >Your browser does not support iframes.</iframe>
+
+<p>Code for this is adapted from the work of <a href="http://bl.ocks.org/robschmuecker/7880033" target="_blank">Rob Schmuecker</a>, with placeholder headers taken from the OpenStax textbook <a href="https://openstax.org/details/college-physics-ap-courses" target="_blank">College Physics for AP® Courses</a>.</p>
+
+<p>Remember the questions:</p>
+
+<ul>
+  <li>Can you immediately see how someone would use it, or does it require explanation?</li>
+  <li>Does its structure give you additional information beyond what's already in the course outline?</li>
+  <li>Does the design have inherent accessibility issues?</li>
+  <li>Do you like it?</li>
+</ul>
+
+
+<p><button class="hx-togglebutton-collapse">Our Analysis</button></p>
+
+<div class="hx-toggletarget-collapse" style="display:none;">
+  <p>The fact that it's collapsible is nice. That will get around one of the more common issues of a static tree structure: running out of space. This has room for not just adding topics in each branch, but adding further levels of hierarchy as well. It's also dynamically generated, which means no one has to redraw a tree by hand every time someone wants to add a single page to the course.</p>
+  <p>The graphic design is nice in some ways, but horrible in others. It's certainly smooth-looking and minimalist, which, even if it's not your favorite aesthetic, at least it is <em>an aesthetic</em> and not just an accident. However, there are a few issues with the look:</p>
+  <ol>
+    <li>The font size is too small. Many people will need to squint to read it.</li>
+    <li>It starts with "course" in the center of the page, with most of the rest of the actual class invisible off to the right. You can also see that it might spread out quite a bit vertically.</li>
+    <li>There's no way to quickly collapse <em>all</em> the nodes for a certain level, for instance to show just the chapters. You can explore, but not get a summary.</li>
+    <li>The lines are very thin and low-contrast. People with visual difficulties may miss them.</li>
+  </ol>
+  <p>Perhaps the worst thing is that keyboard users cannot access this at all. There are no things to tab to. It's also not great that it traps the cursor while you're scrolling. You can go from moving down the page to zooming the navigation scheme and not realize until the whole thing is completely out of sight.</p>
+  <p>The d3 framework used to build this is nice if you can swing it. Full marks for Modern Web Technologies™, no doubt. However, it doesn't substitute for design skills or careful consideration of your learners' goals.</p>
+</div>

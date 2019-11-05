@@ -1,0 +1,18 @@
+<problem display_name="What's In Our Solar System?" markdown="&gt;&gt;Which of the following is outside our solar system? || Select one correct answer.&lt;&lt;&#10;&#10;[ ] The moon&#10;[ ] The International Space Station&#10;[ ] The asteroid belt&#10;[x] None of the above&#10;&#10;[explanation]&#10;None of those items are outside our solar system.&#10;[explanation]&#10;" max_attempts="4" showanswer="finished">
+  <choiceresponse>
+    <label>Which of the following is outside our solar system? </label>
+    <description> Select one correct answer.</description>
+    <checkboxgroup>
+      <choice correct="false">The moon</choice>
+      <choice correct="false">The International Space Station</choice>
+      <choice correct="false">The asteroid belt</choice>
+      <choice correct="true">None of the above</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>None of those items are outside our solar system.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

@@ -1,0 +1,105 @@
+<h3 class="hx-underline">Assignment Settings (Course)</h3>
+
+<p>This section covers assignment-related settings like gradebooks and special exam types.</p>
+
+<h4><button class="hx-togglebutton4">
+Allow Opting Out of Proctored Exams
+</button></h4>
+<div class="hx-toggletarget4" style="display:none;">
+  <p><strong>Default:</strong> true</p>
+  <p><strong>Other settings:</strong> false</p>
+  <p><i>If this value is true, learners can choose to take proctored exams without proctoring. If this value is false, all learners must take the exam with proctoring. This setting only applies if proctored exams are enabled for the course.</i></p>
+  <p>Exam proctoring is typically only used for high-stakes courses where verification is crucial. However, they also require a lot from the learners: a webcam, a secure environment, and the ability to install software. Learners in computer cafes, using library computers, or taking the course on a mobile device will be unable to take proctored exams. Since learners who opt out of proctoring must already acknowledge that this option makes them ineligible for course credit, <strong>you should probably leave this option as "true"</strong>. Otherwise, you're just locking less fortunate learners out of parts of your course.</p>
+  <p>Links:</p>
+  <ul>
+    <li><a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/proctored_exams/index.html" target="_blank">Proctored Exams</a> in the edX course team documentation</li>
+    <li><a href="https://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/completing_assignments/proctored_exams/" target="_blank">Student Instructions for Taking a Proctored Exam</a> from the edX Learner's Guide</li>
+    <li><a href="https://support.edx.org/hc/en-us/articles/207249428-How-do-proctored-exams-work-" target="_blank">How do proctored exams work? </a> from the edX learner help center</li>
+  </ul>
+</div>
+
+
+<h4><button class="hx-togglebutton20">
+Course Not Graded
+</button></h4>
+<div class="hx-toggletarget20" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If true, the course will not be graded.</i></p>
+  <p>This setting is rarely used. If you know for certain that you do not want any part of the course graded and do not intend to issue any certificates, you might consider using this setting.</p>
+</div>
+
+<h4><button class="hx-togglebutton30">
+Due Date
+</button></h4>
+<div class="hx-toggletarget30" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> Any date in MM/DD/YYYY format.</p>
+  <p><i>Enter the date by which problems are due.</i></p>
+  <p>This sets a single due date for your entire course. Instructor-paced courses generally set due dates for each section individually, and will not need to use this setting. Self-paced courses have the end of the course as their due date by default, and learners will expect that they can work up until the last minute. You should not use this setting unless you have clear and frequent messaging to learners reminding them of the due date. </p>
+  <p>See also "Due Date Display Format"</p>
+</div>
+
+<h4><button class="hx-togglebutton34">
+Enable Proctored Exams
+</button></h4>
+<div class="hx-toggletarget34" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If this value is true, proctored exams are enabled in your course. Note that enabling proctored exams will also enable timed exams.</i></p>
+  <p>Proctoring services are currently provided on edX.org by a 3rd-party vendor, <a href="http://www.softwaresecure.com/company-overview/" target="_blank">Software Secure</a>. You should read the documentation and explanations below carefully before deciding whether your course will offer proctored exams.</p>
+  <p>Links:</p>
+  <ul>
+    <li><a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/proctored_exams/index.html" target="_blank">Proctored Exams</a> in the edX course team documentation</li>
+    <li><a href="https://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/completing_assignments/proctored_exams/" target="_blank">Student Instructions for Taking a Proctored Exam</a> from the edX Learner's Guide</li>
+    <li><a href="https://support.edx.org/hc/en-us/articles/207249428-How-do-proctored-exams-work-" target="_blank">How do proctored exams work? </a> from the edX learner help center</li>
+  </ul>
+</div>
+
+<h4><button class="hx-togglebutton36">
+Enable Subsection Prerequisites
+</button></h4>
+<div class="hx-toggletarget36" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If this value is true, you can hide a subsection until learners earn a minimum score in another, prerequisite subsection.</i></p>
+  <p>You cannot set a <em>maximum</em> score, and you cannot set any alternative content that learners will see if they fail to obtain the prerequisite score. Each subsection can have <em>one and only one</em> prerequisite, but you <em>can</em> chain them together if you want.</p>
+  <p>Because there is no down side to activating this setting, <strong>we recommend that you set this to "true"</strong>. However, we also recommend that you <strong>do not use this setting to prevent learners from moving forward in your course.</strong> Blocking learners from progressing does nothing but remove them from your course.</p>
+  <p>Instead, be playful and inventive with your uses. Hide fun rewards instead of course content. Build games instead of walls.</p>
+</div>
+
+<h4><button class="hx-togglebutton37">
+Enable Timed Exams
+</button></h4>
+<div class="hx-toggletarget37" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If this value is true, timed exams are enabled in your course. Regardless of this setting, timed exams are enabled if Enable Proctored Exams is set to true.</i></p>
+  <p><strong>We do not recommend using timed exams in MOOCs or other distance education settings, particularly for reasons of access.</strong> Some learners need extra time, language issues slow down many learners, and technological issues can intervene as well. If your client is insistent on using timed exams, you should at least double the amount of time that would normally be provided on-campus.</p>
+  <p>If you are running an in-person course, timed exams are a more normal part of the educational experience. In such cases, you can set this to "true". You will still need to give out extensions from time to time, so be sure that whomever is proctoring the exam has staff access to the course. </p>
+</div>
+
+<h4><button class="hx-togglebutton43">
+Matlab API key
+</button></h4>
+<div class="hx-toggletarget43" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> (see below)</p>
+  <p><i>Enter the API key provided by MathWorks for accessing the MATLAB Hosted Service. This key is granted for exclusive use in this course for the specified duration. Do not share the API key with other courses. Notify MathWorks immediately if you believe the key is exposed or compromised. To obtain a key for your course, or to report an issue, please contact <a href="mailto:moocsupport@mathworks.com">moocsupport@mathworks.com</a></i></p>
+  <p>This is an outdated setting, used for previous MATLAB integrations. New courses will not need to use this setting.</p>
+  <p>The current MATLAB assignment tool is an LTI tool. If you work with Mathworks on a course, you should also see the LTI Passports and the Advanced Module List section.</p>
+</div>
+
+<h4><button class="hx-togglebutton47">
+Remote Gradebook
+</button></h4>
+<div class="hx-toggletarget47" style="display:none;">
+  <p><strong>Default:</strong> {} (a blank Javascript object)</p>
+  <p><strong>Other settings:</strong> {
+    "URL": "https://example.com",
+    "DEFAULT_NAME": "name"
+}</p>
+  <p><i>Enter the remote gradebook mapping. Only use this setting when REMOTE_GRADEBOOK_URL has been specified.</i></p>
+  <p>EdX.org provides a way to publish edX grades to an institution's gradebook application. You should speak with your edX representatitive if you need this feature. This feature was developed specifically for the STELLAR system at MIT and may not work with other systems.</p>
+</div>
+

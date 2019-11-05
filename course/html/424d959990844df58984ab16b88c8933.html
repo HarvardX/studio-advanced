@@ -1,0 +1,113 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<style>
+  #navboard {
+    font-size: 0px; 
+    width: 70%;
+  }
+  #navboard div {
+    font-size: 18pt;
+    display: inline-block;
+    width:50%;
+    position: relative;
+  }
+  #navboard img { 
+    width:100%; 
+    margin: 0px;
+  }
+  #navboard .counters {
+    color: #333;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    z-index: 50;
+    padding-right: 4%;
+  }
+  @media only screen and (max-width: 800px) {
+    #navboard div {
+      font-size: 14pt;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #navboard div {
+      font-size: 12pt;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    #navboard div {
+      font-size: 10pt;
+    }
+  }
+  
+  .hard {
+    color: #e48;
+  }
+
+</style>
+
+<p>The course is cut into four main sections: advanced planning, improved operating procedures, short projects, and long projects. Each section includes a series of topics indicated by dots (easy) and squares (hard stuff):</p>
+
+<div id="navboard">
+  <div id="planningbox">
+    <a href="/jump_to_id/65a877d0e7d243b39e43317727255c2f">
+      <img src="/static/Plan_slice.png" alt="Planning" />
+    </a>
+    <span class="counters">
+      <span class="sr">Nine projects</span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+    </span>
+  </div>
+  <div id="opsbox">
+    <a href="/jump_to_id/0f2d46fae5cb4deeb385bf6adb57c865">
+      <img src="/static/Ops_slice.png" alt="Operations" />
+    </a>
+    <span class="counters">
+      <span class="sr">Seven projects</span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+    </span>
+  </div>
+  <div id="shortbox">
+    <a href="/jump_to_id/d5f3c52a77cf497e93a42c40cfd479eb">
+      <img src="/static/Short_slice.png" alt="Short projects" />
+    </a>
+    <span class="counters">
+      <span class="sr">Six projects</span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+    </span>
+  </div>
+  <div id="longbox">
+    <a href="/jump_to_id/7c35cbae1ea449f8a54f6b39d6f18dcc">
+      <img src="/static/Long_slice.png" alt="Long projects" />
+    </a>
+    <span class="counters">
+      <span class="sr">Six projects</span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-circle"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+      <span class="fa fa-square hard"></span>
+    </span>
+  </div>
+</div>
+
+<p>Pick wherever your interests and skill level takes you - you can start anywhere. If you're not sure where to go, start in Planning and follow the blue arrow.</p>

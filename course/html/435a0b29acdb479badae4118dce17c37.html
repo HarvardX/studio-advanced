@@ -1,0 +1,72 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<link rel="stylesheet" type="text/css" href="/static/introjs.css" />
+<script src="/static/intro_accessible.js"></script>
+
+<style>
+  .introjs-helperLayer {
+    background-color: rgba(1,1,1,.1);
+    border: 4px solid white;
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+  }
+  .introjs-overlay {opacity: 0 !important;}
+</style>
+
+<script>
+  $(document).ready(function(){
+    $('#navmaker').on('click tap', function(event){
+        event.preventDefault();
+        introJs().start();
+    });
+  });
+</script>
+
+<h3 class="hx-underline">Image Indicator</h3>
+
+<p>As we showed earlier in this section, you can use a walkthrough when your learners first arrive in the course to give them an overview of the edX platform. We also showed you a walkthrough that points out useful features in code. Here's another demonstration: using a walkthrough to indicate important parts in an image. Ready to see it in action?</p>
+
+<p><button id="navmaker" style="color: white; padding: 6px; font-size: 16px; background-color: #9b0000; text-shadow: none; background-image: none;">Ready!</button></p>
+
+<div style="position:relative; max-width: 800px;">
+  <img src="/static/greer_closeup_small.jpg" width="800" alt=""/>
+  <div 
+       data-step="1"
+       data-intro="<strong>Sonar Array.</strong> This device, attached to the dog's head, provides information about the barks of every other dog within five miles."
+       data-position="right"
+       style="position: absolute; background-color: rgba(1,1,1,0); width: 25%; height: 25%; top: 0%; left: 0%;"
+       ></div>
+  <div 
+       data-step="2"
+       data-intro="<strong>Wisdom Marks.</strong> This dog grew in white eyebrows a few years ago, to indicate her comparatively advanced intelligence. Now she no longer actually barks at every dog within five miles. Usually."
+       data-position="top"
+       style="position: absolute; background-color: rgba(1,1,1,0); width: 32%; height: 7%; top: 7%; left: 30%;"
+       ></div>
+  <div 
+       data-step="3"
+       data-intro="<strong>Sniffler.</strong> This device, on the front of the dog, is used to investigate the world in great detail."
+       data-position="top"
+       style="position: absolute; background-color: rgba(1,1,1,0); width: 23%; height: 16%; top: 20%; left: 46%;"
+       ></div>
+  <div 
+       data-step="4"
+       data-intro="<strong>Bark Box.</strong> I mean, sometimes you still need to bark at things, for reasons."
+       data-position="top"
+       style="position: absolute; background-color: rgba(1,1,1,0); width: 25%; height: 20%; top: 50%; left: 30%;"
+       ></div>
+  <div 
+       data-step="5"
+       data-intro="<strong>Blanket of Ultimate Softness.</strong> This blanket was provided to the dog's owner by Harvard for five years of diligent service and employment. The dog very much appreciates this wonderful gift, and no you can not have it back."
+       data-position="left"
+       style="position: absolute; background-color: rgba(1,1,1,0); width: 40%; height: 45%; top: 43%; left: 60%;"
+       ></div>
+</div>
+<br/>
+
+<p>Here's the <a href="/static/walkthrough_image_indicator.html.zip">code for this page as a zipped HTML file</a>. A few important things to note:</p>
+<ul>
+  <li>Because we created all the elements that the walkthrough touches, we don't need to add the data elements via javascript - we can just write them into the HTML from the start.</li>
+  <li>We're positioning invisible <code class="lang-markup">&lt;div&gt;</code> tags over the image in order to target different parts of it. We need to position them by percentage so that smaller screen sizes still have the boxes in the right place. You <em>cannot</em> run a walkthrough with an image map, because the <code class="lang-markup">&lt;area&gt;</code> tags aren't actually positioned over the image.</li>
+  <li>There's some extra css on this page to handle the opacity of the indicator, and the opacity of the dark background.</li>
+</ul>

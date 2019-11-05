@@ -1,0 +1,15 @@
+<h3 class="hx-underline">Linking it up: the Hard Version</h3>
+
+<p>Unfortunately, if you stretch yourself far enough, there will be some times when <code>/jump_to_id/</code> links stop working. This happens when your links are all specified in javascript (or, god forbid, in css files). EdX finds <code>/static/</code> and <code>/jump_to_id/</code> in HTML and problems and replaces them with the appropriate full URLs, but it <em>doesn't replace them after the page is loaded.</em> If you keep a bunch of links in a JSON file, you need to specify the full URL, which you can do one of two ways: either by using a similar jump_to location...</p>
+
+<pre><code class="lang-js">let url = "https://courses.edx.org/courses/course-v1:HarvardX+StudioAdv1+<strong><span style="color:red;">2T2019</span></strong>/jump_to/block-v1:HarvardX+StudioAdv1+<strong><span style="color:red;">2T2019</span></strong>+type@vertical+block@d762c2a2f8b94b40836ebc75d1c5f67e";</code></pre>
+
+<p>...or by specifying the full course location:</p>
+
+<pre><code class="lang-js">let url = "https://courses.edx.org/courses/course-v1:HarvardX+StudioAdv1+<strong><span style="color:red;">2T2019</span></strong>/courseware/52238be957514597a83d8b0f9a6eae70/5df4ead60bcb405b94ebd5eb337e3ebc/<strong><span style="color:red;">3</span></strong>";</code></pre>
+
+<p>Both of these approaches have problems, and those problems are boldfaced in red above. See the 2T2019? that's the current course run. That'll change next time. See that red "3" at the end? That means the 3rd page in that subsection. Don't move anything around or you break the link.</p>
+
+<p>There are ways to get around this - calling <code class="lang-js">window.url()</code> to get the current URL and splicing it onto the first option above is a possible approach. What happens more often is that we just run multi-file find-and-replace commands when we update our courses. There's no real ideal method here - edX has changed its URL structure in the past and will probably do so again some day.</p>
+
+<p>The moral here is to keep your links in HTML rather than in javascript or css whenever possible.</p>

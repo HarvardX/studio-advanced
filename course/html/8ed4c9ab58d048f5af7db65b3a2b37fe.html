@@ -1,0 +1,6 @@
+<div class="hx-redbox">
+  <h4><span class="fa fa-graduation-cap"></span> Grade Security Warning</h4>
+  <p>On the diagram, you may have noticed that it says "Learner can access" for the JSInput problem itself. That's because it's all run in javascript, which the learner's browser can access and potentially alter.</p>
+  <p>Because the learner's browser can access your Javascript, we highly recommend that the <code class="lang-js">getGrade()</code> function should <em>return the problem state, not a grade.</em> If you return a grade, whether numerical or true/false, tech-savvy learners may be able to set their own score. However, if you return the problem state, they'd need to figure out exactly the right state for the problem in order to get a full score... which typically meanas they're doing the same work as actually completing the problem.</p>
+  <p>Your grading code should be in Python, either in the problem XML or in a separate grading library, so that learners cannot access or alter it. You'll see an example soon.</p>
+</div>

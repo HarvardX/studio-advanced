@@ -1,0 +1,19 @@
+<problem display_name="Matching Details" markdown="&gt;&gt;Let's say you're writing a matching problem for categorization. Which of the following is &lt;strong&gt;impossible&lt;/strong&gt; to achieve?&lt;&lt;&#10;&#10;(!) Putting one choice in one category&#10;( ) Putting one choice into several different categories&#10;( ) Putting several choices into the same category&#10;( ) Allowing multiple correct answers&#10;(x) Disabling negative points for incorrect matches&#10;(@) None of the above&#10;&#10;[explanation]&#10;Learners are awarded +1 point for a correct match, and -1 point for an incorrect match. If this was not true - if there was no way to lose points - then learners could put every choice into every category and get full points regardless of what the correct answers were.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>Let's say you're writing a matching problem for categorization. Which of the following is <strong>impossible</strong> to achieve?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Putting one choice in one category</choice>
+      <choice correct="false">Putting one choice into several different categories</choice>
+      <choice correct="false">Putting several choices into the same category</choice>
+      <choice correct="false">Allowing multiple correct answers</choice>
+      <choice correct="true">Disabling negative points for incorrect matches</choice>
+      <choice correct="false" fixed="true">None of the above</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Learners are awarded +1 point for a correct match, and -1 point for an incorrect match. If this was not true - if there was no way to lose points - then learners could put every choice into every category and get full points regardless of what the correct answers were.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

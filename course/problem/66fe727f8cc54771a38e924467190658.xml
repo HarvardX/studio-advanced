@@ -1,0 +1,18 @@
+<problem display_name="Appropriate Math Expressions" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Which of the following questions would be <strong>trivial to cheat on</strong> as a Math Expression Input problem? </label>
+    <description> Select all that apply</description>
+    <checkboxgroup>
+      <choice correct="true">Simplify \( \frac{x^2 - 4x + 4}{x - 2} \)</choice>
+      <choice correct="false">Solve \( y = mx + b \) for x</choice>
+      <choice correct="true">Expand \( (x-2)(x+3) \)</choice>
+      <choice correct="false">Take the integral of \( sin(x) + x^2 \)</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Math expression input problems (also known as "formulainput" problems for the type of tag they use) do not do any algebra on their own. Instead, they rely on numerical result matching, inputting numbers for each variable and comparing the outputs of an expression. Therefore, learners can <strong>simply copy the original expression into the problem</strong> for a "simplify" or "expand" exercise and get full credit.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

@@ -1,0 +1,83 @@
+<h3 class="hx-underline">Miscellaneous Settings</h3>
+
+<h4><button class="hx-togglebutton6">
+CCX Connector URL
+</button></h4>
+<div class="hx-toggletarget6" style="display:none;">
+  <p><strong>Default:</strong> "" (a blank string)</p>
+  <p><strong>Other settings:</strong> a URL</p>
+  <p><i>URL for CCX Connector application for managing creation of CCXs. (optional). Ignored unless 'Enable CCX' is set to 'true'.</i></p>
+  <p>If you're using CCX, you probably already know what to do with this. If not, you can safely ignore it.</p>
+</div>
+
+<h4 id="betatest"><button class="hx-togglebutton25">
+Days Early for Beta Users <span class="fa-stack"><span class="fa fa-star fa-stack-1x"></span><span class="fa fa-star-o fa-stack-1x"><span class="sr">star</span></span></span>
+</button></h4>
+<div class="hx-toggletarget25" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> an integer</p>
+  <p><i>Enter the number of days before the start date that beta users can access the course.</i></p>
+  <p>Why in the world does this default to null? <strong>Set this to a reasonable number.</strong> 10000 days or something like it. Your beta testers should be able to get into the course before it opens.</p>
+  <p>Note that, for courses with feature-based enrollment, beta testers see <em>all</em> content regardless of gating settings, and do not lose access after the course duration has run out.</p>
+  <p>(Note also that Colin did once break a course by setting this number to... well, probably over a quadrillion, he just typed 1 and then held down the 0 and probably ran off the end of a Python integer or something. So don't go too crazy here.)</p>
+</div>
+
+<h4><button class="hx-togglebutton26">
+Disable Progress Graph
+</button></h4>
+<div class="hx-toggletarget26" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true but honestly why.</p>
+  <p><i>Enter true or false. If true, students cannot view the progress graph.</i></p>
+  <p>Perhaps someday in the future there will be good ways to create alternative grading displays in edX, and thus a good reason to shut off the Progress page. Until then, leave this as false.</p>
+</div>
+
+<h4><button class="hx-togglebutton32">
+Enable CCX
+</button></h4>
+<div class="hx-toggletarget32" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>Allow course instructors to assign CCX Coach roles, and allow coaches to manage Custom Courses on edX. When false, Custom Courses cannot be created, but existing Custom Courses will be preserved.</i></p>
+  <p>CCX is beyond the scope of this course. If you're using it already, this will be true; if not, just keep it as false.</p>
+</div>
+
+<h4><button class="hx-togglebutton33">
+Enable LaTeX Compiler
+</button></h4>
+<div class="hx-toggletarget33" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If true, you can use the LaTeX templates for HTML components and advanced Problem components.</i></p>
+  <p>Note that this <em>isn't using LaTeX to create equations on an HTML page</em>. That's already enabled. This is <em>using LaTeX to build things instead of XML</em>. There's not much good reason to do this unless you love LaTeX and refuse to learn XML, so we recommend leaving this as false. If you have a love for LaTeX and unsupported features, you can check out <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/problem_in_latex.html" target="_blank">Problem Written in LaTeX</a> in the edX docs and Ike Chuang's <a href="https://people.csail.mit.edu/ichuang/edx/latex2edx" target="_blank">latex2edx converter</a>.</p>
+</div>
+
+<h4><button class="hx-togglebutton39">
+External Login Domain
+</button></h4>
+<div class="hx-toggletarget39" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> a URL</p>
+  <p><i>Enter the external login method students can use for the course.</i></p>
+  <p>Talk to your Open edX administrator to find out whether you're using this feature. If not, don't touch it.</p>
+</div>
+
+<h4><button class="hx-togglebutton51">
+Social Media Sharing URL
+</button></h4>
+<div class="hx-toggletarget51" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> a URL</p>
+  <p><i>If dashboard social sharing and custom course URLs are enabled, you can provide a URL (such as the URL to a course About page) that social media sites can link to. URLs must be fully qualified. For example: http://www.edx.org/course/Introduction-to-MOOCs-ITM001</i></p>
+  <p>If you encourage your learners to share your courses on social media, this will do a little to help out. The down side: you can't just drop in a URL yourself; you need your site administrator to add something to a file in the source code. Check out <a href="https://support.edx.org/hc/en-us/articles/360000301947-Sharing-Your-Course-on-Social-Media-" target="_blank">Sharing your course on social media</a> at the edX help center to see what it looks like, and <a href="https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_socialsharing_icons.html" target="_blank">Enabling Social Sharing of Courses and Certificates</a> for technical details. </p>
+</div>
+
+<h4><button class="hx-togglebutton52">
+Static Asset Path
+</button></h4>
+<div class="hx-toggletarget52" style="display:none;">
+  <p><strong>Default:</strong> "" (a blank string)</p>
+  <p><strong>Other settings:</strong> A URL</p>
+  <p><i>Enter the path to use for files on the Files &amp; Uploads page. This value overrides the Studio default, c4x://.</i></p>
+  <p>If you'd rather upload files to an Amazon box or whatever, you can insert a URL above to point at it. For course builders, you'll still be using /static/filename.wtf to reference the images in Files &amp; Uploads. The difference is that your Files &amp; Uploads will be pointing at the URL you insert above for storage. Probably not worth messing with unless you have a real need for large numbers of large files, and even then you could probably just host those files elsewhere and use something better than Files &amp; Uploads as an interface to them.</p>
+</div>

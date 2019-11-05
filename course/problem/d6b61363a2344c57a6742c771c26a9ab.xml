@@ -1,0 +1,34 @@
+<problem display_name="Functions" markdown="Answer all three questions before pressing submitting your answer.&#10;&#10;&gt;&gt;Which function &lt;em&gt;obtains the problem state from edX?&lt;/em&gt;&lt;&lt;&#10;&#10;( ) getState()&#10;(x) setState()&#10;( ) getGrade()&#10;&#10;&gt;&gt;Which function &lt;em&gt;returns the problem state to edX for storage?&lt;/em&gt;&lt;&lt;&#10;&#10;(x) getState()&#10;( ) setState()&#10;( ) getGrade()&#10;&#10;&gt;&gt;Which function &lt;em&gt;returns the problem state to edX for grading?&lt;/em&gt;&lt;&lt;&#10;&#10;( ) getState()&#10;( ) setState()&#10;(x) getGrade()&#10;&#10;[explanation]&#10;Imagine &quot;get&quot; and &quot;set&quot; as being from the point of view of edX's servers.&#10;Also, we could probably have done this more nicely as a matching problem.&#10;[explanation]&#10;" max_attempts="3" showanswer="finished">
+  <p>Answer all three questions before pressing submitting your answer.</p>
+  <label>Which function <em>obtains the problem state from edX?</em></label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">getState()</choice>
+      <choice correct="true">setState()</choice>
+      <choice correct="false">getGrade()</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>Which function <em>returns the problem state to edX for storage?</em></label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">getState()</choice>
+      <choice correct="false">setState()</choice>
+      <choice correct="false">getGrade()</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <label>Which function <em>returns the problem state to edX for grading?</em></label>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">getState()</choice>
+      <choice correct="false">setState()</choice>
+      <choice correct="true">getGrade()</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Imagine "get" and "set" as being from the point of view of edX's servers.</p>
+      <p>Also, we could probably have done this more nicely as a matching problem.</p>
+    </div>
+  </solution>
+</problem>

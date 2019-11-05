@@ -1,0 +1,19 @@
+<problem display_name="Updating jump_to_id links" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>When do you need to update a jump_to_id link? </label>
+    <description> Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="false">When you offer a new run of your course.</choice>
+      <choice correct="false">When you move a unit within your course.</choice>
+      <choice correct="true">When you delete and recreate a unit.</choice>
+      <choice correct="false">When you edit a component within the unit.</choice>
+      <choice correct="false">When you delete all the components within a unit.</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The jump_to_id link points directly at a particular unit. As long as that unit is still in your course, the link will still function properly, regardless of where the unit is or what changes have been made to it. Only deleting it and creating a new one will change that.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

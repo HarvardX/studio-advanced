@@ -1,0 +1,17 @@
+<problem display_name="Maintain Height" markdown="&gt;&gt;My image slider keeps changing height and I want it to stop. How can I fix that?&lt;&lt;&#10;&#10;(!) Can't fix it.&#10;(x) Set the same height on everything.&#10;(x) Use one of the Slick slider settings.&#10;( ) Use just hx-navslider.&#10;&#10;[explanation]&#10;Setting everything to the same height (with css or a &quot;height&quot; attribute) will work, as will using the adaptiveHeight: false setting.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>My image slider keeps changing height and I want it to stop. How can I fix that?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Can't fix it.</choice>
+      <choice correct="true">Set the same height on everything.</choice>
+      <choice correct="true">Use one of the Slick slider settings.</choice>
+      <choice correct="false">Use just hx-navslider.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Setting everything to the same height (with css or a "height" attribute) will work, as will using the adaptiveHeight: false setting.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

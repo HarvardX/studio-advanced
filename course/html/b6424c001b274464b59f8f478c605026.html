@@ -1,0 +1,35 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">Application</h3>
+
+<p>So if you like the intro, you're going to love this.</p>
+
+<p>MIT has a grading library called <a href="https://mitodl.github.io/mitx-grading-library/" target="_blank">MITxGraders</a>. Here's what you can do with it:</p>
+
+<ul>
+  <li>Change credit based on attempt number</li>
+  <li>Grade lists of things smartly</li>
+  <li>Handle input groupings with flexible ordering</li>
+  <li>Use multiple answers with feedback and partial credit (even with lists!)</li>
+  <li>Require minimum word counts in text responses</li>
+  <li>Validate text input</li>
+</ul>
+
+<p>If you use math questions in your course, the library really shines here:</p>
+<ul>
+  <li>Grade vectors and matrices, and handle matrix algebra</li>
+  <li>Give automatic partial credit on formula problems</li>
+  <li>Grade intervals with open and closed ends</li>
+  <li>Handle a much larger list of math functions</li>
+  <li>Allow functions like \(f(x)\) and \(g(z)\) in learner answers</li>
+  <li>Control allowed student input (for example, you can disallow '*' so multiplication doesn't work, or blacklist certain functions)</li>
+  <li>Better handle complex variables</li>
+  <li>Grade for things other than equality (like equality mod 2*pi, or in a given range, or in the span of a set of basis vectors, or proportional to a vector, or...)</li>
+</ul>
+
+<p>Of particular note is that all of the library functionality works together seamlessly. It also handles all the edge cases, assigns partial credit carefully, and strives to present meaningful error messages to students whenever something goes wrong.</p>
+
+<p>They even have a <a href="https://edge.edx.org/courses/course-v1:MITx+grading-library+examples/" target="_blank">complete example course</a> where you can test things out.</p>
+
+<p>Here's the source code on <a href="https://github.com/mitodl/mitx-grading-library" target="_blank">GitHub</a>. It's available under the <a href="https://github.com/mitodl/mitx-grading-library/blob/master/LICENSE" target="_blank">BSD-3</a> license, so you can use it all you like. Thanks go to Jolyon Bloomfield and Chris Chudzicki, among others, for creating this wonderwork.</p>

@@ -1,0 +1,37 @@
+<h4 class="hx-underline">Use separate lines</h4>
+<p></p>
+<p>It might seem obvious, but just like writing a sentence, your code needs punctuation. It is a language, after all!</p>
+<p>Breaking up content so it doesn't all form one massive block of text with code embedded will certainly help you find things and make improvements, above just looking nice! Think about your future self. </p>
+
+<h4 class="hx-underline">Remove duplicate references</h4>
+<p></p>
+<p>Screenreaders (like VoiceOver, JAWS, and NVDA) read additional information, such as alt-text, aloud to the user. This might seem obvious, but how often have you taken the easy route on alt-text or references and just simply copied the suceeding text so there is something in the space? Hopefully the answer is 'never,' but no one is perfect. Getting into the habit of adding meaningful information for users in alt-text and title-text will not go unappreciated.</p>
+
+<h4 class="hx-underline">Reference link content, not urls</h4>
+<p></p>
+<p>Another good habit to get into is to provide meaningful (but short) references for links. Rather than just referencing a link as 'click here' make reference to the information it will point to, e.g. 'Further Thermodynamics reading'. </p>
+<p>If a url is referenced in a &lt;a&gt;&lt;/a&gt; a screenreader will pick up on this being a link and will say 'link' before the reference text. However, if you include the url as the reference, the screenreader will try and say this... often rather painfully letter-by-letter! Referencing that it is a link is also redundant, so you don't need to put that in the text.</p>
+
+<p>Here's a before and after:</p>
+<pre><code class="lang-markup">&lt;a href=&quot;http://www.google.com&quot; target=&quot;_blank&quot;&gt;www.google.com&lt;/a&gt;</code></pre>
+<pre><code class="lang-markup">&lt;a href=&quot;http://www.google.com&quot; target=&quot;_blank&quot;&gt;Google search engine&lt;/a&gt;</code></pre>
+<p>It might not seem like a lot but it makes a huge difference.</p>
+
+<h4 class="hx-underline">Figure containers for images</h4>
+<p></p>
+<p>On the front view, image files displayed as &lt;img&gt; and &lt;figure&gt; can yield almost identical results but the code is very different. By default, edX will include an image file without any &lt;figure&gt; references, but if you want to add a caption, link to the image files or make consistency changes to all your images using CSS, a &lt;figure&gt; container for &lt;img&gt; files is highly recommended.</p>
+<p>The best thing about using &lt;figure&gt; is the ability to connect these containers to your CSS. This allows you to cascade changes across all pages very easily, rather than having to manually change each image individually. </p>
+  <p>For example, a client decided half-way through build they wanted a grey border around all images and for images to appear 40% width when left or right aligned - this would have been a nightmare on a course with ~50 images in-line, but as each was configured as a &lt;figure&gt; we made the change to the css file directly and everything changed instantly. (Obviously, we could have said no... but where’s the fun in that!)</p>
+<p>It is possible to change every &lt;img&gt; in your your course through CSS without using &lt;figure&gt; but it's pretty risky as EVERY &lt;img&gt; would be affected. Figure containers allow a little buffer and ease to add captions without the use of too many &lt;div&gt; or &lt;br&gt;.</p>
+<p>Let's say you wanted all &lt;img&gt; to be width='80%' unless they have a caption in a &lt;figure&gt;, when they should display at width='100%'. If you changed your CSS to influence all &lt;img&gt; references, when it appears in a figure container you would see an 80% width rather than 100% as the page will render both 'required' widths in the image reference.</p>
+<p>Finally, &lt;figure&gt; allows you to add good practice such as a link to the image file in a new tab and captions</p>
+<p>Direct comparisons:</p>
+
+<p>IMAGE</p>
+<p>Remember, these act a little differently and are often looking for cues from elements such as &lt;p&gt; or &lt;figure&gt; to get steer on where to land on the page. In this instance, I have used &lt;p&gt; with style="text-align:center;" and changed the &lt;img&gt; to display at 40%. The text displays under the image using breaks within the paragraph to not lose the styling.</p>
+<p style="text-align:center;"><img width='40%' src="/static/Baduhenna_small.jpg" alt="Kitten on lap with tongue juuuust a little out" align='middle' /><br />Baduhenna, a very good and fiesty kitten.<br/>Did you know, cats conserve energy by sleeping for an average of 13 to 14 hours a day and typically live to be over 12 years old.</p>
+
+<p>FIGURE</p>
+<p>All of this is done through CSS, although I have all images in &lt;figure&gt; containers set to display at 80%. I've kept the image displaying at 40% too to show how the 80% + 40% display differ between 'image' and 'figure' examples. Text is displayed using &lt;figcaption&gt; which has its own reduced size styling applied in the CSS file.</p>
+<figure><a href="/static/IMG_20190914_171453.jpg" target="_blank"><img width='40%' src="/static/Baduhenna_small.jpg" alt="Kitten on lap with tongue juuuust a little out" /></a> <figcaption>Baduhenna, a very good and fiesty kitten.<br/>Did you know, cats conserve energy by sleeping for an average of 13 to 14 hours a day and typically live to be over 12 years.</figcaption></figure>
+

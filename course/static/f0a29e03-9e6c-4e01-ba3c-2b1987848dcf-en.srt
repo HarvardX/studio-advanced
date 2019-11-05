@@ -1,0 +1,124 @@
+0
+00:00:06,850 --> 00:00:10,700
+Amy: Automatic allocation for cohorts is pretty straightforward.
+
+1
+00:00:10,700 --> 00:00:15,340
+First, go to the Instructor Dashboard in the Live view of your course.
+
+2
+00:00:15,340 --> 00:00:19,970
+Then click Cohorts, and tick the Enable Cohorts button.
+
+3
+00:00:19,970 --> 00:00:23,260
+This brings up a new button prompting to add cohorts.
+
+4
+00:00:23,260 --> 00:00:25,570
+Now, in this example, we know we want to make
+
+5
+00:00:25,570 --> 00:00:29,710
+three cohorts named A, B, and C. So let's start with cohort A.
+
+6
+00:00:29,710 --> 00:00:32,530
+We know we want users to be automatically allocated
+
+7
+00:00:32,530 --> 00:00:36,080
+so that when people join the course, they're randomly assigned to a cohort.
+
+8
+00:00:36,080 --> 00:00:39,820
+And we know we don't need any specific content to be displayed.
+
+9
+00:00:39,820 --> 00:00:42,400
+Once happy with the settings, press Submit.
+
+10
+00:00:42,400 --> 00:00:44,990
+Then repeat until all cohorts are set up.
+
+11
+00:00:44,990 --> 00:00:49,610
+Remember, once a name is used for your cohort, you can't change or delete it.
+
+12
+00:00:49,610 --> 00:00:52,150
+So make sure you are happy with everything on this page
+
+13
+00:00:52,150 --> 00:00:54,280
+before you press Submit.
+
+14
+00:00:54,280 --> 00:00:58,450
+As these are automatic allocations, for as long as this box is ticked,
+
+15
+00:00:58,450 --> 00:01:01,870
+users will be assigned to a cohort the minute the course goes live
+
+16
+00:01:01,870 --> 00:01:03,640
+and they access the site.
+
+17
+00:01:03,640 --> 00:01:06,650
+If you change your mind on cohorts before the course goes live,
+
+18
+00:01:06,650 --> 00:01:10,240
+you can always come back to this button and untick the selection.
+
+19
+00:01:10,240 --> 00:01:12,610
+At this stage, you're now ready to go.
+
+20
+00:01:12,610 --> 00:01:17,290
+Now, hypothetically, if we were to need specific cohort views or experiment
+
+21
+00:01:17,290 --> 00:01:20,860
+group configurations for research purposes, you can tick here,
+
+22
+00:01:20,860 --> 00:01:24,010
+and it will take you to Group Configurations in Studio.
+
+23
+00:01:24,010 --> 00:01:28,180
+You can also access this via Settings then Group Configuration in Studio
+
+24
+00:01:28,180 --> 00:01:30,730
+on the top navigation bar.
+
+25
+00:01:30,730 --> 00:01:35,600
+Finally, if you were to need to change a user's cohort allocation at any time,
+
+26
+00:01:35,600 --> 00:01:38,830
+you can simply select the Required New Cohort from the dropdown
+
+27
+00:01:38,830 --> 00:01:42,040
+and add the user's email address in the box below.
+
+28
+00:01:42,040 --> 00:01:44,830
+This will override any previous allocation, however, and
+
+29
+00:01:44,830 --> 00:01:49,030
+is pretty risky if the course is already live, as their previous submissions may
+
+30
+00:01:49,030 --> 00:01:50,760
+be affected.
+

@@ -1,0 +1,77 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<h3 class="hx-underline">Math and Language Flashcards</h3>
+
+<p>While this tool was designed for pop-ups on images, you can also use it on text, or even around MathJax displays. Here are some examples:</p>
+
+<blockquote style="border: 1px solid grey; padding: 1em 1em 0em 1em;">
+<p><a href="javascript:;" class="five-times-six hx-popup-opener">
+  \( 5 \times  6 \)
+</a></p>
+<p><a href="javascript:;" class="seven-times-eightteen hx-popup-opener">
+  \( 7 \times 18 \)
+</a></p>
+
+<div class="five-times-six hx-popup-content">
+  <p>\( 5 \times  6 \)</p>
+  <p>\( 5 + 5 + 5 + 5 + 5 + 5 \) </p>
+  <p>\( 30 \)</p>
+</div>
+
+<div class="seven-times-eightteen hx-popup-content">
+  <p>\( 7 \times  18 \)</p>
+  <p>\( 7 \times  9 + 7 \times 9 \)</p>
+  <p>\( 63 + 63 \)</p>
+  <p>\( 126 \)</p>
+</div>
+
+<p>Cuando aprende a <a href="javascript:;"><span class="speak-language hx-popup-opener">hablar un idioma</span></a>, puede ser útil poder buscar algunas <a href="javascript:;"><span class="key-words hx-popup-opener">palabras y frases clave</span></a>.</p>
+
+<div class="speak-language hx-popup-content">
+  <p><b>Español:</b> hablar un idioma</p>
+  <p><b>English:</b> speak a language</p>
+</div>
+
+<div class="key-words hx-popup-content">
+  <p><b>Español:</b> palabras y frases clave</p>
+  <p><b>English:</b> key words and phrases</p>
+</div>
+  
+</blockquote>
+
+<p>We used some go-nowhere links to make the clickable equations and phrases stand out. Check out the source code for this section to see how:</p>
+
+<pre><code class="lang-markup">
+&lt;p&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;five-times-six hx-popup-opener&quot;&gt;
+  \( 5 \times  6 \)
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;seven-times-eightteen hx-popup-opener&quot;&gt;
+  \( 7 \times 18 \)
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;five-times-six hx-popup-content&quot;&gt;
+  &lt;p&gt;\( 5 \times  6 \)&lt;/p&gt;
+  &lt;p&gt;\( 5 + 5 + 5 + 5 + 5 + 5 \) &lt;/p&gt;
+  &lt;p&gt;\( 30 \)&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;seven-times-eightteen hx-popup-content&quot;&gt;
+  &lt;p&gt;\( 7 \times  18 \)&lt;/p&gt;
+  &lt;p&gt;\( 7 \times  9 + 7 \times 9 \)&lt;/p&gt;
+  &lt;p&gt;\( 63 + 63 \)&lt;/p&gt;
+  &lt;p&gt;\( 126 \)&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Cuando aprende a &lt;a href=&quot;javascript:;&quot;&gt;&lt;span class=&quot;speak-language hx-popup-opener&quot;&gt;hablar un idioma&lt;/span&gt;&lt;/a&gt;, puede ser &uacute;til poder buscar algunas &lt;a href=&quot;javascript:;&quot;&gt;&lt;span class=&quot;key-words hx-popup-opener&quot;&gt;palabras y frases clave&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;speak-language hx-popup-content&quot;&gt;
+  &lt;p&gt;&lt;b&gt;Espa&ntilde;ol:&lt;/b&gt; hablar un idioma&lt;/p&gt;
+  &lt;p&gt;&lt;b&gt;English:&lt;/b&gt; speak a language&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;key-words hx-popup-content&quot;&gt;
+  &lt;p&gt;&lt;b&gt;Espa&ntilde;ol:&lt;/b&gt; palabras y frases clave&lt;/p&gt;
+  &lt;p&gt;&lt;b&gt;English:&lt;/b&gt; key words and phrases&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>

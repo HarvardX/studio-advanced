@@ -1,0 +1,17 @@
+<problem display_name="The Goal" markdown="&gt;&gt;What was the goal of this section?&lt;&lt;&#10;&#10;(!) Making cheating impossible.&#10;( ) Explaining why we shouldn't care about academic honesty.&#10;( ) Providing a single method to cut down on cheating.&#10;(x) Making things harder for cheaters.&#10;&#10;[explanation]&#10;Cheating is only worthwhile when it's easier than doing the work. We can't make it impossible, but we can at least raise the bar.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>What was the goal of this section?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Making cheating impossible.</choice>
+      <choice correct="false">Explaining why we shouldn't care about academic honesty.</choice>
+      <choice correct="false">Providing a single method to cut down on cheating.</choice>
+      <choice correct="true">Making things harder for cheaters.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Cheating is only worthwhile when it's easier than doing the work. We can't make it impossible, but we can at least raise the bar.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

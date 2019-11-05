@@ -1,0 +1,13 @@
+<video url_name="9a4082b04e8a4a33b35b28371515dc61" sub="" transcripts="{&quot;en&quot;: &quot;41d7fec6-3487-4abc-a1a4-e1e8d266c09d-en.srt&quot;}" display_name="Planning Intro" download_track="true" download_video="true" edx_video_id="41d7fec6-3487-4abc-a1a4-e1e8d266c09d" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000500/HarvardXStudioAdv1-V000500.m3u8&quot;]" youtube_id_0_75="" youtube_id_1_0="" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000500/HarvardXStudioAdv1-V000500.m3u8"/>
+  <video_asset client_video_id="studx_v1_003072019_Amy and Colin_RC_v1FA Part 5_branded-_edxmstr_v1.mp4" duration="54.51" image="video-images/a58cd13ae955403ba7b7c009109d89d7.png">
+    <encoded_video bitrate="541" file_size="3687090" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000500_DTH.mp4"/>
+    <encoded_video bitrate="192" file_size="1309428" profile="audio_mp3" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000500_AUD.mp3"/>
+    <encoded_video bitrate="0" file_size="0" profile="hls" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000500/HarvardXStudioAdv1-V000500.m3u8"/>
+    <encoded_video bitrate="246" file_size="1678066" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000500_MB2.mp4"/>
+    <transcripts>
+      <transcript file_format="srt" language_code="en" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="41d7fec6-3487-4abc-a1a4-e1e8d266c09d-en.srt"/>
+</video>

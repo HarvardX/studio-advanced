@@ -1,0 +1,48 @@
+<h3 class="hx-underline">Instructions</h3>
+
+<p>Here's how to run the scripts.</p>
+
+<p>First, open the .tar.gz file for your course and locate the resulting folder. It will probably be named "course".</p>
+
+<p>Then, open up a command line and move into the folder that contains your script. Type <code class="lang-markdown">python3 NameOfScript.py</code> with no other arguments. That will give you the instructions for that particular script. For example:</p>
+
+<pre><code class="lang-markup"><b>HXColin:~ cfred$</b> cd Documents/GitHub_Repositories/hx-xml/
+<b>HXColin:hx-xml cfred$</b> python3 SetMaxAttempts.py
+usage: 
+To use:
+<b>python3 SetMaxAttempts.py number path/to/problem/folder</b>
+
+Your options for the number are:
+  - An actual number, which sets all problems to the same # of attempts
+  - "delete" or "default", which removes the value so that
+    course-wide default takes over
+  - "auto" (recommended), in which case attempts are set as follows:
+    - Numerical and Formula problems get 10
+    - Customresponse and Text problems get 5
+    - Checkbox problems get a number of attempts equal to the number of choices, max 5.
+    - MC problems get...
+      - 3 if they have 7+ options
+      - 2 if they have 4-6 options
+      - 1 if they have 2-3 options
+    - Multi-problems get the highest number of the set.
+    - Other problem types are skipped.
+
+There will probably still be some issues, so you'll need to review.
+This code will help you make a first pass, not a final pass.
+
+Last update: March 15th 2018
+SetMaxAttempts.py: error: the following arguments are required: number, directory</code></pre>
+
+<p>Then, based on what you see in the instructions, you'll launch the script so that it works for you. In this case, if I wanted to automatically set the number of attempts allowed for every problem in my Statistics course, I'd write this:</p>
+
+<p><code class="lang-markup">python3 SetMaxAttempts.py auto ~/Documents/Harvard/Statistics/backups/course/problem </code></p>
+
+<p>Each script has its own set of instructions, so be sure to check for each new script as you run it.</p>
+
+<h4 class="hx-underline">Once you're done...</h4>
+
+<p>After you run the script, you need to tar and gzip the course folder. If you're on MacOS or Linux, you can type the following command into a terminal prompt (command line) to create your upload file:</p>
+
+<p><code class="lang-markup">tar -zcvf newcourse.tar.gz course/ </code></p>
+
+<p>After that you can upload it to edX via Studio's Import function.</p>

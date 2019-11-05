@@ -1,0 +1,20 @@
+<problem display_name="This Discussion Is Over." markdown="&gt;&gt;How can you close the discussion boards in your course, so that people can no longer post?&lt;&lt;&#10;&#10;(!) Set the &quot;Discussion&quot; page to be invisible to learners&#10;(x) Set a Discussion Blackout&#10;( ) Set the close date on the Schedule &amp;amp; Details page&#10;( ) Close each and every thread individually&#10;(@) Only by contacting your server administrator&#10;&#10;[explanation]&#10;The Discussion Blackout setting allows you to prevent learners from adding new posts to the discussion board. The discussion board cannot be set as invisible, and there's no relevant setting on the Schedule &amp;amp; Details page.&#10;&#10;Closing all the existing threads individually would be a horribly tedious waste of time, as it wouldn't keep people from posting new threads anyway.&#10;&#10;Remember that there is no way to close the discussion for mobile app users.&#10;[explanation]&#10;&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>How can you close the discussion boards in your course, so that people can no longer post?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Set the "Discussion" page to be invisible to learners</choice>
+      <choice correct="true">Set a Discussion Blackout</choice>
+      <choice correct="false">Set the close date on the Schedule &amp; Details page</choice>
+      <choice correct="false">Close each and every thread individually</choice>
+      <choice correct="false" fixed="true">Only by contacting your server administrator</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The Discussion Blackout setting allows you to prevent learners from adding new posts to the discussion board. The discussion board cannot be set as invisible, and there's no relevant setting on the Schedule &amp; Details page.</p>
+        <p>Closing all the existing threads individually would be a horribly tedious waste of time, as it wouldn't keep people from posting new threads anyway.</p>
+        <p>Remember that there is no way to close the discussion for mobile app users.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

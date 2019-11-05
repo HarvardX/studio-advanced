@@ -1,0 +1,62 @@
+<script>
+  var hxLocalOptions = {
+     makeTOC: false,
+  };
+</script>
+
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">HX-JS</h3>
+
+<p>HX-JS is a Javascript library that collects a lot of the tricks and tools that HarvardX has written for our courses in one place, to make them easier to implement and troubleshoot. You've seen it at work all over this course:</p>
+
+<ul>
+  <li><a href="/jump_to_id/51be770bfa47405f9dc92e67eb30ce34" target="_blank">Clickable image maps</a></li>
+  <li>The <a href="/jump_to_id/9a8299914e364827bef20023b7bf2583" target="_blank">image carousel</a></li>
+  <li><a href="/jump_to_id/dbd3fa5e1a1a430a87b5fc647805e8d0" target="_blank">Pop-up links</a> in videos</li>
+  <li>Show/hide toggles like in the <a href="/jump_to_id/a2ac97cbacab497c9a466ca0ac9e224a" target="_blank">choose-your-own-adventure problem</a></li>
+  <li>Little cosmetic tweaks like the header underline, colored boxes, and floating images.</li>
+  <li>Also there's a demonstration of all of these on the next page if you like.</li>
+</ul>
+
+<p>The current version of the code for this can be found on the <a href="https://github.com/Colin-Fredericks/hx-js/" target="_blank">hx-js GitHub repository</a>, along with detailed <a href="https://github.com/Colin-Fredericks/hx-js/blob/master/README.md#how-to-implement-hxjs-in-your-course" target="_blank">instructions for implementation</a>. It's covered under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a> so you can do whatever you like with it.</p>
+
+<h4 class="hx-underline">Installation</h4>
+
+<ol>
+  <li>Download the <a href="https://github.com/Colin-Fredericks/hx-js/raw/master/hx-standard.zip">hx-standard.zip</a> archive. Unzip it and put every file from it into your Files &amp; Uploads section. This is the standard minimum set of tools.</li>
+  <li>Download the <a href="https://github.com/Colin-Fredericks/hx-js/raw/master/HXHelper%20Files.zip">HXJS Helper.zip</a> archive. Unzip it and put every file from it into your Files &amp; Uploads section. This will let you use video links, pop-up problems, Slick-style image sliders, and intro.js text-based walkthroughs.</li>
+</ol>
+
+<p>Once you've done that, copy the lines below into a Raw HTML element:</p>
+<pre><code class="lang-markup">&lt;script src="&#47;static/hx.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" type="text/css" href="&#47;static/hx.css"&gt;
+</code></pre>
+
+<p>That will enable hx.js for all components on that page. It should be doing exactly nothing so far. You can test whether it's working by entering the <a href="https://en.wikipedia.org/wiki/Konami_Code" target="_blank">Konami Code</a>. If you get 30 lives, it's working. You should put it just once on every page where you want it to work.</p>
+
+<p>HX-JS mostly works by you setting specific classes on things, and it finding those classes and attaching listeners to the thing that has the class. It tries not to load things unless they might be needed, so if there's no video on the page, it won't load the video-related files.</p>
+
+<h4 class="hx-underline">Options</h4>
+
+<p>There are a bunch of options you can set for HX-JS, all of which are described on the <a href="https://github.com/Colin-Fredericks/hx-js/" target="_blank">GitHub repo</a>. You can either set them in the HXGlobalOptions.js file, or you can set them locally on your page, like this:</p>
+
+<pre><code class="lang-js">&lt;script&gt;
+var hxLocalOptions =  {
+  // Marks all external links with an icon.
+  markExternalLinks: false,
+
+  // Options for the Slick image slider
+  slickOptions: {
+    arrows: true,
+    dots: false,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  },
+};
+&lt;/script&gt;
+</code></pre>
+
+<p>Again, all the options can be found in the <a href="https://github.com/Colin-Fredericks/hx-js/" target="_blank">GitHub repo</a>. Scroll down to the bottom there for the full list.</p>
+

@@ -1,0 +1,18 @@
+<problem display_name="Style choices" markdown="Which page elements are best to avoid changing or proceed with caution in your CSS?&#10;&#10;(!) fonts&#10;( ) margins&#10;( ) colours&#10;( ) dividers&#10;(@x) all of the above, especially if changing for all elements across the entire page&#10;&#10;[explanation]&#10;The design of a website relies on a &lt;em&gt;matching aesthetic&lt;/em&gt; on that page's elements. While these particular elements may feel like small change, each one of them was chosen for a reason. Changing one of them may require you to change all of them before you get something that looks good.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>Which page elements are best to avoid changing or proceed with caution in your CSS?</p>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">fonts</choice>
+      <choice correct="false">margins</choice>
+      <choice correct="false">colours</choice>
+      <choice correct="false">dividers</choice>
+      <choice correct="true" fixed="true">all of the above, especially if changing for all elements across the entire page</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The design of a website relies on a <em>matching aesthetic</em> on that page's elements. While these particular elements may feel like small change, each one of them was chosen for a reason. Changing one of them may require you to change all of them before you get something that looks good.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

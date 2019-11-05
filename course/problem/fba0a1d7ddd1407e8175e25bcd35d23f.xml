@@ -1,0 +1,19 @@
+<problem display_name="Link location" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Where can your links show up on the video? </label>
+    <description> Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="true">The top right corner.</choice>
+      <choice correct="true">The bottom right corner.</choice>
+      <choice correct="true">The bottom left corner.</choice>
+      <choice correct="true">The top left corner.</choice>
+      <choice correct="false">The middle</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>You can select any corner location by setting the options in the script. There will <em>always</em> be a list of them underneath the video to aid with accessibility.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

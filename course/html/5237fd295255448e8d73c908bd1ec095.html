@@ -1,0 +1,11 @@
+<h3 class="hx-underline">What not to touch</h3>
+<p></p>
+<p>Essentially, blanket &lt;style&gt; changes for core elements such as paragraphs &lt;p&gt; text body and all &lt;div&gt; components should be avoided. There is absolutely no reason to touch these and they will cause a lot more hassle than it&rsquo;s probably worth!</p>
+<p></p>
+<ul>
+<li><strong>Fonts</strong> - most learning management systems (LMS) such as edX have selected fonts that are tested for accessibility. This means the font family is easy to read on screen, including through screen readers, the size is clear and in proportion with the rest of the site, navigation bars etc. with clear demarcation between headers and text body. There is basically no justification for manipulating this feature.</li>
+<li><strong>Divisions</strong> - this is the &lt;div&gt; component which acts as a container marker for chunks of formatting or code. Divisions are everywhere - think of them as the punctuation of your HTML markup language, indicating where to stop and start style application. Your course pages will feature many more &lt;div&gt; than you have direct access to, so playing with these will have pretty major consequences.</li>
+<li><strong>Margins</strong> - much like fonts, margins will already be selected and tested as part of the platform style. Adding additional indentation can be useful in specific contexts, such as for lists wrapping around images, but it must be clearly articulated within the CSS for that purpose only. It is very easy to accidentally over apply formatting to the whole page rather than a specific component.</li>
+</ul>
+<p>Obviously, those very experienced with CSS will appreciate when these rules can be flouted but, for the most of us, keeping clear of changes to fonts, divisions and page-margins is a really good idea!</p>
+<p></p>

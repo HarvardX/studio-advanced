@@ -1,0 +1,60 @@
+0
+00:00:03,825 --> 00:00:05,700
+AMY WOODGATE: Quite a lot of this course focuses
+
+1
+00:00:05,700 --> 00:00:09,330
+on straightforward implementation and improved operating procedures.
+
+2
+00:00:09,330 --> 00:00:12,780
+COLIN FREDERICKS: This section is the hard stuff, and it needs to be that way.
+
+3
+00:00:12,780 --> 00:00:16,290
+AMY WOODGATE: Many of these longer projects require a massive upfront investment
+
+4
+00:00:16,290 --> 00:00:20,190
+in different areas, such as learning the code, setup requirements,
+
+5
+00:00:20,190 --> 00:00:22,410
+understanding specific nuances of the platform,
+
+6
+00:00:22,410 --> 00:00:26,490
+and last but not least, planning out the whole endeavor.
+
+7
+00:00:26,490 --> 00:00:29,220
+COLIN FREDERICKS: We're not trying to put you off using these features.
+
+8
+00:00:29,220 --> 00:00:32,100
+We just want you to understand that they are not easy or quick,
+
+9
+00:00:32,100 --> 00:00:34,410
+and they require a lot of careful thought and planning.
+
+10
+00:00:34,410 --> 00:00:36,160
+AMY WOODGATE: So the next time someone says--
+
+11
+00:00:36,160 --> 00:00:37,535
+COLIN FREDERICKS: I've got a great idea.
+
+12
+00:00:37,535 --> 00:00:39,150
+Let's make the course adaptive.
+
+13
+00:00:39,150 --> 00:00:41,430
+AMY WOODGATE: You at least will know what that actually
+
+14
+00:00:41,430 --> 00:00:45,680
+means for cost development and so can make a well-informed decision.
+

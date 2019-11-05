@@ -1,0 +1,164 @@
+0
+00:00:03,443 --> 00:00:04,360
+DREW LICHTENSTEIN: Hi.
+
+1
+00:00:04,360 --> 00:00:05,277
+I'm Drew Lichtenstein.
+
+2
+00:00:05,277 --> 00:00:06,870
+And I'm a course producer at HarvardX.
+
+3
+00:00:06,870 --> 00:00:09,570
+And I'm here to talk to you about alternative navigation.
+
+4
+00:00:09,570 --> 00:00:12,570
+So alternate navigation in edX is this ability
+
+5
+00:00:12,570 --> 00:00:15,420
+to kind of add custom navigation to a course.
+
+6
+00:00:15,420 --> 00:00:19,420
+You can give a course a more custom look that sets it apart from other courses.
+
+7
+00:00:19,420 --> 00:00:22,170
+It's particularly nice, because, as I'm sure you realize,
+
+8
+00:00:22,170 --> 00:00:24,717
+edX is a very linear progression through the course material
+
+9
+00:00:24,717 --> 00:00:27,300
+if you just go through the outline or the horizontal bars that
+
+10
+00:00:27,300 --> 00:00:28,620
+are on the course pages.
+
+11
+00:00:28,620 --> 00:00:32,547
+And this alternative navigation lets learners see pathways
+
+12
+00:00:32,547 --> 00:00:35,130
+through the material that is not necessarily just from A to B.
+
+13
+00:00:35,130 --> 00:00:39,000
+So you can connect things that maybe are in section one to section eight
+
+14
+00:00:39,000 --> 00:00:41,860
+that otherwise you could just do with edX's default look.
+
+15
+00:00:41,860 --> 00:00:46,560
+It's also nice, because you can expose the entire course layout on a page.
+
+16
+00:00:46,560 --> 00:00:50,670
+So right now, default edX look, you can only see that on the outline.
+
+17
+00:00:50,670 --> 00:00:53,760
+But you could put course navigation on a single page
+
+18
+00:00:53,760 --> 00:00:56,160
+that shows where everything is.
+
+19
+00:00:56,160 --> 00:00:59,670
+Also, you can add your own aesthetic touch.
+
+20
+00:00:59,670 --> 00:01:02,340
+You no longer are restricted to using edX's icons,
+
+21
+00:01:02,340 --> 00:01:08,127
+so those default video assessment icons within your course navigation.
+
+22
+00:01:08,127 --> 00:01:10,710
+And so there's a lot of different things you can do with this.
+
+23
+00:01:10,710 --> 00:01:13,440
+The downside is that you've to make sure that whatever you put in
+
+24
+00:01:13,440 --> 00:01:14,995
+continues to play nice with edX.
+
+25
+00:01:14,995 --> 00:01:18,120
+You're putting in custom JavaScript, which means it could break at any time
+
+26
+00:01:18,120 --> 00:01:19,230
+when they update.
+
+27
+00:01:19,230 --> 00:01:21,810
+And so every time, you've got to kind of check.
+
+28
+00:01:21,810 --> 00:01:24,750
+Every couple weeks, make sure it's still there.
+
+29
+00:01:24,750 --> 00:01:27,660
+And also a lot of students who take edX courses
+
+30
+00:01:27,660 --> 00:01:29,340
+have taken previous edX courses.
+
+31
+00:01:29,340 --> 00:01:33,750
+So while edX's default navigation isn't great,
+
+32
+00:01:33,750 --> 00:01:36,900
+your students are probably used to using it, in which case
+
+33
+00:01:36,900 --> 00:01:39,780
+you want to make sure that the alternative navigation you put in
+
+34
+00:01:39,780 --> 00:01:40,830
+isn't confusing them.
+
+35
+00:01:40,830 --> 00:01:43,815
+I like to think of it more as supplemental navigation, that what
+
+36
+00:01:43,815 --> 00:01:45,690
+you're putting in isn't meant to replace edX,
+
+37
+00:01:45,690 --> 00:01:48,760
+but it is meant to provide an enhancement on what's already there.
+
+38
+00:01:48,760 --> 00:01:51,485
+So be sure you're clear about what you're showing
+
+39
+00:01:51,485 --> 00:01:52,860
+with your alternative navigation.
+
+40
+00:01:52,860 --> 00:01:55,820
+And that way, you can avoid student confusion.
+

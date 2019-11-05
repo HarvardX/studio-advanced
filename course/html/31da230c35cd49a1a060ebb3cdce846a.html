@@ -1,0 +1,13 @@
+<h4 class="hx-underline">Function Diagram</h4>
+
+<p>The diagram below shows the connections between different systems when a JSInput problem is deployed. You don't need to understand this to <em>use</em> a JSInput problem, but if you're going to <em>build</em> one from scratch, you should spend some time working through this diagram and its description.</p>
+
+<figure>
+  <a href="/static/JSInput_Function_Diagram_large.png" target="_blank">
+    <img src="/static/JSInput_Function_Diagram_small.png" alt="Described below" />
+  </a>
+  <figcaption>A diagram of how JSInput problems work. EdX calls a <code class="lang-js">setState()</code> function, passing it the existing problem state. The problem then uses that information to construct HTML content, displayed via iframe. As the user interacts with that content, the problem's state is updated. When the user submits the problem, edX calls <code class="lang-js">getState()</code> to obtain the current problem state, which is stores for later restoration. It also calls <code class="lang-js">getGrade()</code> to obtain a gradeable object, which it passes to Python-based grading code. After the problem is graded, edX stores and displays the score as it would for any other assignment.</figcaption>
+</figure>
+<br/>
+
+<p>You can come back to this after checking out the code. It might make more sense then.</p>

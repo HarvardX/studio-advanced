@@ -1,0 +1,36 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<link rel="stylesheet" type="text/css" href="/static/figure.css"> 
+<style>
+  .boldnumbers > li{
+    font-weight: bold;
+  }
+  .boldnumbers > li > p, .boldnumbers > li > ul {
+    font-weight: normal;
+    margin-top: 16px;
+  }
+</style>
+
+
+<h3 class="hx-underline">How to make pretty HTML</h3>
+
+<ol class="boldnumbers">
+  <li><strong>Keep it clean - use Raw HTML </strong>
+  <p>When creating new content, rather than reaching first for the Rich Text, always go for Raw HTML. This will certainly seem scary at the start and will take a little time to get used to but it's worth the investment.</p> 
+  <p>Paste text directly into a &lt;p&gt;&lt;/p&gt; and it will paste as plain text, no formatting. This will save a lot of time stripping out formatting. Likewise, if you have a block of formatted text that you wish to clean, copy and paste straight into a Raw HTML component and just add the &lt;p&gt;&lt;/p&gt;. Simple.</p>
+  <p>It is also the only way you can include CSS references. CSS and Raw HTML components go hand-in-hand.</p></li>
+  <li><strong>Keep it lowercase </strong>
+  <p>For readability reasons, your HTML tags should be written in lowercase. It is possible to create content using &lt;UPPERCASE TAGS&gt; and will have minimal impact on load speed, but it will look odd, some people won't be able to read it and is not standard practice. Keep it simple, keep it lowercase.</p></li>
+  <li><strong>Use CSS</strong>
+  <p>HTML is for content, CSS for style. Try not to mix up the two.</p>
+  <p>In-line style formatting within your HTML will take your page longer to load and make your code less accessible. Remember, you never know if someone will 'inspect page' and judge you for it! ;)</p></li>
+  <li><strong>Limit CSS</strong>
+  <p>This is unlikely to apply too much here as there are quite a few limits on what you can do to edX course CSS, however do bear in mind that any page that references CSS in the HTML will require cross-reference to your CSS file. If the file is massive with loads of specific style references for one use in a specific context, it will take longer for the broswer to render the correct style reference. Again, simplify and minimise the volume of CSS to improve general functionality.</p></li>
+  <li><strong>Consider other tips below</strong>
+  <ul>
+    <li>Use separate lines</li>
+    <li>Remove redundant references</li>
+    <li>Use clean, short names for links</li>
+    <li>Create &lt;fig&gt; containers rather than plain &lt;img&gt; images</li>
+  </ul></li>
+</ol>

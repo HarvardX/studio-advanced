@@ -1,0 +1,22 @@
+<problem display_name="What's wrong?" markdown="null" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>Take a look at the image of a survey question below:</p>
+    <a href="/static/Screenshot_2019-07-01_14.23.17.png" target="_blank">
+      <img alt="An edX checkbox problem used as a survey question. One answer has been selected out of four. A small red box has appeared above the submit button and below after an answer has been submitted but it is not the correct answer. The question is how do you wash your cat?" src="/static/Screenshot_2019-07-01_14.23.17.png" width="600"/>
+    </a>
+    <label><strong>Something doesn't look right but can you diagnose the problem?</strong> Select from the options below.</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">There is a mystery red box, so an answer must be missing.</choice>
+      <choice correct="true">A checkbox problem has been used, so any <em>single</em> answer will be deemed incorrect as <em>all</em> answers must be selected.</choice>
+      <choice correct="false">A checkbox problem has been used, so red boxes are showing where they shouldn't be.</choice>
+      <choice correct="false">The edX survey tool has been used but not set up correctly.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Checkbox problems require <em>every</em> correct answer to be selected in order to grant full credit. This makes them a particularly bad choice for surveying learners. Instead, you might use a MCQ where every answer is considered right.</p>
+      <p>What's with the red box? Shouldn't that be an X? Turns out it's just a font glitch. It happened to us while we were taking the screenshot; it'll happen to you some day too.</p>
+    </div>
+  </solution>
+</problem>

@@ -1,0 +1,18 @@
+<script>
+  var sourceDataFile = "https://docs.google.com/spreadsheets/d/e/2PACX-1vThv7lwZAl5rEnmnTsAf0-I90-uwKXZ8JLUA3bOWESn-7981gXBi4lnPluuzFVWCHoPFpuAM5wFDvtp/pub?gid=2013682473&single=true&output=csv";
+  var sourceDataHeaders = {
+    "Link URL": "URL", 
+    "Link Name": "Name", 
+    "What will people find here? Why is it interesting?": "Description", 
+    "Categories": "Categories"
+  };
+</script>
+<script src="/static/hx.js"></script>
+<script defer src="/static/papaparse.min.js"></script>
+<script defer src="/static/formtable_csv.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<table id="responseTable" style="border: 1px solid grey;">
+  <caption style="font-weight: bold; font-size: larger;">Link Sharing Table</caption>
+</table>
+<p><button id="reloadTable">Reload table data</button></p>

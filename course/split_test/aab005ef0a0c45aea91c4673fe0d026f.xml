@@ -1,0 +1,6 @@
+<split_test group_id_to_child="{&quot;1516930085&quot;: &quot;i4x://HarvardX/StudioAdv1/vertical/3c411237c6de4d70a20ed9cd1f48fd97&quot;, &quot;1454368484&quot;: &quot;i4x://HarvardX/StudioAdv1/vertical/276c6781f180470fafa68e110d940192&quot;, &quot;1296843229&quot;: &quot;i4x://HarvardX/StudioAdv1/vertical/c18187acca074962a2bfe6d74bfebcb8&quot;, &quot;1528469042&quot;: &quot;i4x://HarvardX/StudioAdv1/vertical/195dda18be0e45419be6f3b06abcde90&quot;}" user_partition_id="1868186923" display_name="Poll">
+  <vertical url_name="276c6781f180470fafa68e110d940192"/>
+  <vertical url_name="195dda18be0e45419be6f3b06abcde90"/>
+  <vertical url_name="c18187acca074962a2bfe6d74bfebcb8"/>
+  <vertical url_name="3c411237c6de4d70a20ed9cd1f48fd97"/>
+</split_test>

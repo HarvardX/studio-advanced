@@ -1,0 +1,74 @@
+<h3 class="hx-underline">IntroJS Code Example</h3>
+
+<pre><code class="lang-html">
+&#x3C;p&#x3E;Welcome to &#x3C;strong&#x3E;The Health Effects of Climate Change!&#x3C;/strong&#x3E; We are excited to have you here. Please scroll down to the course outline and start at the beginning.&#x3C;/p&#x3E;
+
+<span id="html_comment">&#x3C;!-- This style sheet is necessary for the intro.js text blocks to work. --&#x3E;
+&#x3C;link rel=&#x22;stylesheet&#x22; type=&#x22;text/css&#x22; href=&#x22;/static/introjs.css&#x22; /&#x3E;
+&#x3C;!-- So is this script. --&#x3E;
+&#x3C;script src=&#x22;/static/intro_accessible.js&#x22;&#x3E;&#x3C;/script&#x3E;</span>
+
+&#x3C;script&#x3E;
+  <span id="no_edit">$(document).ready(function(){
+    
+    /*****************************************************
+    * This section enables the intro.js text blocks.
+    * They&#x27;re set in the addNavData() function below.
+    *****************************************************/
+
+    addNavData();
+    
+    $(&#x27;#navmaker&#x27;).on(&#x27;click tap&#x27;, function(event){
+        event.preventDefault();
+        introJs().start();
+    });
+    
+    // End of intro.js code.
+    
+  });</span>
+  
+  /**************************************************************
+  * This function adds the data needed for the intro.js text blocks.
+  * You can change the text if you want.
+  **************************************************************/
+  function addNavData(){
+    let navmaker = $(&#x27;#navmaker&#x27;);
+    navmaker.attr(&#x22;data-step&#x22;, &#x22;1&#x22;);
+    navmaker.attr(&#x22;data-intro&#x22;, &#x22;Welcome to our course! You are on the Course Outline page. Click on the &#x27;next&#x27; button or press the right arrow key to continue. Press &#x27;escape&#x27; or click &#x27;done&#x27; to quit this tour.&#x22;);
+    navmaker.attr(&#x22;data-position&#x22;, &#x22;right&#x22;);
+
+    let courseware = $(&#x27;.course-tabs .active&#x27;);
+    courseware.attr(&#x22;data-step&#x22;, &#x22;2&#x22;);
+    courseware.attr(&#x22;data-intro&#x22;, &#x22;The course outline, including pages with all the videos, problems, and more, can all be found in the Course link.&#x22;);
+    courseware.attr(&#x22;data-position&#x22;, &#x22;right&#x22;);
+
+    <span id="walkblock">let <span id="arbitraryvar">discussion</span> = <span id="selectcode">$(&#x27;.course-tabs&#x27;).find(&#x27;a:contains(&#x22;Discussion&#x22;)&#x27;)</span>;
+    discussion.attr(<span id="datastep">&#x22;data-step&#x22;, &#x22;3&#x22;</span>);
+    discussion.attr(<span id="datatext">&#x22;data-intro&#x22;, &#x22;The Discussion link sends you to the discussion boards, where you can talk to your fellow students.&#x22;</span>);
+    discussion.attr(<span id="datapos">&#x22;data-position&#x22;, &#x22;right&#x22;</span>);</span>
+
+    let progress = $(&#x27;.course-tabs&#x27;).find(&#x27;a:contains(&#x22;Progress&#x22;)&#x27;);
+    progress.attr(&#x22;data-step&#x22;, &#x22;4&#x22;);
+    progress.attr(&#x22;data-intro&#x22;, &#x22;The Progress tab is where you can find your grade.&#x22;);
+    progress.attr(&#x22;data-position&#x22;, &#x22;right&#x22;);
+
+    <span id="noluck">let syllabus = $(&#x27;.course-tabs&#x27;).find(&#x27;a:contains(&#x22;Syllabus&#x22;)&#x27;);</span>
+    syllabus.attr(&#x22;data-step&#x22;, &#x22;5&#x22;);
+    syllabus.attr(&#x22;data-intro&#x22;, &#x22;The Syllabus tab will tell you about the course contents and policies. You will want to read this early.&#x22;);
+    syllabus.attr(&#x22;data-position&#x22;, &#x22;right&#x22;);
+
+    let outline = $(&#x27;.course-outline &#x3E; ol&#x27;).find(&#x22;&#x3E;:first-child&#x22;);
+    outline.attr(&#x22;data-step&#x22;, &#x22;6&#x22;);
+    outline.attr(&#x22;data-intro&#x22;, &#x22;Finally, this clickable course outline will help you navigate through our material. Click the Done button or press Escape and you&#x27;re ready to go!&#x22;);
+    outline.attr(&#x22;data-position&#x22;, &#x22;top&#x22;);
+
+  }
+&#x3C;/script&#x3E;
+&#x3C;script src=&#x22;/static/hx.js&#x22;&#x3E;&#x3C;/script&#x3E;
+&#x3C;link rel=&#x22;stylesheet&#x22; type=&#x22;text/css&#x22; href=&#x22;/static/hx.css&#x22;&#x3E;
+
+&#x3C;p&#x3E;If you&#x27;ve never taken an edX course before, click on button below to get a quick tour of the most basic parts of the course.&#x3C;/p&#x3E;
+
+&#x3C;p&#x3E;&#x3C;button id=&#x22;navmaker&#x22; style=&#x22;color: white; padding: 6px; font-size: 16px; background-color: #009b00; text-shadow: none; background-image: none;&#x22;&#x3E;How Do I Use edX?&#x3C;/button&#x3E;&#x3C;/p&#x3E;
+
+</code></pre>

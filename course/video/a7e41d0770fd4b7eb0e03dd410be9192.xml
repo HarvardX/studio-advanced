@@ -1,0 +1,12 @@
+<video url_name="a7e41d0770fd4b7eb0e03dd410be9192" sub="" transcripts="{&quot;en&quot;: &quot;f0a29e03-9e6c-4e01-ba3c-2b1987848dcf-en.srt&quot;}" display_name="Walk through of cohort setup" download_track="true" download_video="true" edx_video_id="f0a29e03-9e6c-4e01-ba3c-2b1987848dcf" html5_sources="[]" youtube_id_1_0="">
+  <video_asset client_video_id="studx_v1_20190801 _Cohorts1 13.38.10_RC_v1FA-_edxmstr_v1.mp4" duration="118.41" image="video-images/56e19bbdfb664f6897238fcfff6e600c.png">
+    <encoded_video bitrate="0" file_size="0" profile="hls" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001600/HarvardXStudioAdv1-V001600.m3u8"/>
+    <encoded_video bitrate="192" file_size="2843892" profile="audio_mp3" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001600_AUD.mp3"/>
+    <encoded_video bitrate="153" file_size="2277965" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001600_MB2.mp4"/>
+    <encoded_video bitrate="195" file_size="2891981" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V001600_DTH.mp4"/>
+    <transcripts>
+      <transcript file_format="srt" language_code="en" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="f0a29e03-9e6c-4e01-ba3c-2b1987848dcf-en.srt"/>
+</video>

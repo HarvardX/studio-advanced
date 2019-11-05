@@ -1,0 +1,256 @@
+0
+00:00:03,990 --> 00:00:04,810
+DUSTIN TINGLEY: Hi.
+
+1
+00:00:04,810 --> 00:00:06,685
+My name's Dustin Tingley, and I'm a Professor
+
+2
+00:00:06,685 --> 00:00:08,640
+of Government at Harvard University.
+
+3
+00:00:08,640 --> 00:00:11,730
+I'm also the Deputy Vice Provost for Advances in Learning.
+
+4
+00:00:11,730 --> 00:00:16,710
+As part of that role, I run a team that embeds surveys in HarvardX courses.
+
+5
+00:00:16,710 --> 00:00:19,650
+Today, we're going to talk very briefly about some things
+
+6
+00:00:19,650 --> 00:00:23,760
+that we find to be very important that you probably already know, too,
+
+7
+00:00:23,760 --> 00:00:26,580
+but I just want to take a second to reinforce.
+
+8
+00:00:26,580 --> 00:00:33,210
+So one of the biggest things to remember about running surveys in a course
+
+9
+00:00:33,210 --> 00:00:35,740
+is that you only get one shot.
+
+10
+00:00:35,740 --> 00:00:38,278
+You can't go back to a survey respondent and say, hey,
+
+11
+00:00:38,278 --> 00:00:40,320
+can you please take this survey again because I'd
+
+12
+00:00:40,320 --> 00:00:43,590
+like to ask you this question slightly differently than the way you first
+
+13
+00:00:43,590 --> 00:00:44,340
+took it?
+
+14
+00:00:44,340 --> 00:00:46,050
+Doesn't work.
+
+15
+00:00:46,050 --> 00:00:48,240
+Pilot, pilot, pilot, pilot.
+
+16
+00:00:48,240 --> 00:00:52,980
+Have other people take the survey such that you can reduce the chance that you
+
+17
+00:00:52,980 --> 00:00:54,887
+want to change something later.
+
+18
+00:00:54,887 --> 00:00:57,720
+Have your friends take the survey, have your family take the survey,
+
+19
+00:00:57,720 --> 00:01:00,180
+have your boss take the survey, have other course
+
+20
+00:01:00,180 --> 00:01:02,640
+designers take the survey, et cetera.
+
+21
+00:01:02,640 --> 00:01:05,310
+It really, really helps.
+
+22
+00:01:05,310 --> 00:01:08,970
+Next, let's think about the quality of the data
+
+23
+00:01:08,970 --> 00:01:12,810
+that you're able to collect as a function of the amount of time
+
+24
+00:01:12,810 --> 00:01:16,650
+it takes a survey respondent to take your survey.
+
+25
+00:01:16,650 --> 00:01:19,440
+Anything longer than around 10 minutes, you're
+
+26
+00:01:19,440 --> 00:01:24,390
+probably facing a dramatic decline in the quality of data.
+
+27
+00:01:24,390 --> 00:01:28,660
+So when your boss comes to you and asks for hey,
+
+28
+00:01:28,660 --> 00:01:34,230
+let's add these 15 other questions onto the survey, remind them we can do that,
+
+29
+00:01:34,230 --> 00:01:38,070
+but that might decrease the quality of the data.
+
+30
+00:01:38,070 --> 00:01:42,870
+Then I think it's really important for us to think about the survey taker
+
+31
+00:01:42,870 --> 00:01:45,090
+and what their experience is.
+
+32
+00:01:47,790 --> 00:01:51,270
+Anything longer than 10 minutes, the quality of the data
+
+33
+00:01:51,270 --> 00:01:53,550
+is going to go down.
+
+34
+00:01:53,550 --> 00:01:59,110
+People get bored taking surveys that have lots and lots of text on a screen.
+
+35
+00:01:59,110 --> 00:02:01,740
+So how do you minimize that?
+
+36
+00:02:01,740 --> 00:02:05,190
+Keep the questions short and punchy.
+
+37
+00:02:05,190 --> 00:02:10,313
+Emphasize things using underlining or bold fonting
+
+38
+00:02:10,313 --> 00:02:12,480
+in order to really get the message across about what
+
+39
+00:02:12,480 --> 00:02:14,070
+it is that you're asking.
+
+40
+00:02:14,070 --> 00:02:17,690
+Furthermore, minimize the number of questions on a page.
+
+41
+00:02:17,690 --> 00:02:20,550
+Introduce page breaks between questions, such
+
+42
+00:02:20,550 --> 00:02:24,120
+that you're not confronting someone with a wall of text.
+
+43
+00:02:24,120 --> 00:02:28,410
+Branching questions are oftentimes used also to help reduce fatigue.
+
+44
+00:02:28,410 --> 00:02:33,810
+A branching question lets you ask, hey, here are two choices
+
+45
+00:02:33,810 --> 00:02:36,720
+and depending on how you answer amongst those,
+
+46
+00:02:36,720 --> 00:02:39,360
+I'm going to give you a slightly different question.
+
+47
+00:02:39,360 --> 00:02:42,120
+Branching questions help to reduce the amount of text
+
+48
+00:02:42,120 --> 00:02:44,650
+that needs to be on the page.
+
+49
+00:02:44,650 --> 00:02:47,520
+Finally, and this is a little pro trick, keep in mind
+
+50
+00:02:47,520 --> 00:02:51,820
+that many people might take your survey on a mobile phone.
+
+51
+00:02:51,820 --> 00:02:56,220
+So that means you need to check how your survey looks on a mobile phone.
+
+52
+00:02:56,220 --> 00:02:57,990
+That's really easy to do.
+
+53
+00:02:57,990 --> 00:03:01,110
+Take your survey on a mobile phone.
+
+54
+00:03:01,110 --> 00:03:04,320
+Finally, I just want to point out that I too often see
+
+55
+00:03:04,320 --> 00:03:08,970
+people in many different areas of industry and academia
+
+56
+00:03:08,970 --> 00:03:13,540
+running surveys and then rarely really analyzing the data.
+
+57
+00:03:13,540 --> 00:03:16,290
+It's as if they wanted the data, but not the insight
+
+58
+00:03:16,290 --> 00:03:19,860
+and the analysis that is possible from running one of these surveys.
+
+59
+00:03:20,610 --> 00:03:24,930
+So if you're asking your learners to take the time to answer your survey,
+
+60
+00:03:24,930 --> 00:03:28,080
+you should take the time to analyze it and think
+
+61
+00:03:28,080 --> 00:03:31,220
+about how you can make a better course using the information that they've
+
+62
+00:03:31,220 --> 00:03:32,400
+provided you.
+
+63
+00:03:32,400 --> 00:03:34,430
+Thank you very much.
+

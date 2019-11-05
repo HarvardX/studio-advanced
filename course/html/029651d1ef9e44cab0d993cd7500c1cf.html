@@ -1,0 +1,81 @@
+<h3 class="hx-underline">Discussion Forum Settings</h3>
+
+<h4 id="allowanon"><button class="hx-togglebutton3">
+Allow Anonymous Discussion Posts <span class="fa-stack"><span class="fa fa-star fa-stack-1x"></span><span class="fa fa-star-o fa-stack-1x"><span class="sr">star</span></span></span>
+</button></h4>
+<div class="hx-toggletarget3" style="display:none;">
+  <p><strong>Default:</strong> true in general, false to peers (which overrides)</p>
+  <p><strong>Other settings:</strong> true or false</p>
+  <p>There are two versions of this setting:</p>
+  <ul>
+    <li>Allow Anonymous Discussion Posts (to everyone). <i>If true, students can create discussion posts that are anonymous to all users.</i> <strong>Default:</strong> true.</li>
+    <li>Allow Anonymous Discussion Posts <em>to Peers</em>. <i>If true, students can create discussion posts that are anonymous to other students. This setting does not make posts anonymous to course staff.</i> <strong>Default:</strong> false. This overrides the previous setting.</li>
+  </ul>
+  <p><strong>You probably want to reverse these settings</strong>. We recommend setting "to peers" to true and the general anonymous setting to false. This will allow your learners to post anonymously in your discussion board to one another, but let you as faculty members, course coordinators, etc. still see who's posting so that you can moderate appropriately. </p>
+</div>
+
+<h4><button class="hx-togglebutton5">
+Allow Public Wiki Access
+</button></h4>
+<div class="hx-toggletarget5" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>If true, edX users can view the course wiki even if they're not enrolled in the course.</i></p>
+  <p>Open up your course wiki. See under the tabs where it says "Wiki &gt; Studio Advanced &gt;"? Click on the "Wiki" link. You're either going to see every the public wiki for every course where this is marked true, or you're going to see "Permission Denied" in which case you don't need to worry about this. Most courses don't use the wiki at all, so you can probably safely leave this as false. </p>
+</div>
+
+<h4 id="blackout"><button class="hx-togglebutton27">
+Discussion Blackout Dates <span class="fa-stack"><span class="fa fa-star fa-stack-1x"></span><span class="fa fa-star-o fa-stack-1x"><span class="sr">star</span></span></span>
+</button></h4>
+<div class="hx-toggletarget27" style="display:none;">
+  <p><strong>Default:</strong> [] (a blank list)</p>
+  <p><strong>Other settings:</strong> See below</p>
+  <p><i>Enter pairs of dates between which students cannot post to discussion forums. Inside the provided brackets, enter an additional set of square brackets surrounding each pair of dates you add. Format each pair of dates as ["YYYY-MM-DD", "YYYY-MM-DD"]. To specify times as well as dates, format each pair as ["YYYY-MM-DDTHH:MM", "YYYY-MM-DDTHH:MM"]. Be sure to include the "T" between the date and time. For example, an entry defining two blackout periods looks like this, including the outer pair of square brackets: [["2015-09-15", "2015-09-21"], ["2015-10-01", "2015-10-08"]] </i></p>
+  <p>When you want to <strong>close the discussion board</strong> at the end of a course run, this is how you do it. Set the beginning of the blackout date as the end of your course (or maybe 2 weeks afterward, if you want to take a few last questions) and the end of the blackout date as the year 3000. You probably also want to make one final post, saying "The discussion boards are closed" and directing people to the edX help center.</p>
+  <p>Two important notes:</p>
+  <ul>
+    <li><strong>Re-running a course keeps the same blackout date</strong>, so this is something you'll need to fix each time you re-run the course.</li>
+    <li><strong>The edX mobile app does not respect blackout dates.</strong> This is a known missing feature; it may or may not be fixed in the future.</li>
+  </ul>
+</div>
+
+<h4 id="alphasort"><button class="hx-togglebutton28">
+Discussion Sorting Alphabetical <span class="fa-stack"><span class="fa fa-star fa-stack-1x"></span><span class="fa fa-star-o fa-stack-1x"><span class="sr">star</span></span></span>
+</button></h4>
+<div class="hx-toggletarget28" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p>If true, discussion categories and subcategories are sorted alphabetically. If false, they are sorted chronologically by creation date and time.</p>
+  <p>If you are 100% absolutely certain that you will never add a new discussion component to your course after you create them, <em>and</em> that you will never delete a page and re-create it, you can leave this as <code>false</code> and create your discussions in whatever order you want.</p>
+  <p>Since that's unlikely, <strong>We recommend setting this to <code>true</code></strong>. If you need to sort something to the top of your list, use "+", "-", or "*" at the front of the title. For instance, a category named "+ General" will appear at the top of your list so students are more likely to notice it. If you need to sort things to the bottom, use numbers or "~".</p>
+</div>
+
+<h4><button class="hx-togglebutton29">
+Discussion Topic Mapping
+</button></h4>
+<div class="hx-toggletarget29" style="display:none;">
+  <p><strong>Default:</strong> {
+    "General": {
+        "id": "course"
+    }
+}</p>
+  <p><strong>Other settings:</strong> See below.</p>
+  <p><i>Enter discussion categories in the following format: "CategoryName": {"id": "i4x-InstitutionName-CourseNumber-course-CourseRun"}. For example, one discussion category may be "Lydian Mode": {"id": "i4x-UniversityX-MUS101-course-2015_T1"}. The "id" value for each category must be unique. In "id" values, the only special characters that are supported are underscore, hyphen, and period. You can also specify a category as the default for new posts in the Discussion page by setting its "default" attribute to true. For example, "Lydian Mode": {"id": "i4x-UniversityX-MUS101-course-2015_T1", "default": true}</i></p>
+  <p>Your discussion categories don't need to be unique <em>across</em> courses, just <em>within</em> each course. The logging in edX is specific enough for later analysis to separate things out. So while above they suggest "i4x-UniversityX-MUS101-course-2015_T1" as a category id, you could also just name it "Lydian_Mode".</p>
+  <p>You might want to try a default setting of <code>"+ General": {
+        "id": "general", "default": true
+    }</code></p>
+  <p>Note that unicode characters are not supported here, including letters like ø and é.</p>
+</div>
+
+<h4><button class="hx-togglebutton53">
+Teams Configuration
+</button></h4>
+<div class="hx-toggletarget53" style="display:none;">
+  <p><strong>Default:</strong> {} (an empty JS object)</p>
+  <p><strong>Other settings:</strong> See below</p>
+  <p><i>Specify the maximum team size and topics for teams inside the provided set of curly braces. Make sure that you enclose all of the sets of topic values within a set of square brackets, with a comma after the closing curly brace for each topic, and another comma after the closing square brackets. For example, to specify that teams should have a maximum of 5 participants and provide a list of 2 topics, enter the configuration in this format: {"topics": [{"name": "Topic1Name", "description": "Topic1Description", "id": "Topic1ID"}, {"name": "Topic2Name", "description": "Topic2Description", "id": "Topic2ID"}], "max_team_size": 5}. In "id" values, the only supported special characters are underscore, hyphen, and period.</i></p>
+  <p>This creates <em>parameters for teams</em>, not the teams themselves. Teams are created from the teams tab after you build the topics. Check out <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/teams/teams_setup.html" target="_blank">edX's teams documentation</a> for detailed info.</p>
+  <p>A team in edX has a shared discussion board that they can post to, but that anyone can see. Learners can create, join, and leave teams as they see fit. That is the extent of the functionality. Nothing else is connected to this feature.</p>
+  <p>Note that unicode characters are not supported here, including letters like ø and é.</p>
+</div>

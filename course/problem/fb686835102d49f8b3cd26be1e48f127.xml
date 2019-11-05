@@ -1,0 +1,17 @@
+<problem display_name="Plus Minus" markdown="&gt;&gt;What does &lt;strong&gt;+-&lt;/strong&gt; signify in basic problem markup? &lt;&lt;&#10;[[&#10;A sum is required&#10;(Numerical tolerance)&#10;Answer is positive or negative&#10;Nothing&#10;]]&#10;&#10;[explanation]&#10;This is used in numerical problems. Check out the &lt;a href=&quot;https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/numerical_input.html&quot; target=&quot;_blank&quot;&gt;docs for numerical problems&lt;/a&gt; for more detail.&#10;[explanation]&#10;" showanswer="finished">
+  <optionresponse>
+    <label>What does <strong>+-</strong> signify in basic problem markup? </label>
+    <optioninput>
+      <option correct="False">A sum is required</option>
+      <option correct="True">Numerical tolerance</option>
+      <option correct="False">Answer is positive or negative</option>
+      <option correct="False">Nothing</option>
+    </optioninput>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>This is used in numerical problems. Check out the <a href="https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/numerical_input.html" target="_blank">docs for numerical problems</a> for more detail.</p>
+      </div>
+    </solution>
+  </optionresponse>
+</problem>

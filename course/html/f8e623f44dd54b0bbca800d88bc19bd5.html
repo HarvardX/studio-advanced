@@ -1,0 +1,51 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<style>
+  figure img { width: 80%; }
+  figcaption{ font-size: small; font-style: italic; width: 80%; }
+</style>
+
+<h3 class="hx-underline">Part 3: Bringing it all together</h3>
+
+<p>Now we will put all this together and create a pop-up alert that tells us all of the into we have just worked so hard to uncover with the following steps:</p>
+
+<ol>
+  <li>Define and run the <code class="lang-js">getQuestionID</code> function from before</li>
+  <li>Gather all of the other variables we have defined</li>
+  <li>Display this in a pop-up whenever we submit an assessment response</li>
+</ol>
+
+<pre><code class="lang-js">function getQuestionID() {
+    jQuery(".submit.btn-brand").mousedown(function() {
+    window.qID = jQuery(this).attr("aria-describedby").split("_")[2];
+    });
+}
+getQuestionID();
+
+function allInfo() {
+    window.username = analytics._user._getTraits().username;
+    window.userid = analytics.user()._getId();
+    window.url = window.location.href;
+    window.split = url.split("/");
+    window.section = split[6];
+    window.sequential = split[7];
+    window.vert = $('#sequence-list .nav-item.active').data('id').split("@").pop();
+    window.event_type = "problem_check";
+    alert("You are " + username + "\nand you created a " + event_type + " event\nfor question ID " + qID + "\nvertical ID " + vert + ". \n" + "At sequential " + sequential + ".\n" + "You are in section " + section + ". \n");
+}
+
+Logger.listen("problem_check",null, allInfo)
+</code></pre>
+
+<p>Notice that I had to adjust the <code class="lang-js">getQuestionID</code> function to fire on mousedown instead of a normal click. This is because <code class="lang-js">Logger</code> was beating the button click event to the punch, and I was getting an error that <code class="lang-js">qID</code> wasn't defined. </p>
+
+<p>If you run the above code chunk on any edX courseware page with a multiple choice question, it should generate a popup alert that looks something like this:
+</p>
+
+<figure>
+  <img src="/static/DanDavis_screenshot2.png" alt="" />
+  <figcaption>An alert showing userID, event type, and exact location.</figcaption>
+</figure>
+<br/>
+
+<p>Hopefully you can see from here how to incorporate any of the data from the <a href="https://edx.readthedocs.io/projects/devdata/en/stable/internal_data_formats/tracking_logs.html" target="_blank">edX event list</a> into your own reports.</p>

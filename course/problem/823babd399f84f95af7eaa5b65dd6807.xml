@@ -1,0 +1,16 @@
+<problem display_name="Guessing Game" markdown="null" max_attempts="10" rerandomize="onreset" show_reset_button="true" showanswer="finished" weight="0.0">
+  <script type="loncapa/python">
+
+secretAnswer = random.randint(1, 11)
+
+</script>
+  <numericalresponse answer="$secretAnswer">
+    <label>What number am I thinking of? Is it $secretAnswer? You'll never guess.</label>
+    <formulaequationinput/>
+  </numericalresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>How did you know???</p>
+    </div>
+  </solution>
+</problem>

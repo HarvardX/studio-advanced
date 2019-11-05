@@ -1,0 +1,103 @@
+<script src="/static/hx.js"></script>
+<script src="/static/intro_accessible.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<link rel="stylesheet" type="text/css" href="/static/introjs.css" />
+
+<script>
+  $(document).ready(function(){
+    
+    /*****************************************************
+    * This section enables the intro.js text blocks.
+    * They're set in the addNavData() function below.
+    *****************************************************/
+
+    addNavData();
+    
+    $('#codewalker').on('click tap', function(event){
+        event.preventDefault();
+        introJs().start();
+    });
+    
+    // End of intro.js code.
+    
+  });
+  
+  /**************************************************************
+  * This function adds the data needed for the intro.js text blocks.
+  * You can change the text if you want.
+  **************************************************************/
+  function addNavData(){
+    console.log('adding intro.js data');
+    
+    let vidlinknumber = $('#vidlinknumber');
+    vidlinknumber.attr("data-step", "1");
+    vidlinknumber.attr("data-intro", "Thanks for starting the walkthrough! Remember you can use the arrow keys or the mouse to move through this. <br/><br/> The outer div has <code>hx-vidlinks-static-1</code>, because it's for video number one - the first one on the page. If I have a second video, it should say <code>hx-vidlinks-static-2</code> and so forth.");
+    vidlinknumber.attr("data-position", "top");
+
+    let datatime = $('#datatime');
+    datatime.attr("data-step", "2");
+    datatime.attr("data-intro", "The inner divs have <code>data-time='9'</code> where the 9 means the link is going to show up nine seconds into the video. You can also specify times in minutes:seconds format, or even hours:minutes:seconds.");
+    datatime.attr("data-position", "top");
+
+    let hximg = $('#hximg');
+    hximg.attr("data-step", "3");
+    hximg.attr("data-intro", "The 'HX' image that appears is 25 pixels tall. When you replace it, you'll probably want to select an image that's also 25 pixels tall - at least, if you want your image to match the size of the text. Speaking of which, keep your links short. Line wraps are allowed, but they look a bit strange because the image doesn't scale up.");
+    hximg.attr("data-position", "top");
+
+    let hxhtml = $('#hxhtml');
+    hxhtml.attr("data-step", "4");
+    hxhtml.attr("data-intro", "Whatever you want to enter for your text goes here. That's all there is to it! <br/><br/> You're done with the walkthrough. Click 'Done' or press escape to exit.");
+    hxhtml.attr("data-position", "top");
+
+}
+</script>
+
+
+<h3 class="hx-underline">Code</h3>
+
+<p>Here's the HTML used on the previous page. As we've done elsewhere, we'll use the <a href="/jump_to_id/a71cb6a7b9544421ab6669881bffb183" target="_blank">walkthrough tool</a> to highlight some key parts.</p>
+
+<p><button id="codewalker" style="color: white; padding: 6px; font-size: 16px; background-color: #009b00; text-shadow: none; background-image: none;">Show me how to use the code.</button></p>
+
+<pre><code class="lang-markup">&lt;div <span id="vidlinknumber">id=&quot;hx-vidlinks-static-1&quot;</span> class=&quot;hx-vidlinks&quot;&gt;
+
+&lt;div <span id="datatime">data-time=&quot;15&quot;</span>&gt;
+  &lt;a href=&quot;/jump_to_id/fd4bdd11ac2b42ea82d176a16829b25f&quot;&gt;
+	 <span id="hximg">&lt;img src=&quot;/static/hx_tiny_white.png&quot; /&gt;</span>
+	Writing better HTML
+	&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div data-time=&quot;21&quot;&gt;
+	&lt;a href=&quot;/jump_to_id/77a3bba0b3244d5b8ae5aac1b57da16f&quot;&gt;
+	&lt;img src=&quot;/static/hx_tiny_white.png&quot; /&gt;
+	Writing a survey
+	&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div data-time=&quot;28&quot;&gt;
+	&lt;a href=&quot;/jump_to_id/497d63f8d1b341299a295aefa5e7e576&quot;&gt;
+	&lt;img src=&quot;/static/hx_tiny_white.png&quot; /&gt;
+	Batch Processing
+	&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre>
+
+<p>The javascript will turn this set of divs into a list of static links, for folks who can't see or get to the pop-up links.</p>
+
+<p>You can set the following options. Any that you don't set will default to the values shown below. Check out the <a href="https://jqueryui.com/hide/" target="_blank">official jQuery UI showcase</a> for more detail on the effects and directions below.</p>
+
+<pre><code class="lang-js">var hxLocalOptions =  {
+  VidLinkOptions: {
+    hideLinkAfter: 5,           //seconds
+    effect: 'slide',            // As per standard jQuery options
+    hide: {'direction':'down'}, // As per standard jQuery options
+    show: {'direction':'down'}, // As per standard jQuery options
+    speed: 500,                 // Miliseconds
+    location: 'bl'              // First letter is b/t (Bottom/Top), 
+                                // second letter is l/r (Left/Right).
+  }
+}
+</code></pre>

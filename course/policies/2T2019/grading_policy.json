@@ -1,0 +1,35 @@
+{
+    "GRADER": [
+        {
+            "drop_count": 2, 
+            "min_count": 9, 
+            "short_label": "Plan", 
+            "type": "Planning", 
+            "weight": 0.34
+        }, 
+        {
+            "drop_count": 2, 
+            "min_count": 6, 
+            "short_label": "Ops", 
+            "type": "Operations", 
+            "weight": 0.22
+        }, 
+        {
+            "drop_count": 2, 
+            "min_count": 6, 
+            "short_label": "Short", 
+            "type": "Short Projects", 
+            "weight": 0.22
+        }, 
+        {
+            "drop_count": 2, 
+            "min_count": 6, 
+            "short_label": "Long", 
+            "type": "Long Projects", 
+            "weight": 0.22
+        }
+    ], 
+    "GRADE_CUTOFFS": {
+        "Pass": 0.6
+    }
+}

@@ -1,0 +1,17 @@
+<problem display_name="Carousel Contents" markdown="&gt;&gt;What can I put into these carousels?&lt;&lt;&#10;&#10;(!) Just images&#10;( ) Anything in a div tag&#10;(x) General HTML content&#10;( ) Images or text&#10;&#10;[explanation]&#10;You can put anything you want into the carousel, though some things may work better than others.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>What can I put into these carousels?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Just images</choice>
+      <choice correct="false">Anything in a div tag</choice>
+      <choice correct="true">General HTML content</choice>
+      <choice correct="false">Images or text</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>You can put anything you want into the carousel, though some things may work better than others.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

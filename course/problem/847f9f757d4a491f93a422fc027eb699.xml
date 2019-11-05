@@ -1,0 +1,19 @@
+<problem display_name="Four-Step Process" markdown="Open Response Assessments have four possible steps: self-grading, staff grading, peer grading, and learner training. &#10;&#10;&gt;&gt;If all four steps are active, what order do they go in?&lt;&lt;&#10;&#10;(!) Training, then Self, then Peer, then Staff.&#10;( ) Training, then Peer, then Self, then Staff.&#10;( ) Self, then Training, then Peer, then Staff.&#10;(@) You can't have all four active in one assignment.&#10;(x@) Any order you want.&#10;&#10;[explanation]&#10;You can drag to reposition the stages in any order you like.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>Open Response Assessments have four possible steps: self-grading, staff grading, peer grading, and learner training. </p>
+    <label>If all four steps are active, what order do they go in?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Training, then Self, then Peer, then Staff.</choice>
+      <choice correct="false">Training, then Peer, then Self, then Staff.</choice>
+      <choice correct="false">Self, then Training, then Peer, then Staff.</choice>
+      <choice correct="false" fixed="true">You can't have all four active in one assignment.</choice>
+      <choice correct="true" fixed="true">Any order you want.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>You can drag to reposition the stages in any order you like.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,17 @@
+<problem display_name="Inserting Interactives" markdown="null" max_attempts="3" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Which of the following methods will let you place an interactive element into an edX course? </label>
+    <description> Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="true">Inserting the code directly into a Raw HTML component.</choice>
+      <choice correct="true">Storing a page in Files &amp; Uploads and inserting it via <code>iframe</code>.</choice>
+      <choice correct="true">Storing a page somewhere else on the internet and inserting it via <code>iframe</code>.</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>All of these methods can work! However, the last one in particular needs extra testing - some pages can be iframed, some cannot.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

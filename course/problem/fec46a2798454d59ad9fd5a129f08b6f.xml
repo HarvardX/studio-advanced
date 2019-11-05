@@ -1,0 +1,17 @@
+<problem display_name="Workarounds and Extra Work" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>If you decide to disable the top and bottom navigation, when might you need to update the code that does this?</label>
+    <checkboxgroup>
+      <choice correct="true">When edX changes their CSS</choice>
+      <choice correct="true">When edX changes the classes in their HTML</choice>
+      <choice correct="true">When edX changes their navigation scheme</choice>
+      <choice correct="false">When you update your own navigation scheme</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Altering edX's built-in classes is a great example of a "fragile change." EdX has altered its layout and CSS in the past, and will no doubt continue to do so in the future, possibly without advance warning. While some classes are likely to be quite stable (such as the "sr" class used for screen-reader-only content), there's no guarantee.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

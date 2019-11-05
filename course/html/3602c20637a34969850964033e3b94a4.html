@@ -1,0 +1,71 @@
+<style>
+  .blackdiv{ background-color: black; color: white; }
+  .blackxblockdiv{ background-color: black; color: white; }
+  .blackbody{ background-color: black; color: white; }
+  .shiftlist{ margin-left: 2em; }
+  .timesfont{ font-family: "Times New Roman", Times, serif; }
+  .timesfontbody{ font-family: "Times New Roman", Times, serif; }
+</style>
+<script>
+  
+  styleSelector = {
+    'blackdiv': 'div',
+    'blackxblockdiv': '.xblock div',
+    'blackbody': 'body',
+    'shiftlist': 'li',
+    'timesfont': 'p',
+    'timesfontbody': 'body'
+  }
+
+  $(document).ready(function(){
+    console.log('ready');
+    
+    let currentStyle = '';
+    
+    $('#styleswapper').on('change', function(e){
+      revertStyle();
+      currentStyle = e.target.value;
+      if(currentStyle == 'nochange'){
+        revertStyle();
+      }else{
+        console.log('giving ' + styleSelector[currentStyle] + ' style ' + currentStyle);
+        $(styleSelector[currentStyle]).addClass(currentStyle);
+      }
+    });
+    
+    function revertStyle(){
+      console.log( 'reverting style ' +  currentStyle);
+      $(styleSelector[currentStyle]).removeClass(currentStyle);
+    }
+
+    window.onkeydown = function( event ) {
+      if ( event.keyCode == 27 ) {
+        revertStyle();
+      }
+    };
+    
+  });
+</script>
+
+<form>
+  <select id="styleswapper">
+    <option id="nochange" value="nochange">(no changes)</option>
+    <option id="shiftlist" value="shiftlist">Indent all lists</option>
+    <option id="blackdiv" value="blackdiv">Turn all divs black with white text</option>
+    <option id="blackxblockdiv" value="blackxblockdiv">Turn all divs within xblocks black with white text</option>
+    <option id="blackbody" value="blackbody">Make the 'body' element black with white text</option>
+    <option id="timesfont" value="timesfont">Switch paragraphs to Times font</option>
+    <option id="timesfontbody" value="timesfontbody">Switch body to Times font</option>
+  </select>
+</form>
+
+<p>This is a paragraph in a &lt;p&gt; tag. Below here is a list:</p>
+<ul>
+  <li>I am in an &lt;li&gt; tag.</li>
+  <li>Oh hey me too</li>
+</ul>
+<table>
+  <caption>This is a very short table.</caption>
+  <tr><th>Column 1</th><th>Column 2</th></tr>
+  <tr><td>Entry 1</td><td>Entry 2</td></tr>
+</table>

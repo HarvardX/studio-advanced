@@ -1,0 +1,13 @@
+<video url_name="5f919356291344b99bdcfff7542a3749" sub="" transcripts="{&quot;en&quot;: &quot;81ed2c21-934c-479b-99a5-fe3cfe902636-en.srt&quot;}" display_name="Long Projects Intro" download_track="true" download_video="true" edx_video_id="81ed2c21-934c-479b-99a5-fe3cfe902636" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000400/HarvardXStudioAdv1-V000400.m3u8&quot;]" youtube_id_0_75="" youtube_id_1_0="" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000400/HarvardXStudioAdv1-V000400.m3u8"/>
+  <video_asset client_video_id="studx_v1_003072019_Amy and Colin_RC_v1FA Part 4_branded-_edxmstr_v1.mp4" duration="48.46" image="video-images/7c056a99ef984724a212556e52f02311.png">
+    <encoded_video bitrate="192" file_size="1163700" profile="audio_mp3" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000400_AUD.mp3"/>
+    <encoded_video bitrate="255" file_size="1549909" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000400_MB2.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="hls" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000400/HarvardXStudioAdv1-V000400.m3u8"/>
+    <encoded_video bitrate="566" file_size="3430512" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/HarvardXStudioAdv1-V000400_DTH.mp4"/>
+    <transcripts>
+      <transcript file_format="srt" language_code="en" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="81ed2c21-934c-479b-99a5-fe3cfe902636-en.srt"/>
+</video>

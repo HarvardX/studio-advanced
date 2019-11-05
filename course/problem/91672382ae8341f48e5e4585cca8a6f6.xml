@@ -1,0 +1,16 @@
+<problem display_name="Every Day I'm Shufflin'" markdown="&gt;&gt;How can you make a multiple-choice problem show answers in a random order?&lt;&lt;&#10;&#10;(!) Using the basic editor (markdown).&#10;( ) Using the advanced editor (XML).&#10;(x@) Using either one.&#10;&#10;[explanation]&#10;Check out the &lt;a href=&quot;https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html#shuffle-answers-in-a-multiple-choice-problem&quot; target=&quot;_blank&quot;&gt;official edX docs&lt;/a&gt; for more detail.&#10;[explanation]&#10;" max_attempts="1" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>How can you make a multiple-choice problem show answers in a random order?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Using the basic editor (markdown).</choice>
+      <choice correct="false">Using the advanced editor (XML).</choice>
+      <choice correct="true" fixed="true">Using either one.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Check out the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/multiple_choice.html#shuffle-answers-in-a-multiple-choice-problem" target="_blank">official edX docs</a> for more detail.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

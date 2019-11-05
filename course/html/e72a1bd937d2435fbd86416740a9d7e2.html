@@ -1,0 +1,77 @@
+<script>
+  
+  stylesheets = {
+    'simplecss': $('<link rel="stylesheet" type="text/css" href="/static/test_style.css" id="swap_a_style">'),
+    'hxcss': $('<link rel="stylesheet" type="text/css" href="/static/hx.css" id="swap_a_style">'),
+    'hxcssalt': $('<link rel="stylesheet" type="text/css" href="/static/hx_alt.css" id="swap_a_style">')
+  };
+
+  $(document).ready(function(){
+    console.log('ready');
+    
+    let currentStyle = '';
+    
+    $('#styleswapper').on('change', function(e){
+      revertStyle();
+      currentStyle = e.target.value;
+      if(currentStyle !== 'nochange'){
+        console.log('setting style to ' + currentStyle);
+        $('head').append(stylesheets[currentStyle]);
+      }
+    });
+    
+    function revertStyle(){
+      console.log( 'reverting style ' +  currentStyle);
+      $('#swap_a_style').remove();
+    }
+
+    window.onkeydown = function( event ) {
+      if ( event.keyCode == 27 ) {
+        revertStyle();
+        $('#styleswapper').val('nochange');
+      }
+    };
+    
+  });
+</script>
+<h3 class="hx-underline">Compare for yourself</h3>
+<p>Use the dropdown menu below to change the style sheet on this page. You can press "escape" to revert to just edX's native style.</p>
+
+<form>
+  <select id="styleswapper">
+    <option id="nochange" value="nochange">(no changes)</option>
+    <option id="simplecss" value="simplecss">Simple CSS</option>
+    <option id="hxcss" value="hxcss">HarvardX CSS</option>
+    <option id="hxcssalt" value="hxcssalt">HX alternate CSS</option>
+  </select>
+</form>
+<br/>
+
+<h4 class="hx-underline">Heading 4 showcase</h4>
+<p>This is a paragraph in a &lt;p&gt; tag. Below here is a list:</p>
+<ul>
+<li>I am in an &lt;li&gt; tag.</li>
+<li>Oh hey me too</li>
+</ul>
+<p>Now, we are back to&nbsp;paragraphs and &lt;p&gt; tags. The wonderful thing about &lt;p&gt; tags is &lt;p&gt; tags&nbsp;are wonderful things. Not much like tiggers but they can contain tiggers and triggers and cats. They can also contain cats. Below is an image&nbsp;of a cat, using a&nbsp;&lt;figure&gt; tag.</p>
+
+<div class="hx-purplebox">
+<h4>Did you know...</h4>
+<p>The collective noun used for a group of cats is a 'clowder' and a group of kittens is a 'kindle'.&nbsp;</p>
+</div>
+
+<p></p>
+<figure><a href="/static/IMG_20190914_171453.jpg" target="_blank"><img src="/static/Baduhenna_small.jpg" alt="Kitten on lap with tongue juuuust a little out" /></a> <figcaption><em>Baduhenna</em>, a very good and fiesty kitten.</figcaption></figure>
+<p></p>
+<table width="982" height="75"><caption>
+<p>This is a very short table.</p>
+</caption>
+<tbody>
+<tr><th>Column 1</th><th>Column 2</th></tr>
+<tr>
+<td>Entry 1</td>
+<td>Entry 2</td>
+</tr>
+</tbody>
+</table>
+<p></p>

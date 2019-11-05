@@ -1,0 +1,96 @@
+0
+00:00:03,690 --> 00:00:06,440
+AMY WOODGATE: Hello, and welcome to this course in advanced design
+
+1
+00:00:06,440 --> 00:00:08,029
+techniques in edX studio.
+
+2
+00:00:08,029 --> 00:00:08,600
+COLIN FREDERICKS: I'm Colin.
+
+3
+00:00:08,600 --> 00:00:09,680
+AMY WOODGATE: And I'm Amy.
+
+4
+00:00:09,680 --> 00:00:10,580
+COLIN FREDERICKS: And we're here to show you
+
+5
+00:00:10,580 --> 00:00:13,938
+some of the amazing things you can do in edX to improve your course environment.
+
+6
+00:00:13,938 --> 00:00:16,730
+AMY WOODGATE: Whether you've only got a few hours to top up skills,
+
+7
+00:00:16,730 --> 00:00:18,500
+or some serious dedicated time--
+
+8
+00:00:18,500 --> 00:00:19,820
+COLIN FREDERICKS: Probably over the weekend--
+
+9
+00:00:19,820 --> 00:00:22,653
+AMY WOODGATE: This course aims to provide straightforward, practical
+
+10
+00:00:22,653 --> 00:00:24,028
+guidance and implementation tips.
+
+11
+00:00:24,028 --> 00:00:26,486
+COLIN FREDERICKS: The goal is to improve your design skills
+
+12
+00:00:26,486 --> 00:00:28,773
+and make your next edX course really stand out.
+
+13
+00:00:28,773 --> 00:00:31,940
+AMY WOODGATE: You don't have to be a coding whiz to engage with this course.
+
+14
+00:00:31,940 --> 00:00:34,910
+Whilst a few sections do come with serious health warnings,
+
+15
+00:00:34,910 --> 00:00:37,970
+the vast majority are aimed at those generally familiar with the edX
+
+16
+00:00:37,970 --> 00:00:40,972
+tools, but keen to learn a bit more of the workings behind the scenes.
+
+17
+00:00:40,972 --> 00:00:44,180
+COLIN FREDERICKS: Where possible we've tried to show you each tool in action.
+
+18
+00:00:44,180 --> 00:00:46,250
+AMY WOODGATE: A bit of meta-learning, if you will.
+
+19
+00:00:46,250 --> 00:00:49,417
+COLIN FREDERICKS: On these pages you may be greeted full-on immersion style,
+
+20
+00:00:49,417 --> 00:00:51,890
+straight into the tool, to get familiar with how it works.
+
+21
+00:00:51,890 --> 00:00:54,150
+AMY WOODGATE: Hopefully you'll have as much fun going through the course,
+
+22
+00:00:54,150 --> 00:00:55,240
+as we've had building it.
+
+23
+00:00:55,240 --> 00:00:56,790
+Enjoy.
+

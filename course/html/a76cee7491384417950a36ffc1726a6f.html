@@ -1,0 +1,35 @@
+<p>And this is what it looks like in the Advanced Editor (HTML)</p>
+<pre><code class="lang-markup">
+&lt;problem&gt;
+&lt;p&gt;This may be very familiar to you as it is the default checkbox + feedback component but we've also merged it with the multiple choice and number problem components too for kicks.&lt;/p&gt;
+
+&lt;label&gt;This is where your question text goes, doesn't it? &lt;/label&gt;
+&lt;description&gt;The text here will appear as a new line in grey, smaller font. &lt;/description&gt;
+&lt;choiceresponse&gt;
+  &lt;checkboxgroup&gt;
+    &lt;choice correct=&quot;true&quot;&gt;a correct muliple selection checkbox answer
+      &lt;choicehint selected=&quot;true&quot;&gt;feedback will be shown&lt;/choicehint&gt;
+      &lt;choicehint selected=&quot;false&quot;&gt;different feedback will be shown&lt;/choicehint&gt;&lt;/choice&gt;
+    &lt;choice correct=&quot;false&quot;&gt;an incorrect multiple selection checkbox answer&lt;/choice&gt;
+  &lt;/checkboxgroup&gt;
+&lt;/choiceresponse&gt;
+
+&lt;multiplechoiceresponse&gt;
+  &lt;choicegroup type=&quot;MultipleChoice&quot;&gt;
+    &lt;choice correct=&quot;false&quot;&gt;an incorrect answer &lt;choicehint&gt;if you add feedback on single choice questions, remember only one hint will show&lt;/choicehint&gt;&lt;/choice&gt;
+    &lt;choice correct=&quot;true&quot;&gt;a correct answer&lt;/choice&gt;
+  &lt;/choicegroup&gt;
+&lt;/multiplechoiceresponse&gt;
+
+&lt;numericalresponse answer=&quot;100&quot;&gt;
+  &lt;responseparam type=&quot;tolerance&quot; default=&quot;5&quot; /&gt;
+  &lt;formulaequationinput /&gt;
+  &lt;correcthint&gt;the tolerance means you could answer 95 &gt; 105 and still get a point&lt;/correcthint&gt;
+&lt;/numericalresponse&gt;
+
+&lt;demandhint&gt;
+  &lt;hint&gt;Hint 1 will display first when the hint icon is clicked at any point of your question engagement&lt;/hint&gt;
+  &lt;hint&gt;Hint 2 likewise will only show when you click the hint icon in the bottom right corner&lt;/hint&gt;
+&lt;/demandhint&gt;
+&lt;/problem&gt;
+</code></pre>

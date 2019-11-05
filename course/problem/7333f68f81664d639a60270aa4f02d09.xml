@@ -1,0 +1,22 @@
+<problem display_name="Moderation" markdown="&gt;&gt;How can you moderate the responses on this table?|| There are two correct answers.&lt;&lt;&#10;&#10;(!) Change the original form. {{ Don't change the form once it's live! You'll only mess up your data. }}&#10;(x) Edit the spreadsheet in Google Sheets.&#10;( ) Get the CSV from Files &amp;amp; Uploads and edit it. {{ You don't need to download the spreadsheet in this setup - you point to its published URL instead. }}&#10;( ) Ask your learners to edit their response. {{ We don't recommend letting learners edit their responses. It's more trouble than it's worth. }}&#10;(x) Create a second sheet with the responses you want published.&#10;&#10;[explanation]&#10;You can edit the spreadsheet to change what appears on the table. We recommend only deleting whole lines, or maybe removing some swear-words if you want. Alternatively, if you want &lt;em&gt;active&lt;/em&gt; moderation instead of &lt;em&gt;reactive&lt;/em&gt; (that is, you want to have to &lt;em&gt;approve&lt;/em&gt; each entry), you should build a second sheet where you put the responses that you like, and publish that sheet instead.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>How can you moderate the responses on this table?</label>
+    <description> There are two correct answers.</description>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Change the original form. <choicehint>Don't change the form once it's live! You'll only mess up your data.</choicehint>
+</choice>
+      <choice correct="true">Edit the spreadsheet in Google Sheets.</choice>
+      <choice correct="false">Get the CSV from Files &amp; Uploads and edit it. <choicehint>You don't need to download the spreadsheet in this setup - you point to its published URL instead.</choicehint>
+</choice>
+      <choice correct="false">Ask your learners to edit their response. <choicehint>We don't recommend letting learners edit their responses. It's more trouble than it's worth.</choicehint>
+</choice>
+      <choice correct="true">Create a second sheet with the responses you want published.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>You can edit the spreadsheet to change what appears on the table. We recommend only deleting whole lines, or maybe removing some swear-words if you want. Alternatively, if you want <em>active</em> moderation instead of <em>reactive</em> (that is, you want to have to <em>approve</em> each entry), you should build a second sheet where you put the responses that you like, and publish that sheet instead.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

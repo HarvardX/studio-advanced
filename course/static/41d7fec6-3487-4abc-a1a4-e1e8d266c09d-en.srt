@@ -1,0 +1,76 @@
+0
+00:00:03,765 --> 00:00:05,640
+COLIN FREDERICKS: Considering your design philosophy
+
+1
+00:00:05,640 --> 00:00:08,880
+prior to building a course can save a lot of time in the long run.
+
+2
+00:00:08,880 --> 00:00:10,860
+AMY WOODGATE: We've all had those, oh, if only I
+
+3
+00:00:10,860 --> 00:00:13,455
+had done that thing earlier moments when creating courses.
+
+4
+00:00:13,455 --> 00:00:17,040
+So this section is designed to encourage good practice reflections
+
+5
+00:00:17,040 --> 00:00:18,600
+during the planning stage.
+
+6
+00:00:18,600 --> 00:00:21,065
+COLIN FREDERICKS: Prior to creating content on the platform.
+
+7
+00:00:21,065 --> 00:00:23,190
+AMY WOODGATE: This section's main focus is on features
+
+8
+00:00:23,190 --> 00:00:26,760
+that need careful consideration and justification at the design
+
+9
+00:00:26,760 --> 00:00:29,760
+stage as the implications for build can be vast
+
+10
+00:00:29,760 --> 00:00:31,230
+if not properly thought through.
+
+11
+00:00:31,230 --> 00:00:33,480
+COLIN FREDERICKS: These features are notoriously difficult
+
+12
+00:00:33,480 --> 00:00:36,970
+or time consuming to build, let alone edit once on the platform.
+
+13
+00:00:36,970 --> 00:00:39,142
+So the design planning stage is crucial.
+
+14
+00:00:39,142 --> 00:00:41,100
+AMY WOODGATE: However, these are also the features
+
+15
+00:00:41,100 --> 00:00:43,740
+often mooted at design sessions as something fun
+
+16
+00:00:43,740 --> 00:00:44,892
+or interestingly different.
+
+17
+00:00:44,892 --> 00:00:47,850
+COLIN FREDERICKS: In this section, we will not only provide you with the tools
+
+18
+00:00:47,850 --> 00:00:51,830
+to build these but also to say no and justify why.
+

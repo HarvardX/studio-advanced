@@ -1,0 +1,20 @@
+<problem display_name="Restricted content" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <p>Which of the following course elements can be associated with a cohort to create a different user experience?</p>
+    <checkboxgroup>
+      <choice correct="true">Units (pages)</choice>
+      <choice correct="false">Sections</choice>
+      <choice correct="false">Subsections</choice>
+      <choice correct="true">Videos</choice>
+      <choice correct="true">Discussion boards</choice>
+      <choice correct="true">CSS</choice>
+      <choice correct="false">Course landing page</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>Units, discussions, and any <em>component-level</em> items can be cohorted. Videos are components, and CSS is stored in an HTML component so it can also be delivered to one cohort and not another.</p>
+    </div>
+  </solution>
+</problem>

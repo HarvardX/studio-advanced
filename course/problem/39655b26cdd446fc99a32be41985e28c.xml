@@ -1,0 +1,26 @@
+<problem display_name="The Code: Example in Action" markdown="And here's what this problem looks like if you actually typed it all into the same box: a strange franken-problem with everything turned on. Perhaps we've gone too far with this, but it's only an example. Pick and choose what you want to use!&#10;&#10;[x] a correct muliple selection checkbox answer {{ selected: feedback will be shown }, { unselected: different feedback will be shown }}&#10;&#10;[ ] an incorrect multiple selection checkbox answer&#10;&#10;( ) an incorrect answer {{ if you add feedback on single choice questions, remember only one hint will show }}&#10;&#10;(x) a correct answer&#10;&#10;= 100 +-5 {{ the tolerance means you could answer 95 &gt; 105 and still get a point }}&#10;&#10;||Hint 1 will display first when the hint icon is clicked at any point of your question engagement||&#10;&#10;||Hint 2 likewise will only show when you click the hint icon in the bottom right corner||" max_attempts="10" showanswer="finished" weight="0.0">
+  <p>And here's what this problem looks like if you actually typed it all into the same box: a strange franken-problem with everything turned on. Perhaps we've gone too far with this, but it's only an example. Pick and choose what you want to use!</p>
+  <choiceresponse>
+    <checkboxgroup>
+      <choice correct="true">a correct muliple selection checkbox answer
+      <choicehint selected="true">feedback will be shown</choicehint>
+      <choicehint selected="false">different feedback will be shown</choicehint></choice>
+      <choice correct="false">an incorrect multiple selection checkbox answer</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">an incorrect answer <choicehint>if you add feedback on single choice questions, remember only one hint will show</choicehint></choice>
+      <choice correct="true">a correct answer</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <numericalresponse answer="100">
+    <responseparam default="5" type="tolerance"/>
+    <formulaequationinput/>
+    <correcthint>the tolerance means you could answer 95 &gt; 105 and still get a point</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Hint 1 will display first when the hint icon is clicked at any point of your question engagement</hint>
+    <hint>Hint 2 likewise will only show when you click the hint icon in the bottom right corner</hint>
+  </demandhint>
+</problem>

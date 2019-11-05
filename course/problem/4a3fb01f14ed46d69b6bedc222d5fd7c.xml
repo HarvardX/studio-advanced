@@ -1,0 +1,16 @@
+<problem display_name="Just links?" markdown="&gt;&gt;What can you put into the &quot;link&quot; in this tool?&lt;&lt;&#10;&#10;( ) Just links&#10;(x) Any HTML&#10;( ) Any HTML up to 25 pixels tall&#10;&#10;[explanation]&#10;The div with the &lt;code&gt;data-time&lt;/code&gt; attribute can theoretically contain any HTML, but realistically there's only so much space available.&#10;[explanation]&#10;&#10;" max_attempts="1" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>What can you put into the "link" in this tool?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Just links</choice>
+      <choice correct="true">Any HTML</choice>
+      <choice correct="false">Any HTML up to 25 pixels tall</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The div with the <code>data-time</code> attribute can theoretically contain any HTML, but realistically there's only so much space available.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

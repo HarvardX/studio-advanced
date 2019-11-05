@@ -1,0 +1,16 @@
+<problem display_name="Better polls?" markdown="&gt;&gt;I want to write a more sophisticated polling tool than edX's &lt;a href=&quot;https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/poll_question.html&quot; target=&quot;_blank&quot;&gt;built-in Poll&lt;/a&gt;, and I'd like to do it as a JSInput problem. Can I do this? &lt;&lt;&#10;&#10;(!) No, you can't do it at all.&#10;(x) Yes, but you need an outside server to store learner responses.&#10;( ) Yes, you can do it with a JSInput problem.&#10;&#10;[explanation]&#10;JSInput problems can only obtain the state for the &lt;em&gt;current user&lt;/em&gt;, so you can't show your learner what &lt;em&gt;other users&lt;/em&gt; entered. If you have a secure server, you could store things there, but you might be better off just iframing in an existing survey platform like SurveyMonkey, Google Forms, or Qualtrics.&#10;[explanation]&#10;&#10;" max_attempts="1" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>I want to write a more sophisticated polling tool than edX's <a href="https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/poll_question.html" target="_blank">built-in Poll</a>, and I'd like to do it as a JSInput problem. Can I do this? </label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">No, you can't do it at all.</choice>
+      <choice correct="true">Yes, but you need an outside server to store learner responses.</choice>
+      <choice correct="false">Yes, you can do it with a JSInput problem.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>JSInput problems can only obtain the state for the <em>current user</em>, so you can't show your learner what <em>other users</em> entered. If you have a secure server, you could store things there, but you might be better off just iframing in an existing survey platform like SurveyMonkey, Google Forms, or Qualtrics.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,93 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+<style>
+  .boldnumbers > li{
+    font-weight: bold;
+  }
+  .boldnumbers > li > p, .boldnumbers > li > ul {
+    font-weight: normal;
+    margin-top: 16px;
+  }
+</style>
+
+<h3 class="hx-underline">What's the purpose of cohorts?</h3>
+<p>Cohorts first came about through a desire to run content simultaneously for the masses and a credit-bearing students on campus, with the latter group having access to specific additional content. As the platform developed, new use cases also developed in parallel, such as running smaller classes (on edge.edX) with variable pathways, conditional release and study groups with group projects. Beyond this, cohorts are most often used within A-B testing for research or as a method to foster greater community within discussion boards.</p>
+
+<h4 class="hx-underline">Automatic vs. Manual</h4>
+
+<p>There are two cohort assignment methods: automatic or manual.</p>
+
+<ul>
+  <li><strong>Automatic:</strong> you decide the number of cohort groups and users are randomly assigned for you by the platform</li>
+  <li><strong>Manual:</strong> you decide the number and allocate users directly yourself via individual or batch upload (more common on small, private courses)</li>
+</ul>
+
+<p>In most cases, the default will be to use &lsquo;automatic&rsquo; user allocation. This is by far the most straightforward method and ensures no user is &lsquo;accidentally missed&rsquo;, as every user is assigned to a cohort group upon their first access to the course site, once the course is live.</p>
+
+<p>Manual cohorts can be a little more fiddly to set up, as learners must be enrolled on the course before they can be assigned to a group. What this means in practice: waiting for everyone to sign up, hassling people a lot to sign up or enrolling them onto edX and/or the course before. Speculative pre-loading of user information is not possible.</p>
+
+<p>It is really important to decide in advance which allocation method you are going to use as the process is a little more time intensive for manual methods. As a result, before enabling cohorts on your course, it is highly recommended to develop a &lsquo;Cohort Strategy&rsquo;.&nbsp;</p>
+
+<h3 class="hx-underline">A Cohort Strategy</h3>
+
+<p>Basically what it says on the tin: a plan for using cohorts on the course</p>
+
+<p>If you go in and start making cohorts without a clear strategy, it can get a bit messy to rectify. The cohort setup process is very logical but needs to be tackled in a sequential order.</p>
+
+<p>The questions below might provide a helpful guide:</p>
+<div class="hx-bluebox">
+  <h4><span class="fa fa-list"></span> Developing a strategy</h4>
+  <ol class="boldnumbers">
+    <li><strong>What is the purpose of cohorts for your course?</strong>
+      <ul>
+        <li>Research, e.g. comparison between variables</li>
+        <li>Community, e.g. study groups</li>
+        <li>Restricted access, e.g. student access to additional materials on an open course</li>
+      </ul>
+    </li>
+    <li><strong>Is there a default group?</strong></li>
+    <li><strong>How many cohorts do you need?</strong>
+      <ul>
+        <li>What number of unique groups are required?</li>
+        <li>Is there an easily identifiable reference to use for each group?</li>
+      </ul>
+    </li>
+    <li><strong>How do you want users allocated?</strong>
+      <ul>
+        <li>Random allocation (automatic allocation)&nbsp;</li>
+        <li>Via specific characteristics (manual allocation)</li>
+      </ul>
+    </li>
+    <li><strong>What is the difference between each group?&nbsp;</strong>
+      <ul>
+        <li>Do they need access to different materials?</li>
+      </ul>
+    </li>
+    <li><strong>Do any groups need to be able to interact in specific places</strong>, e.g. combined discussions?</li>
+  </ol>
+</div>
+
+<p>Once you have a clear idea of what you want, you&rsquo;ll need to consider how this translates into platform setup.</p>
+
+<h3 class="hx-underline">Platform considerations</h3>
+
+<p>There are only two platform features that can be manipulated via cohorts: content (units and components) and discussion boards.</p>
+
+<p>Specific content, such as units (full pages) or components within a unit can be assigned &lsquo;restrictive view&rsquo;. Sections and subsections can not be restricted. This means your course architecture will remain the same for everyone. However, there is nothing stopping you from making multiple copies of a unit, manipulating particular variables in that unit, then associating each unit copy with a different cohort to provide a standardised front end (if important).</p>
+
+<p>Content view differences are changed through &lsquo;content groups&rsquo;. After creating a content group, you can assign a cohort (or multiple) to view it.</p>
+
+<p>Each cohort gets its own discussion board area allocated by default. However, any discussion boards featured in open units will be accessible to everyone. If you are planning covert A-B testing, open discussions may need consideration.</p>
+
+<p>Learners can only be in one cohort - changing their cohort allocation will remove them from their first allocation, even if content or discussions have been engaged with. This is really important to remember as changing allocation is very risky if the course has already gone live.&nbsp;</p>
+
+<div class="hx-bluebox">
+  <h4><span class="fa fa-clock-o"></span> Manual Cohorting Tip</h4>
+  <p>If using cohorts, consider a closed enrollment period that ends prior to launch of the course, to ensure all learners can be accounted for and provide a small grace period for any last-minute allocation changes. This is particularly useful if you are running A-B testing with manual cohorts - final checks are always useful!</p>
+</div>
+
+<div class="hx-purplebox">
+  <h4><span class="fa fa-bolt"></span> Default Cohorts</h4>
+  <p>If no automated cohorts exist, the system will create a &lsquo;default&rsquo; cohort and assign new learners to this group. To remove &lsquo;default&rsquo; or reallocate to a different cohort, you would need to use the &lsquo;manual&rsquo; allocation method. Check, check and check again that your automatic allocations are setup correctly before going live with a large open course.</p>
+</div>
+

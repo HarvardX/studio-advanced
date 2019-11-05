@@ -1,0 +1,36 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">Realtime Data Tracking in edX</h3>
+
+<div class="hx-hangright stux-infobox">
+  <div class="stux-infoicon">
+    <img src="/static/Hard_icon.png" alt="Difficult task" /><br/>
+    Hard
+  </div>
+  <div class="stux-infoicon">
+    <img src="/static/Time_medium_icon.png" alt="A medium amount of time required" /><br/>
+    Day
+  </div>
+  <div class="stux-infoicon">
+    <img src="/static/Javascript_icon.png" alt="Javascript required" /><br/>
+    Javascript
+  </div>
+</div>
+
+<p>One of edX's missing features, from a data scientist's point of view, is an event stream that can be used to trigger specific responses. Luckily, we have a workaround! <a href="https://dan7davis.github.io/research.html" target="_blank">Dan Davis</a> contributed this section on realtime data tracking, which he developed for research related to his doctoral thesis (along with a <a href="https://dan7davis.github.io/research.html" target="_blank">number of other papers</a>).</p>
+
+<div class="hx-redbox">
+  <h4><span class="fa fa-warning"><span class="sr">Warning</span></span> Security Hazard</h4>
+  <p>The methods described in this section obtain student data for you. What you do with that data is up to you. We recommend doing something smarter than "store it unencrypted on a web server". <strong>Take appropriate measures to safeguard your learners' data.</strong></p>
+</div>
+
+
+<p><strong>The goal:</strong> Gather specific data about edX learners in real-time as they interact with a course.<br/>
+  <strong>Prerequisites:</strong> Javascript and some database experience.<br/>
+  <strong>Project length:</strong> At least a day to build and test.<br/>
+  <strong>Ingredients:</strong> </p>
+  <ul class="hx-tightlist">
+    <li>Access to Studio</li>
+    <li>A secure location in which to store learner data (not needed for initial testing).</li>
+  </ul>

@@ -1,0 +1,64 @@
+0
+00:00:03,503 --> 00:00:06,670
+AMY WOODGATE: There are some improvements you just can't make in a few minutes.
+
+1
+00:00:06,670 --> 00:00:08,412
+COLIN FREDERICKS: Or in a day or a week.
+
+2
+00:00:08,412 --> 00:00:10,120
+There are things you need to do as a part
+
+3
+00:00:10,120 --> 00:00:12,290
+of your regular course-building practice.
+
+4
+00:00:12,290 --> 00:00:15,185
+AMY WOODGATE: For example, if you write clean HTML from the beginning,
+
+5
+00:00:15,185 --> 00:00:16,560
+you'll never have to clean it up.
+
+6
+00:00:16,560 --> 00:00:18,940
+COLIN FREDERICKS: And neither will the person who works on the course after you.
+
+7
+00:00:18,940 --> 00:00:22,150
+AMY WOODGATE: The goal is to do a hill of work now to avoid a mountain of work
+
+8
+00:00:22,150 --> 00:00:22,887
+later.
+
+9
+00:00:22,887 --> 00:00:25,720
+COLIN FREDERICKS: This section doesn't really have projects in the same way
+
+10
+00:00:25,720 --> 00:00:26,740
+that the others do.
+
+11
+00:00:26,740 --> 00:00:29,032
+AMY WOODGATE: Instead, we're going to propose some changes
+
+12
+00:00:29,032 --> 00:00:31,120
+to your workflow that will make you more efficient
+
+13
+00:00:31,120 --> 00:00:32,680
+or make your course more beautiful.
+
+14
+00:00:32,680 --> 00:00:35,097
+COLIN FREDERICKS: It's a lot of work to change how you do things,
+
+15
+00:00:35,097 --> 00:00:39,270
+but we promise these new approaches are definitely worth the effort.
+

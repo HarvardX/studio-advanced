@@ -1,0 +1,34 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">Why Make a New Problem Type?</h3>
+
+<p>Let's start this section with a warning:</p>
+  
+<div class="hx-redbox">
+  <h4><span class="fa fa-clock-o"><span class="sr">Warning</span></span> Workload Hazard</h4>
+  <p>Only create a custom JS problem if you're certain that you can't do what you want with existing problem types. When you do build one, spend some extra time considering what small tweaks and options might make it more reusable for multiple situations. It's a lot of work, but no one wants to build a dozen new bespoke problems that will never be used again. You're not running a hipster assessment shop.</p>
+</div>
+
+<p>Now that we have that out of the way...</p>
+
+<p>The great thing about JSInput problems is that you can do <em>anything you want to code</em> with them, within certain limitations (see sidebar). You decide what the learners do, and you decide how they're graded. That's a very wide-open field, so let's give a few examples:</p>
+
+<div class="hx-greybox hx-hangright" style="max-width: 35%;">
+  <h4><span class="fa fa-thumbs-down"></span> Limitations of JSInput Problems </h4>
+  <ol style="font-weight: bold;">
+    <li><strong>No inter-student communication.</strong> <span style="font-weight: normal;">Learners can only see their own work. You can't pass data from one learner to another.</span></li>
+    <li><strong>No inter-problem communication.</strong> <span style="font-weight: normal;">Other assessments will not have access to a record of what a learner did here. You can't pass data from one assignment to another.</span> </li>
+  </ol>
+</div>
+
+<ul>
+  <li>First, of course, there are the ones we've already built: matching exercises, ordering problems, numerical or time-based range sliders, text boxes that just log what the student types, and quick choose-your-own-adventure problems. All of these are at <a href="https://github.com/Stanford-Online/js-input-samples/tree/master/" target="_blank">Stanford's JSInput Repository</a> and free for you to use.</li>
+  <li>You can build a problem type that edX doesn't offer. Need a chemical bond checker? Write it! Want tabular input for data instead of a standard numerical problem? Go for it!</li>
+  <li>You can let students upload a simple file and parse it with Javascript, either analyzing it there in the browser or passing it to Python for grading. (Don't pass anything big. Be nice to your server.)</li>
+  <li>You could take an existing javascript-based interactive or game and wrap it in a JSInput problem so that you can grade what the learner does with it.</li>
+  <li>Similarly, you could create something that's less of a skill assessment and more of an interactive experience, which grades learners on participation rather than correctness.</li>
+  <li>You can use it to build familiarity with a tool. Is there an interactive that you use throughout your course? Wrap it in a JSInput problem and have your learners play with it, only giving full credit once they've tried out every single important feature.</li>
+</ul>
+
+<p>Clearly there are a ton of options. Before you pick out exactly what you want to do, we recommend building a <em>really simple</em> problem. The experience you get with that will be essential when it comes to making the thing you really want to create.</p>

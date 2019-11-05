@@ -1,0 +1,101 @@
+<script src="/static/hx.js"></script>
+<script src="/static/intro_accessible.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<link rel="stylesheet" type="text/css" href="/static/introjs.css" />
+
+<script>
+  $(document).ready(function(){
+    
+    /*****************************************************
+    * This section enables the intro.js text blocks.
+    * They're set in the addNavData() function below.
+    *****************************************************/
+
+    addNavData();
+    
+    $('#codewalker').on('click tap', function(event){
+        event.preventDefault();
+        introJs().start();
+    });
+    
+    // End of intro.js code.
+    
+  });
+  
+  /**************************************************************
+  * This function adds the data needed for the intro.js text blocks.
+  * You can change the text if you want.
+  **************************************************************/
+  function addNavData(){
+    console.log('adding intro.js data');
+    
+    let htmlcomment = $('#html_comment');
+    htmlcomment.attr("data-step", "1");
+    htmlcomment.attr("data-intro", "Thanks for starting the walkthrough! Remember you can use the arrow keys or the mouse to move through this. <br/><br/> The part that is highlighted here is where we include the javascript and CSS. There are also comments throughout the code, to help explain certain pieces of it.");
+    htmlcomment.attr("data-position", "top");
+
+    let noedit = $('#no_edit');
+    noedit.attr("data-step", "2");
+    noedit.attr("data-intro", "You don't need to touch this top part of the code. Just leave this as-is.");
+    noedit.attr("data-position", "top");
+
+    let walkblock = $('#walkblock');
+    walkblock.attr("data-step", "3");
+    walkblock.attr("data-intro", "This block of code creates one 'frame' of the walkthrough. Let's look at each piece individually.");
+    walkblock.attr("data-position", "top");
+
+    let arbitraryvar = $('#arbitraryvar');
+    arbitraryvar.attr("data-step", "4");
+    arbitraryvar.attr("data-intro", "You use this variable to capture a part of the page. You can name the variable basically whatever you want; its name doesn't change what is selected.");
+    arbitraryvar.attr("data-position", "top");
+
+        let selectcode = $('#selectcode');
+    selectcode.attr("data-step", "5");
+    selectcode.attr("data-intro", "This code selects the part of the page. This one in particular finds the tabs at the top of the page, and then, within those, finds one that contains a particular piece of text. In this case, we're finding the word 'Discussion'.");
+    selectcode.attr("data-position", "top");
+
+    let datastep = $('#datastep');
+    console.log(datastep);
+    datastep.attr("data-step", "6");
+    datastep.attr("data-intro", "This 'step' data attribute tells intro.js what order it should use to show the walkthrough. The walkthrough starts at 1 and goes up in whole numbers. Here we're on step 3.");
+    datastep.attr("data-position", "top");
+
+    let datatext = $('#datatext');
+    console.log(datatext);
+    datatext.attr("data-step", "7");
+    datatext.attr("data-intro", "This 'intro' data attribute is the text that will be displayed.");
+    datatext.attr("data-position", "top");
+
+    let datapos = $('#datapos');
+    console.log(datapos);
+    datapos.attr("data-step", "8");
+    datapos.attr("data-intro", "This 'position' data attribute tells intro.js where to display the text: left, right, top, or bottom.");
+    datapos.attr("data-position", "top");
+
+    let noluck = $('#noluck');
+    console.log(datapos);
+    noluck.attr("data-step", "9");
+    noluck.attr("data-intro", "Finally, this selector is trying to find a Syllabus tab... but there isn't one, so the walkthrough will skip it and move on.<br/><br/> That's it for our demo. Click the Done button or press Escape and you're ready to go!");
+    noluck.attr("data-position", "top");
+
+
+  }
+</script>
+
+<h3 class="hx-underline">Keys to the Code</h3>
+
+<p>You can implement this walkthrough by uploading the files mentioned earlier, and then copying the code below into a Raw HTML component in your course. You can also use an Update, a Page, or anything else that uses a raw HTML editor.</p>
+
+<h4 class="hx-underline">How it works</h4>
+
+<p>This code goes through the following process for every piece of the walkthrough: First, it selects a part of the page, using a <a href="https://www.w3schools.com/jquery/jquery_selectors.asp" target="_blank">jQuery selector</a>. Then, it attaches "data attributes" to that HTML element, telling it what text to show, what order to show it in, and where to show it. Intro.js does the rest, seeking out those altered HTML elements and displaying them.</p>
+
+<p>Rather than talk about the code in too much detail, though, let's use the interactive walkthrough itself to examine its own code. Press the button below to get started.</p>
+
+<p><button id="codewalker" style="color: white; padding: 6px; font-size: 16px; background-color: #009b00; text-shadow: none; background-image: none;">Show me how to use the code.</button></p>
+
+<h4 class="hx-underline">Caveats</h4>
+
+<p><strong>You have to select it:</strong> If you can't select it with jQuery, you can't attach text to it. If you want to select text in the middle of a sentence, use a <code class="lang-html">&lt;span&gt;</code> tag. If you want to select part of an image, you'll need to either break that image up or float something over the top of it that you can select.</p>
+
+<p><strong>Accessibility:</strong> While our version of intro.js is accessible to learners using a screen reader, it's still important to avoid <em>requiring the use of vision</em>. For instance, you wouldn't want your walkthrough to say things like, "See how these two lines are different." Instead, you might say, "The top line is bolder and draws more attention, while the bottom one is weaker and less appealing."</p>

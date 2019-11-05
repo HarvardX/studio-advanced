@@ -1,0 +1,32 @@
+<h3 class="hx-underline">Certificate Settings</h3>
+
+<h4><button class="hx-togglebutton7">
+Certificate Name
+</button></h4>
+<div class="hx-toggletarget7" style="display:none;">
+  <p><strong>Default:</strong> ""</p>
+  <p><strong>Other settings:</strong> any text</p>
+  <p><i>Use this setting only when generating PDF certificates. Between quotation marks, enter the name of the type of certificate that students receive when they complete the course. For instance, "Certificate of Achievement".</i></p>
+  <p>There are two versions, (Long) and (Short).</p>
+  <p>You should probably leave these blank unless you're changing it for translation purposes. These appear on the PDF certificate. You can find a <a href="https://www.edx.org/sites/all/themes/atedx/images/sample-certificate.pdf" target="_blank">sample verified certificate</a> via that link, and a <a href="https://www.edx.org/sites/all/themes/atedx/images/certificates/example-certificate-professional.pdf" target="_blank">sample professional certificate</a> on that one. This setting just replaces the word "Certificate" (for the short version) and "XXXXXX Certificate" (for the long version). </p>
+</div>
+
+<h4><button class="hx-togglebutton8">
+Certificate Web/HTML View Overrides
+</button></h4>
+<div class="hx-toggletarget8" style="display:none;">
+  <p><strong>Default:</strong> {} (a blank javascript object)</p>
+  <p><strong>Other settings:</strong> Just don't.</p>
+  <p><i>Enter course-specific overrides for the Web/HTML template parameters here (JSON format)</i></p>
+  <p>Let your Open edX administrator provide you with a template for this, or leave it alone.</p>
+</div>
+
+<h4><button class="hx-togglebutton9">
+Certificates Display Behavior
+</button></h4>
+<div class="hx-toggletarget9" style="display:none;">
+  <p><strong>Default:</strong> "end"</p>
+  <p><strong>Other settings:</strong> "early_with_info" or "early_no_info"</p>
+  <p><i>Enter end, early_with_info, or early_no_info. After certificate generation, students who passed see a link to their certificates on the dashboard and students who did not pass see information about the grading configuration. The default is end, which displays this certificate information to all students after the course end date. To display this certificate information to all students as soon as certificates are generated, enter early_with_info. To display the links only to passing students as soon as certificates are generated, enter early_no_info.</i></p>
+  <p><strong>We recommend changing this to "early_no_info".</strong> That way, learners who finish the course material before the end of the course can receive their certificates as soon as they're ready, and other learners will not see distracting links to the certificate info.</p>
+</div>

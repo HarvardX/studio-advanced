@@ -1,0 +1,4 @@
+<vertical display_name="AB test for emoji repsonses" parent_url="block-v1:HarvardX+StudioAdv1+2T2019+type@sequential+block@20fa9d37e3764aa49f4d51609306d216" index_in_children_list="3">
+  <split_test url_name="bb8632d96fd442349c8e2fc5aef7ca5c"/>
+  <split_test url_name="aa3f5f710bf0416eaa70447c3cb25f56"/>
+</vertical>

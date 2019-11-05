@@ -1,0 +1,44 @@
+<problem display_name="Out of Order" markdown="null" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>You're having trouble with your walkthrough: it's showing things in the wrong order. Here's what the code looks like:</p>
+    <pre>
+      <code class="lang-js">    let courseware = $('.course-tabs .active');
+    courseware.attr("data-step", "1");
+    courseware.attr("data-intro", "The course outline, including pages with all the videos, problems, and more, can all be found in the Course link.");
+    courseware.attr("data-position", "right")
+
+    let progress = $('.course-tabs').find('a:contains("Progress")');
+    progress.attr("data-step", "3");
+    progress.attr("data-intro", "The Progress tab is where you can find your grade.");
+    progress.attr("data-position", "right");
+  
+    let discussion = $('.course-tabs').find('a:contains("Discussion")');
+    discussion.attr("data-step", "2");
+    discussion.attr("data-intro", "The Discussion link sends you to the discussion boards, where you can talk to your fellow students.");
+    discussion.attr("data-position", "right");
+
+    let syllabus = $('.course-tabs').find('a:contains("Syllabus")');
+    syllabus.attr("data-step", "4");
+    syllabus.attr("data-intro", "The Syllabus tab will tell you about the course contents and policies. You will want to read this early.");
+    syllabus.attr("data-position", "right");
+</code>
+    </pre>
+    <br/>
+    <p>You want the walkthrough to start with the Course tab, then go to Progress, Discussion, and Syllabus, in that order.</p>
+    <label>What is wrong with this code?</label>
+    <description>If you see more than one thing wrong, pick the easiest thing to fix.</description>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">The middle two blocks are in the wrong order.</choice>
+      <choice correct="true">The data-step attribute is out of order.</choice>
+      <choice correct="false">The jQuery selector is picking the wrong thing.</choice>
+      <choice correct="false">There is a line missing a semicolon.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>The easiest fix here is to change the data-step, which tells the walkthrough what order things are in. Changing the order of the code blocks doesn't change what order the walkthrough uses.</p>
+      <p>There is indeed a line without a semicolon, but javascript is particularly (perhaps "notoriously") permissive when it comes to missing semicolons and will likely run just fine without it.</p>
+    </div>
+  </solution>
+</problem>

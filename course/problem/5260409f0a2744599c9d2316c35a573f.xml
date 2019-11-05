@@ -1,0 +1,216 @@
+<problem display_name="Selecting Math Assessments" markdown="null" max_attempts="5" showanswer="finished">
+  <script src="/static/hx.js" type="application/javascript"/>
+  <script type="text/javascript">
+// Course Name (no spaces):
+var coursename = 'StudioAdv'
+
+$(document).ready(function(){
+  console.log('outer ready');
+});
+
+function logThatThing(ThatThing){
+  console.log(JSON.stringify(ThatThing));
+  Logger.log("harvardx." + coursename + ".pathway_problem", ThatThing);
+}
+</script>
+  <style>
+  /* Change this to change how the boxes look on-screen. */
+  .vert .start_hidden {
+    display: none;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    padding: 5px 10px 5px 10px;
+  }
+</style>
+  <script type="loncapa/python">
+
+
+from python_lib import HXGraders
+
+##################### Set These #########################
+
+options = {
+  'show_points': True,           # Show "x out of y" points at end.
+  'grade_on': 'participation',   # Pick 'score', 'exploration', or 'participation'
+  'retain_negative': True        # Negative points persist
+}
+
+# This is set up for 'points' where the best score from each category counts.
+# To do 'exploration' you would want to put each set of points in its own category. 
+points_lookup = {
+  'start': {
+    '-nomath': 10,
+    '-yesmath': 10,
+    '-yesbut': 10,
+    '-what': 10
+  },
+  'yesmath': {
+    '-arithmatic': 10,
+    '-precalc': 10,
+    '-geom': 10,
+    '-calc': 10,
+    '-postcalc': 10
+  },
+  'final_total': 20
+}
+
+############## Leave This Alone ##############
+
+def answercheck(e, ans):
+
+  # This pulls from the python_lib.zip file in Files &amp; Uploads.
+  return HXGraders.pathwayGrader(ans, points_lookup, options)
+
+
+</script>
+  <div>
+    <p>Do you teach mathematics?</p>
+    <p class="hx-toggleset">
+      <button class="hx-togglebutton-nomath">No, no math in my courses.</button>
+      <br/>
+      <button class="hx-togglebutton-yesmath">Yes, we teach mathematics directly.</button>
+      <br/>
+      <button class="hx-togglebutton-yesbut">We use math but we don't teach it.</button>
+      <br/>
+      <button class="hx-togglebutton-what">Wait, what kind of problem is this??</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-nomath start_hidden">
+    <h4 class="hx-underline">I Don't Teach Math</h4>
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <p>+10 points</p>
+    <p>You can probably just move on to the next problem, then.</p>
+    <p class="hx-toggleset">
+      <button class="hx-togglebutton-nomath">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-yesmath start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">Yes, I Teach Mathematics</h4>
+    <p>+10 points</p>
+    <p>Excellent! What level of mathematics do you teach?</p>
+    <p class="hx-toggleset">
+      <button class="hx-togglebutton-arithmatic">Arithmatic</button>
+      <br/>
+      <button class="hx-togglebutton-precalc">Algebra or Precalc</button>
+      <br/>
+      <button class="hx-togglebutton-geom">Geometry</button>
+      <br/>
+      <button class="hx-togglebutton-calc">Calculus</button>
+      <br/>
+      <button class="hx-togglebutton-postcalc">Post-calculus</button>
+    </p>
+    <p>
+      <button class="hx-togglebutton-yesmath">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-yesbut start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">We use math but we don't teach it</h4>
+    <p>+10 points</p>
+    <p>You should be all set with the existing <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html" target="_blank">Numerical Input</a> and <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/math_expression_input.html" target="_blank">Math Expression Input</a> problem types.</p>
+    <p>In <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html" target="_blank">Numerical Input</a> problems, learners input a number and are marked correct if their number matches. It has a few nice features:</p>
+    <ul>
+      <li>You can give a numerical tolerance, or a percentage tolerance, within which learners are graded correct. Or you can leave that off for pure-math courses where you only want to reward the exact number.</li>
+      <li>You can give partial credit for three different situations:
+        <ul><li>For getting "close enough" - outside the answer tolerance, but not too far away.</li><li>For answering one of a list of common mistakes. For instance, you could give credit for learners who are off by a factor of 2, or 1/10, or who forget to add a commonly-missed item to their total.</li><li>You can combine those two.</li></ul>
+      </li>
+    </ul>
+    <p>In <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/math_expression_input.html" target="_blank">Math Expression Input</a> problems (a.k.a. Formula Input problems), learners enter a mathematical <em>expression</em> (no equals signs) using infix notation (the same notation used by TI calculators). It recognizes polynomials, exponents, logs, and trig functions, as well as a few other special items. Here's the <a href="https://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/completing_assignments/SFD_mathformatting.html#entering-math-expressions-in-assignments-or-the-calculator" target="_blank">complete list of accepted functions and constants</a>.</p>
+    <p>It's important as a teacher to know exactly how this problem type works. <em>It doesn't do symbolic algebra.</em> Instead, it generates a set of random numbers and plugs them through the official answer and the learner's answer to get a set of numerical outputs. If those outputs match, the answer is graded correct. This makes certain problem types pointless (e.g. "simplify" problems), but it will work just fine if you're expecting your learners to already know how to simplify or expand.</p>
+    <p>
+      <button class="hx-togglebutton-yesbut">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-what start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">What kind of problem is this?</h4>
+    <p>+10 points</p>
+    <p>Oh, this is a Choose Your Own Adventure problem!</p>
+    <p>Also known as a Pathways Problem, this assessment uses toggle buttons and invisible containers to create a set of choices for the learner. Depending on what they choose, they can get different point values - or you can just have it assign points for participation. It's all built in HTML5, so basically whatever decoration and formatting you want to use is kosher.</p>
+    <p>You can find more info about this problem type at <a href="https://github.com/Stanford-Online/js-input-samples/tree/master/pathway" target="_blank">Stanford's JSInput Repository</a>.</p>
+    <p>
+      <button class="hx-togglebutton-what">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-arithmatic start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">Arithmatic</h4>
+    <p>+10 points</p>
+    <p>You should be all set with the existing <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html" target="_blank">Numerical Input</a> problem type.</p>
+    <p>In that problem, learners input a number and are marked correct if their number matches the answer. It has a few nice features:</p>
+    <ul>
+      <li>You can give a numerical tolerance, or a percentage tolerance, within which learners are graded correct. Or you can leave that off for pure-math courses where you only want to reward the exact number.</li>
+      <li>You can give partial credit for three different situations:
+        <ul><li>For getting "close enough" - outside the answer tolerance, but not too far away.</li><li>For answering one of a list of common mistakes. For instance, you could give credit for learners who are off by a factor of 2, or 1/10, or who forget to add a commonly-missed item to their total.</li><li>You can combine those two.</li></ul>
+      </li>
+    </ul>
+    <p>
+      <button class="hx-togglebutton-arithmatic">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-geom start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">Geometry</h4>
+    <p>+10 points</p>
+    <p>Geometry's tough. EdX has no built-in tools for constructive geometry or for geometric proofs. You may want to consider working with an outside LTI provider who handles these specialized tools.</p>
+    <p>
+      <button class="hx-togglebutton-geom">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-precalc start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">Algebra or Precalculus</h4>
+    <p>+10 points</p>
+    <p>This is the most difficult level.</p>
+    <p>EdX has a <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html" target="_blank">Numerical Input</a> problem type and a <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/math_expression_input.html" target="_blank">Math Expression Input</a> problem type (a.k.a. Formula Input). Algebra and Precalc courses are at that stage where the learner shouldn't be tested on just numerical answers any more, so the Numerical problem isn't enough. However, they're still learning basic algebraic manipulations such as simplifying and expanding, which the Math Expression problem assumes they either already know or don't need to know.</p>
+    <p>Let us explain why. It all has to do with exactly how Math Expression problems work. <em>They doesn't do symbolic algebra.</em> Instead, they generate a set of random numbers and plug them through both the official answer and the learner's answer to get a set of numerical outputs. If the official output matches the learner output, the learner's answer is graded correct.</p>
+    <p>That means when you ask your learners to "Expand \( \left( x^2 + 4 \right)^2 \)", they can just type in <code>(x*x+4)^2</code> and edX will accept that as correct. Because numerically, they're identical. If you teach algebra, you can probably imagine how that could cause problems.</p>
+    <p>You have two potential solutions.</p>
+    <p>First, you can check out the <a href="https://mitodl.github.io/mitx-grading-library/" target="_blank">MITx grading library</a>, which will let you do all sorts of fancy things, including excluding certain things from the input (like parentheses or exponents). However, it's not quite as easy to use, and is better for higher-level courses.</p>
+    <p>What we honestly recommend is writing <strong>solid multiple-choice questions with good distractors</strong>. It's not what we all want to do, but it's reliable, easy to implement, and will help your learners when it comes to the (sadly still-inevitable) standardized exams in their future.</p>
+    <p>
+      <button class="hx-togglebutton-precalc">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-calc start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">Calculus</h4>
+    <p>+10 points</p>
+    <p>You should be all set with the existing <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/numerical_input.html" target="_blank">Numerical Input</a> and <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/math_expression_input.html" target="_blank">Math Expression Input</a> problem types.</p>
+    <p>Your learners can be expected to know how to simplify and expand algebraic expressions already, so you don't need to test them on that. While the Math Expression problem doesn't accept calculus operations (like derivatives or integrals), it will handle most algebraic expressions just fine. Between that and the numerical problem, you should be all set for 99% of your assessments.</p>
+    <p>
+      <button class="hx-togglebutton-calc">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <div class="hx-toggletarget-postcalc start_hidden">
+    <img alt="" src="" style="width: 350px; float:right;"/>
+    <h4 class="hx-underline">Courses After Calculus</h4>
+    <p>+10 points</p>
+    <p>What do you need?</p>
+    <ul>
+      <li><strong>Functions, Matrices, or Lists:</strong> Check out the <a href="https://mitodl.github.io/mitx-grading-library/" target="_blank">MIT grading library</a>. It's sophisticated and powerful, and it's free to use, with a demo course that will help you understand it better.</li>
+      <li><strong>Proofs:</strong> Proofs are difficult. There's no perfect solution, but you might use...
+        <ul><li><em>ORA</em> (aka peer essay grading) to have learners evaluate each others' story proofs.</li><li><em>Ordering Problems</em> to let learners look at potential steps for a proof and drag-and-drop them into order.</li><li>Even simple <em>Multiple Choice</em> problems will let learners evaluate an existing proof, saying whether it's correct all the way through, or identifying the step where it breaks down.</li></ul>
+      </li>
+      <li><strong>Vectors:</strong> You can use multi-part problems to break the vector down into components, or you can use MIT's library to ask for it as a one-column or one-row matrix.</li>
+    </ul>
+    <p>
+      <button class="hx-togglebutton-postcalc">Go Back</button>
+    </p>
+    <br clear="all"/>
+  </div>
+  <p>You can press "Submit" to save your current state, whether you're finished or only partway through. Your current grade is counted. You can then continue with the problem or move on to the rest of the course.</p>
+  <customresponse cfn="answercheck">
+    <jsinput get_statefn="pathway_problem.getState" gradefn="pathway_problem.getGrade" height="0" html_file="/static/pathway_problem.html" set_statefn="pathway_problem.setState" sop="false" title="You can ignore this frame." width="0"/>
+  </customresponse>
+</problem>

@@ -1,0 +1,18 @@
+<problem display_name="Is CSS right for you?" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <p>You want to make a new course and have heard CSS could be fun to try out. You are not sure where it would add most value, as you have been developing courses before without it and have always received positive student feedback. However, you know a colleague has developed some CSS before on an interactive design course, so maybe you could just borrow theirs. </p>
+    <label>Is that a good idea? </label>
+    <description> Select all that apply</description>
+    <checkboxgroup>
+      <choice correct="false">Yes! Absolutely! Implement CSS on every course with the most possible options just in case you need it.
+      <choicehint selected="true">This is a risky move - at best, you waste your time; at worst you create a hideous platform monster that's slow to load</choicehint>
+</choice>
+      <choice correct="true">Maybe, although you should take a look at their course first and see if you like the style.</choice>
+      <choice correct="true">Maybe, but first think about what value CSS could bring to your course.</choice>
+      <choice correct="false">No, never use other people's code.
+      <choicehint selected="true">There is nothing wrong with using others' code but sometimes it's good to ask first if not published openly</choicehint>
+</choice>
+      <compoundhint value="B C">There are lots of considerations before implementing a CSS approach. You also do not need to use all of their code - carefully selecting only a few items is probably a good way to go at the start</compoundhint>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

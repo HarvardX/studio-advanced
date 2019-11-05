@@ -1,0 +1,34 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+<style>
+  figcaption { font-size: small; }
+</style>
+
+<h3 class="hx-underline">Problem Setup</h3>
+
+<p>JSInput problems have several pieces. The files you need to build are in boldface.</p>
+<ul>
+  <li>The view that the learner sees is created by...
+    <ul>
+      <li>An <strong>HTML file</strong>, stored in Files &amp; Uploads.</li>
+      <li>A <strong>css file</strong>, stored in Files &amp; Uploads.</li>
+      <li>A <strong>Javascript file</strong>, stored in Files &amp; Uploads.</li>
+    </ul>
+  </li>
+  <li>Information that appears <em>around</em> that view is created by...
+    <ul>
+      <li>An <strong>XML file</strong>, entered into a Blank Advanced Problem.</li>
+      <li>The edX platform itself, which displays the Submit button, the number of available attempts, the learner's grade, etc.</li>
+    </ul>
+  </li>
+  <li>Pieces that don't affect the learner's view, but can add functionality, might include...
+    <ul>
+      <li>jschannel.js, which allows files to be stored outside of Files &amp; Uploads.</li>
+      <li>Data files that define the specific problem you're giving the learner. This might be written into the XML in Python, or stored in JS format in Files &amp; Uploads.</li>
+      <li>Other javascript libraries, referenced in the HTML file and stored anywhere.</li>
+      <li>Grading code, written in Python. This could be stored in a grading library in Files &amp; Uploads, or written directly into the XML file.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>It's not <em>quite</em> as bad as it looks, but you can probably see why it takes a little work to set up.</p>

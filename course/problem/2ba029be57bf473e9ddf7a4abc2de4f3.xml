@@ -1,0 +1,43 @@
+<problem display_name="Max Course Length" markdown="null" max_attempts="5" rerandomize="onreset" show_reset_button="true" showanswer="finished">
+  <script type="loncapa/python">
+
+def checkfunction(expect, ans):
+  print expect, ans
+  ans = ans.strip("'")
+  ans = ans.strip('"')
+  
+  expect = float(expect)
+
+  try:
+    ans = float(ans)
+  except:
+    return { 'ok': False, 'msg': "That's not a number." }
+
+  if abs(ans-expect) &lt; 2:
+    return { 'ok': True, 'msg': 'Close enough. Exact answer: 18 weeks' }
+
+  elif abs(ans-expect) &lt; 9:
+    if ans &gt; 18:
+      return { 'ok': 'Partial', 'msg': 'Too high.' }
+    else:
+      return { 'ok': 'Partial', 'msg': 'Too low.' }
+
+  else:
+    if ans &gt; 18:
+      return { 'ok': False, 'msg': "Much too high." }
+    else:
+      return { 'ok': False, 'msg': 'Much too low.' }
+ 
+
+</script>
+  <customresponse cfn="checkfunction" expect="18">
+    <label>What's the longest you can make your course on the edX platform?</label>
+    <formulaequationinput correct_answer="18" trailing_text="weeks"/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The edX platform has a hard-coded maximum length of 18 weeks.</p>
+      </div>
+    </solution>
+  </customresponse>
+</problem>

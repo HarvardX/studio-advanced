@@ -1,0 +1,28 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+<style>
+  figcaption { font-size: small; width: 80%; }
+</style>
+
+<h3 class="hx-underline">Harvard's BFA method</h3>
+
+<p>Now that we've sufficiently terrified you, we're going to introduce one specific system that you might be able to implement yourself. This is the <em>Bridge For Adaptivity</em>, an approach designed by Harvard's Vice Provost for Advances in Learning Research Group in conjunction with Microsoft, TutorGen, Talk Coaches, and RaccoonGang.</p>
+
+<p>The BFA isn't the only approach out there. It's not even the only open-source approach. We cannot endorse any specific providers here, but we encourage you to follow up with other groups and potential providers if running your own servers is not viable for you.</p>
+
+<h4 class="hx-underline">Server Diagram</h4>
+
+<p>Here's a diagram of how the BFA approach works. Click for a larger version, or check out the detailed description below.</p>
+
+<figure>
+  <a href="/static/Detailed_Adaptive_Bridge_Diagram.png" target="_blank">
+    <img src="/static/Detailed_Adaptive_Bridge_Diagram_small.png" alt="Server diagram for the Bridge, described below" />
+  </a>
+  <figcaption>The BFA approach uses four servers: one for the course, another for the content source, a third for the adaptive engine, and a fourth server to connect the other three and route data between them. </figcaption>
+</figure>
+<br/>
+
+<p>In our case, the course resides on the servers on edX.org. The content source can be any LTI provider. We are specifically using an Open edX server as our content repository, so that the problems we deliver are native edX problems with all of edX's built-in functionality. Our adaptive engine is the <a href="http://www.alosilabs.org/" target="_blank">ALOSI engine</a>.</p>
+
+<p>The Bridge takes data from edX, passes it to ALOSI to decide which activity to provide next, calls the content source to provide that particular activity, and then passes that activity to the course. There are two different LTI connections, one from the content source to the Bridge, and another from the Bridge to the course. We like to call it the "LTI Turducken."<sup style="font-size:small;"><a href="javascript:;" class="hx-togglebutton1">[1]</a></sup><span style="display:none;" class="hx-toggletarget1"> (Actually, only Colin calls it that.)</span></p>
+

@@ -1,0 +1,33 @@
+<problem display_name="CSS not working" markdown="null" max_attempts="1" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>You've done everything by the book but for some reason, the code in your .css isn't displaying the newly styled 'x-purplebox' you expected on edX. In fact, it's not showing at all, even though you've checked your code in Studio many times. You go back to the .css file to see what's going wrong.</p>
+    <p>Here's your .css code:</p>
+    <pre>
+      <code class="lang-css">.x-purplebox {
+  border-left: 10px solid #6C35C0;
+  background-color: #DBCDEF;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+
+.x-redbox {
+  border: 5px solid #FF0000;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+</code>
+    </pre>
+    <p/>
+    <p>What's the issue with this code?</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">The variables have been changed from example.css - you should never mess with colours or margins!</choice>
+      <choice correct="true">The curly bracket is open - nothing after this will work until the bracket is closed to complete the action</choice>
+      <choice correct="false">The box style reference is changed and missing an 'h' - it should be .hx-purplebox</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>It's ok to change colours or margins if you've made that decision carefully, and you don't need to prefix your own styles with an hx (or an x, for that matter). The important bit here is the titchy detail of the closed curly bracket.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

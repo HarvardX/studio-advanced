@@ -1,0 +1,11 @@
+<div class="hx-purplebox">
+  <h4><span class="fa fa-asterisk"></span> Partial Credit</h4>
+  <p>In addition to randomizing MCQs, setting numerical tolerances, and alternate answers, you can also give certain questions partial credit! The <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_problem.html#awarding-partial-credit-for-a-problem" target="_blank">official edX docs</a> give full detail on this, which you can award for checkbox problems, multiple-choice problems, numerical problems, and custom python-based problems (including JSInput). You can write your problem in markdown, then use the Advanced Editor to add <code>partial_credit="points"</code> to the problem-type tag. Each one has its own options:</p>
+  <ul>
+    <li><strong>Multiple Choice:</strong> You can set <code>partial_credit="points"</code>, which lets you decide how many points each answer is worth.</li>
+    <li><strong>Checkbox:</strong> You can set <code>partial_credit="edc"</code>, short for "every decision counts", in which case you've essentially turned the checkboxes into a set of true/false questions. Or, you can set <code>partial_credit="halves"</code>, which cuts the score in half for each wrong answer, or eventually drops it to zero if they get enough wrong.</li>
+    <li><strong>Numerical:</strong> You can set <code>partial_credit="close"</code> to give partial credits for answers that are close to the correct one. Or, you can set <code>partial_credit="list"</code>, where you give it a list of alternate answers that get some points (for example, off by a factor of 2 or 1/2). You can even do <code>partial_credit="close,list"</code> for both!</li>
+    <li><strong>Custom Python:</strong> When you return your grading object, setting <code>'ok': 'Partial'</code> defaults to 50% credit, or you can set the <code>'grade_decimal'</code> value directly. </li>
+  </ul>
+  <p>Again, check the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_components/create_problem.html#awarding-partial-credit-for-a-problem" target="_blank">official edX docs</a> for all the precise syntax.</p>
+</div>

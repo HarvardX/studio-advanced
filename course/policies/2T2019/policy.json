@@ -1,0 +1,163 @@
+{
+    "course/2T2019": {
+        "advanced_modules": [
+            "word_cloud", 
+            "lti_consumer", 
+            "split_test", 
+            "library_content", 
+            "poll", 
+            "survey", 
+            "drag-and-drop-v2"
+        ], 
+        "allow_anonymous": false, 
+        "allow_anonymous_to_peers": true, 
+        "cert_html_view_enabled": true, 
+        "course_image": "StudioAdv_Course_Image_antenna.png", 
+        "days_early_for_beta": 10000.0, 
+        "discussion_sort_alpha": true, 
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            }
+        }, 
+        "display_name": "Studio Advanced", 
+        "edxnotes": true, 
+        "enable_subsection_gating": true, 
+        "enable_timed_exams": true, 
+        "end": "2019-12-29T00:00:00Z", 
+        "graceperiod": "", 
+        "highlights_enabled_for_messaging": true, 
+        "instructor_info": {
+            "instructors": []
+        }, 
+        "language": "en", 
+        "learning_info": [], 
+        "minimum_grade_credit": 0.8, 
+        "self_paced": true, 
+        "start": "2019-08-01T00:00:00Z", 
+        "tabs": [
+            {
+                "course_staff_only": false, 
+                "name": "Home", 
+                "type": "course_info"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Course", 
+                "type": "courseware"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Discussion", 
+                "type": "discussion"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Links", 
+                "type": "static_tab", 
+                "url_slug": "7f380a1e4f5449a1b8913250101ce408"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Key", 
+                "type": "static_tab", 
+                "url_slug": "d2335ae1c70a4cc386c15285edf7d876"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Wiki", 
+                "type": "wiki"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Progress", 
+                "type": "progress"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Notes", 
+                "type": "edxnotes"
+            }, 
+            {
+                "course_staff_only": false, 
+                "name": "Textbooks", 
+                "type": "textbooks"
+            }
+        ], 
+        "user_partitions": [
+            {
+                "active": true, 
+                "description": "The groups in this configuration can be mapped to cohorts in the Instructor Dashboard.", 
+                "groups": [], 
+                "id": 1194385713, 
+                "name": "Content Groups", 
+                "parameters": {}, 
+                "scheme": "cohort", 
+                "version": 3
+            }, 
+            {
+                "active": true, 
+                "description": "This is just to show people what can be done with this feature.", 
+                "groups": [
+                    {
+                        "id": 1363630119, 
+                        "name": "Sample Group A", 
+                        "version": 1
+                    }, 
+                    {
+                        "id": 1889263613, 
+                        "name": "Sample Group B", 
+                        "version": 1
+                    }, 
+                    {
+                        "id": 1493797591, 
+                        "name": "Sample Group C", 
+                        "version": 1
+                    }
+                ], 
+                "id": 58912316, 
+                "name": "Sample Content Experiment", 
+                "parameters": {}, 
+                "scheme": "random", 
+                "version": 3
+            }, 
+            {
+                "active": true, 
+                "description": "Do more people answer short surveys if the answers are in emoji? Do their responses change?", 
+                "groups": [
+                    {
+                        "id": 1454368484, 
+                        "name": "Even Subsections Get Emoji", 
+                        "version": 1
+                    }, 
+                    {
+                        "id": 1528469042, 
+                        "name": "Odd Subsections Get Emoji", 
+                        "version": 1
+                    }, 
+                    {
+                        "id": 1296843229, 
+                        "name": "Everyone Gets Emoji", 
+                        "version": 1
+                    }, 
+                    {
+                        "id": 1516930085, 
+                        "name": "Just Text", 
+                        "version": 1
+                    }
+                ], 
+                "id": 1868186923, 
+                "name": "Emoji Experiment 1", 
+                "parameters": {}, 
+                "scheme": "random", 
+                "version": 3
+            }
+        ], 
+        "xml_attributes": {
+            "filename": [
+                "course/2T2019.xml", 
+                "course/2T2019.xml"
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<problem display_name="Operation: Pile Up" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <p>The update tool allows dates to be set in the future and in the past. It also allows for multiple separate updates to be added. Imagine your update section has 4 separate updates listed with the dates as outlined below. Today is 1st September 2019.</p>
+    <label>Which update(s) will be visible to new learners that sign up today? </label>
+    <description> Select all that apply. </description>
+    <checkboxgroup>
+      <choice correct="false">Update 1 - 28th February 2019</choice>
+      <choice correct="false">Update 2 - 1st April 2019</choice>
+      <choice correct="true">Update 3 - 15th August 2019</choice>
+      <choice correct="false">Update 4 - 31st October 2019</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The one from August is the only one that's in your visibility window: the time has passed, but it's not more than 3 weeks in the past.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

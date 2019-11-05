@@ -1,0 +1,18 @@
+<problem display_name="Best Practices" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Which of the following are best practices for running an online course? </label>
+    <description> Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="false">Don't write anything down</choice>
+      <choice correct="false">Do it all yourself</choice>
+      <choice correct="false">Treat everything like an emergency</choice>
+      <choice correct="true">Oh my word, none of these are good ideas</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Fairly self-explanatory, we hope.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

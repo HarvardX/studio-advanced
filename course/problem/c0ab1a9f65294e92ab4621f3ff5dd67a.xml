@@ -1,0 +1,16 @@
+<problem display_name="What is allowed?" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Which of the following items can be included in a content library?</label>
+    <description>Select all that apply</description>
+    <checkboxgroup>
+      <choice correct="true">Basic problem types, e.g. checkboxes</choice>
+      <choice correct="false">Advanced problem types, e.g. drag and drop</choice>
+      <choice correct="false">Images and files (uploaded)</choice>
+      <choice correct="true">HTML components</choice>
+      <choice correct="true">Videos</choice>
+    </checkboxgroup>
+  </choiceresponse>
+  <demandhint>
+    <hint>Don't let the name fool you. It isn't possible to upload free-standing content directly into the content library, but it can cross-reference unique identifiers. Remember, it is a fairly basic tool, so advanced stuff will make its virtual head explode! </hint>
+  </demandhint>
+</problem>

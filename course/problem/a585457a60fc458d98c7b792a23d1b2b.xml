@@ -1,0 +1,13 @@
+<problem display_name="Where will you find me?" markdown="&gt;&gt;You are the admin of a course. You have full rights to see all course content and edit it. However, you want to make an edit to content in a library but can not find it in your studio library tab. Why is this? &lt;&lt;&#10;&#10;( ) You forgot your password and need to reset it&#10;(x) You didn't set up the library - it is associated to someone else's account so need them to give you access&#10;( ) You didn't set up the library so need to ask edX for access rights {{I'm sure they would help if an emergency but typically asking a team member is a quicker and more sustainable route!}}&#10;( ) Life is tough and you can't have it all {{I mean that sounds quite harsh, doesn't it?}}&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>You are the admin of a course. You have full rights to see all course content and edit it. However, you want to make an edit to content in a library but can not find it in your studio library tab. Why is this? </label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">You forgot your password and need to reset it</choice>
+      <choice correct="true">You didn't set up the library - it is associated to someone else's account so need them to give you access</choice>
+      <choice correct="false">You didn't set up the library so need to ask edX for access rights <choicehint>I'm sure they would help if an emergency but typically asking a team member is a quicker and more sustainable route!</choicehint>
+</choice>
+      <choice correct="false">Life is tough and you can't have it all <choicehint>I mean that sounds quite harsh, doesn't it?</choicehint>
+</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

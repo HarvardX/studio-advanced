@@ -1,0 +1,102 @@
+<problem display_name="Do I want a Range-Guessing Problem?" markdown="null" max_attempts="5" rerandomize="onreset" show_reset_button="true" showanswer="finished">
+  <script type="loncapa/python">
+
+
+from python_lib import HXGraders
+
+########## Course Author Section #########
+## Change whatever you need to in here. ##
+##########################################
+
+options = {
+
+    # These are REQUIRED for all problems.
+    'problem_type': 'number',    # Set to 'interval' or a 'number'
+    'show_open_close': False,    # Do we ask for open/closed interval?
+    'feedback': True,            # Do we tell people how close they were?
+    'is_time_question': False,   # Should we convert these numbers to times (min:sec)?
+                                 # If this is set True, course authors still use seconds.
+
+    # Only needed for number-guessing:
+    'correct_number': 100,            # The right answer
+    'tolerance': [10, 20, 40],        # How close do they have to be? [correct, near, far]
+    'brackets': [1, 0.5, 0.25, 0],    # Scores for various range brackets
+
+    # Only needed for interval-guessing:
+    'correct_interval': [38515,62434],         # Please put the lower value on the left.
+    'interval_type': ['closed', 'closed'],     # Are endpoints 'open' or 'closed'?
+    'interval_tolerance': 'generous',          # Options: 'linear', 'strict', or 'generous'
+    'type_penalty': 0.1,                       # Points off if open/closed incorrect
+
+    # Only needed for time-guessing, like intervals in a video clip:
+    'max_time': 300                # How long is your clip in seconds?
+
+}
+
+######## End Course Author Section #########
+## Don't change anything below this line. ##
+############################################
+
+# For constructing the slider itself
+limits = HXGraders.getRangeGuesserParams(options)
+lowerlimit = limits['lower']
+upperlimit = limits['upper']
+
+# For passing to the interior javascript
+show_open_close = options['show_open_close']
+is_time_question = options['is_time_question']
+max_time = options['max_time']
+
+def answercheck(e, ans):
+    
+    # This pulls from the python_lib.zip file in Files &amp; Uploads.
+    return HXGraders.rangeGuessGrader(ans, options)
+
+
+</script>
+  <script type="text/javascript">
+$(document).ready(function(){
+	console.log('outer ready');
+});
+
+// Logs a javascript object.
+function logThatThing(ThatThing){
+
+	// Log it to the console just to verify it's working
+	console.log(JSON.stringify(ThatThing));
+	
+	// Send it to the official edX logamajig!
+	Logger.log("harvardx.studio_adv.guess_guesser", ThatThing);
+
+}
+</script>
+  <p>How much would you like to have a problem type that allows learners to select a range of numbers, guess a single number, locate a time in a video, or specify mathematical intervals?</p>
+  <p>Rate your level of interest out of 100. Our apologies if the minimum doesn't go to 0%.</p>
+  <p aria-hidden="true" class="sr">
+    <span id="lowerlimit">$lowerlimit</span>
+    <span id="upperlimit">$upperlimit</span>
+    <span id="openclose">$show_open_close</span>
+    <span id="istimequestion">$is_time_question</span>
+    <span id="maxtime">$max_time</span>
+  </p>
+  <customresponse cfn="answercheck">
+    <jsinput get_statefn="guesser.getState" gradefn="guesser.getGrade" height="120" html_file="/static/guesser.html" set_statefn="guesser.setState" sop="false" title="Range Guessing Exercise" width="800"/>
+  </customresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>If you picked a number close to 100, you got full credit on this.</p>
+      <p>There are several options you can set for this problem type:</p>
+      <ul>
+        <li>You can set it for time intervals, to say when something happens in a video or audio track.</li>
+        <li>You can have it show open/closed intervals, for a mathematics course.</li>
+        <li>You can specify how far off people can be from a single number.</li>
+        <li>You can specify how harsh the grading is for ranges - whether it's equal to the percentage of overlap, or more or less strict.</li>
+      </ul>
+      <p>The exact range that's shown has some randomization, so that people can't always guess right in the middle.</p>
+    </div>
+  </solution>
+  <demandhint>
+    <hint>Just pretend that you really want that kind of problem and set the sliders vaguely around 100.</hint>
+  </demandhint>
+</problem>

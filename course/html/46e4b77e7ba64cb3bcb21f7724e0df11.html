@@ -1,0 +1,43 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">Code</h3>
+
+<p>If you've looked through <a href="/jump_to_id/a2ac97cbacab497c9a466ca0ac9e224a" target="_blank">Advanced Problem Types demo</a> in this course, you've already seen a custom grading library at work!</p>
+
+<p>The matching problem at the top of that page? Here's the grading code.</p>
+<p>This line imports the grader itself. We've got a module called <code>python_lib.zip</code> (it has to be called that), and inside it there's an HXGraders function.</p>
+
+<pre><code class="lang-python">from python_lib import HXGraders
+</code></pre>
+
+<p>Here's the part of the code that's specific to this problem. It sets the answers and some options.</p>
+<pre><code class="lang-python">right_answer = []
+
+right_answer.append( [['A','1'],['B','2'],['C','1']] )
+right_answer.append( [['A','1'],['B','2']] )
+right_answer.append( [['B','2'],['C','1']] )
+right_answer.append( [['A','1']] )
+right_answer.append( [['C','1']] )
+
+partial_credit = True
+feedback = True
+</code></pre>
+
+<p>Here's the part that does the grading.</p>
+<pre><code class="lang-python">def answercheck(e, ans):
+
+  # This pulls from the python_lib.zip file in Files &amp; Uploads.
+  return HXGraders.matchingAGrader(ans, right_answer, partial_credit, feedback)
+</code></pre>
+
+<p>Yes, that is the <em>entire</em> part that does the grading. No lines and lines of if/then clauses; it just sends the student-submitted answer away to the library to handle the grading, and returns the result.</p>
+
+<p>If you want to see the grading code itself, here's the whole package: <a href="https://github.com/Colin-Fredericks/hx-py/raw/master/python_lib.zip">python_lib.zip</a>. Take that file, <strong>keep it zipped up</strong>, and drop it in your Files &amp; Uploads. </p>
+
+<p>You can find the source code at the <a href="https://github.com/Colin-Fredericks/hx-py" target="_blank">HX-PY GitHub repository</a>. The grading code is <a href="https://opensource.org/licenses/MIT" target="_blank">MIT-licensed</a>, so you can use it in your own courses all you like. It handles grading for matching problems, ordering problems, range-guessing problems, and basically every unusual type you might have seen in different places in this course.</p>
+
+<div class="hx-redbox">
+  <h4><span class="fa fa-warning"><span class="sr">Warning:</span></span> You Only Get One</h4>
+  <p>We've mentioned it obliquely a few times, but just to state it outright: you can only have <em>one</em> grading library. This is because it <em>must</em> be named <code>python_lib.zip</code>. We don't know of any way around it. If you want to use multiple grading libraries, just unzip them all in the same folder, then zip them all up together again. Easy peasy! Just remember to go through this process every time you update the code, or you'll accidentally overwrite your big, full-featured library with a smaller one.</p>
+</div>

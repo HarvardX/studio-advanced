@@ -1,0 +1,126 @@
+<h3 class="hx-underline">Catalog Settings</h3>
+
+<p>These settings affect the way your course appears (or doesn't) for registration. A <em>lot</em> of what's on this list is defunct or unnecessary when it comes to edX.org, but may still be in use if your org uses an Open edX distribution.</p>
+
+<h4><button class="hx-togglebutton11">
+Course About Page Image
+</button></h4>
+<div class="hx-toggletarget11" style="display:none;">
+  <p><strong>Default:</strong> "images_course_image.jpg"</p>
+  <p><strong>Other settings:</strong> any png or jpg file, in quotes.</p>
+  <p><i>Edit the name of the course image file. You must upload this file on the Files &amp; Uploads page. You can also set the course image on the Schedule &amp; Details page.</i></p>
+  <p>Not much to say here, except that this and edX.org's Publisher don't always play nice with each other. You should probably ensure that you have the same image in both places.</p>
+  <p>The required image size for edx.org is <strong>2120 pixels wide by 1192 pixels tall</strong>. Older sources may say 378 x 225 px, which is outdated.</p>
+</div>
+
+<h4><button class="hx-togglebutton12">
+Course Advertised Start
+</button></h4>
+<div class="hx-toggletarget12" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> any text</p>
+  <p><i>Enter the text that you want to use as the advertised starting time frame for the course, such as "Winter 2018". If you enter null for this value, the start date that you have set for this course is used.</i></p>
+  <p>In addition to listing vague dates to give your development team a little wiggle room, you can also use this to do a "soft launch", wherein your course is actually open for a day or two before the advertised start date. Note that learners will still receive automated e-mails from edX, so this will only work well if you don't use Section Highlights - and those are probably more useful than a soft launch, all things considered.</p>
+</div>
+
+<h4><button class="hx-togglebutton13">
+Course Announcement Date
+</button></h4>
+<div class="hx-toggletarget13" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> Any date in MM/DD/YYYY format.</p>
+  <p><i>Enter the date to announce your course.</i></p>
+  <p>This is not used on edX.org, having been replaced by settings in Publisher.</p>
+</div>
+
+<h4><button class="hx-togglebutton14">
+Course Banner Image
+</button></h4>
+<div class="hx-toggletarget14" style="display:none;">
+  <p><strong>Default:</strong> "images_course_image.jpg"</p>
+  <p><strong>Other settings:</strong> other things</p>
+  <p><i>Edit the name of the banner image file. You can set the banner image on the Schedule &amp; Details page.</i></p>
+  <p>Older edX distributions separated the Course About Page Image (which appeared at the top of the About page) from the Course Banner Image (which appeared in the catalog). If your Open edX distribution uses this setting, the proper dimensions are 608 x 211 pixels. </p>
+</div>
+
+<h4><button class="hx-togglebutton16">
+Course Instructor
+</button></h4>
+<div class="hx-toggletarget16" style="display:none;">
+  <p><strong>Default:</strong> {
+    "instructors": []
+}</p>
+  <p><strong>Other settings:</strong> JSON-formatted data</p>
+  <p><i>Enter the details for Course Instructor</i></p>
+  <p>We'll be honest with you, we don't even know the right format to use here. This is years out of date, especially on edX.org, where Publisher handles all of it.</p>
+</div>
+
+<h4><button class="hx-togglebutton17">
+Course Is New
+</button></h4>
+<div class="hx-toggletarget17" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> true or false</p>
+  <p><i>Enter true or false. If true, the course appears in the list of new courses on edx.org, and a New! badge temporarily appears next to the course image.</i></p>
+  <p>This only affects courses that are offered on catalog systems other than edX.org.</p>
+</div>
+
+<h4><button class="hx-togglebutton18">
+Course Learning Information
+</button></h4>
+<div class="hx-toggletarget18" style="display:none;">
+  <p><strong>Default:</strong> []</p>
+  <p><strong>Other settings:</strong> A list of strings, like ["thing 1", "thing 2", "thing 3"]</p>
+  <p><i>Specify what student can learn from the course.</i></p>
+  <p>If you're on edX.org, this is another out-of-date item, handled by Publisher.</p>
+</div>
+
+<h4><button class="hx-togglebutton19">
+Course Maximum Student Enrollment
+</button></h4>
+<div class="hx-toggletarget19" style="display:none;">
+  <p><strong>Default:</strong> null</p>
+  <p><strong>Other settings:</strong> any integer</p>
+  <p><i>Enter the maximum number of students that can enroll in the course. To allow an unlimited number of students, enter null.</i></p>
+  <p>Useful for small, private courses where you don't want to accidentally have a thousand enrollees when someone posts the link on Reddit. Do people still use Reddit? Slashdot? Lycos? People still think AltaVista is great, right?</p>
+</div>
+
+<h4><button class="hx-togglebutton23">
+Course Video Thumbnail Image
+</button></h4>
+<div class="hx-toggletarget23" style="display:none;">
+  <p><strong>Default:</strong> "images_course_image.jpg"</p>
+  <p><strong>Other settings:</strong> Any jpg or png</p>
+  <p><i>Edit the name of the video thumbnail image file. You can set the video thumbnail image on the Schedule &amp; Details page.</i></p>
+  <p>You've got a course video? Great, it has a thumbnail. You probably want to provide a custom one in case your video accidentally shows a frame where someone has their mouth open while chewing, or someone caught in mid-crossfade, or a random jet-black frame. Upload your image, list it here, done.</p>
+</div>
+
+<h4><button class="hx-togglebutton24">
+Course Visibility In Catalog
+</button></h4>
+<div class="hx-toggletarget24" style="display:none;">
+  <p><strong>Default:</strong> "both"</p>
+  <p><strong>Other settings:</strong> "about" or "none"</p>
+  <p><i>Defines the access permissions for showing the course in the course catalog. This can be set to one of three values: 'both' (show in catalog and allow access to about page), 'about' (only allow access to about page), 'none' (do not show in catalog and do not allow access to an about page).</i></p>
+  <p>If you want to hide your courses, MOOCs may not be for you. Then again, I suppose we don't all make MOOCs. Anyway, hiding your course by having the release date in the future is probably the better approach.</p>
+</div>
+
+<h4><button class="hx-togglebutton41">
+Invitation Only
+</button></h4>
+<div class="hx-toggletarget41" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>Whether to restrict enrollment to invitation by the course staff.</i></p>
+  <p>Setting your start date in the future will do this as well. We don't recommend a multilayered defense against people signing up for your course, because that's really going to end up as multilayered "trying to figure out what setting we forgot to change and why can't people sign up oh no why did we do this to ourselves."</p>
+</div>
+
+<h4><button class="hx-togglebutton45">
+Mobile Course Available
+</button></h4>
+<div class="hx-toggletarget45" style="display:none;">
+  <p><strong>Default:</strong> false</p>
+  <p><strong>Other settings:</strong> true</p>
+  <p><i>Enter true or false. If true, the course will be available to mobile devices.</i></p>
+  <p>I'll be honest with you, I'm pretty sure this setting is broken. The default setting <em>on edX.org</em> is "false", which would mean that their mobile app doesn't show any courses, which clearly is not what happens. Check with your Open edX administrator to see whether you need to pay attention to this setting.</p>
+</div>

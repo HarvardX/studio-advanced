@@ -1,0 +1,18 @@
+<problem display_name="Dropdown" markdown="&gt;&gt;Which of the following is outside our solar system?|| Select one correct answer.&lt;&lt;&#10;[[&#10;The moon&#10;The International Space Station&#10;The asteroid belt&#10;(None of the above)&#10;]]&#10;&#10;[explanation]&#10;None of those items are outside our solar system.&#10;[explanation]&#10;" showanswer="finished">
+  <optionresponse>
+    <label>Which of the following is outside our solar system?</label>
+    <description> Select one correct answer.</description>
+    <optioninput>
+      <option correct="False">The moon</option>
+      <option correct="False">The International Space Station</option>
+      <option correct="False">The asteroid belt</option>
+      <option correct="True">None of the above</option>
+    </optioninput>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>None of those items are outside our solar system.</p>
+      </div>
+    </solution>
+  </optionresponse>
+</problem>

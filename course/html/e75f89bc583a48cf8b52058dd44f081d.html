@@ -1,0 +1,57 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<h3 class="hx-underline">Coding a JSInput Problem</h3>
+
+<p>Ok: you know what you want to create. You can imagine it in action. You know how to insert it in edX when you're ready. Now here's a breakdown of what your problem needs to do:</p>
+
+<ol>
+  <li>Accept student input.</li>
+  <li>Keep track of the problem's state.</li>
+  <li>Restore the problem's setup.</li>
+  <li>Respond to edX function calls.</li>
+</ol>
+
+<p>We'll handle these one at a time below.</p>
+
+<div class="hx-hangright hx-bluebox" style="max-width: 35%">
+  <h4><span class="fa fa-clock-o"></span> Time-saving measures</h4>
+  <p>Here are a couple time-saving suggestions from someone who's built a lot of these:</p>
+<ul>
+  <li>Focus on generalizability and reusability. Show your work to your colleagues, and listen when they say "Ooh, that's great, can it also..." </li>
+  <li>Build with accessibility in mind <em>from the beginning</em>. How will someone complete your activity without a mouse? How will they do it without hearing, or without sight? What level of manual dexterity or reaction time does it require?</li>
+  <li>Test the user experience and accessibility <em>before</em> the problem goes live. This doesn't <em>save</em> time, per se, but it does allow you to spend that time when you decide instead of having to rush out a change to fix something.</li>
+</ul>
+</div>
+
+<h4 class="hx-underline">1. Accept Student Input</h4>
+
+<p>Every problem needs to respond when a student interacts with it. This can be as simple as a short form (a text box, some radio buttons) or as complex as an interactive economics simulation. Remember our guidelines from before: you can create a JSInput problem for <em>anything you want to code.</em></p>
+
+<h4 class="hx-underline">2. Keep track of the problem's state</h4>
+
+<p>Ordinarily when someone clicks a button on a form, their browser keeps track of that. In our case, <em>you also need to keep track of that, separately.</em> Every interaction a learner has with a problem should result in a change to the problem state. You need this so you can accomplish steps 3 and 4 below. Normally you do this by updating a javascript object, adding or removing data to indicate exactly what's going on.</p>
+
+<h4 class="hx-underline">3. Restore the problem's setup</h4>
+
+<p>This is a standard feature of all edX problems that you will need to implement: Opening a problem should return it to whatever condition it was in before, using the state object you generated in part 2 above.</p>
+
+<p>If your learner filled out a form, it should be re-populated with the same information it had before. If you built a rocket simulator, and a learner left the problem with the rocket moving in a particular direction, with a particular speed and remaining fuel, you need to be able to put them right back into that exact same setup.</p>
+
+<p><strong>Randomization note:</strong> If you have randomized elements in the problem's setup, it's best to have these generated in the problem's Python rather than Javascript. Javascript will generate a different set of random numbers on every reload of the page. Python will respect the "Randomize" setting of the assignment itself. Check out the <a href="https://github.com/Stanford-Online/js-input-samples/tree/master/range_guesser" target="_blank">Range Guesser</a> problem for one example of how to do this.</p>
+
+<h4 class="hx-underline">4. Respond to edX function calls</h4>
+
+<p>Three parts of this are really easy:</p>
+<ol>
+  <li><code class="lang-js">getState()</code> returns the problem's current state to edX.</li>
+  <li><code class="lang-js">setState()</code> passes the state from edX to the problem, and resets the problem's setup (as in step 3 above).</li>
+  <li><code class="lang-js">getGrade()</code> returns the problem's current <em>state</em>. (Do not return a grade. See the Grade Security Warning on the Setup page.)</li>
+</ol>
+
+<p>You can probably use the existing code you see in the sample problem, maybe with a little more for <code class="lang-js">setState()</code>. The fourth part can be more difficult:</p>
+<ol start="4">
+  <li>A Python grading function in the XML (or a grading library) takes in the state, processes it, and returns the grade to the edX system.</li>
+</ol>
+
+<p>You're going to spend more time than you'd initially think on the grading code. Unless your problem is very simple (in which case you probably don't need a JSInput problem!), your learners will generate all sorts of weird situations. They'll add ampersands and percent signs in your text boxes. They'll submit incomplete forms. They'll put quotes where you don't want them, or write two thousand point three as 2,000.3 or 2000,3 instead of 2000.3. They'll send your rocket simulation directly downwards at the Earth just to see what happens. Expect weird behavior. Test for edge and corner cases.</p>

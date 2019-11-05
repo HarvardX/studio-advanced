@@ -1,0 +1,66 @@
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+<link rel="stylesheet" type="text/css" href="/static/introjs.css" />
+<script src="/static/hx.js"></script>
+<script src="/static/intro_accessible.js"></script>
+
+<script>
+  $(document).ready(function(){
+    
+    addNavData();
+    
+    $('#codewalker').on('click tap', function(event){
+        event.preventDefault();
+        introJs().start();
+    });
+    
+  });
+  
+  function addNavData(){
+    let theimage = $('#theimage');
+    theimage.attr("data-step", "1");
+    theimage.attr("data-intro", "Thanks for starting the walkthrough! You can use the arrow keys or the mouse to move through this. <br/><br/> This part of the code is the our image. It should look basically like a standard image tag to you.");
+    theimage.attr("data-position", "top");
+
+    let themap = $('#themap');
+    themap.attr("data-step", "2");
+    themap.attr("data-intro", "This is the start of the image map tag. We made it using image-maps.com and then touched it up for our own purposes, but you can use whatever method you prefer. Again, fairly standard stuff.");
+    themap.attr("data-position", "top");
+
+    let anarea = $('#anarea');
+    anarea.attr("data-step", "3");
+    anarea.attr("data-intro", "Here's one area within our image map.");
+    anarea.attr("data-position", "top");
+
+    let theclass = $('#theclass');
+    theclass.attr("data-step", "4");
+    theclass.attr("data-intro", "Each area needs two classes: one that says which pop-up it will open, and one that identifies it as a popup-opener.");
+    theclass.attr("data-position", "top");
+
+    let apopdiv = $('#apopdiv');
+    apopdiv.attr("data-step", "5");
+    apopdiv.attr("data-intro", "The class from the area tag needs to match the tag on this div. It also has the popup-content class that will hide it until it's needed. <br/><br/> That's it! No need for anything else.");
+    apopdiv.attr("data-position", "top");
+
+  }
+</script>
+
+<h3 class="hx-underline">Code</h3>
+
+<p>Normally we like to use each tool to explain itself when we can. In this case, creating an image of the code seemed like a bad way to get people to use it, so we're going to use the Walkthrough tool instead.</p>
+
+<p><button id="codewalker" style="color: white; padding: 6px; font-size: 16px; background-color: #009b00; text-shadow: none; background-image: none;">Show me how to use the code.</button></p>
+
+<h4 class="hx-underline">How it works</h4>
+
+<p>HX-JS finds things with the <code class="lang-html">hx-popup-opener</code> class, and looks at the <em>first class</em> in the list. It then looks for other things with a class that matches that class, and creates <a href="https://jqueryui.com/dialog/#modal-confirmation" target="_blank">modal dialogs</a> out of them using jQuery UI.</p>
+
+<h4 class="hx-underline">Caveats</h4>
+
+<p><strong>Popup blockers:</strong> It's possible, though unlikely, that a particularly aggressive popup blocker might stop this from working. Most of those keep websites from opening new <em>pages</em> rather than dialogs, so it will probably be ok.</p>
+
+<p><strong>Resizing:</strong> EdX resizes images when you change the screen size. HX-JS handles resizing image maps automatically using David Bradshaw's <a href="https://github.com/davidjbradshaw/image-map-resizer/" target="_blank">Image Map Resizer</a>. If you take the code out and use it on your own, you'll also need to handle resizing the image map.</p>
+
+
+<h4 class="hx-underline">Troubleshooting</h4>
+
+<p>EdX already has some css classes defined, as you might imagine. If you give something the <code class="lang-html">video</code>, <code class="lang-html">invisible</code>, or <code class="lang-html">sr</code> class, for example, those are already taken. If you're having trouble you might want to try changing the class name.</p>

@@ -1,0 +1,108 @@
+0
+00:00:04,710 --> 00:00:08,130
+Colin: This is a quick demo of the bridge for adaptivity in action.
+
+1
+00:00:08,130 --> 00:00:10,080
+I've got the course outline open here, and I'm
+
+2
+00:00:10,080 --> 00:00:13,660
+going to dive in to this particular section that you're indexing.
+
+3
+00:00:17,530 --> 00:00:19,270
+The page loads.
+
+4
+00:00:19,270 --> 00:00:21,400
+We've got a video on top of the professor,
+
+5
+00:00:21,400 --> 00:00:24,960
+and underneath it is our adaptive assignment.
+
+6
+00:00:24,960 --> 00:00:26,740
+The top left is the problem number.
+
+7
+00:00:26,740 --> 00:00:30,040
+I haven't done any so far, so it's just problem one.
+
+8
+00:00:30,040 --> 00:00:32,650
+The top right is the earned grade.
+
+9
+00:00:32,650 --> 00:00:35,020
+Here it actually has a number in it, because I've
+
+10
+00:00:35,020 --> 00:00:38,320
+done some related problems elsewhere in the course.
+
+11
+00:00:38,320 --> 00:00:40,410
+I'm going to read the question.
+
+12
+00:00:40,410 --> 00:00:45,580
+OK, I'm going to answer that, and I submit.
+
+13
+00:00:45,580 --> 00:00:46,850
+And I am correct.
+
+14
+00:00:46,850 --> 00:00:48,220
+Excellent.
+
+15
+00:00:48,220 --> 00:00:51,170
+So now I'm going to hit the Next button, and the bridge
+
+16
+00:00:51,170 --> 00:00:53,560
+read activity will give me another question.
+
+17
+00:00:53,560 --> 00:00:58,210
+Might be on the same topic or a related one or it could be a new question.
+
+18
+00:00:58,210 --> 00:01:01,600
+And I'll just go ahead and answer this one.
+
+19
+00:01:01,600 --> 00:01:05,890
+Good, OK, and I can check the answer just like any other EdX problem,
+
+20
+00:01:05,890 --> 00:01:08,360
+because it really is an EdX problem.
+
+21
+00:01:08,360 --> 00:01:12,350
+A little bit later on problem three, the more questions I answer
+
+22
+00:01:12,350 --> 00:01:13,840
+right, the higher my grade goes.
+
+23
+00:01:13,840 --> 00:01:16,730
+If I answer wrong, grade goes down.
+
+24
+00:01:16,730 --> 00:01:20,258
+You can see that this problem is going to be a bit harder than my last one.
+
+25
+00:01:20,258 --> 00:01:22,300
+When I'm happy with the grade for this assignment
+
+26
+00:01:22,300 --> 00:01:26,430
+or if I just run out of problems, I can move on to the next page.
+

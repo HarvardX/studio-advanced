@@ -1,0 +1,45 @@
+<p>Here's how it works: we create a variable in a Python script. Into that variable we place a random number. Then we reference that number as the answer.</p>
+
+<p><button class="hx-togglebutton1">Show/Hide the Code</button></p>
+
+<div class="hx-toggletarget1" style="display:none;">
+<pre><code class="lang-html">&lt;problem&gt;
+
+&lt;script type=&quot;loncapa/python&quot;&gt;
+secretAnswer = random.randint(1, 11)
+&lt;/script&gt;
+
+&lt;numericalresponse answer=&quot;$secretAnswer&quot;&gt;
+  &lt;label&gt;What number am I thinking of? Is it $secretAnswer? You'll never guess.&lt;/label&gt;
+&lt;formulaequationinput/&gt;
+&lt;/numericalresponse&gt;
+
+  &lt;solution&gt;
+    &lt;div class=&quot;detailed-solution&quot;&gt;
+      &lt;p&gt;How did you know???&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/solution&gt;
+  
+&lt;/problem&gt;
+</code></pre>
+
+<p>The variable is <code>secretAnswer</code>, which we refer to as <code>$secretAnswer</code> in the text of the problem and in the answer field.</p>
+</div>
+
+<p>This was just a toy example, but you can do some pretty great stuff with this:</p>
+<ul>
+  <li>Create random numbers in whatever range is appropriate for your problem.</li>
+  <li>Randomize some numbers and not others.</li>
+  <li>Do calculations in your Python to get an answer based on multiple random numbers.</li>
+  <li>Assign a random block of text by filling your variable with a string instead of a number.</li>
+  <li>Give out different web links to different students.</li>
+  <li>Show a random image, by inserting your variable into a URL. For example,  <code>&lt;img&nbsp;src="&#47;static&#47;img$secretAnswer.png"&gt;</code> would pull a randomly numbered image from img1.png to img10.png.</li>
+</ul>
+
+<p>It takes a little longer to write these problems, and you have to learn a tiny bit of coding, but in exchange you get <em>much</em> more robust assignments. Just remember to tweak the settings so that the problem randomzes on reset, and the reset button is always visible.</p>
+
+<div class="hx-redbox">
+  <h4><span class="fa fa-warning"><span class="sr">Warning:</span></span> Not every problem type can be randomized.</h4>
+
+<p>There are some problem types where you can't easily randomize the answers - edX doesn't substitute $variables in every tag. Be sure to test your problems as you build them, and test again before they go live.</p>
+</div>

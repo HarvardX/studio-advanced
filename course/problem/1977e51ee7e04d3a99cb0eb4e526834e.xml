@@ -1,0 +1,58 @@
+<problem display_name="Do I want a Matching Problem?" markdown="null" max_attempts="5" rerandomize="onreset" show_reset_button="true" showanswer="finished" weight="0.0">
+  <script type="text/javascript">
+$(document).ready(function(){
+	console.log('outer ready');
+});
+
+// Logs a javascript object.
+function logThatThing(ThatThing){
+
+	// Log it to the console just to verify it's working
+	console.log(JSON.stringify(ThatThing));
+
+	// Send it to the official edX logamajig!
+	Logger.log("harvardx.studio_adv.meta_matching_problem", ThatThing);
+
+}
+
+</script>
+  <script type="loncapa/python">
+
+
+from python_lib import HXGraders
+right_answer = []
+
+##################### Set These #########################
+# You can set more than one right answer if you want.
+# Students will get the best grade among them for their answer.
+
+right_answer.append( [['A','1'],['B','2'],['C','1']] )
+right_answer.append( [['A','1'],['B','2']] )
+right_answer.append( [['B','2'],['C','1']] )
+right_answer.append( [['A','1']] )
+right_answer.append( [['C','1']] )
+
+partial_credit = True
+feedback = True
+
+############## Leave Everything Else Alone ##############
+
+def answercheck(e, ans):
+
+  # This pulls from the python_lib.zip file in Files &amp; Uploads.
+  return HXGraders.matchingAGrader(ans, right_answer, partial_credit, feedback)
+
+
+</script>
+  <p>This is a matching exercise. Drag the elements on the left into the ones on the right to create a match. You do not need to use every element. Click on the elements for a better view if you need it.</p>
+  <customresponse cfn="answercheck">
+    <jsinput get_statefn="MatchingA.getState" gradefn="MatchingA.getGrade" height="450" html_file="/static/MatchingA_meta.html" set_statefn="MatchingA.setState" sop="false" title="Meta Matching Exercise" width="780"/>
+  </customresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>If you got this problem "right", then a matching problem is probably a good match for you! Matching problems can do one-to-one, one-to-many, or many-to-many matching. They offer partial credit and participation credit options, and are good for categorization activities.</p>
+      <p>If you got less than 100% on this question, you might not want a matching problem. For instance, if you really need learners to place elements into a diagram - such as for completing an equation, locating something on a map, or creating a chemical diagram - you should instead consider edX's built-in <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/drag_and_drop.html" target="_blank">drag-and-drop problem</a>.</p>
+    </div>
+  </solution>
+</problem>

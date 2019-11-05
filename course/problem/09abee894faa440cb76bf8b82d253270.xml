@@ -1,0 +1,18 @@
+<problem display_name="Use case" markdown="Imagine you are a course leader on a new course. It hasn’t yet gone live but there is a lot of interest already in your course, which is being run for both on campus students and open to the public. You’re really excited about your students being part of a bigger community, although you want to set up a discussion area just for students so they can talk about additional assignments. &#10;&#10;&gt;&gt;Could cohorts be helpful, and if so how should they be set up?&lt;&lt;&#10;&#10;(!) Yes. Automatic allocation of ~4-5 cohorts would give flexibility.&#10;(X) Yes. A manual allocation cohort to restrict access to specific units about additional assignments, with a discussion component, provides a good solution.&#10;( ) Yes. Run the course as an A-B experiment (aka &quot;Content Experiment&quot; or &quot;split-test&quot;) to make two groups.&#10;(@) No. You want students to integrate but cohorts will shut them off from seeing posts from others on the course.&#10;&#10;[explanation]&#10;We're not saying it's the &lt;em&gt;only&lt;/em&gt; solution, but it's definitely more controllable than A/B testing or automatic allocation.&#10;[explanation]&#10;&#10;&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>Imagine you are a course leader on a new course. It hasn’t yet gone live but there is a lot of interest already in your course, which is being run for both on campus students and open to the public. You’re really excited about your students being part of a bigger community, although you want to set up a discussion area just for students so they can talk about additional assignments. </p>
+    <label>Could cohorts be helpful, and if so how should they be set up?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Yes. Automatic allocation of ~4-5 cohorts would give flexibility.</choice>
+      <choice correct="true">Yes. A manual allocation cohort to restrict access to specific units about additional assignments, with a discussion component, provides a good solution.</choice>
+      <choice correct="false">Yes. Run the course as an A-B experiment (aka "Content Experiment" or "split-test") to make two groups.</choice>
+      <choice correct="false" fixed="true">No. You want students to integrate but cohorts will shut them off from seeing posts from others on the course.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>We're not saying it's the <em>only</em> solution, but it's definitely more controllable than A/B testing or automatic allocation.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

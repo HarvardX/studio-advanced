@@ -1,0 +1,19 @@
+<problem display_name="Granularity" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>What parts of the edX content hierarchy can you put inside a content test?</label>
+    <description>Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="false">Sections</choice>
+      <choice correct="false">Subsections</choice>
+      <choice correct="false">Verticals</choice>
+      <choice correct="true">Components</choice>
+      <choice correct="false">Individual elements inside components</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>You can only A/B test components. You <em>could</em> swap out all of the individual components in an entire vertical (or subsection, or even section!) but the name of the page would still be the same, and the course outline wouldn't change.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

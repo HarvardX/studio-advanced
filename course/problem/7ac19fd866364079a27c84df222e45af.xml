@@ -1,0 +1,17 @@
+<problem display_name="What takes the most time?" markdown="&gt;&gt;Which stage of survey development typically takes the longest amount of time?&lt;&lt;&#10;&#10;( ) Deciding whether to use a survey in your course&#10;(x) Planning and design&#10;( ) Build &#10;( ) Testing once built&#10;&#10;[explanation]&#10;Planning and writing your survey should take the longest amount of time. If it takes you longer to build and test it than it did to plan it, you probably missed something in your planning step.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>Which stage of survey development typically takes the longest amount of time?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Deciding whether to use a survey in your course</choice>
+      <choice correct="true">Planning and design</choice>
+      <choice correct="false">Build</choice>
+      <choice correct="false">Testing once built</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Planning and writing your survey should take the longest amount of time. If it takes you longer to build and test it than it did to plan it, you probably missed something in your planning step.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

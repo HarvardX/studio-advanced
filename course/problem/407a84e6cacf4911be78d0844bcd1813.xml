@@ -1,0 +1,17 @@
+<problem display_name="Randomized Groups" markdown="&gt;&gt;How are experimental groups populated in a course with content experiments?&lt;&lt;&#10;&#10;(!) Learners are placed in a different randomized group each time they encounter a content experiment.&#10;(x) Learners are placed in a random group at the beginning of the course, and stay in the same group for every content experiment.&#10;( ) Learners are placed in an experimental group based on a defined and limited set of criteria. They stay in that group for the whole class.&#10;( ) Learners are placed in an experimental group based on a defined and limited set of criteria. Each experiment has a different set of criteria.&#10;&#10;[explanation]&#10;Grouping is always random, and you can reuse the same groups as many times as you like. For more detail, check out the &lt;a href=&quot;https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/content_experiments/content_experiments_overview.html#overview&quot; target=&quot;_blank&quot;&gt;edX documentation on content experiments&lt;/a&gt;.&#10;[explanation]&#10;&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>How are experimental groups populated in a course with content experiments?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Learners are placed in a different randomized group each time they encounter a content experiment.</choice>
+      <choice correct="true">Learners are placed in a random group at the beginning of the course, and stay in the same group for every content experiment.</choice>
+      <choice correct="false">Learners are placed in an experimental group based on a defined and limited set of criteria. They stay in that group for the whole class.</choice>
+      <choice correct="false">Learners are placed in an experimental group based on a defined and limited set of criteria. Each experiment has a different set of criteria.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Grouping is always random, and you can reuse the same groups as many times as you like. For more detail, check out the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/content_experiments/content_experiments_overview.html#overview" target="_blank">edX documentation on content experiments</a>.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

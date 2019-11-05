@@ -1,0 +1,16 @@
+<problem display_name="Multiple Libraries" markdown="&gt;&gt;Let's say you have one problem that calls from your existing &lt;code&gt;python_lib.zip&lt;/code&gt; file, and you want to add a new problem that calls code from a second libraries. How can you do this? &lt;&lt;&#10;&#10;(!) Have the &lt;code&gt;import&lt;/code&gt; statement to refer to the second library.&#10;( ) Set the &lt;code&gt;system_path=&quot;python_lib&quot;&lt;/code&gt; on your script tag to something else.&#10;(x) You can't do it without merging the libraries first.&#10;&#10;[explanation]&#10;We've seen the &lt;code&gt;system_path=&quot;python_lib&quot;&lt;/code&gt; attribute in one or two places around edX, but we've never seen it work. Changing that doesn't seem to let you refer to a different file. It's &lt;code&gt;python_lib.zip&lt;/code&gt; or bust.&#10;[explanation]&#10;" max_attempts="1" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>Let's say you have one problem that calls from your existing <code>python_lib.zip</code> file, and you want to add a new problem that calls code from a second libraries. How can you do this? </label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="false">Have the <code>import</code> statement to refer to the second library.</choice>
+      <choice correct="false">Set the <code>system_path="python_lib"</code> on your script tag to something else.</choice>
+      <choice correct="true">You can't do it without merging the libraries first.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>We've seen the <code>system_path="python_lib"</code> attribute in one or two places around edX, but we've never seen it work. Changing that doesn't seem to let you refer to a different file. It's <code>python_lib.zip</code> or bust.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

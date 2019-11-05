@@ -1,0 +1,102 @@
+<script src="/static/hx.js"></script>
+<script src="/static/intro_accessible.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<link rel="stylesheet" type="text/css" href="/static/introjs.css" />
+
+<script>
+  $(document).ready(function(){
+        
+    addNavData();
+    $('#codewalker').on('click tap', function(event){
+        event.preventDefault();
+        introJs().start();
+    });
+    
+  function addNavData(){
+    let formurl = $('#formurl');
+    formurl.attr("data-step", "1");
+    formurl.attr("data-intro", "Thanks for starting the walkthrough! You can use the arrow keys or the mouse to move through this. <br/><br/> This iframe points to the URL for your Google Form or other survey tool.");
+    formurl.attr("data-position", "top");
+
+    let formheight = $('#formheight');
+    formheight.attr("data-step", "2");
+    formheight.attr("data-intro", "You'll need to play around with the height for the form. We're trying to avoid making people scroll within the frame.");
+    formheight.attr("data-position", "top");
+
+    let srcfile = $('#srcfile');
+    srcfile.attr("data-step", "3");
+    srcfile.attr("data-intro", "The sourceDataFile variable points at the CSV file published by our Google Sheet. We could also have it point at any other CSV source on the internet or in Files &amp; Uploads.");
+    srcfile.attr("data-position", "top");
+
+    let dataheaders = $('#dataheaders');
+    dataheaders.attr("data-step", "4");
+    dataheaders.attr("data-intro", "The sourceDataHeaders object is used to convert the labels in the form (on the left) to the headers in the table (on the right), for more compact display.");
+    dataheaders.attr("data-position", "top");
+
+    let jsfiles = $('#jsfiles');
+    jsfiles.attr("data-step", "5");
+    jsfiles.attr("data-intro", "formtable_csv.js calls the CSV file, passes it to papaparse.min.js for parsing, and then creates the table display.");
+    jsfiles.attr("data-position", "top");
+
+    let datatable = $('#datatable');
+    datatable.attr("data-step", "6");
+    datatable.attr("data-intro", "This table starts off empty and is filled by formtable_csv.js. You can give it a caption like we did, or you can leave that blank.<br/><br/>You're done with the walkthrough! Press escape or click 'Done' to exit.");
+    datatable.attr("data-position", "top");
+  }
+
+  });
+</script>
+
+<h3 class="hx-underline">Code and walkthrough</h3>
+
+<p>Here are the code blocks for the form-to-table trick. We're going to use an <a href="/jump_to_id/a71cb6a7b9544421ab6669881bffb183" target="_blank">interactive walkthrough</a> tool to point out a few important items.</p>
+
+<p><button id="codewalker" style="color: white; padding: 6px; font-size: 16px; background-color: #009b00; text-shadow: none; background-image: none;">Show me how to use the code.</button></p>
+
+<p>Here's the code for the form component...</p>
+
+<pre><code class="lang-markup">
+&lt;p&gt;&lt;i&gt;You've seen links to some of our favorite resources already. Now it's time to share yours!&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Use the form below to tell everyone what code, images, and tools you've used to create your courses. You can also use this to show off something neat you did, or to point at cool things you've seen in an edX course, whether on edX.org or elsewhere. Then check out the table below to see what everyone else said. &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;i&gt;(Note: this form is for course creators to share cool stuff with each other. It's not for advertising. Don't make us delete your entry.)&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;iframe <span id="formurl">src=&quot;https://docs.google.com/forms/d/e/1FAIpQLScdBFxNuFuivea_c7RZnGTPBcDVZD0CE2FP2U0uFkPGF7MhAA/viewform?embedded=true&quot;</span> 
+  style=&quot;min-width: 300px; width:100%; <span id="formheight">height: 1270px;</span>&quot; 
+  frameborder=&quot;0&quot; 
+  marginheight=&quot;0&quot; 
+  marginwidth=&quot;0&quot;&gt;
+    Loading...
+&lt;/iframe&gt;
+</code></pre>
+
+<p>...and here's the table:</p>
+
+<pre><code class="lang-markup">
+&lt;script&gt;
+  <span id="srcfile">var sourceDataFile = &quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQboVNmG1W-xCMxdnCLdusANHEYMoKKxcV1ngfjokQF1jgT7l-mHFZ3P616wfm0IRYXCKb2cXmTQLPP/pub?gid=809352932&amp;single=true&amp;output=csv&quot;;</span>
+<span id="dataheaders">  var sourceDataHeaders = {
+    &quot;Link URL&quot;: &quot;URL&quot;, 
+    &quot;Page Title&quot;: &quot;Name&quot;, 
+    &quot;Description&quot;: &quot;Description&quot;, 
+    &quot;Categories&quot;: &quot;Categories&quot;,
+    &quot;License&quot;: &quot;License&quot;
+  };</span>
+&lt;/script&gt;
+&lt;script src=&quot;/static/hx.js&quot;&gt;&lt;/script&gt;
+<span id="jsfiles">&lt;script defer src=&quot;/static/papaparse.min.js&quot;&gt;&lt;/script&gt;
+&lt;script defer src=&quot;/static/formtable_csv.js&quot;&gt;&lt;/script&gt;</span>
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/static/hx.css&quot;&gt;
+
+&lt;p&gt;The cells at the top of this table are filters. The rows underneath will change to match what you type. For instance, if you want HTML and CSS resources, type &quot;CSS, HTML&quot; in the Categories filter.&lt;/p&gt;
+
+<span id="datatable">&lt;table id=&quot;responseTable&quot; style=&quot;border: 1px solid grey;&quot;&gt;
+  &lt;caption style=&quot;font-weight: bold; font-size: larger;&quot;&gt;Link Sharing Table&lt;/caption&gt;
+&lt;/table&gt;</span>
+&lt;p&gt;&lt;button id=&quot;reloadTable&quot;&gt;Reload table data&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don't see your own response here yet, Hit the &quot;Reload table data&quot; button. Sometimes our &quot;data repository&quot; takes a while to update (and by &quot;data repository&quot; we mean &quot;Google Sheets csv&quot;).&lt;/p&gt;
+
+</code></pre>
+

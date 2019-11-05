@@ -1,0 +1,19 @@
+<problem display_name="What's an interactive?" markdown="null" max_attempts="5" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>Which of the following edX components involve learner interaction? </label>
+    <description> Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="true">Assignments</choice>
+      <choice correct="false">Videos</choice>
+      <choice correct="true">Javascript-based tools</choice>
+      <choice correct="false">Text and images</choice>
+      <choice correct="true">Discussions</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Anything that goes beyond reading or watching is interactive in our book. Even the notes feature counts - it's better than passively trying to absorb knowledge.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

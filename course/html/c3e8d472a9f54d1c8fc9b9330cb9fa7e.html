@@ -1,0 +1,46 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<h3 class="hx-underline">Limitations of the edX Mobile App</h3>
+
+<p>EdX provides a good set of guidelines for <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/reaching_learners/design_for_mobile.html" target="_blank">designing for mobile users</a>. However, we'd also like to add a few of our own, and highlight some pain points for courses with a large number of mobile users.</p>
+
+<h4 class="hx-underline">Supported Components</h4>
+
+<p>EdX's mobile app delivers video and HTML acceptably well. However, is very limited in its use of problems and tools. You can see the full up-to-date list at the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/create_exercises_and_tools.html#mobile-ready-problem-types" target="_blank">official edX documentation</a>, but as of 2019 the list of supported tools and activities is as follows:</p>
+
+<ul>
+  <li>Checkbox Problem</li>
+  <li>Drag and Drop Problem</li>
+  <li>Dropdown Problem</li>
+  <li>Math Expression Input Problems</li>
+  <li>Multiple Choice Problem</li>
+  <li>Numerical Input Problem</li>
+  <li>Text Input Problem</li>
+</ul>
+
+<p>For items not on this list, the app will link the user to a web view of the course in a mobile browser. It works, but it's definitely not an ideal experience.</p>
+
+<p>The mobile app also doesn't support certain forum features, like blackout dates.</p>
+
+<h4 class="hx-underline">Supported Levels of Hierarchy</h4>
+
+<p>EdX normally has four levels of hierarchy within a course: sections (the top level) contain subsections, which contain units, which contain components (the bottom level).</p>
+
+<p>However, <em>that's not always the case.</em> When you use A/B testing, conditionals, and other "container" blocks, edX gains a fifth level of hierarchy. The mobile app does not support this fifth level well, and learners will see nonsensical titles for their components, with a "Group ID" label.</p>
+
+<h4 class="hx-underline">"Boxed-in" Components</h4>
+
+<p>One of the biggest limitations of edX's mobile app, as compared with a browser experience, is that only one component is displayed at a time. This can split introductions away from videos, and problem details away from the problems themselves. Interconnected problem sets don't all show up at once; learners see just a bit at a time.</p>
+
+<p>This makes things especially tricky when it comes to Javascript and CSS. They appear only on the component where they are included, and do not affect other components in that unit (as they do in a browser). Many of our Javascript approaches are designed to "fail gracefully" when the script is boxed into a single component. When you build your own JS, you should consider what the student experience will be in these situations.</p>
+
+<h4 class="hx-underline">Recommendations</h4>
+
+<p>Honestly, even given all these issues with the mobile app, we still do not suggest building your course to fit completely within its limitations. Instead, we recommend building the course with all the features you'd like to have, and planning for a browser-based experience. There are three reasons for this:</p>
+
+<ol>
+  <li>All mobile users have a browser available in addition to the app.</li>
+  <li>Most mobile browsers have excellent Javascript support, and will handle the edX site and special tools quite well.</li>
+  <li>EdX has not put substantial support toward the mobile app, and many of their actions (like moving to reactive layouts) imply that they may shift toward a browser-based approach to mobile users rather than an app-based approach.</li>
+</ol>

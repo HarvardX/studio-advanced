@@ -1,0 +1,34 @@
+<h4 class="hx-underline">The Course Tree</h4>
+
+<p>This is a static image that shows the first three sections of a course. In real use, this would be a clickable image map, where clicking on a particular word would take you to that part of the course.</p>
+
+<p><a href="/static/New_Course_Tree_large.png" target="_blank"><img src="/static/New_Course_Tree_small.png" alt="A tree made of the course topics, with sub-topics as leaves coming from the tree." /></a></p>
+
+<p>Topics for this navigation scheme are placeholders adapted from the OpenStax textbook <a href="https://openstax.org/details/college-physics-ap-courses" target="_blank">College Physics for AP® Courses</a>.</p>
+
+<p>Remember the questions:</p>
+
+<ul>
+  <li>Can you immediately see how someone would use it, or does it require explanation?</li>
+  <li>Does its structure give you additional information beyond what's already in the course outline?</li>
+  <li>Does the design have inherent accessibility issues?</li>
+  <li>Do you like it?</li>
+</ul>
+
+
+<p><button class="hx-togglebutton-tree">Our Analysis</button></p>
+
+<div class="hx-toggletarget-tree" style="display:none;">
+  <p>Here's what we think:</p>
+  
+  <p>It's definitely a more artistic approach. It's clean and has colors that match with the rest of the course. Plus, as an analogy for learning and growth, one could do much worse than a tree.</p>
+  
+  <p>The specific use of color is a bit questionable. Do the orange, yellow, and green mean anything, or are they just grace notes? Does the purple flower at the end indicate a node, or is it just there for show? You could probably find a better way to employ color, shading, and shape when it comes to categorizing your nodes. </p>
+  
+  <p>Speaking of nodes, this diagram only goes down to the <em>subsection</em> level. It actually provides <em>less information</em> than the built-in course outline! In addition, there are only three sections shown of what would normally be a much longer course. Where's the rest of it? Will there be a larger tree later? Finally, the leaves aren't in a clear order. It's hard to tell which one comes next.</p>
+  
+  <p>Accessibility is also an issue. All of the text in this scheme would be trapped inside an image, and much of that text is fairly thin and tough to read at smaller sizes. Map areas can be given title and alt attribuites, but web browsers and screen readers still <a href="https://www.powermapper.com/tests/screen-readers/labelling/area-title/" target="_blank">often do not handle image map titles well</a>, or even <a href="https://www.powermapper.com/tests/screen-readers/labelling/area-title/" target="_blank">map area alt attributes</a>. Even <a href="https://www.powermapper.com/tests/screen-readers/labelling/area-aria-label/" target="_blank">aria-label attributes</a> do not necessarily fix the problem. One would <em>definitely</em> want to provide a textual alternative to this image.</p> 
+  
+  <p>The worst thing about this navigation scheme, however, is that it's very difficult to change. If you want to add more content, you need to rebuild the whole graphic, and probably adjust your image map. Eventually, you run out of space. The more beautiful you make this diagram, the worse the problem becomes.</p>
+  
+</div>

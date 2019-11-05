@@ -1,0 +1,60 @@
+<style>
+  .edx-notes-wrapper-content .skillbox{
+    display:none;
+  }
+.skillbox div:not(:last-child){
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+}
+.skillbox ul {
+  display: flex;
+  list-style-type: none !important;
+  margin: 0px !important;
+}
+.skillbox li {
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+  text-align: center;
+  flex-basis: 100px;
+}
+.skillbox img {
+  max-width: 75px !important;
+}
+ul[title]::before {
+  content: attr(title);
+  display: block;
+  font-weight: bold;
+  padding: 4px;
+  width: 5em;
+  text-align: right;
+  font-size: 20px;
+}
+</style>
+
+<p><button class="hx-togglebutton1">What do the icons mean?</button></p>
+
+<div class="hx-toggletarget1 skillbox">
+  <p>Here's your cheat-sheet for the icons in our course:</p>
+  <div>
+      <ul title="Difficulty">
+        <li><img src="/static/Easy_icon.png" alt="" /><br/>Easy</li>
+        <li><img src="/static/Hard_icon.png" alt="" /><br/>Hard</li>
+      </ul>
+    </div>
+    <div>
+      <ul title="Time">
+        <li><img src="/static/Time_short_icon.png" alt="" /><br/>Hour</li>
+        <li><img src="/static/Time_medium_icon.png" alt="" /><br/>Day</li>
+        <li><img src="/static/Time_long_icon.png" alt="" /><br/>Days</li>
+      </ul>
+    </div>
+  <div>
+    <ul title="Skills">
+      <li><img src="/static/HTML_icon.png" alt="" /><br/>HTML</li>
+      <li><img src="/static/CSS_icon.png" alt="" /><br/>CSS</li>
+      <li><img src="/static/Javascript_icon.png" alt="" /><br/>Javascript</li>
+      <li><img src="/static/Python_icon.png" alt="" /><br/>Python</li>
+      <li><img src="/static/Design_icon.png" alt="" /><br/>Design</li>
+    </ul>
+  </div>
+</div>

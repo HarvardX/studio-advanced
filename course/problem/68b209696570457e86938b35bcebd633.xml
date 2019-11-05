@@ -1,0 +1,24 @@
+<problem display_name="What can basic questions not help you with?" markdown="&gt;&gt;&lt;strong&gt;If you were a basic question, what would you NOT be good at?&lt;/strong&gt; || Select one answer from the list below.&lt;&lt;&#10;&#10;( ) Helping learners feel they are getting individualised support {{ At a basic level, hints and prompts can certainly help you achieve this. Other techniques, such as using an adaptive design, can be helpful but try basic methods first! }}&#10;( ) Mathematical assessment where there might be a range of answers {{ Basic questions can be set up to allow numerical tolerances }}&#10;(x) Looking after the cat when you're away {{ That's right! *phew* The cat looks less tense now ;) }}&#10;( ) Helping to mitigate cheating in assessments {{ You can't guarentee no cheating in any assessment but you can certainly make it harder for them! This is possible with basic question setup }}&#10;( ) Mixing up the order of questions and their answers to keep things fresh {{ Random ordering is possible, freshness can't be guarenteed! }}&#10;&#10;||Sometimes a little nudge is all you need. Although, cats typically need food and water if you're going away||&#10;||The cat is the only one judging.||&#10;&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>
+      <strong>If you were a basic question, what would you NOT be good at?</strong>
+    </label>
+    <description> Select one answer from the list below.</description>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Helping learners feel they are getting individualised support <choicehint>At a basic level, hints and prompts can certainly help you achieve this. Other techniques, such as using an adaptive design, can be helpful but try basic methods first!</choicehint>
+</choice>
+      <choice correct="false">Mathematical assessment where there might be a range of answers <choicehint>Basic questions can be set up to allow numerical tolerances</choicehint>
+</choice>
+      <choice correct="true">Looking after the cat when you're away <choicehint>That's right! *phew* The cat looks less tense now ;)</choicehint>
+</choice>
+      <choice correct="false">Helping to mitigate cheating in assessments <choicehint>You can't guarentee no cheating in any assessment but you can certainly make it harder for them! This is possible with basic question setup</choicehint>
+</choice>
+      <choice correct="false">Mixing up the order of questions and their answers to keep things fresh <choicehint>Random ordering is possible, freshness can't be guarenteed!</choicehint>
+</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <demandhint>
+    <hint>Sometimes a little nudge is all you need. Although, cats typically need food and water if you're going away</hint>
+    <hint>The cat is the only one judging.</hint>
+  </demandhint>
+</problem>

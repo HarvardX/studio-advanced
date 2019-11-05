@@ -1,0 +1,18 @@
+<problem display_name="Upload Restrictions" markdown="null" max_attempts="4" showanswer="finished">
+  <choiceresponse partial_credit="edc">
+    <label>What are the restrictions on file uploads in ORA?</label>
+    <description>Select all that apply.</description>
+    <checkboxgroup>
+      <choice correct="true">Maximum file size of 10 MB</choice>
+      <choice correct="true">Certain file types are never allowed</choice>
+      <choice correct="true">Image files must be .png, .jpg, or .gif</choice>
+      <choice correct="true">File uploads are not shown in edX Insights</choice>
+    </checkboxgroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>That's right, all of these are correct. For a list of restricted file types, see <a href="https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/open_response_assessments/OpenResponseAssessments.html#prohibited-file-extensions" target="_blank"/>.</p>
+      </div>
+    </solution>
+  </choiceresponse>
+</problem>

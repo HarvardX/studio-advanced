@@ -1,0 +1,20 @@
+<problem display_name="Which is the required structure?" markdown="Let’s say you follow Option B.&#10;&#10;You have 2 questions out of 20 that use advanced features, 1 each in topics 1 and 4. You want to randomise display of all your question but only require 12 in total to be shown to the learner.&#10;&#10;&gt;&gt;What structure will you need to follow for set up in your content library?&lt;&lt;&#10;&#10;( ) Create one content library of all 20 questions and set display to 12 questions. {{What about those tricksy advanced questions? They can't go in the content library}}&#10;(x) Create one content library of 18 questions, excluding the advanced feature questions. Set display to 10 questions. Add two additional fixed questions with advanced features. {{Well done!}}&#10;( ) Create one content library of 18 questions, excluding the advanced feature questions. Set display to 12 questions. {{This is definitely one way of setting it up, if you don't want to use the advanced questions anymore}}&#10;( ) Create four separate content libraries. Topics 1 an 4 with 4 questions and topics 2 and 3 with 5 questions. Set content libraries of topics 1 and 4 to display 3 questions each in the course assessment, and topics 2 and 3 to display 4 questions each. Create two additional fixed questions in edX studio for the quiz. {{Not strictly wrong but the more complex setup, using option C and separating out each topic}}&#10;&#10;||Totally understandable if you just want to be told the answer! Clue = 2 must be fixed as they are advanced so that leaves 10 to play with...||" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>Let’s say you follow Option B.</p>
+    <p>You have 2 questions out of 20 that use advanced features, 1 each in topics 1 and 4. You want to randomise display of all your question but only require 12 in total to be shown to the learner.</p>
+    <label>What structure will you need to follow for set up in your content library?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Create one content library of all 20 questions and set display to 12 questions. <choicehint>What about those tricksy advanced questions? They can't go in the content library</choicehint>
+</choice>
+      <choice correct="true">Create one content library of 18 questions, excluding the advanced feature questions. Set display to 10 questions. Add two additional fixed questions with advanced features. <choicehint>Well done!</choicehint>
+</choice>
+      <choice correct="false">Create one content library of 18 questions, excluding the advanced feature questions. Set display to 12 questions. <choicehint>This is definitely one way of setting it up, if you don't want to use the advanced questions anymore</choicehint>
+</choice>
+      <choice correct="false">Create four separate content libraries. Topics 1 an 4 with 4 questions and topics 2 and 3 with 5 questions. Set content libraries of topics 1 and 4 to display 3 questions each in the course assessment, and topics 2 and 3 to display 4 questions each. Create two additional fixed questions in edX studio for the quiz. <choicehint>Not strictly wrong but the more complex setup, using option C and separating out each topic</choicehint>
+</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <demandhint>
+    <hint>Totally understandable if you just want to be told the answer! Clue = 2 must be fixed as they are advanced so that leaves 10 to play with...</hint>
+  </demandhint>
+</problem>

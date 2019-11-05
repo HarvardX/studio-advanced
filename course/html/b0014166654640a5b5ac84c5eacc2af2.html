@@ -1,0 +1,43 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<div class="hx-hangright" style="width:320px;">
+<div class="hx-bluebox" style="margin-bottom: 5px; margin-left: 10px;">
+  <h4><span class="fa fa-info-circle"></span> Audit/Verified</h4>
+  <p>In edX terminology, learners who have paid for the opportunity to obtain a certificate are Verified learners, while those who have not are Audit learners. Audit learners can pay for Verified status at any time up to about 10 days before the course ends, though this may be different for OpenEdX instances. </p>
+</div>
+<div class="hx-purplebox" style="margin-top: 5px; margin-left: 10px;">
+  <h4><span class="fa fa-question-circle"></span> Exceptions</h4>
+  <p>These rules apply only to regular learner accounts. Staff and admin users, beta testsers, and users with forum roles (Community TA, Discussion Moderator, Discussion Admin) are able to see all assignments. They also retain long-term access to the course.</p>
+</div>
+</div>
+
+<h3 class="hx-underline">How does it Work?</h3>
+
+<p>Feature-based enrollment (FBE) does two things:</p>
+<ol>
+  <li>It keeps Audit learners from seeing graded problems.</li>
+  <li>It limits the amount of time for which Audit learners have access to a course.</li>
+</ol>
+
+<h4 class="hx-underline">By "graded" you mean...?</h4>
+
+<p>Any problem that contributes to a learner's grade will be invisible to Audit learners. Audit learners cannot obtain a grade more than 0% in an edX course. Instead, they see a <a href="/static/verified_access_banner_full.png" target="_blank">"lock" icon with an upsell message</a>.</p>
+
+<p>Audit learners are <em>also</em> prevented from seeing graded problems that are <em>in a grading type that is worth zero points</em>, even though they technically don't contribute any points.</p>
+
+<p>If you want an Audit learner to see a problem, you should set its "weight" to 0 points.</p>
+
+<h4 class="hx-underline">And by "access to a course" you mean...?</h4>
+
+<p>When you publish a course on edX.org, you set a length of time that the course should take. Audit learners effectively have a timer running the moment they start the course. Once that length of time is over, they can't see the course. Verified learners never lose access. They can't click into the course in any way.</p>
+
+<p>The course will still appear on an Audit learner's dashboard. If the verification deadline has not yet passed, they could pay for verification and regain their access.</p>
+
+<h4 class="hx-underline">But I have this older course and...</h4>
+
+<p>Courses that closed before December 15th 2018 are "grandfathered," meaning that learners can still see the archived version. Learners who <em>enrolled</em> in any course before that date are also "grandfathered," so they can see the old course even if it's somehow still running now. The FBE policy only affects enrollments on or after December 15th 2018.</p>
+
+<h4 class="hx-underline">Are you suuuure?</h4>
+
+<p>Things do change from time to time. Check out the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/index.html" target="_blank">edX documentation</a> if you want to make sure you have the absolute right information.</p>

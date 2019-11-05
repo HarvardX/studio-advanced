@@ -1,0 +1,41 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">Batch Processing in Python</h3>
+
+<div class="hx-hangright stux-infobox">
+  <div class="stux-infoicon">
+    <img src="/static/Hard_icon.png" alt="" /><br/>
+    Hard
+  </div>
+  <div class="stux-infoicon">
+    <img src="/static/Time_medium_icon.png" alt="" /><br/>
+    Day
+  </div>
+  <div class="stux-infoicon">
+    <img src="/static/Python_icon.png" alt="" /><br/>
+    Python
+  </div>
+</div>
+
+<p>Imagine that you have a course with dozens of assignments, made by different people on different days. They <em>might</em> have the right number of attempts, the right "show answer" settings... or they might not. Did you remember to set <em>all</em> of your videos to allow transcript downloads, or just some of them? Changing the Advanced Settings only takes effect when those settings aren't overridden locally. Do you need to go through <em>everything</em> one component at a time?</p>
+
+<p>Luckily there's a way to make these kinds of changes - it just requires some scripting. Behind the scenes, edX uses the <a href="https://edx.readthedocs.io/projects/edx-open-learning-xml/en/latest/" target="_blank">OLX format</a> to describe its courses. OLX is a type of XML, which makes it possible to write programs that parse and alter edX courses. We'll introduce a small collection of these, which you can run on your own computer in order to make course-wide changes.</p>
+
+<p>
+    <strong>The goal:</strong> Change settings for every problem or video in your course quickly and programmatically. <br/>
+  <strong>Prerequisites:</strong> You should be comfortable running command-line instructions. These scripts require Python 3, and make use of a handful of commonly available python packages. If none of that makes sense to you, this is probably not the tool for you to use.<br/>
+  <strong>Project length:</strong> 30 minutes to 2 hours for initial setup and installs. 5 minutes or less to run a script.<br/>
+  <strong>Ingredients:</strong> </p>
+  <ul class="hx-tightlist">
+    <li>Your course "tarball", as downloaded from the Export page in Studio. </li>
+    <li>At least one script from the <a href="https://github.com/Colin-Fredericks/hx-xml" target="_blank">HX-XML repository</a>, such as <a href="https://github.com/Colin-Fredericks/hx-xml/blob/master/SetMaxAttempts.py" target="_blank">SetMaxAttempts.py</a>. You can get these by downloading individual scripts, or by cloning or downloading the whole repository.</li>
+    <li>To reupload the course, you will want a utility that can create .tar.gz files.
+      <ul>
+        <li>On Mac and Linux machines, this can be done via the command line.</li>
+        <li>On Windows, you may want to consider using <a href="https://www.7-zip.org/" target="_blank">7-Zip</a>.</li>
+      </ul>
+    </li>
+  </ul>
+  <p><strong>Original Source:</strong> <a href="https://github.com/Colin-Fredericks/hx-xml" target="_blank">HX-XML repository</a>. Available for use without restriction, but not intended for redistribution.
+</p>

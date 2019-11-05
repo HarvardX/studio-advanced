@@ -1,0 +1,92 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<style>
+  figcaption { font-size: small; }
+</style>
+
+<p>For those who want to see what the gritty details of implementation look like, you can find that at the <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/content_experiments/index.html" target="_blank">official edX Content Experiment docs</a>. We'll pull out a few specific items below.</p>
+
+<p>Don't forget to open up Advanced Settings and add <code>"split_test"</code> to your Advanced Module List.</p>
+
+<h3 class="hx-underline">The Course-Builder's View</h3>
+
+<figure class="hx-hangright" style="width:25%">
+  <a href="/static/ContentExperimentScreenshot_small.png" target="_blank">
+    <img src="/static/ContentExperimentScreenshot_small.png" alt=""/>
+  </a>
+</figure>
+
+<p>To the right you can see a composite screenshot of what the view from Studio when you're building this material. It's basically three edX units stacked on top of each other, each with its own set of content. Click the image for a larger view, or follow this link for <a href="/static/ContentExperimentScreenshot_full.png" target="_blank">the full-sized view</a> (800kB PNG file).</p>
+
+<p>A small bit of bad news for course builders: You can duplicate the things <em>inside</em> a content experiment block, but you can't duplicate the block itself. Copying an experiment multiple times across a course is somewhat time-consuming.</p>
+
+<h3 class="hx-underline">The Staff View</h3>
+
+<p>When you're a member of the course staff, you get a dropdown menu that lets you flip quickly between groups to test out your content. This is <em>not</em> the top-of-page masquerade tool; it's a smaller dropdown right on top of the component in question. Check out the edX docs about <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/content_experiments/content_experiments_view.html" target="_blank">testing content experiments</a> for a good screenshot.</p>
+
+<h3 class="hx-underline">The XML View</h3>
+
+<p>If you're building your course entirely in XML, you'll have a vertical that looks like this:</p>
+
+<p><button class="hx-togglebutton1">Show/hide vertical</button></p>
+
+<pre class="hx-toggletarget1" style="width:75%; display:none;"><code class="lang-markup">&lt;vertical display_name=&quot;Demo&quot;&gt;
+  &lt;html url_name=&quot;57439828c2384dd0b96ace2b76cc1653&quot;/&gt;
+  &lt;split_test url_name=&quot;fd8275205242495583bed37eb9016de3&quot;/&gt;
+  &lt;html url_name=&quot;495f9ee83d37467a92ca2c35618e55c8&quot;/&gt;
+&lt;/vertical&gt;
+</code></pre>
+
+<p>...which points to a <code>split_test/</code> folder with the following file:</p>
+
+<p><button class="hx-togglebutton2">Show/hide split test</button></p>
+
+<pre class="hx-toggletarget2" style="width:75%; display:none;"><code class="lang-markup">&lt;split_test 
+  group_id_to_child=&quot;{&amp;quot;1363630119&amp;quot;: &amp;quot;i4x://HarvardX/StudioAdv1/vertical/e5df103587084913b3c52930ebdac694&amp;quot;, &amp;quot;1493797591&amp;quot;: &amp;quot;i4x://HarvardX/StudioAdv1/vertical/b7bba62e0e954db79694fe500580b086&amp;quot;, &amp;quot;1889263613&amp;quot;: &amp;quot;i4x://HarvardX/StudioAdv1/vertical/2819bc14e2024ee1ad3a5caab5b1b0a2&amp;quot;}&quot; 
+  user_partition_id=&quot;58912316&quot;&gt;
+  &lt;vertical url_name=&quot;e5df103587084913b3c52930ebdac694&quot;/&gt;
+  &lt;vertical url_name=&quot;2819bc14e2024ee1ad3a5caab5b1b0a2&quot;/&gt;
+  &lt;vertical url_name=&quot;b7bba62e0e954db79694fe500580b086&quot;/&gt;
+&lt;/split_test&gt;
+</code></pre>
+
+<p>You can also declare your content directly inline in the split_test file. The edX docs have an <a href="https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/course_features/content_experiments/content_experiments_add.html#define-the-experiment-content-in-the-split-test-file" target="_blank">example of inline declaration</a> if you prefer that method.</p>
+
+<p>In your <code>policy.json</code> file, you'll find something that looks like this bit of JSON:</p>
+
+<p><button class="hx-togglebutton3">Show/hide JSON</button></p>
+
+
+<pre class="hx-toggletarget3" style="width:75%; display:none;"><code class="lang-js">"user_partitions": { 
+    "id": 58912316, 
+    "name": "Sample Content Experiment", 
+    "active": true, 
+    "description": "This is just to show people what can be done with this feature.", 
+    "groups": [
+          { "id": 1363630119, 
+            "name": "Sample Group A", 
+            "version": 1 }, 
+          { "id": 1889263613, 
+            "name": "Sample Group B", 
+            "version": 1 }, 
+          { "id": 1493797591, 
+            "name": "Sample Group C", 
+            "version": 1 }
+        ], 
+    "parameters": {}, 
+    "scheme": "random", 
+    "version": 3
+}
+</code></pre>
+
+<p>Some of the keys above are never actually used. For instance, "version" for the groups will always be 1, and "scheme" will always be "random" because no other option exists. The IDs and the names are the important parts. None of this is currently student-visible, but edX does occasionally expose things that were not previously student-visible, so we recommend PG-13 naming practices.</p>
+
+<h3 class="hx-underline">Experiment Identifiers</h3>
+
+<p>When you write your own XML, you can set the <code>user_partition_id</code> attribute to whatever you want. The code you see above was generated in Studio, so it's just a random number. Note that <em>the id numbers are what matters. EdX does not care what you name your experiment.</em> If you delete and recreate your experiment, you end up with a new random number that your old pages no longer reference. Because of this, <strong>we recommend never deleting content experiments</strong> unless you are 100% certain you will never want them again.</p>
+
+<h3 class="hx-underline">The View in Insights</h3>
+
+<p>EdX's built-in dashboards handle Content Experiments well in some ways and not so well in others. On the plus side, you'll be able to see any assignment you give, regardless of whether it's inside a content experiment or not. On the minus side, you can't split up your Insights results by what content group someone is in. If Group B performs better than Group A, Insights won't show it by default. You'll need to get the edX logs and do some heavier-duty analysis in order to get your research results.</p>
+
+<p><strong>However!</strong> You can get around this by making a Content Experiment that reuses the same groups from before, and actually delivers <em>the same content to both groups.</em> Insights will then split up the results as if the groups were seeing something different, and you should be able to tell which group saw which content.</p>

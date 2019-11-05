@@ -1,0 +1,12 @@
+<problem display_name="Think about the learners!" markdown="We're sure you've got the message by now that clean HTML is a good thing. But keeping in mind 'why' will help with future build.&#10;&#10;&gt;&gt;Thinking about the learner experience, which of the following might happen if you have super messy HTML and in-line styling (rather than CSS) on a page? &lt;&lt;&#10;&#10;[x] The page could take a while to load&#10;[x] Fonts could appear in different shapes and sizes within the same text block&#10;[x] Users with screenreaders might want to smash your course&#10;[ ] Learners will send you flowers in the post to say thank you&#10;" max_attempts="4" showanswer="finished">
+  <choiceresponse>
+    <p>We're sure you've got the message by now that clean HTML is a good thing. But keeping in mind 'why' will help with future build.</p>
+    <label>Thinking about the learner experience, which of the following might happen if you have super messy HTML and in-line styling (rather than CSS) on a page? </label>
+    <checkboxgroup>
+      <choice correct="true">The page could take a while to load</choice>
+      <choice correct="true">Fonts could appear in different shapes and sizes within the same text block</choice>
+      <choice correct="true">Users with screenreaders might want to smash your course</choice>
+      <choice correct="false">Learners will send you flowers in the post to say thank you</choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

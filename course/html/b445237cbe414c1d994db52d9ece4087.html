@@ -1,0 +1,24 @@
+<script>
+  var sourceDataFile = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQboVNmG1W-xCMxdnCLdusANHEYMoKKxcV1ngfjokQF1jgT7l-mHFZ3P616wfm0IRYXCKb2cXmTQLPP/pub?gid=809352932&single=true&output=csv";
+  var sourceDataHeaders = {
+    "Link URL": "URL", 
+    "Page Title": "Name", 
+    "Description": "Description", 
+    "Categories": "Categories",
+    "License": "License"
+  };
+</script>
+<script src="/static/hx.js"></script>
+<script defer src="/static/papaparse.min.js"></script>
+<script defer src="/static/formtable_csv.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<p>The cells at the top of this table are filters. The rows underneath will change to match what you type. For instance, if you want HTML and CSS resources, type "CSS, HTML" in the Categories filter.</p>
+
+<table id="responseTable" style="border: 1px solid grey;">
+  <caption style="font-weight: bold; font-size: larger;">Link Sharing Table</caption>
+</table>
+<p><button id="reloadTable">Reload table data</button></p>
+
+<p>If you don't see your own response here yet, Hit the "Reload table data" button. Sometimes our "data repository" takes a while to update (and by "data repository" we mean "Google Sheets csv").</p>
+

@@ -1,0 +1,67 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+<style>
+  figure img { width: 80%; }
+  figcaption{ font-size: small; font-style: italic; width: 80%; }
+</style>
+
+<h3 class="hx-underline">Part 2: Getting Learner Data &amp; Context</h3>
+
+<p>The pop-up window generating approach in that last exercise is meant to be a placeholder for a much more powerful (and complicated) event: sending this information to a server/database. For now, I will call that back-end part out of scope and only focus on front-end.</p>
+
+<p>In either case, simply telling a database (or pop-up window) that an event occurred is likely insufficient. This event needs context. When did it happen? Which learner executed the event? Which specific quiz question was it? What vertical is it located on?</p>
+
+<p>Fortunately, those questions all exist on all edX courseware pages and can be accessed using a similar Javascript approach as above. Let's break those above questions down into concrete bits of info we are looking to gather and consolidate so that we can then package nicely and send to our database:</p>
+
+<ul>
+  <li>Learner ID</li>
+  <li>Timestamp</li>
+  <li>Event type</li>
+  <li>Question ID</li>
+  <li>Vertical (Location in course)</li>
+</ul>
+
+<p>The <strong>Learner ID</strong> can be accessed with the following line of code (just enter it in your console from any courseware page to test):</p>
+
+<pre><code class="lang-js">var userid = analytics.user()._getId();</code></pre>
+
+<div class="hx-greybox">
+  <h4>The Analytics Object</h4>
+  <p>The <code>analytics</code> object referenced on this page is created <em>after</em> the page is ready. For the purposes of this section it should be ready well before we need it, but if you intend to log events that happen very early on (i.e. while or immediately after the page loads), you may need to set up a <code>setInterval()</code> loop to check whether <code>analytics</code> exists before using it.</p>
+</div>
+
+<p>The <strong>timestamp</strong> can be accessed simply by logging the current system time:</p>
+
+<pre><code class="lang-js">var date = new Date();</code></pre>
+
+<p>Because we will have a different <code class="lang-js">Logger.listen</code> object per each <strong>event type</strong>, we can go back and edit our <code>funcPC</code> function from before to also create a variable that indicates the event type we are currently tracking:</p>
+
+<pre><code class="lang-js">function funcPC() {window.event_type = "problem_check"; alert("you created an event")}</code></pre>
+
+<p>Now, every time the <code class="lang-js">funcPC</code> function is fired (presumably as a result of an assessment response being submitted), a global variable named "event_type" will be created and defined as "problem_check"</p>
+
+<p>Getting an assessment's <strong>question ID</strong> is a little more tricky. To do so, we first need to create a function that specifically listens for click events on question submission buttons (line 2 of the following function). The following function achieves this and stores the question ID (taken from the "aria-describedby" attribute of the button's html object) as a global variable <code class="lang-js">qID</code> in line 3:</p>
+
+<pre><code class="lang-js">
+function getQuestionID() {
+    jQuery(".submit.btn-brand").click(function() {
+    window.qID = jQuery(this).attr("aria-describedby").split("_")[2];
+    });
+}
+</code></pre>
+
+<p>In edX, courses are comprised of sections, sections are comprised of subsections, subsections are comprised of verticals, and verticals are comprised of components. Because we already found a way to identify elements at the component level (assessment question ID), we will now focus on the other three elements.</p>
+
+<p>The current <strong>section and subsection</strong> can be found in the active page URL:</p>
+
+<pre><code class="lang-js">var url = window.location.href;
+var split = url.split("/");
+var section = split[6];
+var subsection = split[7];
+</code></pre>
+
+<p>Identifying the active <strong>vertical</strong> is a bit more tricky, because the URL does not change when a user moves from one vertical to another. Instead, you have to read it from a data attribute on the page:</p>
+
+<pre><code class="lang-js">var vert = $('#sequence-list .nav-item.active').data('id').split("@").pop();
+</code></pre>
+

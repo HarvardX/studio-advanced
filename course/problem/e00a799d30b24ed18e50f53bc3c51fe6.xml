@@ -1,0 +1,59 @@
+<problem display_name="Attempts per problem" markdown="null" max_attempts="3" showanswer="finished">
+  <multiplechoiceresponse>
+    <h4 class="hx-underline">Part 1: Three Attempts per Problem</h4>
+    <p>Consider the instructions for the SetMaxAttempts.py script.</p>
+    <pre>
+      <code class="lang-md">To use:
+python3 SetMaxAttempts.py number path/to/problem/folder
+Your options for the number are:
+  - An actual number, which sets all problems to the same # of attempts
+  - "delete" or "default", which removes the value so that
+    course-wide default takes over
+  - "auto" (recommended), in which case attempts are set as follows:
+    - Numerical and Formula problems get 10
+    - Customresponse and Text problems get 5
+    - Checkbox problems get a number of attempts equal to the number of choices, max 5.
+    - MC problems get...
+      - 3 if they have 7+ options
+      - 2 if they have 4-6 options
+      - 1 if they have 2-3 options
+    - Multi-problems get the highest number of the set.
+    - Other problem types are skipped.
+There will probably still be some issues, so you'll need to review.
+    This code will help you make a first pass, not a final pass.</code>
+    </pre>
+    <label>If I want to set a course-wide standard of 3 attempts per problem, how can I do it?</label>
+    <description>Assume that I've inserted the correct path to the problem folder.</description>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="true">Run <code>python3 SetMaxAttempts.py delete path/to/problem/folder</code> and set a course-wide default in Advanced Settings.</choice>
+      <choice correct="false">Run <code>python3 SetMaxAttempts.py "delete" path/to/problem/folder</code> and set a course-wide default in Advanced Settings. <choicehint>You don't need the quotes.</choicehint></choice>
+      <choice correct="true">Run <code>python3 SetMaxAttempts.py 3 path/to/problem/folder</code> </choice>
+      <choice correct="false">Run <code>python3 SetMaxAttempts.py --3 path/to/problem/folder</code> <choicehint>You don't need the dashes.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <multiplechoiceresponse>
+    <h4 class="hx-underline">Part 2: Attempts for This Problem</h4>
+    <label>If I run <code>python3 SetMaxAttempts.py auto path/to/problem/folder</code> on this problem, how many attempts will learners be allowed to take on it? </label>
+    <description>Assume that I've inserted the correct path to the problem folder.</description>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">1</choice>
+      <choice correct="false">2 <choicehint>When dealing with a multi-part problem, all choices count toward the total.</choicehint></choice>
+      <choice correct="true">3</choice>
+      <choice correct="false">4</choice>
+      <choice correct="false">5 <choicehint>You may be confusing checkbox problems and multiple-choice problems.</choicehint></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p>
+        <strong>Part 1:</strong>
+      </p>
+      <p>There are two correct methods on this list: setting the value using this script, or using this script to <em>remove</em> the value and then setting it in your course's Advanced Settings.</p>
+      <p>
+        <strong>Part 2:</strong>
+      </p>
+      <p>Because the script counts the total number of multiple-choice options in a problem, and this one has 7 or more (4 in part 1 and 5 in part 2), it will receive 3 attempts. This is one of the reasons you might want to review your course after running the script.</p>
+    </div>
+  </solution>
+</problem>

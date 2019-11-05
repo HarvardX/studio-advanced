@@ -1,0 +1,41 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css"> 
+
+<h3 class="hx-underline">Major Pain Points</h3>
+
+<p>Once more with feeling: building an adaptive course is a lot of time and work. Before you continue, it's important to know why, so that you can properly represent the process to the people you work with.</p>
+
+<h4 class="hx-underline"><span class="fa fa-wrench"></span> 1. Your system needs to be built for adaptivity from the start.</h4>
+
+<p><strong>Walk away if:</strong> You're not ok with running your own server or paying someone to run it for you.<br/>
+  <strong>Dive in if:</strong> You're comfortable hosting mission-critical servers or have the money set aside for it.</p>
+
+<p>Wait wait wait. EdX wasn't built for adaptivity at the beginning, but here we are talking about teaching adaptive courses in edX. What happened?</p>
+
+<p>What's happened is that people have built entire systems for adaptivity <em>outside</em> of the edX platform. They bring that work back <em>into</em> the platform via LTI. Without assistance from an outside setup, there's no adaptivity. There is no standard way to make a course adaptive "within edX" because the entire mechanism for adaptivity comes from <em>outside edX.</em> This is going to be true for the edX platform no matter what method you use.</p>
+
+<p>Also worth mentioning: because it's all done via LTI, EdX as it's currently built can only be made adaptive at the <em>component</em> level - a "window of adaptivity", if you will. No adaptive method will let you rearrange large portions of the course.</p>
+
+<h4 class="hx-underline"><span class="fa fa-code-fork"></span> 2. You need to be comfortable with algorithm-driven instruction.</h4>
+
+<p><strong>Walk away if:</strong> You're not ok with handing over some of your pedagogical decision-making process to an algorithm.<br/>
+  <strong>Dive in if:</strong> You can trust that a well-informed system will know your learners as well as you or better.</p>
+
+<p>Many people think of an adaptive engine as providing a "tree structure" for materials and assignments. Solve this problem and you get to see that one. Fail this assignment and you have to watch this video before you can try it again. People imagine a choose-your-own-adventure setup with a set of branching paths all laid out by the teacher.</p>
+
+<p>It is vital to understand that <em>this is not how the vast majority of adaptive systems work</em>.</p>
+
+<p>Most systems use more sophisticated mathematics that probabilistically estimate a learner's skill rating - sometimes just one skill for the whole course, sometimes a set of skills. They then feed learners problems whose difficulty ratings have been similarly estimated, trying to match difficulty to skill in some way. Your search term for this is "Bayesian Knowledge Tracing", also known as BKT - though there are also many other statistical approaches. BKT is just the most common right now.</p>
+
+<h4 class="hx-underline"><span class="fa fa-database"></span> 3. You need to make a <em>lot</em> more material than in a non-adaptive course.</h4>
+
+<p><strong>Walk away if:</strong> You're not able to create three to twenty times as much material as you would for a non-adaptive course.<br/>
+  <strong>Dive in if:</strong> You have a huge amount of existing content, an army of content creators, or an automated method for content generation.</p>
+
+<p>Three to twenty courses worth of material.</p>
+
+<p>You are not building one course, you are building three to twenty courses. Certainly not less than three, and preferably more like ten. More than twenty is probably unnecessary. Each time you want to ask a question in the course, you need to have let's-say-ten similar-looking questions that you can deliver. Even if you do find an adaptivity provider who uses a choose-your-own-adventure approach, you'll still need about three times as much as you had before.</p>
+
+<p>How you want to achieve this is up to you. We recommend selecting specific activity types - videos OR texts OR problems - and concentrating on creating enough adaptive content for that particular type of activity. Most people choose problems.</p>
+
+<p>We're not saying that your learners will actually <em>see</em> three times the videos, or have to <em>complete</em> ten times the number of problems. That's just what it requires to support a more flexible system that can effecitvely tailor content to the learner.</p>

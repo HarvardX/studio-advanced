@@ -1,0 +1,16 @@
+<script src="/static/hx.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/hx.css">
+
+<h3 class="hx-underline">Linking to components with XBlock URLs</h3>
+
+<p>XBLock URLs are a way to pull a single component from a course. For instance, here's a <a href="https://courses.edx.org/xblock/block-v1:HarvardX+StudioAdv1+2T2019+type@html+block@9525d81a151d4da6ba3ca19015631db4" target="_blank">link to this very component itself.</a></p>
+
+<p>What can you do with this?</p>
+
+<ul>
+  <li>You can iframe one part of a course into another place in that course, like we did with the intro survey in this course.</li>
+  <li>You can iframe one part of a course into a different course entirely - for instance, if you wanted to draw connections for learners who are signed up for both courses.</li>
+  <li>You can build apps that deliver an edX course in a different way. The edX mobile app itself works via XBlock URL.</li>
+</ul>
+
+<p>You <em>cannot</em> use XBlock URLs to show components to people who <em>aren't</em> logged into the course. XBlock URLs are aware of most of edX's restrictions, like login status, user type, cohort, etc.</p>

@@ -1,0 +1,18 @@
+<problem display_name="A Little Bit Late" markdown="You've built a survey and things are going well but you realise you missed out a whole section of questions. These were fortunately only 'nice to have' answers rather than core questions but you still would really like to have a complete dataset. 50 respondents have already replied to your survey.&#10;&#10;&gt;&gt;What should be the next step now you know you missed some questions? &lt;&lt;&#10;&#10;( ) Delete all the data and start again - it's only 50 respondents.&#10;( ) Contact the 50 people directly by looking them up on the student database directly&#10;(x) Decide whether the data is crucial. If yes, amend the survey and note the first 50 respondents will not have data for these questions.  Mistakes happen.&#10;( ) Do nothing and deny any knowledge of the mistake if asked.&#10;&#10;[explanation]&#10;Whilst we are tempted to deny all knowledge, this is really a &quot;triage&quot; situation. If the answers are vital, you'll need to accept a lower N in your respondant pool. Decide what kind of tradeoff you want to make.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <p>You've built a survey and things are going well but you realise you missed out a whole section of questions. These were fortunately only 'nice to have' answers rather than core questions but you still would really like to have a complete dataset. 50 respondents have already replied to your survey.</p>
+    <label>What should be the next step now you know you missed some questions? </label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Delete all the data and start again - it's only 50 respondents.</choice>
+      <choice correct="false">Contact the 50 people directly by looking them up on the student database directly</choice>
+      <choice correct="true">Decide whether the data is crucial. If yes, amend the survey and note the first 50 respondents will not have data for these questions.  Mistakes happen.</choice>
+      <choice correct="false">Do nothing and deny any knowledge of the mistake if asked.</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Whilst we are tempted to deny all knowledge, this is really a "triage" situation. If the answers are vital, you'll need to accept a lower N in your respondant pool. Decide what kind of tradeoff you want to make.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,26 @@
+<problem display_name="Homepage tab" markdown="&gt;&gt;You have a tab in your course entitled &quot;Homepage&quot; that takes students to an external website. What's the best way to point the walkthrough at this tab?&lt;&lt;&#10;&#10;(x!) &lt;code class=&quot;lang-javascript&quot;&gt;$('.course-tabs').find('a:contains(&quot;Homepage&quot;)');&lt;/code&gt;&#10;( ) &lt;code class=&quot;lang-javascript&quot;&gt;$('.course-tabs').find('a:contains(&quot;Home&quot;)');&lt;/code&gt;&#10;( ) &lt;code class=&quot;lang-javascript&quot;&gt;$('#Homepage');&lt;/code&gt;&#10;( ) &lt;code class=&quot;lang-javascript&quot;&gt;$('.course-tabs').find('Homepage');&lt;/code&gt;&#10;&#10;[explanation]&#10;The jQuery selector we use in our example first selects the course tabs by their class, and then finds the link within them that has the text &quot;Homepage&quot; in it. You &lt;em&gt;could&lt;/em&gt; use the one that says &quot;Home&quot; instead, but if you have the word &quot;Home&quot; in another tab then it might select the wrong thing.&#10;&#10;The other two options in this problem are trying to select something with a particular ID (#Homepage), or to find a tag of the &quot;Homepage&quot; type instead of a &lt;em&gt;link&lt;/em&gt; tag with the &lt;em&gt;word&lt;/em&gt; Homepage in it.&#10;[explanation]&#10;" max_attempts="2" showanswer="finished">
+  <multiplechoiceresponse>
+    <label>You have a tab in your course entitled "Homepage" that takes students to an external website. What's the best way to point the walkthrough at this tab?</label>
+    <choicegroup shuffle="true" type="MultipleChoice">
+      <choice correct="true">
+        <code class="lang-javascript">$('.course-tabs').find('a:contains("Homepage")');</code>
+      </choice>
+      <choice correct="false">
+        <code class="lang-javascript">$('.course-tabs').find('a:contains("Home")');</code>
+      </choice>
+      <choice correct="false">
+        <code class="lang-javascript">$('#Homepage');</code>
+      </choice>
+      <choice correct="false">
+        <code class="lang-javascript">$('.course-tabs').find('Homepage');</code>
+      </choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The jQuery selector we use in our example first selects the course tabs by their class, and then finds the link within them that has the text "Homepage" in it. You <em>could</em> use the one that says "Home" instead, but if you have the word "Home" in another tab then it might select the wrong thing.</p>
+        <p>The other two options in this problem are trying to select something with a particular ID (#Homepage), or to find a tag of the "Homepage" type instead of a <em>link</em> tag with the <em>word</em> Homepage in it.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

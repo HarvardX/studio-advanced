@@ -1,0 +1,11 @@
+<h3 class="hx-underline">Disabling Existing Navigation</h3>
+
+<p>If you want to get rid of the existing edX navigation, this is the css to do it:</p>
+
+<pre><code class="lang-css">.sequence-nav { display:none; }       // Top nav strip
+.sequence-bottom  { display:none; }   // Bottom nav buttons
+</code></pre>
+
+<p>You'll need to add that on every page, whether in an HTML component or in a linked .css file. <em>Note that the navigation may still briefly appear, then vanish</em>, as the style sheet takes a moment to load.</p>
+
+<p>Many people have asked for this, so we decided to include it, but we don't honestly recommend it. If you're dead set on getting rid of edX's navigation, please just remove just the top bar and not the bottom.</p>
