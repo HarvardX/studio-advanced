@@ -3,6 +3,7 @@
 ## General Notes
 
 - Take the titles in this doc as the canonical ones. If the pages in the course have different titles, change them to these.
+- ✅ Drop in new versions of [hx.js, hx.css, and helper files](https://github.com/Colin-Fredericks/hx-js).
 
 ## Tabs
 

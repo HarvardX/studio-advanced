@@ -1,5 +1,4 @@
 /* CSS for HarvardX's standard javascript library */
-
 /* Using a 75-pixel tall image as a drop cap. */
 .hx-icon-dropcap {
   float: left;
@@ -36,7 +35,7 @@ span.hx-dropcap {
 }
 
 /* For centering images. */
-img.hx-centered {
+.hx-centered {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -72,8 +71,7 @@ p > small.hx-caption {
 
 /* For clickable images that pop up dialog boxes. */
 /* Not doing anything here yet, but this is how we change the orange if we want to. */
-.hx-popup-dialog .ui-dialog-titlebar {
-}
+/* .hx-popup-dialog .ui-dialog-titlebar {} */
 
 /* For pop-up SVGs that we want to show at full size. */
 .hx-svg-view {
@@ -86,10 +84,6 @@ p > small.hx-caption {
   font-size: small !important;
 }
 
-/* Larger UL and OL left-hand margins. */
- {
-  #;
-}
 main .vert .xblock ul {
   margin-left: 1em !important;
 }
@@ -98,12 +92,7 @@ main .vert .xblock ul {
   margin-left: 1em !important;
 }
 
-.hx-tightlist {
-  margin-top: -1em !important;
-}
-
 /* For the smiley-face button */
-
 .hx-smileystack {
   margin-left: auto;
 }
@@ -135,11 +124,9 @@ hr.hx-fancy {
     border: 0;
 }
 */
-
 /***************************************/
 /* This block is for sidebar tables
 /***************************************/
-
 table.hx-hangright {
   max-width: 280px !important;
   float: right !important;
@@ -171,11 +158,9 @@ table.hx-compact-table th {
 }
 
 /************** End sidebar table Block *******************/
-
 /***************************************/
 /* This block is for auto-TOCs
 /***************************************/
-
 .hx-autotoc {
   float: right;
   border: 1px solid gray;
@@ -207,11 +192,9 @@ table.hx-compact-table th {
 }
 
 /************** End auto-TOC Block *******************/
-
 /*********************************************/
 /* This block is for fancy headers
 /*********************************************/
-
 /* Fancy header - no lowercase, all caps. */
 h3.hx-smallcaps,
 h4.hx-smallcaps {
@@ -237,20 +220,129 @@ h4.hx-superbold {
 
 /* Header with an underline that goes most of the way across. */
 /* Can be combined with smallcaps. */
-
 .hx-underline {
   border-bottom: 1px solid #189;
-  width: 600px;
+  width: 75%;
 }
 
 /************** End fancy-header Block *******************/
-
 /*********************************************/
 /* This block is for pretty boxes
 /*********************************************/
-
 /* For boxes of material separated from the regular text. */
 /* Use h4 for headers inside. */
+.hx-yellowbox h3 {
+  font-variant: small-caps;
+  color: #666600;
+}
+
+.hx-redbox {
+  border-left: 15px solid #800;
+  background-color: #fdd;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-redbox h3,
+.hx-redbox h4 {
+  font-variant: small-caps;
+  color: #600;
+}
+
+.hx-redbox .hx-underline{
+  border-bottom-color: darkred;
+}
+
+.hx-pinkbox {
+  border-left: 15px solid #ffc0f8;
+  background-color: #ffe9f6;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-pinkbox h3,
+.hx-pinkbox h4 {
+  font-variant: small-caps;
+  color: #cf5cc2;
+}
+
+.hx-pinkbox .hx-underline{
+  border-bottom-color: orchid;
+}
+
+.hx-orangebox {
+  border-left: 15px solid #dc5b00;
+  background-color: #ffddc5;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-orangebox h3,
+.hx-orangebox h4 {
+  font-variant: small-caps;
+  color: #752900;
+}
+
+.hx-orangebox .hx-underline{
+  border-bottom-color: #752900;
+}
+
+.hx-peachbox {
+  border-left: 15px solid #ffdb9c;
+  background-color: #ffecd5;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-peachbox h3,
+.hx-peachbox h4 {
+  font-variant: small-caps;
+  color: #b6750f;
+}
+
+.hx-peachbox .hx-underline{
+  border-bottom-color: #b6750f;
+}
+
+.hx-yellowbox {
+  border-left: 15px solid #fdfd00;
+  background-color: #ffffd1;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-yellowbox a {
+  font-weight: bold !important;
+}
+
+.hx-yellowbox h3,
+.hx-yellowbox h4 {
+  font-variant: small-caps;
+  color: #666600;
+}
+
+.hx-yellowbox .hx-underline{
+  border-bottom-color: #666600;
+}
+
+.hx-greenbox {
+  border-left: 15px solid #07a878;
+  background-color: #c2eade;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-greenbox h3,
+.hx-greenbox h4 {
+  font-variant: small-caps;
+  color: #013a29;
+}
+
+.hx-greenbox .hx-underline{
+  border-bottom-color: forestgreen;
+}
+
+
 .hx-bluebox {
   border-left: 15px solid #048;
   background-color: #def;
@@ -258,13 +350,10 @@ h4.hx-superbold {
   margin: 40px;
 }
 
+.hx-bluebox h3,
+.hx-sidebar h3,
 .hx-bluebox h4,
 .hx-sidebar h4 {
-  font-variant: small-caps;
-  color: #036;
-}
-.hx-bluebox h3,
-.hx-sidebar h3 {
   font-variant: small-caps;
   color: #036;
 }
@@ -276,78 +365,16 @@ h4.hx-superbold {
   margin: 40px;
 }
 
+.hx-bluebox2 h3,
 .hx-bluebox2 h4 {
   font-variant: small-caps;
   color: #1e3460;
 }
-.hx-bluebox2 h3 {
-  font-variant: small-caps;
-  color: #1e3460;
-}
 
-.hx-greenbox {
-  border-left: 15px solid #07a878;
-  background-color: #c2eade;
-  padding: 10px 10px 5px 15px;
-  margin: 40px;
-}
+/* No change for bluebox underlines. Underlines are already blue. */
+/* .hx-bluebox .hx-underline{} */
 
-.hx-greenbox h4 {
-  font-variant: small-caps;
-  color: #013a29;
-}
-.hx-greenbox h3 {
-  font-variant: small-caps;
-  color: #013a29;
-}
 
-.hx-redbox {
-  border-left: 15px solid #800;
-  background-color: #fdd;
-  padding: 10px 10px 5px 15px;
-  margin: 40px;
-}
-
-.hx-redbox h4 {
-  font-variant: small-caps;
-  color: #600;
-}
-
-.hx-redbox h3 {
-  font-variant: small-caps;
-  color: #600;
-}
-.hx-magentabox {
-  border-left: 15px solid #a71852;
-  background-color: #eec6d4;
-  padding: 10px 10px 5px 15px;
-  margin: 40px;
-}
-
-.hx-magentabox h4 {
-  font-variant: small-caps;
-  color: #4d001f;
-}
-.hx-magentabox h3 {
-  font-variant: small-caps;
-  color: #4d001f;
-}
-
-.hx-orangebox {
-  border-left: 15px solid #800;
-  background-color: #fdd;
-  padding: 10px 10px 5px 15px;
-  margin: 40px;
-}
-
-.hx-orangebox h4 {
-  font-variant: small-caps;
-  color: #752900;
-}
-.hx-orangebox h3 {
-  font-variant: small-caps;
-  color: #752900;
-}
 
 .hx-purplebox {
   border-left: 15px solid #6c35c0;
@@ -356,14 +383,31 @@ h4.hx-superbold {
   margin: 40px;
 }
 
+.hx-purplebox h3,
 .hx-purplebox h4 {
   font-variant: small-caps;
   color: #330974;
 }
 
-.hx-purplebox h3 {
+.hx-purplebox .hx-underline{
+  border-bottom-color: blueviolet;
+}
+
+.hx-magentabox {
+  border-left: 15px solid #a71852;
+  background-color: #eec6d4;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-magentabox h3,
+.hx-magentabox h4 {
   font-variant: small-caps;
-  color: #330974;
+  color: #4d001f;
+}
+
+.hx-magentabox .hx-underline{
+  border-bottom-color: #4d001f;
 }
 
 .hx-greybox,
@@ -374,16 +418,40 @@ h4.hx-superbold {
   margin: 40px;
 }
 
+.hx-greybox h3,
+.hx-graybox h3,
 .hx-greybox h4,
 .hx-graybox h4 {
   font-variant: small-caps;
   color: #333;
 }
 
-.hx-greybox h3,
-.hx-graybox h3 {
+.hx-greybox .hx-underline, .hx-graybox .hx-underline{
+  border-bottom-color: #333;
+}
+
+
+/* Blackbox needs more specific targeting to override white text. */
+.xmodule_display .hx-blackbox,
+.hx-blackbox {
+  border-left: 15px solid #0c0;
+  background-color: black;
+  color: #eee !important;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.xmodule_display .hx-blackbox h3,
+.xmodule_display .hx-blackbox h4,
+.hx-blackbox h3,
+.hx-blackbox h4 {
   font-variant: small-caps;
-  color: #333;
+  color: #0f0;
+}
+
+.xmodule_display .hx-blackbox p,
+.hx-blackbox p {
+  color: #eee !important;
 }
 
 /* For right-hand sidebars. Add colorbox styling. */
@@ -415,6 +483,7 @@ h4.hx-superbold {
   padding: 1em 60px 0;
   min-height: 37px;
 }
+
 /* Helps with above. */
 .hx-excerpt p + p {
   padding-top: 0;
@@ -422,7 +491,6 @@ h4.hx-superbold {
 }
 
 /************** End pretty-box Block *******************/
-
 /*********************************************/
 /* This block is for the Slick image slider.
 /*********************************************/
@@ -464,27 +532,22 @@ h4.hx-superbold {
 .slick-next:before {
   color: #189 !important;
 }
-/************** End Slick Block *******************/
 
+/************** End Slick Block *******************/
 /***************************************/
 /* This block is for video links.
 /***************************************/
-
 .hx-vidlink_bl {
   display: none;
   opacity: 0.7;
   background-color: black;
-
   font-size: 16px;
   color: white;
-
   position: absolute;
   bottom: 50px;
-
   padding: 4px;
   border: 2px solid grey;
   margin: 2px;
-
   border-radius: 4px;
   box-shadow: 2px 2px 4px #111;
 }
@@ -493,18 +556,14 @@ h4.hx-superbold {
   display: none;
   opacity: 0.7;
   background-color: black;
-
   font-size: 16px;
   color: white;
-
   position: absolute;
   bottom: 50px;
   right: 5px;
-
   padding: 4px;
   border: 2px solid grey;
   margin: 2px;
-
   border-radius: 4px;
   box-shadow: 2px 2px 4px #111;
 }
@@ -513,17 +572,13 @@ h4.hx-superbold {
   display: none;
   opacity: 0.7;
   background-color: black;
-
   font-size: 16px;
   color: white;
-
   position: absolute;
   top: 5px;
-
   padding: 4px;
   border: 2px solid grey;
   margin: 2px;
-
   border-radius: 4px;
   box-shadow: 2px 2px 4px #111;
 }
@@ -532,18 +587,14 @@ h4.hx-superbold {
   display: none;
   opacity: 0.7;
   background-color: black;
-
   font-size: 16px;
   color: white;
-
   position: absolute;
   top: 5px;
   right: 5px;
-
   padding: 4px;
   border: 2px solid grey;
   margin: 2px;
-
   border-radius: 4px;
   box-shadow: 2px 2px 4px #111;
 }
@@ -593,11 +644,9 @@ h4.hx-superbold {
 }
 
 /*********** End Video Link Block **********/
-
 /***************************************/
 /* This block is for pop-up problems.
 /***************************************/
-
 .ui-widget-overlay {
   background: #666 !important;
   opacity: 0.3 !important;
@@ -637,23 +686,55 @@ span#hx-playpauseword {
 }
 
 /************** End Pop-Up Problems Block *******************/
+/***************************************/
+/* This block is for HXEditor.
+/***************************************/
+/* .hxed-save {} */
 
-.stux-infobox {
-  padding: 4px;
-  border: 1px dashed grey;
-  margin: 5px;
-  border-radius: 3px;
-}
-.stux-infoicon {
-  width: 75px;
-  margin: 2px;
-  display: inline-block;
-  text-align: center;
-  font-size: small;
+/* .hxed-download {} */
+
+.hxed-filemenu {
+  background-image: linear-gradient(#f1f1f1, #d9d1d1);
   font-weight: bold;
+  height: 2.1em;
+  font-size: 0.9rem;
+  border: 1px solid #d2c9c9;
 }
 
-/* Stop uppercasing them. */
-.poll-header {
-  text-transform: none;
+.hxed-currentslot {
+  color: #0075b4;
 }
+
+.hxed-statusmessage {
+  color: #666;
+  flex-grow: 1;
+}
+
+.hxed-persistentnotice {
+  color: darkred;
+  float: right;
+}
+
+.hxed-deletebutton {
+  color: darkred;
+  float: right;
+  font-size: 1.2em;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+}
+
+.hxed-controlbox {
+  display: flex;
+  align-items: baseline;
+}
+
+.hxeditor-control {
+  margin: 2px;
+}
+
+.note-editable {
+  height: 5em;
+}
+
+/************** End Editor Block *******************/
