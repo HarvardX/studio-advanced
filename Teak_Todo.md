@@ -28,7 +28,11 @@
 
 #### Welcome and Survey
 
+- Polls seem ok. Check to see whether the emojis still work for accessibility purposes.
+
 #### Navigation
+
+- Not a huge fan of a single line of dots and squares; maybe we can switch this to two lines and more distinct shapes?
 
 ### Navigation pages
 
@@ -54,9 +58,39 @@
 
 ### 1.0 - Intro to Planning
 
+(This is identical to the Advanced Course Planning navigation page and should stay that way.)
+
 ### 1.1 - Creating a style sheet
 
+- **Summary:**
+  - Switch references from "edX" to "Open edX"
+  - Add notes about course-wide CSS
+  - Why are the icons so huge?
+- **Why bother?**
+  - Make a prettier flowchart.
+- **Demo:**
+  - Put things closer together so you can see the changes when you make them, rather than having to scroll back and forth.
+- **Code:**
+  - Is CSS still "sticky"? I think this got fixed at some point.
+- **Setup:**
+  - Nicer flowchart
+  - It's not named "Files & Uploads" any more.
+  - Add notes for course-wide CSS.
+  - Add suggested classes for targeting "just in Studio" or "just on live".
+- **Test:**
+  - Add course-wide CSS notes
+
 ### 1.2 - Selecting advanced problem types
+
+- **Summary:** 
+  - Harvard currently owns the JSInput Repo. (Transfer to Axim?)
+- **Demo:** 
+  - "Could not format HTML" on 4 out of 5 items here. Not great. Fix that. (Maybe just missing XBlocks? How do we design this page to account for deployments that don't have all of the blocks needed? Probably just a ToC with some extra details at the top.)
+- **Code:** 
+  - Update the zip file.
+  - Check to make sure the links are current.
+- **Test:** 
+  - Check accessibility on emoji poll.
 
 ### 1.3 - Using Grading Libraries
 
