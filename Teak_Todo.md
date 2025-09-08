@@ -4,6 +4,7 @@
 
 - Take the titles in this doc as the canonical ones. If the pages in the course have different titles, change them to these.
 - ✅ Drop in new versions of [hx.js, hx.css, and helper files](https://github.com/Colin-Fredericks/hx-js).
+- May be worth renaming the Summary pages to include the particular topic, just because it's the first thing people see on the page.
 
 ## Tabs
 
@@ -94,13 +95,58 @@
 
 ### 1.3 - Using Grading Libraries
 
+- **Summary:** ok
+- **Rationale:** ok
+- **Code:**
+  - May be worth noting that you can't actually delete the `python_lib.zip` file - not that it really matters, but it sure can be confusing.
+- **Test:** ok
+- **Application:** ok
+
 ### 1.4 - Selecting interactives
+
+- **Summary:** ok
+- **Why Bother?**
+  - Make a nicer flowchart
+- **Examples:** ok
+- **Test:** ok
 
 ### 1.5 - Designing alternative navigation
 
+- **Summary:**
+- **Rationale:**
+- **Demos and Analysis:**
+  - The Cute Outline icon set's page isn't around any more. Will need to replace, not that it particularly matters what exact icons we use.
+  - In the analysis for the tree: Does the "map area alt attributes" link go to the right place?
+- **Test:** ok
+- **Application:**
+  - Quantum World is no more.
+  - Fantastic Places is archived.
+
 ### 1.6 - Designing content experiments
 
+- **Summary:** ok
+- **Demos and Analysis:**
+  - Nicer flowchart
+- **Code:**
+  - New docs link?
+  - May need new screenshots soon.
+  - Insights note might be replaced by Aspects soon
+- **Test:** ok
+
 ### 1.7 - Handling feature-based enrolment
+
+- **Summary:**
+  - Rewrite for less edX.org and more Open edX. (Don't bother shifting to 2U references.)
+- **The Details:**
+  - Can safely remove "older course" notes.
+  - New lock icon screenshot.
+  - New docs link?
+- **Rationale:** ok
+- **Planning for FBE:**
+  - Rewrite for less edX.org and more Open edX.
+  - The "course length" problem isn't a problem any more.
+  - Lock icon reference
+- **Test:** ok
 
 ### 1.8 - Setting up cohorts
 
@@ -171,3 +217,13 @@
 ### 6.5 - HX-JS, Incomplete
 
 ### 6.6 - EdX Undocumented
+
+
+- **Summary:**
+- **Rationale:**
+- **Demo:**
+- **Code:**
+- **Test:**
+- **Examples:**
+- **Application:**
+
