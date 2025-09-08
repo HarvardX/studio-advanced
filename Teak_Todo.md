@@ -82,14 +82,14 @@
 
 ### 1.2 - Selecting advanced problem types
 
-- **Summary:** 
+- **Summary:**
   - Harvard currently owns the JSInput Repo. (Transfer to Axim?)
-- **Demo:** 
+- **Demo:**
   - "Could not format HTML" on 4 out of 5 items here. Not great. Fix that. (Maybe just missing XBlocks? How do we design this page to account for deployments that don't have all of the blocks needed? Probably just a ToC with some extra details at the top.)
-- **Code:** 
+- **Code:**
   - Update the zip file.
   - Check to make sure the links are current.
-- **Test:** 
+- **Test:**
   - Check accessibility on emoji poll.
 
 ### 1.3 - Using Grading Libraries
