@@ -150,7 +150,29 @@
 
 ### 1.8 - Setting up cohorts
 
+- **Summary:** ok
+- **Setup:** 
+  - Check to make sure this is all still accurate.
+  - Tighten up the wording.
+- **Demo:**
+  - Will need to be re-recorded for the new prettier interface.
+- **Process detail:**
+  - Improved flowchart
+  - Does it have useful warnings or doesn't it?
+- **Test:**
+  - Can't cohort discussion components any more, because there aren't any.
+
 ### 1.9 - Designing a survey
+
+- **Summary:**
+  - "No going back" is a little dramatic. Better to note that changing surveys is tantamount to throwing out your old data.
+- **Why bother?**
+  - Better flowchart
+- **Planning and design:** ok
+- **Setup:**
+  - Better flowchart
+  - Add newer survey providers, remove any defunct ones
+- **Test:** ok
 
 ## 2 - Improved Operating Procedures
 
