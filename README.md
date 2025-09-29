@@ -8,6 +8,16 @@ Studio Advanced is a training course for advanced users of edX Studio. This repo
 
 Updating for [Teak](https://docs.openedx.org/en/latest/community/release_notes/teak.html). Currently assessing needs.
 
+### Review progress
+
+- [x] Welcome
+- [x] Advanced Course Planning
+- [x] Improved Operating Procedures
+- [ ] Short Projects
+- [ ] Long Projects
+- [ ] Wrap-up
+- [ ] Appendix
+
 ## Credits
 
 This course was created by Colin Fredericks of HarvardX and Amy Woodgate of Woodgate Consulting. They would like to thank the following individuals:

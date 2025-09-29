@@ -176,19 +176,83 @@
 
 ## 2 - Improved Operating Procedures
 
-### 2.0 - Intro to Operations, Incomplete
+### 2.0 - Intro to Operations
 
 ### 2.1 - Writing Better HTML
 
+- **Summary:** ok
+- **Why bother:**
+  - Check to see if this is still how it works.
+  - See if it assumes italic is em and bold is strong.
+- **Good practice:**
+  - Add notes about semantic tags
+  - Add screenshot of links from a page that only links the word "here"
+- **Test:** ok
+
 ### 2.2 - Tone back the CSS
+
+- **Summary:** ok
+- **Demo:**
+  - Remove the asterisks around "could"
+  - Make the "press escape to escape" bit more prominent
+- **Analysis:**
+  - "test it out on **multiple** pages"
+  - New screenshot of top of page
+  - Are things still "sticky"?
+- **Test:**
+  - I think it's "division" rather than "divider" for div
 
 ### 2.3 - Writing Better Basic Problems
 
+- General note: Bring in some items from Susan's "how to write better MCQs". Include it if she's ok with that.
+- **Summary:** ok
+- **Why bother:**
+  - "hints and prompts" - I think we want to say something other than "prompt" here. What did we mean?
+  - Using a "not" question right away? Colin, what were you thinking?
+  - Make sure the code snippets in the Partial Credit box get caught by Prism.
+  - We mention numerical earlier; might be worth adding a bit here about the usefulness of answer ranges.
+- **Code:**
+  - Aww, the Simple Question Editor markup. Pour one out. Need to remove this part in favor of the new visual editors.
+- **Test:** ok
+  - Replace basic problem markup question
+
 ### 2.4 - Batch processing your course with Python
+
+- **Summary:** ok
+- **Setup / Why bother:** ok
+- **Demo:**
+  - Files & Uploads --> Files
+  - Remind people that importing a course overwrites an existing one
+- **Code:**
+  - Make sure instructions are good on all scripts in hx-xml repo
+- **Test:**
+  - Are the instructions up to date?
 
 ### 2.5 - Linking your videos
 
+- We really need to come up with a better phrase for this. 
+- **Summary:**
+- **Demo:**
+  - Re-test for accessibility.
+- **Code:**
+  - Oh god jQuery UI. Can we replace that without making it a disaster?
+- **Test:** ok
+- **Application:**
+  - Can you actually do a locator map, or is it limited to 25px tall?
+
 ### 2.6 - Anti-Cheating Measures
+
+- **Summary:**
+  - Remove "verified" from "verified certificate" (in fact, do that course-wide)
+- **Analysis:**
+  - Add an AI-related section, plus Harvard's collaboration/AI policy
+  - "Even a verified certificate" --> "Even a verification service"
+- **Code:**
+  - ToC needs an opaque background (background="white" will work with DarkReader). Also, give it another surrounding div so it can have a white border that provides some whitespace between it and the things behind it.
+  - Replace simple markup editor example
+  - Check "content library" comment at bottom against upcoming functionality
+- **Test:**
+  - Replace reference to markdown editor
 
 ## 3 - Short Projects
 
