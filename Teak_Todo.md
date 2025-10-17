@@ -258,11 +258,51 @@
 
 ### 3.0 - Intro to Short Projects, Incomplete
 
+- Seems fine
+
 ### 3.1 - Interactive walkthroughs
+
+- **Summary:**
+  - ok
+- **Demo:**
+  - This needs to be completely reworked. It no longer highlights anything helpful.
+- **Code:**
+  - ok
+- **Application:**
+  - ok
+  - maybe touch up the language a little
+- **Test:**
+  - Check to see whether the Homepage tab is actually targeted successfully this way
 
 ### 3.2 - Beautify your landing pages
 
+- **Summary:**
+  - Maybe not "skillz"
+- **Rationale:**
+  - Does the course outline still show or is this outdated info?
+  - Elaborate on things a little more here
+- **Setup and planning:**
+  - ok
+- **Demo:**
+  - Fix up the iframe. In fact, see if we can make it open from the local server rather than pulling from whatever single server we pick.
+  - I don't completely love the use of the slider here.
+- **Test:**
+  - Do things still disappear after 3 weeks?
+
 ### 3.3 - Clickable image map
+
+- **Summary:**
+  - Not that it just happens here, but can I figure out a way to attach the "external link" icon to the word before it so it doesn't wrap? A zero-width non-breaking character or something?
+  - See if I can find a new image map site. image-maps.com feels kinda sketchy at the moment.
+- **Demo:**
+  - This is not working properly when I rescale the window.
+- **Code:**
+  - I can do better than "first class in the list" these days.
+  - I should maybe also use something that's updated regularly, unlike jQuery UI.
+- **Test:**
+  - There's a "You can add an optional tip or note related to the prompt like this." note that should be removed.
+- **Application:**
+  - Maybe explicitly tell people to click on the linked bits
 
 ### 3.4 - Image carousel
 
