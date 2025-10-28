@@ -306,9 +306,35 @@
 
 ### 3.4 - Image carousel
 
+- **Summary:**
+  - ok
+- **Demo:**
+  - Linked carousels aren't working.
+- **Code:**
+  - Top slider doesn't show at first.
+  - Also I've soured on the icons.
+- **Test:**
+  - ok
+
 ### 3.5 - EdX advanced settings
 
+This needs an overhaul from top to bottom. Many of these have moved, and more moves are planned. Might be worth "pinning" this to a specific version of Open edX.
+
 ### 3.6 - Open Response Assessments
+
+- **Summary:**
+  - ok
+- **Rationale:**
+  - ok
+- **Demo:**
+  - ok
+- **Extra Details:**
+  - Add flex grading and pin-to-date options
+  - Switch from anti-Word advice to anti-PDF advice
+  - New link for [Peer Instruction](https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/about_peer_instruction.html)
+  - [New link for ORA best practices](https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/about_OpenResponseAssessments.html#best-practices-for-open-response-assessments)
+- **Test:**
+  - Double-check upload restrictions
 
 ## 4 - Long Projects
 
