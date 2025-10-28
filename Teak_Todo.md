@@ -338,19 +338,66 @@ This needs an overhaul from top to bottom. Many of these have moved, and more mo
 
 ## 4 - Long Projects
 
-### 4.0 - Intro to Long Projects, Incomplete
+### 4.0 - Intro to Long Projects
+
+ok
 
 ### 4.1 - Building alternative navigation
 
+- **Summary:**
+  - ok
+- **Demo:**
+  - The code bit isn't working, possibly because the targets are hidden when the page loads. Rewrite as simpler highlighting with scroll-into-view.
+- **Code:**
+  - The URL scheme has changed. Redo this with the newer ones, including showing the weirdness that happens when multiple years are in the same URL.
+  - Double-check the "disabling existing navigation" bit.
+- **Test:**
+  - ok
+- **Application:**
+  - This probably needs to go. We need either additional demos (good) or to find new courses that have alt nav (not so good because they'll vanish one day too).
+
 ### 4.2 - Building a Link Sharing Form
+
+
+- **Summary:**
+- **Demo:**
+- **Code:**
+- **Test:**
+- **Application:**
 
 ### 4.3 - Writing new problem types with JSInput
 
+- **Summary:**
+- **Rationale:**
+- **Setup:**
+- **Demo:**
+- **Code:**
+- **Test:**
+- **Application:**
+
 ### 4.4 - Building a content library
+
+Mark this as obsolete and rebuild for the newer Content Libraries setup.
 
 ### 4.5 - Approaches to adaptivity
 
+- **Summary:**
+- **Rationale:**
+- **Are you sure?:**
+- **Setup:**
+- **Demo:**
+- **Code:**
+- **Test:**
+- **Application:**
+
 ### 4.6 - Realtime Data Tracking
+
+- **Summary:**
+- **First Steps:**
+- **Data and Context:**
+- **Comprehensive Events:**
+- **Final Notes:**
+- **Test:**
 
 ## 5 - Wrap-up
 
