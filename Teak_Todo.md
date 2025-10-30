@@ -151,7 +151,7 @@
 ### 1.8 - Setting up cohorts
 
 - **Summary:** ok
-- **Setup:** 
+- **Setup:**
   - Check to make sure this is all still accurate.
   - Tighten up the wording.
 - **Demo:**
@@ -230,7 +230,7 @@
 
 ### 2.5 - Linking your videos
 
-- We really need to come up with a better phrase for this. 
+- We really need to come up with a better phrase for this.
 - **Summary:**
 - **Demo:**
   - Re-test for accessibility.
@@ -437,26 +437,48 @@ Mark this as obsolete and rebuild for the newer Content Libraries setup.
 
 ### 5.1 - Final Words
 
+- **Wrap-up Video:**
+  - ok
+- **Survey:**
+  - Currently blank, should probably do something here.
+- **Links:**
+  - Are we still going to use this form? Would be good to do something more internal to edX.
+- **Thank you!**
+  - ok
+
 ## 6 - Appendix
 
-### 6.1 - Research and Best Practices, Incomplete
+### 6.1 - Research and Best Practices
 
-### 6.2 - Running your course, Incomplete
+- **Diving into Research:**
+  - LINC conference is dead
+  - Add one more recent paper.
 
-### 6.3 - Building for the Mobile App, Incomplete
+### 6.2 - Running your course
 
-### 6.4 - XBlock URLs, Incomplete
+- **Advice for Live Courses:**
+  - ToC background opacity issues as mentioned before
+  - New link for "Rescore Only If Score Improves"
+  - Give this a careful read-through for new functionality or changed best practices
 
-### 6.5 - HX-JS, Incomplete
+### 6.3 - Building for the Mobile App
+
+- **Building for the Mobile App:**
+  - Do we need this any more? Does anyone but 2U use the mobile app?
+
+### 6.4 - XBlock URLs
+
+- **XBlock URLs:**
+  - This will need links fixed and testing when it's in place in its eventual home - no point in trying to do that ahead of time.
+
+### 6.5 - HX-JS
+
+- **HX-JS:**
+  - Make sure the zipped versions are up to date.
+- **HX-JS Demo:**
+  - ok
 
 ### 6.6 - EdX Undocumented
 
-
-- **Summary:**
-- **Rationale:**
-- **Demo:**
-- **Code:**
-- **Test:**
-- **Examples:**
-- **Application:**
-
+- **Beyond the End:**
+  - We can probably lose this. It would be better to have a set of suggestions for other resources for course design in other places.
