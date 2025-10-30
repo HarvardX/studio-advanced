@@ -358,22 +358,39 @@ ok
 
 ### 4.2 - Building a Link Sharing Form
 
+Is it worth looking into other ways to do this? Might be worth removing if not. To some extent this is not an edX trick, it's a Google trick.
 
 - **Summary:**
+  - ok
 - **Demo:**
+  - ok
 - **Code:**
+  - Test from scratch to make sure it still works as described.
 - **Test:**
+  - ok
 - **Application:**
+  - ok
 
 ### 4.3 - Writing new problem types with JSInput
 
 - **Summary:**
+  - [New XBlock SDK link](https://github.com/openedx/xblock-sdk)
+  - It's no longer Stanford's repo, it [belongs to Harvard now](https://github.com/HarvardX/js-input-samples/).
 - **Rationale:**
+  - Fix link to [Harvard's repo](https://github.com/HarvardX/js-input-samples/).
 - **Setup:**
+  - "Files & Uploads" is just the Files page these days. Should do a bulk find for this.
+  - Add note about using JS to add questions directly to the page instead of having custom HTML files per question. (Multi-text-box approach rather than logging question.)
 - **Demo:**
+  - First problem in demo is broken
+  - Fix all the links to point to the Harvard repo.
 - **Code:**
+  - Fix link to Range Guesser.
 - **Test:**
+  - Make the first question less of a mess.
+  - Maybe do the 2nd problem with categorization
 - **Application:**
+  - ok
 
 ### 4.4 - Building a content library
 
@@ -382,22 +399,39 @@ Mark this as obsolete and rebuild for the newer Content Libraries setup.
 ### 4.5 - Approaches to adaptivity
 
 - **Summary:**
+  - ok
 - **Rationale:**
+  - Fix the transcript ("Vise" Provost)
 - **Are you sure?:**
+  - ?! --> ?
+  - Add note in #3 about the potential and limitations for AI-created assignments.
 - **Setup:**
+  - More detail in the "detailed description".
+  - Alosi engine link is gone
 - **Demo:**
+  - ok
 - **Code:**
+  - Switch Devstack link for [Tutor](https://github.com/overhangio/tutor)
 - **Test:**
+  - ok
 - **Application:**
+  - Are there any remaining adaptive courses on edX? Maybe someone using Open edX might be willing to share an example?
 
 ### 4.6 - Realtime Data Tracking
 
 - **Summary:**
+  - ok
 - **First Steps:**
+  - Fix the "exhaustive list of events" link.
+  - Double-check that Logger.listen() still works
 - **Data and Context:**
+  - Double-check functions and objects
 - **Comprehensive Events:**
+  - Fix "edX event list" link
 - **Final Notes:**
+  - We can use course-wide javascript now! Huzzah!
 - **Test:**
+  - ok
 
 ## 5 - Wrap-up
 
