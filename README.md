@@ -6,13 +6,13 @@ Studio Advanced is a training course for advanced users of edX Studio. This repo
 
 ## Current Status
 
-Updating for [Teak](https://docs.openedx.org/en/latest/community/release_notes/teak.html). Currently assessing needs.
+Updating for [Teak](https://docs.openedx.org/en/latest/community/release_notes/teak.html). Needs assessed, items recorded in the Teak_Todo.md file, next up is actually making changes.
 
-### Review progress
+### Fixes and enhancements
 
-- [x] Welcome
-- [x] Advanced Course Planning
-- [x] Improved Operating Procedures
+- [ ] Welcome
+- [ ] Advanced Course Planning
+- [ ] Improved Operating Procedures
 - [ ] Short Projects
 - [ ] Long Projects
 - [ ] Wrap-up
