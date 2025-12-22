@@ -10,7 +10,8 @@
 
 ### Course page
 
-- CSS in the Update section isn't working - the images should be smaller and arranged in a square.
+- ❌CSS in the Update section isn't working - the images should be smaller and arranged in a square.
+  - Turns out CSS isn't available in the HTML editor for Updates. Needs to be removed. ☹️
 - The dots are missing
 - The xblock URLs aren't working, which is generally going to happen when the course moves servers anyway.
 - Take into account the fold (which wasn't there in the old days).
