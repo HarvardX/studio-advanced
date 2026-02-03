@@ -178,6 +178,8 @@
 
 ### 2.0 - Intro to Operations
 
+- Add something for the Checklists and Course Optimizer functionality?
+
 ### 2.1 - Writing Better HTML
 
 - **Summary:** ok
