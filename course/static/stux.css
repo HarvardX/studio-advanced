@@ -1,0 +1,64 @@
+#navboard {
+  font-size: 0px;
+  width: 70%;
+}
+#navboard div {
+  font-size: 18pt;
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+#navboard img {
+  width: 100%;
+}
+#navboard .counters {
+  color: #333;
+  position: absolute;
+  left: 15%;
+  top: 65%;
+  z-index: 50;
+  padding-right: 4%;
+}
+@media only screen and (max-width: 800px) {
+  #navboard div {
+    font-size: 14pt;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #navboard div {
+    font-size: 12pt;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #navboard div {
+    font-size: 10pt;
+  }
+}
+
+.hard {
+  color: crimson;
+}
+
+.stux-infobox {
+  padding: 4px;
+  border: 1px dashed grey;
+  margin: 5px;
+  border-radius: 3px;
+}
+.stux-infoicon {
+  width: 75px;
+  margin: 2px;
+  display: inline-block;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+}
+
+.hx-tightlist {
+  margin-top: -1em !important;
+}
+
+/* Stop uppercasing them. */
+.poll-header {
+  text-transform: none;
+}
